@@ -16971,7 +16971,6 @@ defined_text = {
 			OR = {
 				AND = { is_in_faction_with = CHI CHI = { is_faction_leader = yes } CHI = { has_completed_focus = CHI_united_front } } # chinese_united_front
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_coalition_government } } # chinese_united_front
-				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_alliance_with_italy } } # HUN_PACT_OF_ROME_FACTION
 				AND = { is_in_faction_with = YUG YUG = { is_faction_leader = yes } YUG = { has_completed_focus = YUG_pan_slavic_workers_congress } } # panslavic_workers_congress
 				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } ROM = { has_completed_focus = ROM_the_cordon_sanitaire } } # ROM_CORDON_SANITAIRE_FACTION
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_government_of_national_defense } } # PRC_government_of_national_defense
@@ -17071,8 +17070,6 @@ defined_text = {
 			OR = {
 				AND = { is_in_faction_with = CHI CHI = { is_faction_leader = yes } CHI = { has_completed_focus = CHI_united_front } } # chinese_united_front
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_coalition_government } } # chinese_united_front
-				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_the_balkan_pact } } # HUN_BALKAN_FACTION
-				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_alliance_with_italy } } # HUN_PACT_OF_ROME_FACTION
 				AND = { is_in_faction_with = YUG YUG = { is_faction_leader = yes } YUG = { has_completed_focus = YUG_pan_slavic_workers_congress } } # panslavic_workers_congress
 				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } ROM = { has_completed_focus = ROM_the_cordon_sanitaire } } # ROM_CORDON_SANITAIRE_FACTION
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_government_of_national_defense } } # PRC_government_of_national_defense
@@ -17175,8 +17172,6 @@ defined_text = {
 			OR = {
 				AND = { is_in_faction_with = CHI CHI = { is_faction_leader = yes } CHI = { has_completed_focus = CHI_united_front } } # chinese_united_front
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_coalition_government } } # chinese_united_front
-				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_the_balkan_pact } } # HUN_BALKAN_FACTION
-				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_alliance_with_italy } } # HUN_PACT_OF_ROME_FACTION
 				AND = { is_in_faction_with = YUG YUG = { is_faction_leader = yes } YUG = { has_completed_focus = YUG_pan_slavic_workers_congress } } # panslavic_workers_congress
 				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } ROM = { has_completed_focus = ROM_the_cordon_sanitaire } } # ROM_CORDON_SANITAIRE_FACTION
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_government_of_national_defense } } # PRC_government_of_national_defense
@@ -17278,7 +17273,6 @@ defined_text = {
 				AND = { is_in_faction_with = CHI CHI = { is_faction_leader = yes } CHI = { has_completed_focus = CHI_united_front } } # chinese_united_front
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_coalition_government } } # chinese_united_front
 				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_the_balkan_pact } } # HUN_BALKAN_FACTION
-				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_alliance_with_italy } } # HUN_PACT_OF_ROME_FACTION
 				AND = { is_in_faction_with = YUG YUG = { is_faction_leader = yes } YUG = { has_completed_focus = YUG_pan_slavic_workers_congress } } # panslavic_workers_congress
 				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } ROM = { has_completed_focus = ROM_the_cordon_sanitaire } } # ROM_CORDON_SANITAIRE_FACTION
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_government_of_national_defense } } # PRC_government_of_national_defense
@@ -17383,7 +17377,6 @@ defined_text = {
 				AND = { is_in_faction_with = CHI CHI = { is_faction_leader = yes } CHI = { has_completed_focus = CHI_united_front } } # chinese_united_front
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_coalition_government } } # chinese_united_front
 				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_the_balkan_pact } } # HUN_BALKAN_FACTION
-				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_alliance_with_italy } } # HUN_PACT_OF_ROME_FACTION
 				AND = { is_in_faction_with = YUG YUG = { is_faction_leader = yes } YUG = { has_completed_focus = YUG_pan_slavic_workers_congress } } # panslavic_workers_congress
 				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } ROM = { has_completed_focus = ROM_the_cordon_sanitaire } } # ROM_CORDON_SANITAIRE_FACTION
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_government_of_national_defense } } # PRC_government_of_national_defense
@@ -17485,7 +17478,6 @@ defined_text = {
 				AND = { is_in_faction_with = CHI CHI = { is_faction_leader = yes } CHI = { has_completed_focus = CHI_united_front } } # chinese_united_front
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_coalition_government } } # chinese_united_front
 				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_the_balkan_pact } } # HUN_BALKAN_FACTION
-				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_alliance_with_italy } } # HUN_PACT_OF_ROME_FACTION
 				AND = { is_in_faction_with = YUG YUG = { is_faction_leader = yes } YUG = { has_completed_focus = YUG_pan_slavic_workers_congress } } # panslavic_workers_congress
 				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } ROM = { has_completed_focus = ROM_the_cordon_sanitaire } } # ROM_CORDON_SANITAIRE_FACTION
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_government_of_national_defense } } # PRC_government_of_national_defense
@@ -17590,7 +17582,6 @@ defined_text = {
 				AND = { is_in_faction_with = CHI CHI = { is_faction_leader = yes } CHI = { has_completed_focus = CHI_united_front } } # chinese_united_front
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_coalition_government } } # chinese_united_front
 				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_the_balkan_pact } } # HUN_BALKAN_FACTION
-				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_alliance_with_italy } } # HUN_PACT_OF_ROME_FACTION
 				AND = { is_in_faction_with = YUG YUG = { is_faction_leader = yes } YUG = { has_completed_focus = YUG_pan_slavic_workers_congress } } # panslavic_workers_congress
 				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } ROM = { has_completed_focus = ROM_the_cordon_sanitaire } } # ROM_CORDON_SANITAIRE_FACTION
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_government_of_national_defense } } # PRC_government_of_national_defense
@@ -17680,7 +17671,6 @@ defined_text = {
 				AND = { is_in_faction_with = CHI CHI = { is_faction_leader = yes } CHI = { has_completed_focus = CHI_united_front } } # chinese_united_front
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_coalition_government } } # chinese_united_front
 				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_the_balkan_pact } } # HUN_BALKAN_FACTION
-				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_alliance_with_italy } } # HUN_PACT_OF_ROME_FACTION
 				AND = { is_in_faction_with = YUG YUG = { is_faction_leader = yes } YUG = { has_completed_focus = YUG_pan_slavic_workers_congress } } # panslavic_workers_congress
 				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } ROM = { has_completed_focus = ROM_the_cordon_sanitaire } } # ROM_CORDON_SANITAIRE_FACTION
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_government_of_national_defense } } # PRC_government_of_national_defense
@@ -17763,7 +17753,6 @@ defined_text = {
 				AND = { is_in_faction_with = CHI CHI = { is_faction_leader = yes } CHI = { has_completed_focus = CHI_united_front } } # chinese_united_front
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_coalition_government } } # chinese_united_front
 				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_the_balkan_pact } } # HUN_BALKAN_FACTION
-				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_alliance_with_italy } } # HUN_PACT_OF_ROME_FACTION
 				AND = { is_in_faction_with = YUG YUG = { is_faction_leader = yes } YUG = { has_completed_focus = YUG_pan_slavic_workers_congress } } # panslavic_workers_congress
 				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } ROM = { has_completed_focus = ROM_the_cordon_sanitaire } } # ROM_CORDON_SANITAIRE_FACTION
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_government_of_national_defense } } # PRC_government_of_national_defense
@@ -17846,7 +17835,6 @@ defined_text = {
 				AND = { is_in_faction_with = CHI CHI = { is_faction_leader = yes } CHI = { has_completed_focus = CHI_united_front } } # chinese_united_front
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_coalition_government } } # chinese_united_front
 				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_the_balkan_pact } } # HUN_BALKAN_FACTION
-				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_alliance_with_italy } } # HUN_PACT_OF_ROME_FACTION
 				AND = { is_in_faction_with = YUG YUG = { is_faction_leader = yes } YUG = { has_completed_focus = YUG_pan_slavic_workers_congress } } # panslavic_workers_congress
 				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } ROM = { has_completed_focus = ROM_the_cordon_sanitaire } } # ROM_CORDON_SANITAIRE_FACTION
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_government_of_national_defense } } # PRC_government_of_national_defense
@@ -17929,7 +17917,6 @@ defined_text = {
 				AND = { is_in_faction_with = CHI CHI = { is_faction_leader = yes } CHI = { has_completed_focus = CHI_united_front } } # chinese_united_front
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_coalition_government } } # chinese_united_front
 				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_the_balkan_pact } } # HUN_BALKAN_FACTION
-				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_alliance_with_italy } } # HUN_PACT_OF_ROME_FACTION
 				AND = { is_in_faction_with = YUG YUG = { is_faction_leader = yes } YUG = { has_completed_focus = YUG_pan_slavic_workers_congress } } # panslavic_workers_congress
 				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } ROM = { has_completed_focus = ROM_the_cordon_sanitaire } } # ROM_CORDON_SANITAIRE_FACTION
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_government_of_national_defense } } # PRC_government_of_national_defense
@@ -18012,7 +17999,6 @@ defined_text = {
 				AND = { is_in_faction_with = CHI CHI = { is_faction_leader = yes } CHI = { has_completed_focus = CHI_united_front } } # chinese_united_front
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_coalition_government } } # chinese_united_front
 				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_the_balkan_pact } } # HUN_BALKAN_FACTION
-				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_alliance_with_italy } } # HUN_PACT_OF_ROME_FACTION
 				AND = { is_in_faction_with = YUG YUG = { is_faction_leader = yes } YUG = { has_completed_focus = YUG_pan_slavic_workers_congress } } # panslavic_workers_congress
 				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } ROM = { has_completed_focus = ROM_the_cordon_sanitaire } } # ROM_CORDON_SANITAIRE_FACTION
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_government_of_national_defense } } # PRC_government_of_national_defense

@@ -11,6 +11,7 @@ ideas = {
 			modifier = {
 				conscription = -0.005
 				production_speed_arms_factory_factor = -0.5
+				production_speed_industrial_complex_factor = 0.15 
 			}
 		}
 		HUN_treaty_of_triannon_2 = {
@@ -82,16 +83,6 @@ ideas = {
 			allowed_civil_war = {
 				has_government = democratic
 			}
-
-			available = {
-				OR = {
-					has_government = democratic
-					AND = {
-						has_government = neutrality
-						NOT = { has_completed_focus = HUN_responsible_government }
-					}
-				}
-			}
 			
 			modifier = {
 				democratic_drift = 0.02
@@ -103,16 +94,6 @@ ideas = {
 
 			allowed_civil_war = {
 				has_government = fascism
-			}
-
-			available = {
-				OR = {
-					has_government = fascism
-					AND = {
-						has_government = neutrality
-						NOT = { has_completed_focus = HUN_renounce_the_treaty_of_trianon }
-					}
-				}
 			}
 			
 			modifier = {
@@ -126,10 +107,6 @@ ideas = {
 			picture = HUN_hungarian_monarchy_democratic
 
 			allowed_civil_war = {
-				has_government = democratic
-			}
-
-			available = {
 				has_government = democratic
 			}
 			
@@ -146,10 +123,6 @@ ideas = {
 			picture = HUN_hungarian_monarchy_habsburg
 
 			allowed_civil_war = {
-				has_government = neutrality
-			}
-
-			available = {
 				has_government = neutrality
 			}
 			
@@ -231,13 +204,6 @@ ideas = {
 		}
 
 		HUN_secret_rearmament = {
-
-			available = {
-				OR = {
-					has_idea = disarmed_nation 
-					has_idea = volunteer_only 
-				}
-			}
 
 			allowed_civil_war = {
 				
@@ -369,13 +335,6 @@ ideas = {
 				has_dlc = "Death or Dishonor"
 			}
 			
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			
 			traits = { staunch_monarchist }
 		}
 
@@ -401,57 +360,16 @@ ideas = {
 			traits = { silent_workhorse }
 		}
 
-		HUN_laszlo_rajk = {
-
-			picture = generic_communist_revolutionary_western_european_2d
-			
-			allowed = {
-				original_tag = HUN
-			}
-			
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			
-			traits = { communist_revolutionary }
-		}
-
-		HUN_jozsef_szell = {
-
-			picture = generic_democratic_reformer_western_european_2d
-			
-			allowed = {
-				original_tag = HUN
-			}
-			
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			
-			traits = { democratic_reformer }
-		}
 
 		HUN_gyula_gombos_de_jakfa = {
 
-			picture = generic_fascist_demagogue_western_european_2d
+			picture = generic_fascist_europe
 			
 			allowed = {
 				original_tag = HUN
 			}
 			
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			
+available = {				has_completed_focus = HUN_renounce_the_treaty_of_trianon}
 			traits = { fascist_demagogue }
 		}
 	}
@@ -585,7 +503,7 @@ ideas = {
 			
 
 			
-			traits = { army_armored_1 }
+			traits = { army_armored_3 }
 			
 			ai_will_do = {
 				factor = 1
@@ -631,7 +549,7 @@ ideas = {
 				original_tag = HUN
 			}
 			
-			traits = { army_cavalry_2 }
+			traits = { army_infantry_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -651,7 +569,7 @@ ideas = {
 			}
 			
 			research_bonus = {
-				land_doctrine = 0.10
+				land_doctrine = 0.1
 			}
 			
 			traits = { military_theorist }
@@ -666,7 +584,7 @@ ideas = {
 			}
 			
 			research_bonus = {
-				air_doctrine = 0.10
+				air_doctrine = 0.1
 			}
 			
 			traits = { air_warfare_theorist }
@@ -721,7 +639,7 @@ ideas = {
 			}
 			
 			cost = 150
-			removal_cost = 10
+			#removal_cost = 10
 			
 			research_bonus = {
 				naval_equipment = 0.15
@@ -742,7 +660,7 @@ ideas = {
 			}
 			
 			cost = 150
-			removal_cost = 10
+			#removal_cost = 10
 			
 			research_bonus = {
 				industry = 0.15
@@ -765,7 +683,7 @@ ideas = {
 			}
 			
 			cost = 150
-			removal_cost = 10
+			#removal_cost = 10
 			
 			research_bonus = {
 				infantry_weapons = 0.15
