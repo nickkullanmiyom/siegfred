@@ -2748,9 +2748,9 @@ focus_tree = {
 		available = {
 
 		}
-		x = 21
-		y = 4
-		relative_position_id = SOV_diversify_the_programme
+		x = 0
+		y = 1
+		relative_position_id = SOV_lessons_of_war
 		cost = 10
 		ai_will_do = {
 			factor = 1

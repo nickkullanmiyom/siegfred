@@ -202,7 +202,6 @@ bookmarks = {
 				HUN_strengthen_fascists
 			}
 			focuses = {
-				HUN_elect_a_king
 				HUN_secret_rearmament
 				HUN_renounce_the_treaty_of_trianon
 			}
