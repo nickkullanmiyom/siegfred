@@ -157,7 +157,7 @@ units = {
 		}
 		location = 6521
 		division_template = "PanzerSS-Division"
-		start_experience_factor = 0.4
+		start_experience_factor = 1.0
 		force_equipment_variants = { light_tank_equipment_2 = { owner = "GER" } }
 	}
 	division= {	
@@ -167,7 +167,7 @@ units = {
 		}
 		location = 6521
 		division_template = "PanzerSS-Division"
-		start_experience_factor = 0.4
+		start_experience_factor = 1.0
 		force_equipment_variants = { light_tank_equipment_2 = { owner = "GER" } }
 	}
 	division= {	
@@ -177,7 +177,7 @@ units = {
 		}
 		location = 6521
 		division_template = "PanzerSS-Division"
-		start_experience_factor = 0.4
+		start_experience_factor = 1.0
 		force_equipment_variants = { light_tank_equipment_2 = { owner = "GER" } }
 	}
 

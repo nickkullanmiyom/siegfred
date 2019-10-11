@@ -41,9 +41,8 @@ ideas = {
 			CAS_equipment = {
 					instant = yes
 					air_ground_attack = 0.15 
-			}
-		}
-		
+			    }
+		    }
 		}
 
 		GER_wolfpacks = {
@@ -62,6 +61,11 @@ ideas = {
 			
 			allowed = {
 				original_tag = GER
+				original_tag = ROM
+				original_tag = HUN
+				original_tag = SPR
+				original_tag = BUL
+				original_tag = ITA
 			}
 
 			allowed_civil_war = {

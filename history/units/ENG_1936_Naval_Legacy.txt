@@ -50,7 +50,23 @@
 			ship = { name = "HMS Fame" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
 			ship = { name = "HMS Firedrake" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
 			ship = { name = "HMS Foresight" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
-			ship = { name = "HMS Fortune" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }							# to RCN as Saskatchewan, 1943	
+			ship = { name = "HMS Fortune" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
+			ship = { name = "HMS Fortune" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Fortune" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Fortune" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Fortune" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Fortune" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }						# to RCN as Saskatchewan, 1943	
+			ship = { name = "HMS Fortune" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Fortune" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Fortune" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Fortune" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Fortune" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Fortune" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Fortune" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Fortune" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Fortune" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Fortune" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Fortune" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }
 		}				
 		task_force = {				
 			name = "Reserve Fleet"			
@@ -77,7 +93,12 @@
 					cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 24 }
 				}
 			}
+			ship = { name = "HMS Resolution" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }	
 			ship = { name = "HMS Resolution" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }			
+			ship = { name = "HMS Resolution" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }	
+			ship = { name = "HMS Resolution" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }	
+			ship = { name = "HMS Resolution" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }	
+			ship = { name = "HMS Resolution" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }	
 			ship = { name = "HMS Revenge" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }					
 			ship = { name = "HMS Ceres" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
 			ship = { name = "HMS Caradoc" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
