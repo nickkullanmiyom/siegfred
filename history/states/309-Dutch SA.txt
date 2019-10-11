@@ -5,13 +5,13 @@ state={
 	manpower = 152000
 
 	resources={
-		aluminium=60 # was: 104
+		aluminium=80 # was: 104
 	}	
 	
 	state_category = rural
 
 	history={
-		add_core_of = SUR
+		add_core_of = ENG
 		owner = HOL
 		victory_points = {
 			10906 1
