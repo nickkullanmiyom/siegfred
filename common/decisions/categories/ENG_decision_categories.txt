@@ -1,0 +1,44 @@
+################
+##### ENG ######
+################
+
+
+
+ENG_move_to_secure_the_dominions = {
+	icon = eng_move_to_secure_the_dominions
+
+	allowed = {
+		original_tag = ENG
+	}
+}
+
+ENG_imperial_conference_decision = {
+	icon = eng_imperial_conference
+
+	allowed = {
+		original_tag = ENG
+	}
+}
+
+ENG_enforce_the_naval_treaties = {
+	icon = generic_political_actions
+
+	allowed = {
+		original_tag = ENG
+	}
+}
+
+ENG_bullshit_decisions = {
+    icon = generic_political_actions
+ 
+	allowed = {
+		original_tag = ENG
+	}
+}
+
+ENG_war_time_category = {
+
+    allowed = {
+        original_tag = ENG
+    }
+}
