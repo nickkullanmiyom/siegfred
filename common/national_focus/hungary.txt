@@ -211,7 +211,6 @@ focus_tree = {
 				#Undecided
 				if = {
 					limit = {
-						NOT = { has_completed_focus = HUN_elect_a_fascist_king }
 						NOT = { has_completed_focus = HUN_strengthen_fascists }
 					}
 					custom_effect_tooltip = HUN_renounce_the_treaty_of_trianon_tt

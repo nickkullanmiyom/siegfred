@@ -630,7 +630,6 @@ available = {				has_completed_focus = HUN_renounce_the_treaty_of_trianon}
 			available = {
 				if = {
 					limit = { has_dlc = "Death or Dishonor" }
-					has_completed_focus = HUN_naval_warfare
 				}
 			}
 

@@ -17857,7 +17857,6 @@ defined_text = {
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
 				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_renounce_the_treaty_of_trianon } NOT = { FRA = { has_completed_focus = FRA_little_entente } } } # BALKAN_ENTENTE_FACTION
-				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } has_government = communism HUN = { has_completed_focus = HUN_the_revolutionary_council } } # HUN_FACTION_COMMIE
 				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } CAN = { has_completed_focus = CAN_north_american_alliance } } # north_american_alliance
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
@@ -17938,7 +17937,6 @@ defined_text = {
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
 				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_renounce_the_treaty_of_trianon } NOT = { FRA = { has_completed_focus = FRA_little_entente } } } # BALKAN_ENTENTE_FACTION
-				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } has_government = communism HUN = { has_completed_focus = HUN_the_revolutionary_council } } # HUN_FACTION_COMMIE
 				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } CAN = { has_completed_focus = CAN_north_american_alliance } } # north_american_alliance
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
@@ -18019,7 +18017,6 @@ defined_text = {
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
 				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_renounce_the_treaty_of_trianon } NOT = { FRA = { has_completed_focus = FRA_little_entente } } } # BALKAN_ENTENTE_FACTION
-				AND = { is_in_faction_with = HUN HUN = { is_faction_leader = yes } has_government = communism HUN = { has_completed_focus = HUN_the_revolutionary_council } } # HUN_FACTION_COMMIE
 				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } CAN = { has_completed_focus = CAN_north_american_alliance } } # north_american_alliance
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance

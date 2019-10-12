@@ -2004,7 +2004,6 @@ focus_tree = {
 					OR = {
 						HUN = {
 							NOT = {
-								has_completed_focus = HUN_protect_czechoslovakia #DOD only
 							}
 						}
 						CZE = {
@@ -2025,7 +2024,6 @@ focus_tree = {
 					NOT = { CZE = { controls_state = 69 } }
 					NOT = {
 						69 = { is_controlled_by = HUN }
-						HUN = { has_completed_focus = HUN_protect_czechoslovakia }
 					}
 					69 = {
 						controller = {
