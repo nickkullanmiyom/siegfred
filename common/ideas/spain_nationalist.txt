@@ -18,18 +18,13 @@ ideas = {
 			modifier = {
 				ai_get_ally_desire_factor = -200
 				join_faction_tension = 0.5
-			}
 		}
 	} 
+	
 	general_staff = {
 			
 			allowed = {
-				original_tag = GER
-				original_tag = ROM
-				original_tag = HUN
 				original_tag = SPR
-				original_tag = BUL
-				original_tag = ITA
 			}
 
 			allowed_civil_war = {
@@ -43,7 +38,8 @@ ideas = {
 				planning_speed = 0.25
 				air_ace_generation_chance_factor = 0.10
 				industry_air_damage_factor = 0.15
-		}
+		    } 
+	    }
 	}
 
 	political_advisor = {
