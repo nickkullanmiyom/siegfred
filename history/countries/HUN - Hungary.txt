@@ -28,6 +28,11 @@ if = {
 	}
 }
 
+add_ideas = {
+		general_staff		
+	}
+}
+
 1939.1.1 = {
 	remove_ideas = HUN_treaty_of_triannon
 

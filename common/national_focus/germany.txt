@@ -705,7 +705,7 @@ focus_tree = {
 		icon = GFX_GER_Luftwaffe
 		x = 13
 		y = 0
-		cost = 5
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -825,7 +825,7 @@ focus_tree = {
 		x = 1
 		y = 2
 		relative_position_id = GER_air_innovation
-		cost = 5
+		cost = 7
 		ai_will_do = {
 			factor = 0.25
 		}
@@ -1251,7 +1251,6 @@ focus_tree = {
 		prerequisite = { focus = GER_anti_comitern_pact }
 		available = {
 			is_puppet = no
-			has_army_manpower = { size > 549999 }
 		}
 		cancel = {
 			OR = {
@@ -1452,7 +1451,6 @@ focus_tree = {
 			has_completed_focus = GER_soviet_treaty 
 			is_puppet = no
 			has_government = fascism
-			has_army_manpower = { size > 749999 } #ca 90 div
 			SOV = {
 				NOT = { has_war_with = GER }
 				country_exists = SOV
@@ -1494,7 +1492,6 @@ focus_tree = {
 		will_lead_to_war_with = POL
 		available = {
 			is_puppet = no
-			has_army_manpower = { size > 849999 } #100 div
 			#Make custom trigger tooltip here
 			85 = {
 				owner = {
@@ -2098,7 +2095,6 @@ focus_tree = {
 		prerequisite = { focus = GER_first_vienna_award }
 		available = {
 			is_puppet = no
-			has_army_manpower = { size > 749999 }
 			NOT = { has_war_with = CZE }
 		}
 
