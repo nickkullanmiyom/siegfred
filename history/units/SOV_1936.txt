@@ -409,7 +409,6 @@ units = {
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
-
 	}			
 
 	# 3ya Kavaleriyskiy Korpus
@@ -1853,18 +1852,13 @@ air_wings = {
 		}
 	}
 
-	# Dal'nevostochniy Aviatsya Komandovaniya -- Vladivostock	
+	# Dal'nevostochniy Aviatsya Komandovaniya -- Leningrad
 	408 = {
 		# 12ya Istrebitel'nye Aviabrigada
 		# 20ya Istrebitel'nye Aviabrigada
-		fighter_equipment_0 = {
+		fighter_equipment_1 = {
 			owner = "SOV" 
 			amount = 188
-		}
-		# 5ya Dal'nyaya Bombardirovochnye Aviabrigada
-		strat_bomber_equipment_1 =  {
-			owner = "SOV" 
-			amount = 24
 		}
 	}
 
@@ -1951,16 +1945,6 @@ instant_effect = {
 		}
 		requested_factories = 1
 		progress = 0.15
-		efficiency = 50
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = strat_bomber_equipment_1
-			creator = "SOV" 
-		}
-		requested_factories = 1
-		progress = 0.2
 		efficiency = 50
 	}
 }
