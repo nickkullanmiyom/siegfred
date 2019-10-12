@@ -197,9 +197,6 @@ focus_tree = {
 			}
 
 			if = {
-				limit = {
-					has_completed_focus = HUN_elect_a_fascist_king
-				}
 				if = {
 					#Retire Franz if he neutral leader
 					limit = {

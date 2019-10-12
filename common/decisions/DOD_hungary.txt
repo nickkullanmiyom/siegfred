@@ -8,7 +8,6 @@ political_actions = {
 			
 		}
 		visible = {
-			has_completed_focus = HUN_protect_czechoslovakia
 			CZE = {
 				exists = yes
 				is_subject_of = ROOT
@@ -70,7 +69,6 @@ foreign_support = {
 			has_war = yes
 		}
 		visible = {
-			has_completed_focus = HUN_elect_a_democratic_king
 			NOT = {
 				has_war_with = SWE
 			}
@@ -101,7 +99,6 @@ foreign_support = {
 			original_tag = SWE
 		}
 		visible = {
-			HUN = { has_completed_focus = HUN_elect_a_democratic_king }
 			NOT = {
 				has_war_with = HUN
 			}
