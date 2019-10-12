@@ -16,8 +16,10 @@ set_technology = {
 	early_fighter = 1
 	CAS1 = 1
 	fuel_silos = 1
+	interwar_antiair = 1
+	transport = 1
 }
-
+set_convoys = 50
 if = {
 	limit = {
 		has_dlc = "Death or Dishonor"
@@ -25,10 +27,6 @@ if = {
 	add_ideas = {
 		disarmed_nation
 		HUN_treaty_of_triannon
-	}
-}
-
-add_ideas = {
 		general_staff		
 	}
 }
@@ -128,17 +126,40 @@ add_ideas = {
 		fuel_refining = 1
 	}
 }
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 1100
+         producer = HUN
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 222
+         producer = HUN
+} 
 
-set_politics = {
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 10000
+         producer = HUN
+} 
+
+add_equipment_to_stockpile = {
+	type = anti_air_equipment_1
+    amount = 983
+    producer = HUN
+}
+set_politics = {	
 	ruling_party = neutrality
 	last_election = "1935.3.31"
 	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_popularities = {
-	democratic = 25
-	fascism = 31
-	neutrality = 44
+    democratic = 25
+    fascism = 31
+    neutrality = 44
+    communism = 0
 }
 
 #Start Horty as neutral if DOD
@@ -218,49 +239,43 @@ create_country_leader = {
 		}
 	}
 
-	set_politics = {
+	set_politics = {		
 		ruling_party = fascism
 		last_election = "1939.5.29"
 		election_frequency = 48
 		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 27
-		fascism = 70
-		communism = 3
-	}
 }
 
+    set_popularities = {
+        democratic = 27
+        fascism = 70
+        communism = 3
+    }
 
-create_corps_commander = {
-	name = "Géza Lakatos"
-	gfx = GFX_Portrait_hungary_geza_lakatos
-	traits = {  }
-	skill = 3
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 2
 }
+
+#old_guard brilliant_strategist inflexible_strategist politically_connected war_hero career_officer trait_cautious trait_reckless media_personality harsh_leader infantry_officer cavalry_officer armor_officer offensive_doctrine defensive_doctrine organizer cavalry_leader infantry_leader skilled_staffer trickster winter_specialist
+#adaptable trait_engineer panzer_leader commando desert_fox swamp_fox trait_mountaineer hill_fighter jungle_rat ranger urban_assault_specialist naval_invader
+
 
 create_corps_commander = {
 	name = "Iván Hindy"
 	gfx = GFX_Portrait_hungary_ivan_hindy
-	traits = {  trickster armor_officer }
-	skill = 5
+	traits = { old_guard war_hero urban_assault_specialist infantry_officer  }
+	skill = 4
 	attack_skill = 5
-	defense_skill = 4
-	planning_skill = 2
+	defense_skill = 3
+	planning_skill = 1
 	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Károly Beregfy"
 	gfx = GFX_Portrait_hungary_karoly_beregfy
-	traits = { }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
+	traits = { harsh_leader trait_reckless politically_connected infantry_leader infantry_officer trait_mountaineer }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 6
 	planning_skill = 1
 	logistics_skill = 1
 }
@@ -268,21 +283,112 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Lajos Veress"
 	gfx = GFX_Portrait_hungary_lajos_veress
-	traits = { armor_officer }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
+	traits = { panzer_leader hill_fighter trait_engineer trait_cautious organizer }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 5
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 3
 }
 
-create_field_marshal = {
-	name = "Ferenc Feketehalmy-Czeydner"
-	gfx = GFX_Portrait_hungary_ferenc_feketehalmy_czeydner
-	traits = { }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
+
+create_corps_commander = {
+	name = "Bela Miklos"
+	picture = "Portrait_HUN_Bela_Miklos.dds"
+	traits = { politically_connected infantry_officer old_guard skilled_staffer trait_cautious trait_engineer war_hero }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 5
 	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Dezso Laszlo"
+	picture = "Portrait_HUN_Dezso_Laszlo.dds"
+	traits = { ranger brilliant_strategist harsh_leader trait_reckless war_hero armor_officer trait_engineer }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Gusztav Denk"
+	picture = "Portrait_HUN_Gusztav_Denk.dds"
+	traits = { career_officer cavalry_leader trickster substance_abuser harsh_leader career_officer panzer_leader trait_reckless desert_fox }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Hugo Sonyi"
+	picture = "Portrait_HUN_Hugo_Sonyi.dds"
+	traits = { naval_invader infantry_officer infantry_leader trait_engineer career_officer trait_reckless }
+	skill = 3
+	attack_skill = 6
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Janky Kocsard"
+	picture = "Portrait_HUN_Janky_Kocsard.dds"
+	traits = { cavalry_leader cavalry_officer career_officer politically_connected trickster commando trait_cautious media_personality }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 6
+	planning_skill = 1
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Jany Gusztav"
+	picture = "Portrait_HUN_Jany_Gusztav.dds"
+	traits = { infantry_officer infantry_leader skilled_staffer urban_assault_specialist commando harsh_leader }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 5
+}
+create_field_marshal = {
+	name = "Karoly Bartha"
+	picture = "Portrait_HUN_Karoly_Bartha.dds"
+	traits = { old_guard inflexible_strategist swamp_fox ranger skilled_staffer politically_connected organizer defensive_doctrine career_officer }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 2
+	logistics_skill = 6
+}
+create_corps_commander = {
+	name = "Szilard Bakay"
+	picture = "Portrait_HUN_Szilard_Bakay.dds"
+	traits = { cavalry_leader cavalry_officer trickster war_hero politically_connected ranger substance_abuser }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_field_marshal = {
+	name = "Vilmos Nagy de Nagybaczon"
+	picture = "Portrait_HUN_Vilmos_Nagy_de_Nagybaczon.dds"
+	traits = { infantry_leader brilliant_strategist offensive_doctrine trickster career_officer harsh_leader  }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Vilmos Roder"
+	picture = "Portrait_HUN_Vilmos_Roder.dds"
+	traits = { infantry_officer career_officer trait_cautious commando politically_connected old_guard skilled_staffer }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 5
 }
