@@ -181,7 +181,6 @@ if = {
 	complete_national_focus = SOV_peoples_commissariat
 	complete_national_focus = SOV_anti_fascist_diplomacy
 	complete_national_focus = SOV_improve_stalin_line
-	complete_national_focus = SOV_claims_on_baltic
 	
 	#Soviet starts with 1 less focus, too many branches
 	

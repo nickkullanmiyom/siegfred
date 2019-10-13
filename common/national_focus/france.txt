@@ -1228,13 +1228,9 @@ focus_tree = {
 	
 
 
-
 	focus = {
 		id = FRA_support_status_quo
 		icon = GFX_goal_support_democracy
-	 	mutually_exclusive = {
-	 		focus = FRA_revise_versailles
-	 	}
 		available = {
 		}
 	 	prerequisite = { focus = FRA_initiate_government_reform }

@@ -438,7 +438,6 @@ ideas = {
 				original_tag = "FRA"
 			}
 			available ={
-				has_completed_focus = FRA_right_wing_rhetoric
 				if = {
 					limit = { has_dlc = "Man the Guns" }	
 					NOT = { has_autonomy_state = autonomy_supervised_state }

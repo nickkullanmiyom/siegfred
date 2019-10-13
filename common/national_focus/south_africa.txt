@@ -607,10 +607,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_timed_idea = {
-				idea = cheap_workforce
-				days = 365
-			}
 			add_ideas = SAF_cheap_labor_1
 		}
 	}

@@ -102,8 +102,6 @@ bookmarks = {
 			}
 			focuses = {
 				SOV_move_industry_to_urals
-				SOV_claims_on_baltic
-				SOV_war_with_uk
 			}
 		}
 
