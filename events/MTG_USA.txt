@@ -626,7 +626,6 @@ country_event = {
 					limit = {
 						OR = {
 							has_government = fascism
-							has_completed_focus = FRA_support_the_right
 						}
 						is_major = yes
 						has_war = no
@@ -652,7 +651,6 @@ country_event = {
 						has_government = democratic
 						not = {
 							OR = {
-								has_completed_focus = FRA_support_the_right
 							}
 						}
 						is_major = yes

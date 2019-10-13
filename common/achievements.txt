@@ -632,8 +632,7 @@ big_entente = {
 	}
 	
 	happened = {
-		is_faction_leader = yes
-		has_completed_focus = FRA_little_entente		
+		is_faction_leader = yes		
 		all_state = {
 			OR = {
 				NOT = { is_core_of = GER }
