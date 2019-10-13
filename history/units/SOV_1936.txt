@@ -1857,9 +1857,9 @@ air_wings = {
 	408 = {
 		# 12ya Istrebitel'nye Aviabrigada
 		# 20ya Istrebitel'nye Aviabrigada
-		fighter_equipment_0 = {
+		fighter_equipment_1 = {
 			owner = "SOV" 
-			amount = 188
+			amount = 400
 		}
 		# 5ya Dal'nyaya Bombardirovochnye Aviabrigada
 		strat_bomber_equipment_1 =  {

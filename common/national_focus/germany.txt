@@ -253,23 +253,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GER_flak_towers
-		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = GER_west_wall }
-		x = -4
-		y = 1
-		relative_position_id = GER_west_wall
-		cost = 5
-		ai_will_do = {
-			factor = 8
-		}
-			
-		completion_reward = {
-			add_ideas = GER_flak_towers_idea
-		}
-    }
-
-	focus = {
 		id = GER_autarky
 		icon = GFX_GER_Deutsche_Arbeitsfront
 		prerequisite = { focus = GER_four_year_plan }
@@ -1247,7 +1230,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_anschluss
-		icon = GFX_goal_anchluss
+        icon = GFX_goal_anschluss
 		prerequisite = { focus = GER_anti_comitern_pact }
 		available = {
 			is_puppet = no
@@ -1398,6 +1381,74 @@ focus_tree = {
 				}
 				add_state_core = 153
 			}
+		}
+	}
+
+	focus = {
+		id = FALLBLAU
+		icon = GFX_goal_generic_secret_weapon
+		available = {
+			date > 1942.4.4
+		}
+		cost = 5
+		x = 1
+		y = 0
+		completion_reward = {
+			add_political_power = -75
+	    }
+	}
+
+	focus = {
+		id = Whataboutfuel
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 7
+		prerequisite = {
+			focus = FALLBLAU
+		}
+		mutually_exclusive = {
+			focus = Luftwaffe
+		}
+		x = 0
+		y = 1
+		completion_reward = {
+		    64 = {
+				add_resource = {
+					type = oil
+					amount = 40
+			    }
+		    }
+	    }
+	}
+
+	focus = {
+		id = Luftwaffe
+		icon = GFX_goal_generic_air_production
+		cost = 7
+		prerequisite = {
+			focus = FALLBLAU
+		}
+		mutually_exclusive = {
+			focus = Whataboutfuel
+		}
+		x = 2
+		y = 1
+		completion_reward = {
+		    add_ideas = GER_airfocus
+	    }
+	}
+	
+	focus = {
+		id = ImproveWehrmacht
+		icon = GFX_goal_generic_occupy_start_war
+		cost = 6
+		prerequisite = {
+			focus = Whataboutfuel
+			focus = Luftwaffe
+		}
+		x = 1
+		y = 2
+		completion_reward = {
+		    add_ideas = GER_wermac
 		}
 	}
 

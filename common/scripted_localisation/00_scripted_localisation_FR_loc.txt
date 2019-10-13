@@ -17000,7 +17000,6 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } has_government = fascism FRA = { has_completed_focus = FRA_woo_italy } } # domination_francaise
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } has_government = fascism JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # daitoa_kyoeiken
 				AND = { is_in_faction_with = POL POL = { is_faction_leader = yes } POL = { has_completed_focus = POL_the_between_the_seas_concept } } # miedzymorze_faction
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
@@ -17018,11 +17017,9 @@ defined_text = {
 		trigger = {
 			OR = {
 				AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_idea = soviet_german_friendship } } # the_berlin_moscow_axis
-				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } FRA = { has_completed_focus = FRA_little_entente } } # french_alliance
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
-				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_renounce_the_treaty_of_trianon } NOT = { FRA = { has_completed_focus = FRA_little_entente } } } # BALKAN_ENTENTE_FACTION
 				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } CAN = { has_completed_focus = CAN_north_american_alliance } } # north_american_alliance
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
@@ -17099,7 +17096,6 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } has_government = fascism FRA = { has_completed_focus = FRA_woo_italy } } # domination_francaise
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } has_government = fascism JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # daitoa_kyoeiken
 				AND = { is_in_faction_with = POL POL = { is_faction_leader = yes } POL = { has_completed_focus = POL_the_between_the_seas_concept } } # miedzymorze_faction
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
@@ -17117,11 +17113,8 @@ defined_text = {
 		trigger = {
 			OR = {
 				AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_idea = soviet_german_friendship } } # the_berlin_moscow_axis
-				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } FRA = { has_completed_focus = FRA_little_entente } } # french_alliance
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
-				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
-				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_renounce_the_treaty_of_trianon } NOT = { FRA = { has_completed_focus = FRA_little_entente } } } # BALKAN_ENTENTE_FACTION
 				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } CAN = { has_completed_focus = CAN_north_american_alliance } } # north_american_alliance
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
@@ -17201,7 +17194,6 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } has_government = fascism FRA = { has_completed_focus = FRA_woo_italy } } # domination_francaise
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } has_government = fascism JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # daitoa_kyoeiken
 				AND = { is_in_faction_with = POL POL = { is_faction_leader = yes } POL = { has_completed_focus = POL_the_between_the_seas_concept } } # miedzymorze_faction
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
@@ -17219,11 +17211,9 @@ defined_text = {
 		trigger = {
 			OR = {
 				AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_idea = soviet_german_friendship } } # the_berlin_moscow_axis
-				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } FRA = { has_completed_focus = FRA_little_entente } } # french_alliance
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
-				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_renounce_the_treaty_of_trianon } NOT = { FRA = { has_completed_focus = FRA_little_entente } } } # BALKAN_ENTENTE_FACTION
 				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } CAN = { has_completed_focus = CAN_north_american_alliance } } # north_american_alliance
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
@@ -17300,7 +17290,6 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } has_government = fascism FRA = { has_completed_focus = FRA_woo_italy } } # domination_francaise
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } has_government = fascism JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # daitoa_kyoeiken
 				AND = { is_in_faction_with = POL POL = { is_faction_leader = yes } POL = { has_completed_focus = POL_the_between_the_seas_concept } } # miedzymorze_faction
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
@@ -17318,7 +17307,6 @@ defined_text = {
 		trigger = {
 			OR = {
 				AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_idea = soviet_german_friendship } } # the_berlin_moscow_axis
-				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } FRA = { has_completed_focus = FRA_little_entente } } # french_alliance
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
@@ -17402,7 +17390,6 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } has_government = fascism FRA = { has_completed_focus = FRA_woo_italy } } # domination_francaise
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } has_government = fascism JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # daitoa_kyoeiken
 				AND = { is_in_faction_with = POL POL = { is_faction_leader = yes } POL = { has_completed_focus = POL_the_between_the_seas_concept } } # miedzymorze_faction
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
@@ -17420,11 +17407,9 @@ defined_text = {
 		trigger = {
 			OR = {
 				AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_idea = soviet_german_friendship } } # the_berlin_moscow_axis
-				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } FRA = { has_completed_focus = FRA_little_entente } } # french_alliance
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
-				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_renounce_the_treaty_of_trianon } NOT = { FRA = { has_completed_focus = FRA_little_entente } } } # BALKAN_ENTENTE_FACTION
 				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } CAN = { has_completed_focus = CAN_north_american_alliance } } # north_american_alliance
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
@@ -17501,7 +17486,6 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } has_government = fascism FRA = { has_completed_focus = FRA_woo_italy } } # domination_francaise
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } has_government = fascism JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # daitoa_kyoeiken
 				AND = { is_in_faction_with = POL POL = { is_faction_leader = yes } POL = { has_completed_focus = POL_the_between_the_seas_concept } } # miedzymorze_faction
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
@@ -17519,11 +17503,9 @@ defined_text = {
 		trigger = {
 			OR = {
 				AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_idea = soviet_german_friendship } } # the_berlin_moscow_axis
-				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } FRA = { has_completed_focus = FRA_little_entente } } # french_alliance
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
-				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_renounce_the_treaty_of_trianon } NOT = { FRA = { has_completed_focus = FRA_little_entente } } } # BALKAN_ENTENTE_FACTION
 				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } CAN = { has_completed_focus = CAN_north_american_alliance } } # north_american_alliance
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
@@ -17605,7 +17587,6 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } has_government = fascism FRA = { has_completed_focus = FRA_woo_italy } } # domination_francaise
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } has_government = fascism JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # daitoa_kyoeiken
 				AND = { is_in_faction_with = POL POL = { is_faction_leader = yes } POL = { has_completed_focus = POL_the_between_the_seas_concept } } # miedzymorze_faction
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
@@ -17615,11 +17596,9 @@ defined_text = {
 				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_global_flag = mtg_usa_north_american_dominion_refused_faction } # MTG_USA_NORTH_AMERICAN_DOMINION_FACTION
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_decolonization_left_faction } # ENG_coalition_of_free_commonwealth_states
-				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } FRA = { has_completed_focus = FRA_little_entente } } # french_alliance
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
-				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_renounce_the_treaty_of_trianon } NOT = { FRA = { has_completed_focus = FRA_little_entente } } } # BALKAN_ENTENTE_FACTION
 				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } CAN = { has_completed_focus = CAN_north_american_alliance } } # north_american_alliance
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
@@ -17692,11 +17671,9 @@ defined_text = {
 				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_global_flag = mtg_usa_north_american_dominion_refused_faction } # MTG_USA_NORTH_AMERICAN_DOMINION_FACTION
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_decolonization_left_faction } # ENG_coalition_of_free_commonwealth_states
-				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } FRA = { has_completed_focus = FRA_little_entente } } # french_alliance
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
-				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_renounce_the_treaty_of_trianon } NOT = { FRA = { has_completed_focus = FRA_little_entente } } } # BALKAN_ENTENTE_FACTION
 				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } CAN = { has_completed_focus = CAN_north_american_alliance } } # north_american_alliance
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
@@ -17772,11 +17749,9 @@ defined_text = {
 				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_global_flag = mtg_usa_north_american_dominion_refused_faction } # MTG_USA_NORTH_AMERICAN_DOMINION_FACTION
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_decolonization_left_faction } # ENG_coalition_of_free_commonwealth_states
-				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } FRA = { has_completed_focus = FRA_little_entente } } # french_alliance
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
-				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_renounce_the_treaty_of_trianon } NOT = { FRA = { has_completed_focus = FRA_little_entente } } } # BALKAN_ENTENTE_FACTION
 				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } CAN = { has_completed_focus = CAN_north_american_alliance } } # north_american_alliance
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
@@ -17852,11 +17827,9 @@ defined_text = {
 				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_global_flag = mtg_usa_north_american_dominion_refused_faction } # MTG_USA_NORTH_AMERICAN_DOMINION_FACTION
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_decolonization_left_faction } # ENG_coalition_of_free_commonwealth_states
-				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } FRA = { has_completed_focus = FRA_little_entente } } # french_alliance
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
-				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_renounce_the_treaty_of_trianon } NOT = { FRA = { has_completed_focus = FRA_little_entente } } } # BALKAN_ENTENTE_FACTION
 				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } CAN = { has_completed_focus = CAN_north_american_alliance } } # north_american_alliance
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
@@ -17932,11 +17905,9 @@ defined_text = {
 				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_global_flag = mtg_usa_north_american_dominion_refused_faction } # MTG_USA_NORTH_AMERICAN_DOMINION_FACTION
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_decolonization_left_faction } # ENG_coalition_of_free_commonwealth_states
-				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } FRA = { has_completed_focus = FRA_little_entente } } # french_alliance
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
-				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } HUN = { has_completed_focus = HUN_renounce_the_treaty_of_trianon } NOT = { FRA = { has_completed_focus = FRA_little_entente } } } # BALKAN_ENTENTE_FACTION
 				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } CAN = { has_completed_focus = CAN_north_american_alliance } } # north_american_alliance
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance

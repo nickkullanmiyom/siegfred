@@ -45,6 +45,36 @@ ideas = {
 		    }
 		}
 
+		GER_wermac = {
+		    allowed = {
+			    always = no
+			}
+			removal_cost = -1
+			picture = generic_opperession
+
+			modifier = {
+				army_armor_attack_factor = 0.07
+		    }
+		}
+
+		GER_airfocus = {
+		    allowed = {
+			    always = no
+			}
+			removal_cost = -1
+			picture = the_long_lance
+
+			modifier = {
+				air_ace_generation_chance_factor = 0.1
+		    }
+		    equipment_bonus = {
+			CAS_equipment = {
+					instant = yes
+					air_ground_attack = 0.07
+			    }
+		    }
+		}
+
 		GER_wolfpacks = {
 		    allowed = {
 			    always = no
