@@ -1285,7 +1285,6 @@ focus_tree = {
 	}
 
 	default = no
-	continuous_focus_position = { x = 50 y = 600 }
 	focus = {
 		id = SOV_great_purge
 		icon = GFX_SOV_Great_Purge
