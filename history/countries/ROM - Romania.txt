@@ -221,6 +221,22 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 1600
+         producer = ENG
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 750
+         producer = ENG
+} 
+
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 15000
+         producer = ENG
+}  
 set_popularities = {
 	democratic = 20
 	fascism = 18

@@ -1065,6 +1065,15 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	### Variants ###
+	# Fighters #
+	create_equipment_variant = {
+		name = "Hurricane 109 B"
+		type = fighter_equipment_1
+		upgrades = {
+			plane_range_upgrade = 6
+		    plane_engine_upgrade = 1
+		}
+	}
 	# Submarines #
 	create_equipment_variant = {
 		name = "O/P/R Class"
@@ -1679,12 +1688,13 @@ if = {
 				rear_1_custom_slot = ship_mine_layer_sub
 			}
 		}
+	}
 		create_equipment_variant = {
-		name = "Hurricane 109 B"
-		type = fighter_equipment_1
-		upgrades = {
-			plane_range_upgrade = 6
-			plane_engine_upgrade = 1
+		    name = "Hurricane 109 B"
+		    type = fighter_equipment_1
+		    upgrades = {
+			    plane_range_upgrade = 6
+			    plane_engine_upgrade = 1
 		    }
 		}
 		create_equipment_variant = {
