@@ -595,7 +595,7 @@ instant_effect = {
 			creator = "ENG"
 			version_name = "Hurricane 109 B"
 		}
-		requested_factories = 15
+		requested_factories = 2
 		progress = 0.15
 		efficiency = 50
 	}

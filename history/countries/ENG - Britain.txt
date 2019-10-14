@@ -328,6 +328,47 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes ##suspended through duration of war, which is handled via event
 }
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 3000
+         producer = ENG
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 1000
+         producer = ENG
+} 
+
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 35000
+         producer = ENG
+} 
+add_equipment_to_stockpile = {
+         type = motorized_equipment_1
+         amount = 651
+         producer = ENG
+} 
+
+add_equipment_to_stockpile = {
+         type = light_tank_equipment_2
+         amount = 720
+         producer = ENG
+} 
+
+add_equipment_to_stockpile = {
+	type = anti_air_equipment_1
+    amount = 1300
+    producer = ENG
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = yes ##suspended through duration of war, which is handled via event
+}
+
 set_popularities = {
 	democratic = 97
 	fascism = 2
@@ -1637,6 +1678,14 @@ if = {
 				fixed_ship_engine_slot = sub_ship_engine_2
 				rear_1_custom_slot = ship_mine_layer_sub
 			}
+		}
+		create_equipment_variant = {
+		name = "Hurricane 109 B"
+		type = fighter_equipment_1
+		upgrades = {
+			plane_range_upgrade = 6
+			plane_engine_upgrade = 1
+		    }
 		}
 		create_equipment_variant = {
 			name = "U Class"
