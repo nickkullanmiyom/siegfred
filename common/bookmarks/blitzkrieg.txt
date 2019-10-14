@@ -132,9 +132,7 @@ bookmarks = {
 				CAN_conscription_crisis
 			}
 			focuses = {
-				CAN_skewer_the_eagle
 				CAN_north_american_alliance
-				CAN_join_comintern
 			}
 		}
 		"AST"={

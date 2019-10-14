@@ -1056,6 +1056,17 @@ create_equipment_variant = {
 	obsolete = yes
 }
 
+create_equipment_variant = {
+	name = "Bf 109 E"
+	type = fighter_equipment_1
+	upgrades = {
+		plane_gun_upgrade = 1
+		plane_range_upgrade = 5
+		plane_engine_upgrade = 4
+		plane_reliability_upgrade = 1
+	}
+}
+
 
 ## 1939 Start ##
 1939.1.1 = {

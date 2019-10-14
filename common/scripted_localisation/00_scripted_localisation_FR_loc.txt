@@ -17004,7 +17004,6 @@ defined_text = {
 				AND = { is_in_faction_with = POL POL = { is_faction_leader = yes } POL = { has_completed_focus = POL_the_between_the_seas_concept } } # miedzymorze_faction
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_a_deal_with_japan } } # western_pacific_sphere
-				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_government = fascism CAN = { has_completed_focus = CAN_skewer_the_eagle } } # northern_sovereignty_coalition
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # JAP_greater_east_asian_co_prosperity_sphere
 				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_global_flag = mtg_usa_north_american_dominion_refused_faction } # MTG_USA_NORTH_AMERICAN_DOMINION_FACTION
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international
@@ -17020,7 +17019,6 @@ defined_text = {
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
-				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } CAN = { has_completed_focus = CAN_north_american_alliance } } # north_american_alliance
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_bolivarian_alliance } } # faction_mexico_bolivarian_alliance
@@ -17100,7 +17098,6 @@ defined_text = {
 				AND = { is_in_faction_with = POL POL = { is_faction_leader = yes } POL = { has_completed_focus = POL_the_between_the_seas_concept } } # miedzymorze_faction
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_a_deal_with_japan } } # western_pacific_sphere
-				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_government = fascism CAN = { has_completed_focus = CAN_skewer_the_eagle } } # northern_sovereignty_coalition
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # JAP_greater_east_asian_co_prosperity_sphere
 				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_global_flag = mtg_usa_north_american_dominion_refused_faction } # MTG_USA_NORTH_AMERICAN_DOMINION_FACTION
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international
@@ -17115,7 +17112,6 @@ defined_text = {
 				AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_idea = soviet_german_friendship } } # the_berlin_moscow_axis
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
-				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } CAN = { has_completed_focus = CAN_north_american_alliance } } # north_american_alliance
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_bolivarian_alliance } } # faction_mexico_bolivarian_alliance
@@ -17198,7 +17194,6 @@ defined_text = {
 				AND = { is_in_faction_with = POL POL = { is_faction_leader = yes } POL = { has_completed_focus = POL_the_between_the_seas_concept } } # miedzymorze_faction
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_a_deal_with_japan } } # western_pacific_sphere
-				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_government = fascism CAN = { has_completed_focus = CAN_skewer_the_eagle } } # northern_sovereignty_coalition
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # JAP_greater_east_asian_co_prosperity_sphere
 				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_global_flag = mtg_usa_north_american_dominion_refused_faction } # MTG_USA_NORTH_AMERICAN_DOMINION_FACTION
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international
@@ -17294,7 +17289,6 @@ defined_text = {
 				AND = { is_in_faction_with = POL POL = { is_faction_leader = yes } POL = { has_completed_focus = POL_the_between_the_seas_concept } } # miedzymorze_faction
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_a_deal_with_japan } } # western_pacific_sphere
-				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_government = fascism CAN = { has_completed_focus = CAN_skewer_the_eagle } } # northern_sovereignty_coalition
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # JAP_greater_east_asian_co_prosperity_sphere
 				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_global_flag = mtg_usa_north_american_dominion_refused_faction } # MTG_USA_NORTH_AMERICAN_DOMINION_FACTION
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international
@@ -17393,7 +17387,6 @@ defined_text = {
 				AND = { is_in_faction_with = POL POL = { is_faction_leader = yes } POL = { has_completed_focus = POL_the_between_the_seas_concept } } # miedzymorze_faction
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_a_deal_with_japan } } # western_pacific_sphere
-				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_government = fascism CAN = { has_completed_focus = CAN_skewer_the_eagle } } # northern_sovereignty_coalition
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # JAP_greater_east_asian_co_prosperity_sphere
 				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_global_flag = mtg_usa_north_american_dominion_refused_faction } # MTG_USA_NORTH_AMERICAN_DOMINION_FACTION
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international
@@ -17489,7 +17482,6 @@ defined_text = {
 				AND = { is_in_faction_with = POL POL = { is_faction_leader = yes } POL = { has_completed_focus = POL_the_between_the_seas_concept } } # miedzymorze_faction
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_a_deal_with_japan } } # western_pacific_sphere
-				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_government = fascism CAN = { has_completed_focus = CAN_skewer_the_eagle } } # northern_sovereignty_coalition
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # JAP_greater_east_asian_co_prosperity_sphere
 				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_global_flag = mtg_usa_north_american_dominion_refused_faction } # MTG_USA_NORTH_AMERICAN_DOMINION_FACTION
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international
@@ -17590,7 +17582,6 @@ defined_text = {
 				AND = { is_in_faction_with = POL POL = { is_faction_leader = yes } POL = { has_completed_focus = POL_the_between_the_seas_concept } } # miedzymorze_faction
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_a_deal_with_japan } } # western_pacific_sphere
-				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_government = fascism CAN = { has_completed_focus = CAN_skewer_the_eagle } } # northern_sovereignty_coalition
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # JAP_greater_east_asian_co_prosperity_sphere
 				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_global_flag = mtg_usa_north_american_dominion_refused_faction } # MTG_USA_NORTH_AMERICAN_DOMINION_FACTION
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international
@@ -17664,7 +17655,6 @@ defined_text = {
 				AND = { is_in_faction_with = POL POL = { is_faction_leader = yes } POL = { has_completed_focus = POL_the_between_the_seas_concept } } # miedzymorze_faction
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_a_deal_with_japan } } # western_pacific_sphere
-				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_government = fascism CAN = { has_completed_focus = CAN_skewer_the_eagle } } # northern_sovereignty_coalition
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # JAP_greater_east_asian_co_prosperity_sphere
 				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_global_flag = mtg_usa_north_american_dominion_refused_faction } # MTG_USA_NORTH_AMERICAN_DOMINION_FACTION
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international
@@ -17741,7 +17731,6 @@ defined_text = {
 				AND = { is_in_faction_with = POL POL = { is_faction_leader = yes } POL = { has_completed_focus = POL_the_between_the_seas_concept } } # miedzymorze_faction
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_a_deal_with_japan } } # western_pacific_sphere
-				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_government = fascism CAN = { has_completed_focus = CAN_skewer_the_eagle } } # northern_sovereignty_coalition
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # JAP_greater_east_asian_co_prosperity_sphere
 				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_global_flag = mtg_usa_north_american_dominion_refused_faction } # MTG_USA_NORTH_AMERICAN_DOMINION_FACTION
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international
@@ -17818,7 +17807,6 @@ defined_text = {
 				AND = { is_in_faction_with = POL POL = { is_faction_leader = yes } POL = { has_completed_focus = POL_the_between_the_seas_concept } } # miedzymorze_faction
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_a_deal_with_japan } } # western_pacific_sphere
-				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_government = fascism CAN = { has_completed_focus = CAN_skewer_the_eagle } } # northern_sovereignty_coalition
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # JAP_greater_east_asian_co_prosperity_sphere
 				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_global_flag = mtg_usa_north_american_dominion_refused_faction } # MTG_USA_NORTH_AMERICAN_DOMINION_FACTION
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international
@@ -17895,7 +17883,6 @@ defined_text = {
 				AND = { is_in_faction_with = POL POL = { is_faction_leader = yes } POL = { has_completed_focus = POL_the_between_the_seas_concept } } # miedzymorze_faction
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_a_deal_with_japan } } # western_pacific_sphere
-				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_government = fascism CAN = { has_completed_focus = CAN_skewer_the_eagle } } # northern_sovereignty_coalition
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # JAP_greater_east_asian_co_prosperity_sphere
 				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_global_flag = mtg_usa_north_american_dominion_refused_faction } # MTG_USA_NORTH_AMERICAN_DOMINION_FACTION
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international
@@ -17972,7 +17959,6 @@ defined_text = {
 				AND = { is_in_faction_with = POL POL = { is_faction_leader = yes } POL = { has_completed_focus = POL_the_between_the_seas_concept } } # miedzymorze_faction
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
 				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_a_deal_with_japan } } # western_pacific_sphere
-				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_government = fascism CAN = { has_completed_focus = CAN_skewer_the_eagle } } # northern_sovereignty_coalition
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # JAP_greater_east_asian_co_prosperity_sphere
 				AND = { is_in_faction_with = CAN CAN = { is_faction_leader = yes } has_global_flag = mtg_usa_north_american_dominion_refused_faction } # MTG_USA_NORTH_AMERICAN_DOMINION_FACTION
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international

@@ -455,7 +455,7 @@ air_wings = {
 		# Sturzkampfgeschwader 162		
 		CAS_equipment_1 =  {			# Hs 123
 			owner = "GER" 
-			amount = 80
+			amount = 200
 		}
 		name = "Sturzkampfgeschwader 162"	
 	}
@@ -463,9 +463,10 @@ air_wings = {
 	### IV. Luftkreiskommando -- Kassel ###
 	57 = { 
 		# Jagdgeschwader 134 'Horst Wessel'		
-		fighter_equipment_0 =  {		# He 51 # Ar 68
+		fighter_equipment_1 =  {		# Ar 68
 			owner = "GER" 
-			amount = 120
+			amount = 1600
+			version_name = "Bf 109 E"
 		}
 		name = "Jagdgeschwader 134"
 		# Kampfgeschwader 152 'Hindenburg'	
@@ -570,8 +571,9 @@ instant_effect = {
 		equipment = {
 			type = fighter_equipment_1
 			creator = "GER" 
+			version_name = "Bf 109 E"
 		}
-		requested_factories = 1
+		requested_factories = 15
 		progress = 0.15
 		efficiency = 50
 	}

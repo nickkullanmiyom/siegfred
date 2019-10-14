@@ -591,10 +591,11 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = fighter_equipment_0
-			creator = "ENG" 
+			type = fighter_equipment_1
+			creator = "ENG"
+			version_name = "Hurricane 109 B"
 		}
-		requested_factories = 10
+		requested_factories = 15
 		progress = 0.15
 		efficiency = 50
 	}

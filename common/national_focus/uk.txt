@@ -10,8 +10,7 @@ focus_tree = {
 		}
 	}
 	
-	default = no
-
+	default = no 
 	focus = {
 		id = crypto_bomb_focus
 		available = {
@@ -8233,6 +8232,36 @@ focus_tree = {
 			}		
 		}
 	}
+
+	focus = {
+		id = OperationCrusader
+		icon = GFX_goal_generic_army_tanks
+		cost = 10
+		x = 12
+		y = 0
+
+	}
+	focus = {
+		id = notyet
+		icon = GFX_goal_generic_air_fighter2
+		cost = 10
+		x = 14
+		y = 0
+
+	}
+	focus = {
+		id = GoForIt
+		icon = GFX_goal_generic_CAS
+		cost = 10
+		prerequisite = {
+			focus = OperationCrusader
+		}
+		prerequisite = {
+			focus = notyet
+		}
+		x = 13
+		y = 1
+    }
 
 	focus = {
 		id = ENG_belgium_security

@@ -585,7 +585,6 @@ focus_tree = {
 		id = SOV_collectivist_propaganda
 		icon = GFX_goal_generic_propaganda
 		prerequisite = { focus = SOV_stalin_constitution }
-		mutually_exclusive = { focus = SOV_positive_heroism }
 		x = -2
 		y = 1
 		relative_position_id = SOV_stalin_constitution
@@ -675,7 +674,6 @@ focus_tree = {
 		id = SOV_positive_heroism
 		icon = GFX_goal_generic_cavalry
 		prerequisite = { focus = SOV_stalin_constitution }
-		mutually_exclusive = { focus = SOV_collectivist_propaganda }
 		x = 0
 		y = 1
 		relative_position_id = SOV_stalin_constitution
