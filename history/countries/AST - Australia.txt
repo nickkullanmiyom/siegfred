@@ -304,9 +304,9 @@ create_corps_commander = {
 	name = "Horace Robertson"
 	gfx = "GFX_AST_horace_robertson"
 	traits = { desert_fox }
-	skill = 3
-    attack_skill = 3
-    defense_skill = 1
+	skill = 5
+    attack_skill = 5
+    defense_skill = 5
     planning_skill = 3
     logistics_skill = 3
 }
