@@ -1,0 +1,40 @@
+ideas = { 
+
+	country = {
+  
+     	cantdeploy_unit = { 
+		
+			picture = generic_pp_unity_bonus	
+			
+			allowed = { 
+				OR = { 
+				original_tag = USA
+				original_tag = ENG
+				original_tag = CAN
+				original_tag = SAF
+				original_tag = RAJ
+				original_tag = AST
+				original_tag = NZL
+				original_tag = FRA
+				original_tag = HUN
+				original_tag = GER
+				original_tag = ROM			
+                original_tag = SPR
+                original_tag = JAP
+                original_tag = SOV
+                original_tag = ITA
+                original_tag = CHI
+                original_tag = POL
+                original_tag = HOL
+                original_tag = BEL
+				}
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				training_time_factor = 10.00
+			}
+		}
+	}
+}

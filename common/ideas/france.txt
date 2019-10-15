@@ -49,7 +49,7 @@ ideas = {
 		}
 
 		FRA_protected_by_the_maginot_line = {
-			
+
 			allowed = {
 				always = no
 			}
@@ -69,7 +69,7 @@ ideas = {
 								has_government = communism
 							}
 						}
-						AND = {	
+						AND = {
 							has_government = fascism
 							GER = {
 								has_government = fascism
@@ -82,10 +82,14 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_wall_line
-			
+
 			modifier = {
-				max_planning = 0.25
-				planning_speed = -0.25
+				max_planning = 0.15
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+				planning_speed = -0.15
+				max_command_power = -150
+				surrender_limit = -0.3
 			}
 		}
 

@@ -2,6 +2,7 @@
 
 oob = "CZE_1936"
 
+add_timed_idea = { idea = cantdeploy_unit  days = 920 }
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1

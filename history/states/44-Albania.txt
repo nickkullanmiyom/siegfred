@@ -11,7 +11,7 @@ state={
 	state_category = town
 	
 	history={
-		owner = ALB
+		owner = ITA
 		victory_points = {
 			9914 5
 		}
@@ -27,7 +27,7 @@ state={
 				naval_base = 4
 			}
 		}
-		add_core_of = ALB
+		add_core_of = ITA
 		add_claim_by = ITA
 
 		1939.4.12 = {

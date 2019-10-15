@@ -639,7 +639,7 @@ focus_tree = {
 		complete_tooltip = {
 			every_state = {
 				limit = { has_state_flag = FRA_colonial_industry_4IC }
-				add_extra_state_shared_building_slots = 4
+				add_extra_state_shared_building_slots = 20
 				add_building_construction = {
 					type = industrial_complex
 					level = 4
@@ -648,7 +648,7 @@ focus_tree = {
 			}
 			every_state = {
 				limit = { has_state_flag = FRA_colonial_industry_2IC }
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 20
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
@@ -679,7 +679,7 @@ focus_tree = {
 						}
 						NOT = { is_on_continent = europe }
 					}
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 20
 					add_building_construction = {
 						type = industrial_complex
 						level = 2
@@ -696,7 +696,7 @@ focus_tree = {
 						}
 						NOT = { is_on_continent = europe }
 					}
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 20
 					add_building_construction = {
 						type = industrial_complex
 						level = 2
@@ -716,7 +716,7 @@ focus_tree = {
 					}
 				}
 				539 = {
-					add_extra_state_shared_building_slots = 4
+					add_extra_state_shared_building_slots = 20
 					add_building_construction = {
 						type = industrial_complex
 						level = 4
@@ -763,7 +763,7 @@ focus_tree = {
 		complete_tooltip = {
 			every_state = {
 				limit = { has_state_flag = FRA_colonial_military_factories_4MF }
-				add_extra_state_shared_building_slots = 4
+				add_extra_state_shared_building_slots = 20
 				add_building_construction = {
 					type = arms_factory
 					level = 4
@@ -772,7 +772,7 @@ focus_tree = {
 			}
 			every_state = {
 				limit = { has_state_flag = FRA_colonial_military_factories_2MF }
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 20
 				add_building_construction = {
 					type = arms_factory
 					level = 2
@@ -803,7 +803,7 @@ focus_tree = {
 						}
 						NOT = { is_on_continent = europe }
 					}
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 20
 					add_building_construction = {
 						type = arms_factory
 						level = 2
@@ -820,7 +820,7 @@ focus_tree = {
 						}
 						NOT = { is_on_continent = europe }
 					}
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 10
 					add_building_construction = {
 						type = arms_factory
 						level = 2

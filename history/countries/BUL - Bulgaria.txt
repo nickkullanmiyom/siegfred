@@ -2,6 +2,7 @@
 
 oob = "BUL_1936"
 
+add_timed_idea = { idea = cantdeploy_unit  days = 730 }
 add_ideas = {
 	limited_conscription
 }

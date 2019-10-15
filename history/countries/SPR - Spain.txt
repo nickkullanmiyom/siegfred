@@ -10,7 +10,7 @@ if = {
 }
 
 set_research_slots = 3
-
+add_timed_idea = { idea = cantdeploy_unit  days = 730 }
 add_ideas = {
 		general_staff		
 	}
