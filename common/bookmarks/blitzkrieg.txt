@@ -131,9 +131,6 @@ bookmarks = {
 				CAN_great_depression_1
 				CAN_conscription_crisis
 			}
-			focuses = {
-				CAN_north_american_alliance
-			}
 		}
 		"AST"={
 			minor = yes

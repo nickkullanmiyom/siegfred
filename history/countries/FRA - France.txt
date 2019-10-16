@@ -162,7 +162,6 @@ if = {
 		dispersed_industry2 = 1
 		dispersed_industry3 = 1
 	}
-}
 
 set_convoys = 300
 set_stability = 0.5
@@ -226,9 +225,9 @@ add_ideas = {
 	FRA_disjointed_government
 	FRA_protected_by_the_maginot_line
 	FRA_inflexible_industry
-	GDU_special_forces_cap
-	volunteer_only
-	GDU_refinery_prebuild_disincentive	
+	volunteer_only	
+}
+
 }
 
 #give_guarantee = CZE

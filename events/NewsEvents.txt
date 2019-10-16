@@ -10078,7 +10078,6 @@ news_event = {
 }
 
 #Canada aims for Patriation
-#Fired from CAN_patriation focus
 news_event = {
 	id = news.251
 	title = news.251.t

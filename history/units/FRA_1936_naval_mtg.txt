@@ -33,7 +33,6 @@ units= {
 			ship = { name = "Béarn" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = FRA version_name = "Béarn Class" } } 
 				air_wings = {
 					cv_fighter_equipment_0 =  { owner = "FRA" amount = 18 }
-					cv_nav_bomber_equipment_1 =  { owner = "FRA" amount = 18 }
 				}
 			}
 			# 2e Division des Contre-Torpilleurs
@@ -317,29 +316,6 @@ instant_effect = {
 		progress = 0.60
 		amount = 1
 	}
-	# BC: Dunkerque (Comm. 16-Apr, 1937)	
-	add_equipment_production = {
-		equipment = {
-			type = ship_hull_heavy_2
-			creator = "FRA" 
-			version_name = "Dunkerque Class"
-		}
-		name = "Dunkerque" 
-		requested_factories = 1
-		progress = 0.20
-		amount = 1
-	}
-	# BB: Richelieu	
-	add_equipment_production = {
-		equipment = {
-			type = ship_hull_heavy_2
-			creator = "FRA" 
-			version_name = "Richelieu Class"
-		}
-		requested_factories = 1
-		progress = 0.10
-		amount = 1
-	}
 	 # CL: La Galissonnière class (x4) ("Jean de Vienne" "Marseillaise" "Gloire" "Montcalm") ("Georges Leygues" launched 24-Mar 1936)
 	add_equipment_production = {
 		equipment = {
@@ -349,7 +325,7 @@ instant_effect = {
 		}
 		name = "Jean de Vienne" 
 		requested_factories = 1
-		progress = 0.35
+		progress = 0.99
 		amount = 1
 	}
 	add_equipment_production = {
@@ -360,7 +336,7 @@ instant_effect = {
 		}
 		name = "Marseillaise" 
 		requested_factories = 1
-		progress = 0.15
+		progress = 0.99
 		amount = 1
 	}
 	add_equipment_production = {

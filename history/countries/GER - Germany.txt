@@ -34,7 +34,6 @@ set_technology = {
 	synth_oil_experiments = 1
 	fuel_silos = 1
 	fuel_refining = 1
-	basic_machine_tools = 1
 }
 
 if = {
@@ -276,7 +275,43 @@ set_war_support = 0.3
 		set_naval_oob = "GER_1939_naval_mtg"
 	}
 }
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 2500
+         producer = GER
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 1500
+         producer = GER
+} 
 
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 37000
+         producer = GER
+} 
+add_equipment_to_stockpile = {
+         type = motorized_equipment_1
+         amount = 1900
+         producer = GER
+} 
+add_equipment_to_stockpile = {
+         type = light_tank_equipment_2
+         amount = 500
+         producer = GER
+} 
+add_equipment_to_stockpile = {
+         type = light_tank_equipment_1
+         amount = 1000
+         producer = GER
+} 
+
+add_equipment_to_stockpile = {
+	type = anti_air_equipment_1
+    amount = 2000
+    producer = GER
+}
 set_politics = {
 	ruling_party = fascism
 	last_election = "1933.3.5"
