@@ -101,7 +101,6 @@ USA_congress = {
 	USA_use_huac = {
 		icon = oppression
 		available = {
-			has_idea = USA_joseph_mccarthy
 			OR = {
 				check_variable = { senators_support < senators_total }
 				check_variable = { representatives_support < representatives_total }
