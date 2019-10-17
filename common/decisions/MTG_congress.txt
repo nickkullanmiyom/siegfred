@@ -175,7 +175,6 @@ USA_congress = {
 				check_variable = { representatives_support < representatives_total }
 			}
 		}
-		visible = { has_completed_focus = USA_income_tax_reform }
 		cost = 0
 		ai_will_do = {
 			factor = 1
@@ -529,7 +528,6 @@ USA_congress = {
 				not = { is_core_of = ROOT }
 				is_claimed_by = ROOT
 			}
-			has_completed_focus = USA_reintegration
 		}
 		ai_will_do = {
 			factor = 1	
@@ -565,9 +563,6 @@ USA_congress = {
 	USA_reshuffle_congress = {
 		available = {
 
-		}
-		visible = {
-			has_completed_focus = USA_union_representation_act
 		}
 		days_re_enable = 180
 		cost = 50

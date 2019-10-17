@@ -63,10 +63,6 @@ country_event = {
 			country_event = { id = mtg_usa_civil_war_fascists.3 days = 15 }
 			if = {
 				limit = {
-					OR = {
-						has_completed_focus = USA_union_representation_act
-						has_completed_focus = USA_democratic_socialism
-					}
 				}
 				country_event = { id = mtg_usa_civil_war_fascists.4 days = 15 }
 			}
