@@ -484,7 +484,6 @@ CSA_DD_CONFEDERATE = {
 	can_use = {
 		OR = {
 			tag = CSA
-			has_completed_focus = USA_honor_the_confederacy
 		}
 	}
 	type = ship
@@ -518,7 +517,6 @@ CSA_CL_CONFEDERATE = {
 	can_use = {
 		OR = {
 			tag = CSA
-			has_completed_focus = USA_honor_the_confederacy
 		}
 	}
 	type = ship
@@ -549,7 +547,6 @@ CSA_CA_CONFEDERATE = {
 	can_use = {
 		OR = {
 			tag = CSA
-			has_completed_focus = USA_honor_the_confederacy
 		}
 	}
 	type = ship
@@ -576,7 +573,6 @@ USA_BB_CONFEDERATE = {
 	can_use = {
 		OR = {
 			tag = CSA
-			has_completed_focus = USA_honor_the_confederacy
 		}
 	}
 	type = ship
@@ -599,7 +595,6 @@ USA_BC_CONFEDERATE = {
 	can_use = {
 		OR = {
 			tag = CSA
-			has_completed_focus = USA_honor_the_confederacy
 		}
 	}
 	type = ship
@@ -622,7 +617,6 @@ USA_CV_CONFEDERATE = {
 	can_use = {
 		OR = {
 			tag = CSA
-			has_completed_focus = USA_honor_the_confederacy
 		}
 	}
 	type = ship
@@ -646,7 +640,6 @@ CSA_SS_CONFEDERATE = {
 	can_use = {
 		OR = {
 			tag = CSA
-			has_completed_focus = USA_honor_the_confederacy
 		}
 	}
 	type = ship

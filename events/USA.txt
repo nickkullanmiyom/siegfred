@@ -212,8 +212,6 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						has_completed_focus = USA_voter_registration_act
-						has_completed_focus = USA_union_representation_act
 					}
 				}
 				country_event = { id = usa.32 days = 730 } # midterms
@@ -244,8 +242,6 @@ country_event = {
 		if = {
 			limit = {
 				OR = {
-					has_completed_focus = USA_voter_registration_act
-					has_completed_focus = USA_union_representation_act
 				}
 			}
 			country_event = usa.32
@@ -329,7 +325,6 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						has_completed_focus = USA_voter_registration_act
 						has_completed_focus = USA_union_representation_act
 					}
 				}
@@ -349,7 +344,6 @@ country_event = {
 		if = {
 			limit = {
 				OR = {
-					has_completed_focus = USA_voter_registration_act
 					has_completed_focus = USA_union_representation_act
 				}
 			}
@@ -420,8 +414,6 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						has_completed_focus = USA_voter_registration_act
-						has_completed_focus = USA_union_representation_act
 					}
 				}
 				country_event = { id = usa.32 days = 730 } # midterms
@@ -438,8 +430,6 @@ country_event = {
 		if = {
 			limit = {
 				OR = {
-					has_completed_focus = USA_voter_registration_act
-					has_completed_focus = USA_union_representation_act
 				}
 			}
 			country_event = usa.32
@@ -483,8 +473,6 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						has_completed_focus = USA_voter_registration_act
-						has_completed_focus = USA_union_representation_act
 					}
 				}
 				country_event = { id = usa.32 days = 730 } # midterms
@@ -512,8 +500,6 @@ country_event = {
 		if = {
 			limit = {
 				OR = {
-					has_completed_focus = USA_voter_registration_act
-					has_completed_focus = USA_union_representation_act
 				}
 			}
 			country_event = usa.32
@@ -573,8 +559,6 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						has_completed_focus = USA_voter_registration_act
-						has_completed_focus = USA_union_representation_act
 					}
 				}
 				country_event = { id = usa.32 days = 730 } # midterms
@@ -598,8 +582,6 @@ country_event = {
 		if = {
 			limit = {
 				OR = {
-					has_completed_focus = USA_voter_registration_act
-					has_completed_focus = USA_union_representation_act
 				}
 			}
 			country_event = usa.32
@@ -647,8 +629,6 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						has_completed_focus = USA_voter_registration_act
-						has_completed_focus = USA_union_representation_act
 					}
 				}
 				country_event = { id = usa.32 days = 730 } # midterms
@@ -679,8 +659,6 @@ country_event = {
 		if = {
 			limit = {
 				OR = {
-					has_completed_focus = USA_voter_registration_act
-					has_completed_focus = USA_union_representation_act
 				}
 			}
 			country_event = usa.32
@@ -1190,8 +1168,6 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		OR = {
-			has_completed_focus = USA_voter_registration_act
-			has_completed_focus = USA_union_representation_act
 		}
 	}
 
@@ -1216,8 +1192,6 @@ country_event = {
 			limit = {
 				NOT = {
 					OR = {
-						has_completed_focus = USA_voter_registration_act
-						has_completed_focus = USA_union_representation_act
 					}
 				}
 			}
@@ -1261,8 +1235,6 @@ country_event = {
 		tag = USA
 		NOT = {
 			OR = {
-				has_completed_focus = USA_voter_registration_act
-				has_completed_focus = USA_union_representation_act
 			}
 		}
 	}
@@ -1288,8 +1260,6 @@ country_event = {
 		tag = USA
 		NOT = {
 			OR = {
-				has_completed_focus = USA_voter_registration_act
-				has_completed_focus = USA_union_representation_act
 			}
 		}
 	}
@@ -1317,8 +1287,6 @@ country_event = {
 		tag = USA
 		NOT = {
 			OR = {
-				has_completed_focus = USA_voter_registration_act
-				has_completed_focus = USA_union_representation_act
 			}
 		}
 	}
@@ -1344,8 +1312,6 @@ country_event = {
 		tag = USA
 		NOT = {
 			OR = {
-				has_completed_focus = USA_voter_registration_act
-				has_completed_focus = USA_union_representation_act
 			}
 		}
 	}
@@ -1372,8 +1338,6 @@ country_event = {
 		tag = USA
 		NOT = {
 			OR = {
-				has_completed_focus = USA_voter_registration_act
-				has_completed_focus = USA_union_representation_act
 			}
 		}
 	}
@@ -1399,8 +1363,6 @@ country_event = {
 		tag = USA
 		NOT = {
 			OR = {
-				has_completed_focus = USA_voter_registration_act
-				has_completed_focus = USA_union_representation_act
 			}
 		}
 	}
@@ -1427,8 +1389,6 @@ country_event = {
 		tag = USA
 		NOT = {
 			OR = {
-				has_completed_focus = USA_voter_registration_act
-				has_completed_focus = USA_union_representation_act
 			}
 		}
 	}
@@ -1454,8 +1414,6 @@ country_event = {
 		tag = USA
 		NOT = {
 			OR = {
-				has_completed_focus = USA_voter_registration_act
-				has_completed_focus = USA_union_representation_act
 			}
 		}
 	}
@@ -1479,8 +1437,6 @@ country_event = {
 		tag = USA
 		NOT = {
 			OR = {
-				has_completed_focus = USA_voter_registration_act
-				has_completed_focus = USA_union_representation_act
 			}
 		}
 	}
@@ -1563,8 +1519,6 @@ country_event = {
 		tag = USA
 		NOT = {
 			OR = {
-				has_completed_focus = USA_voter_registration_act
-				has_completed_focus = USA_union_representation_act
 			}
 		}
 	}
@@ -1651,8 +1605,6 @@ country_event = {
 		tag = USA
 		NOT = {
 			OR = {
-				has_completed_focus = USA_voter_registration_act
-				has_completed_focus = USA_union_representation_act
 			}
 		}
 	}

@@ -76,7 +76,6 @@ USA_honor_the_confederacy = {
 	}
 	visible = {
 		OR = {
-			has_completed_focus = USA_honor_the_confederacy
 			original_tag = CSA #for civil war in communist path. CSA shouldn't get focus tree
 			has_government = fascism
 		}

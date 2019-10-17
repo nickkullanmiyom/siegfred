@@ -107,7 +107,6 @@ USA_congress = {
 			}
 		}
 		visible = {
-			has_completed_focus = USA_empower_the_huac
 		}
 		cost = 10
 		ai_will_do = {
@@ -128,7 +127,6 @@ USA_congress = {
 		available = {
 			has_government = democratic
 		}
-		visible = { has_completed_focus = USA_ally_with_the_silver_shirts }
 		cost = 10
 		ai_will_do = {
 			factor = 1
