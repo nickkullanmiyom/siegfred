@@ -4,3 +4,10 @@ category = {
 	warsaw
  }
 }
+category = {
+ name = "DFU SOUNDS"
+ soundeffects = {
+	paris
+ }
+}
+

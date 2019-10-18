@@ -2655,6 +2655,9 @@ news_event = {
 	}
 	
 	immediate = {
+        hidden_effect = {
+		sound_effect = paris
+		}
 		set_global_flag = fall_of_paris_ger
 	}
 	

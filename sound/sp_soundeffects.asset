@@ -6,3 +6,11 @@ soundeffect = {
 	}
 	volume = 1.0
 }
+soundeffect = {
+	name = "paris"
+	sounds = {
+		sound = 
+			paris
+	}
+	volume = 0.6
+}
