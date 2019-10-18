@@ -187,10 +187,6 @@ create_import = {
 	
 		#doctrines
 		#air
-		force_rotation = 1
-		fighter_baiting = 1
-		low_echelon_support = 1
-		dispersed_fighting = 1
 
 		grand_battle_plan = 1
 		prepared_defense = 1

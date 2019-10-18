@@ -21,47 +21,6 @@ set_popularities = {
     communism = 30
 }
 
-add_equipment_to_stockpile = {
-         type = artillery_equipment_1
-         amount = 2000
-         producer = FRA
-}  
-add_equipment_to_stockpile = {
-         type = support_equipment
-         amount = 1000
-         producer = FRA
-} 
-
-add_equipment_to_stockpile = {
-         type = infantry_equipment_1
-         amount = 46000
-         producer = FRA
-} 
-add_equipment_to_stockpile = {
-         type = motorized_equipment_1
-         amount = 8000
-         producer = FRA
-} 
-add_equipment_to_stockpile = {
-         type = light_tank_equipment_2
-         amount = 1000
-         producer = FRA
-} 
-add_equipment_to_stockpile = {
-	type = anti_air_equipment_1
-    amount = 2600
-    producer = FRA
-}
-add_equipment_to_stockpile = {
-         type = anti_tank_equipment_1
-         amount = 1000
-         producer = FRA
-} 
-add_equipment_to_stockpile = {
-	     type = heavy_tank_equipment_1
-         amount = 400
-   
-
 add_timed_idea = { idea = cantdeploy_unit  days = 730 }
 add_ideas = {
 	FRA_victors_of_wwi
@@ -235,54 +194,12 @@ set_popularities = {
     democratic = 70
     communism = 30
 }
-
-add_equipment_to_stockpile = {
-         type = artillery_equipment_1
-         amount = 2000
-         producer = FRA
-}  
-add_equipment_to_stockpile = {
-         type = support_equipment
-         amount = 1000
-         producer = FRA
-} 
-
-add_equipment_to_stockpile = {
-         type = infantry_equipment_1
-         amount = 46000
-         producer = FRA
-} 
-add_equipment_to_stockpile = {
-         type = motorized_equipment_1
-         amount = 8000
-         producer = FRA
-} 
-add_equipment_to_stockpile = {
-         type = light_tank_equipment_2
-         amount = 1000
-         producer = FRA
-} 
-add_equipment_to_stockpile = {
-	type = anti_air_equipment_1
-    amount = 2600
-    producer = FRA
-}
-add_equipment_to_stockpile = {
-         type = anti_tank_equipment_1
-         amount = 1000
-         producer = FRA
-} 
-add_equipment_to_stockpile = {
-	     type = heavy_tank_equipment_1
-         amount = 400
-         producer = FRA
-}
-
 add_ideas = {
 	FRA_victors_of_wwi
 	FRA_disjointed_government
 	FRA_protected_by_the_maginot_line
 	volunteer_only	
+	}
 }
 
 

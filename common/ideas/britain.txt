@@ -82,6 +82,23 @@ ideas = {
 			}
 		}
 
+		eng_nosealionpls = { 
+			
+			allowed = {
+				original_tag = ENG
+			}
+			
+			picture = ast_all_in
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_core_attack_factor = 0.3
+				army_core_defence_factor = 0.3
+			}
+			
+		}
+
 		ENG_george_vi = {
 			
 			allowed = {

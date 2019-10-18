@@ -4542,7 +4542,6 @@ country_event = {
 		NOT = { has_country_flag = RAJ_civil_war }
 		NOT = {
 			OR = {
-				ENG = { has_completed_focus = ENG_the_three_nation_solution }
 				AND = {
 					has_dlc = "Together for Victory"
 					has_completed_focus = RAJ_two_nation_theory
@@ -5234,7 +5233,6 @@ country_event = {
 		tag = PAK
 		NOT = { country_exists = BAN }
 		NOT = { has_country_flag = PAK_civil_war }
-		NOT = { ENG = { has_completed_focus = ENG_the_three_nation_solution } }
 		is_subject = no
 		has_war = no
 		has_dlc = "Man the Guns"
@@ -6791,7 +6789,6 @@ country_event = {
 			modifier = {
 				factor = 0
 				tag = RAJ
-				ENG = { NOT = { has_completed_focus = ENG_indian_autonomy } }
 			}
 		}
 		custom_effect_tooltip = mtg_britain.100_tt #"If all accept you will get:"
@@ -6824,20 +6821,17 @@ country_event = {
 			modifier = {
 				factor = 0
 				tag = RAJ
-				ENG = { has_completed_focus = ENG_indian_autonomy }
 				has_opinion = { target = ENG value > 99 }
 			}
 			modifier = {
 				factor = 0
 				tag = RAJ
-				ENG = { has_completed_focus = ENG_indian_autonomy }
 				has_opinion = { target = ENG value > 89 }
 				FROM = { has_country_flag = ENG_diplomatic_pressure_flag }
 			}
 			modifier = {
 				factor = 0
 				tag = RAJ
-				ENG = { has_completed_focus = ENG_indian_autonomy }
 				has_opinion = { target = ENG value > 79 }
 				FROM = { has_country_flag = ENG_extensive_diplomatic_pressure_flag }
 			}

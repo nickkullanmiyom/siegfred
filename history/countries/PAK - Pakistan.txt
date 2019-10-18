@@ -52,9 +52,6 @@ set_convoys = 20
 		early_fighter = 1
 		fighter1 = 1
 		#doctrines
-		#Air
-		force_rotation = 1
-		fighter_baiting = 1
 		grand_battle_plan = 1
 
 		trench_warfare = 1

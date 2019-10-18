@@ -1,0 +1,8 @@
+soundeffect = {
+	name = "warsaw"
+	sounds = {
+		sound = 
+			warsaw
+	}
+	volume = 1.0
+}

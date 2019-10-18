@@ -2609,6 +2609,9 @@ news_event = {
 	}
 	
 	immediate = {
+	    hidden_effect = {
+		sound_effect = warsaw
+		}
 		set_global_flag = fall_of_warsaw_ger
 	}
 	
@@ -4285,49 +4288,6 @@ news_event = {
 	option = {
 		name = news.100.c
 		trigger = { TAG = GER }
-	}
-}
-
-# The Fall of Warsaw (USSR)
-news_event = {
-	id = news.138
-	title = news.100.t
-	desc = news.138.d
-	picture = GFX_news_event_067
-	
-	major = yes
-	
-	trigger = {
-		10 = { is_controlled_by = SOV }
-		10 = { is_owned_by = POL }
-		SOV = { has_war_with = POL }
-		NOT = { has_global_flag = fall_of_warsaw_sov }
-	}
-	
-	immediate = {
-		set_global_flag = fall_of_warsaw_sov
-	}
-	
-	mean_time_to_happen = {
-		days = 2
-	}
-	
-	option = {
-		name = news.100.a
-		trigger = {
-			NOT = {
-				TAG = SOV
-				TAG = POL
-			}
-		}
-	}
-	option = {
-		name = news.138.b
-		trigger = { TAG = SOV }
-	}
-	option = {
-		name = news.100.c
-		trigger = { TAG = POL }
 	}
 }
 

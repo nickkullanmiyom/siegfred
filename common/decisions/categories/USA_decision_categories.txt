@@ -72,6 +72,5 @@ USA_decolonisation = {
 		original_tag = USA
 	}
 	visible = {
-		has_completed_focus = USA_pacific_decolonisation
 	}
 }

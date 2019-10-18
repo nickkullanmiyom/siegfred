@@ -1,0 +1,5 @@
+sound =
+{
+	name = "warsaw"
+	file = "dfu_sound/warsaw.wav"
+}

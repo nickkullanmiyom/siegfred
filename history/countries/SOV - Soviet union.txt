@@ -213,8 +213,7 @@ if = {
 		battlefleet_concentration = 1
 		submarine_operations = 1
 
-		#Air
-		formation_flying = 1		
+		#Air	
 		dive_bombing = 1
 		direct_ground_support = 1
 

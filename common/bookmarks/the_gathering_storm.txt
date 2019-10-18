@@ -31,7 +31,6 @@ bookmarks = {
 			focuses = {
 				USA_war_plan_black
 				USA_limited_intervention
-				USA_reestablish_the_gold_standard
 			}
 		}
 		"ENG"={
@@ -42,9 +41,6 @@ bookmarks = {
 				stiff_upper_lip
 				ENG_the_war_to_end_all_wars
 				george_v
-			}
-			focuses = {
-				ENG_imperial_federation
 			}
 		}
 		"ENG"={
@@ -58,7 +54,6 @@ bookmarks = {
 			}
 			focuses = {
 				tizard_mission_focus
-				ENG_war_with_germany
 				ENG_war_with_italy
 			}
 		}

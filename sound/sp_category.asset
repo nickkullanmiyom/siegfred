@@ -1,0 +1,6 @@
+category = {
+ name = "DFU SOUNDS"
+ soundeffects = {
+	warsaw
+ }
+}
