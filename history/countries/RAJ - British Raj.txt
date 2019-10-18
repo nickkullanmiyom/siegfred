@@ -84,8 +84,6 @@ set_cosmetic_tag = RAJ_UK # British Raj
 		fighter1 = 1
 		#doctrines
 		#Air
-		force_rotation = 1
-		fighter_baiting = 1
 		grand_battle_plan = 1
 
 		trench_warfare = 1
@@ -131,6 +129,32 @@ set_popularities = {
 	fascism = 2
 	communism = 1
 	neutrality = 80
+}
+
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 700
+         producer = RAJ
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 700
+         producer = RAJ
+} 
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 35000
+         producer = RAJ
+} 
+add_equipment_to_stockpile = {
+         type = motorized_equipment_1
+         amount = 300
+         producer = RAJ
+} 
+add_equipment_to_stockpile = {
+	type = anti_air_equipment_1
+    amount = 400
+    producer = RAJ
 }
 
 create_country_leader = {

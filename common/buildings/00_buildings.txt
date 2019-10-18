@@ -46,7 +46,7 @@ buildings = {
 		base_cost = 1250
 		icon_frame = 5
 		air_base = yes
-		max_level = 10
+		max_level = 6
 		value = 1
 		damage_factor = 0.5
 	}
@@ -60,7 +60,7 @@ buildings = {
 		only_costal = yes
 		is_port = yes
 		icon_frame = 6
-		max_level = 10
+		max_level = 20
 		value = 1
 	}
 
@@ -73,7 +73,7 @@ buildings = {
 		disabled_in_dmz = yes
 		icon_frame = 7
 		land_fort = 1
-		max_level = 10
+		max_level = 5
 		value = 1
 	}
 
@@ -87,7 +87,7 @@ buildings = {
 		only_costal = yes
 		icon_frame = 8
 		naval_fort = 1
-		max_level = 10
+		max_level = 5
 		value = 1
 	}
 

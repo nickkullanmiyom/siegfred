@@ -10,6 +10,7 @@ if = {
 }
 
 set_research_slots = 3
+add_timed_idea = { idea = cantdeploy_unit  days = 100000 }
 
 if = {
 	limit = {
@@ -194,6 +195,11 @@ set_popularities = {
 	communism = 15
 	neutrality = 60
 }
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 50000
+         producer = YUG
+} 
 
 1939.1.1 = {
 	set_politics = {

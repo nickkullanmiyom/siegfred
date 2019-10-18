@@ -1095,9 +1095,6 @@ country_event = {
 		hidden_effect = {
 			country_event = { id = mtg_usa_civil_war_democrats.3 days = 15 random = 6 }
 			if = {
-				limit = {
-					has_completed_focus = USA_national_prosperity_program
-				}
 				country_event = { id = mtg_usa_civil_war_democrats.4 days = 15 random = 12 }
 			}
 		}
@@ -1457,9 +1454,6 @@ country_event = {
 				}
 			}
 			if = {
-				limit = {
-					has_completed_focus = USA_recruit_the_free_corps
-				}
 				set_country_flag = USA_free_corps_raised
 				division_template = {
 					name = "Free Corps"
@@ -2436,9 +2430,6 @@ country_event = {
 		}
 	}
 	option = {
-		trigger = {
-			has_completed_focus = USA_send_lindbergh_to_germany
-		}
 		ai_chance = {
 			factor = 30
 		}

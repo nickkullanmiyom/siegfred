@@ -273,6 +273,46 @@ set_popularities = {
 	fascism = 2
 	communism = 88
 }
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 7000
+         producer = SOV
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 700
+         producer = SOV
+} 
+add_equipment_to_stockpile = {
+         type = infantry_equipment_0
+         amount = 74000
+         producer = SOV
+} 
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 112000
+         producer = SOV
+} 
+add_equipment_to_stockpile = {
+         type = motorized_equipment_1
+         amount = 7400
+         producer = SOV
+} 
+add_equipment_to_stockpile = {
+         type = light_tank_equipment_1
+         amount = 3500
+         producer = SOV
+} 
+add_equipment_to_stockpile = {
+         type = light_tank_equipment_2
+         amount = 7000
+         producer = SOV
+} 
+add_equipment_to_stockpile = {
+         type = anti_air_equipment_1
+         amount = 4000
+         producer = SOV
+} 
 
 create_faction = Comintern
 

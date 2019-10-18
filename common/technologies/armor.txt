@@ -692,7 +692,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1939
+		start_year = 1937
 
 		folder = {
 			name = armour_folder

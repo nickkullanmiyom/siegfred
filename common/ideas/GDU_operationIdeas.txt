@@ -1,0 +1,184 @@
+ideas = { 
+		
+	country = { 
+	
+		GDU_armored_operation_idea = {
+				allowed = {
+					always = no # Unlocked via decision
+				}
+				picture = FRA_army_of_aggression_focus
+	
+				removal_cost = -1
+				
+				modifier = {
+					#offence = 0.1
+					#defence = 0.1
+					army_armor_attack_factor = 0.075
+					army_armor_defence_factor = 0.075
+					
+				}
+			
+			}
+			
+		GDU_amphibious_assault_idea = {
+				allowed = {
+					always = no # Unlocked via decision
+				}
+				picture = FRA_army_of_aggression_focus
+	
+				removal_cost = -1
+
+				modifier = {
+					amphibious_invasion_defence = 0.25
+					amphibious_invasion = 0.15
+				}
+			
+			}
+			
+		GDU_mobile_operation_idea = {
+				allowed = {
+					always = no # Unlocked via decision
+				}
+				picture = FRA_army_of_aggression_focus
+	
+				removal_cost = -1
+
+				modifier = {
+					army_speed_factor = 0.05
+					org_loss_when_moving = -0.3
+
+				}
+			
+			}
+			
+		GDU_logistical_emphasis_idea = {
+				allowed = {
+					always = no # Unlocked via decision
+				}
+				picture = FRA_army_of_aggression_focus
+	
+				removal_cost = -1
+
+				modifier = {
+					supply_consumption_factor = -0.075
+					out_of_supply_factor = -0.25
+					attrition = -0.10
+
+				}
+			
+			}
+			
+		GDU_static_defense_operation_idea = {
+				allowed = {
+					always = no # Unlocked via decision
+				}
+				picture = FRA_army_of_aggression_focus
+	
+				removal_cost = -1
+
+				modifier = {
+					max_dig_in  = 5.0
+					dig_in_speed_factor = 0.15
+					defence = 0.1
+
+				}
+			
+			}
+			
+		GDU_air_land_battle_operation_idea = {
+				allowed = {
+					always = no # Unlocked via decision
+				}
+				picture = FRA_army_of_aggression_focus
+	
+				removal_cost = -1
+
+				modifier = {
+					army_bonus_air_superiority_factor = 0.20
+				    
+				}
+			
+			}
+			
+		GDU_motorized_operation_idea = {
+				allowed = {
+					always = no # Unlocked via decision
+				}
+				picture = FRA_army_of_aggression_focus
+	
+				removal_cost = -1
+
+				modifier = {
+				    motorized_defence_factor = 0.15
+					motorized_attack_factor = 0.15
+				}
+				
+				equipment_bonus = {
+					mechanized_equipment = {
+						maximum_speed = 0.10
+						instant = yes
+					}
+					motorized_equipment = { 
+						maximum_speed = 0.10
+						instant = yes
+					}
+				}
+				
+			
+			}
+			
+		GDU_infantry_offensive_idea = {
+				allowed = {
+					always = no # Unlocked via decision
+				}
+				picture = FRA_army_of_aggression_focus
+	
+				removal_cost = -1
+				
+			equipment_bonus = {
+				infantry_equipment = {
+					breakthrough = 0.15
+					instant = yes
+				}
+				artillery_equipment = {
+					breakthrough = 0.15
+					instant = yes 
+				}
+				anti_tank_equipment = {
+					breakthrough = 0.15
+					instant = yes
+				}
+			}
+
+				modifier = {
+					army_infantry_attack_factor = 0.075
+				
+
+				}
+			
+		}
+		
+		GDU_org_operation_idea = {
+				allowed = {
+					always = no # Unlocked via decision
+				}
+				picture = FRA_army_of_aggression_focus
+	
+				removal_cost = -1
+
+				modifier = {
+					army_org_factor = 0.05
+				
+
+				}
+			
+		}
+		
+		
+			
+			
+			
+		
+	}
+	
+}

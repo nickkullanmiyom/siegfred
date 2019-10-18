@@ -324,9 +324,6 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = {
-					OR = {
-						has_completed_focus = USA_union_representation_act
-					}
 				}
 				country_event = { id = usa.32 days = 730 } # midterms
 			}
@@ -343,9 +340,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-				OR = {
-					has_completed_focus = USA_union_representation_act
-				}
 			}
 			country_event = usa.32
 		}
