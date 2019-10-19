@@ -64,7 +64,7 @@ categories =  {
 		sound_type = desert
 
 		units = {
-			attack = -0.6
+			attack = -0.55
 			#movement = -0.2
 		}
 

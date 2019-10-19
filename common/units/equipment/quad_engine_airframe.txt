@@ -98,8 +98,8 @@ equipments = {
 		air_range = 2500
 		maximum_speed = 400
 		air_agility = 5
-		air_attack = 50
-		air_defence = 25
+		air_attack = 30
+		air_defence = 15
 		air_bombing = 30
 		
 		# build_cost_ic = 36
@@ -116,8 +116,8 @@ equipments = {
 		air_range = 3500
 		maximum_speed = 450
 		air_agility = 7
-		air_attack = 100
-		air_defence = 35
+		air_attack = 50
+		air_defence = 20
 		air_bombing = 45
 		
 		build_cost_ic = 62
@@ -139,8 +139,8 @@ equipments = {
 		air_range = 5000
 		maximum_speed = 500
 		air_agility = 10
-		air_attack = 150
-		air_defence = 50
+		air_attack = 1
+		air_defence = 1
 		air_bombing = 60
 		
 		build_cost_ic = 64

@@ -99,7 +99,7 @@ equipment_modules = {
 			build_cost_ic = 175	
 		}
 		build_cost_resources = {
-			steel = 1
+			steel = 0
 		}
 		multiply_stats = {
 			naval_speed = -0.02
@@ -133,7 +133,7 @@ equipment_modules = {
 			naval_speed = -0.02
 		}
 		build_cost_resources = {
-			steel = 1
+			steel = 0
 		}
 		add_average_stats = {
 			lg_armor_piercing = 2.0
@@ -172,7 +172,7 @@ equipment_modules = {
 			hg_armor_piercing = 31
 		}
 		build_cost_resources = {
-			steel = 1
+			steel = 0
 		}
 		can_convert_from = {
 			module_category = ship_heavy_battery
@@ -198,7 +198,7 @@ equipment_modules = {
 			hg_armor_piercing = 36
 		}
 		build_cost_resources = {
-			steel = 1
+			steel = 0
 		}
 		can_convert_from = {
 			module_category = ship_heavy_battery
@@ -229,7 +229,7 @@ equipment_modules = {
 			hg_armor_piercing = 40
 		}
 		build_cost_resources = {
-			steel = 1
+			steel = 0
 		}
 		can_convert_from = {
 			module_category = ship_heavy_battery
@@ -262,8 +262,8 @@ equipment_modules = {
 			hg_armor_piercing = 43
 		}
 		build_cost_resources = {
-			steel = 1
-			chromium = 1
+			steel = 0
+			chromium = 0
 		}
 		can_convert_from = {
 			module_category = ship_heavy_battery
@@ -288,8 +288,8 @@ equipment_modules = {
 			build_cost_ic = 1800
 		}
 		build_cost_resources = {
-			steel = 1
-			chromium = 1
+			steel = 0
+			chromium = 0
 		}
 		multiply_stats = {
 			naval_speed = -0.10
@@ -325,7 +325,7 @@ equipment_modules = {
 			hg_armor_piercing = 11
 		}
 		build_cost_resources = {
-			steel = 1
+			steel = 0
 		}
 		can_convert_from = {
 			module_category = ship_light_battery
@@ -356,7 +356,7 @@ equipment_modules = {
 			hg_armor_piercing = 12
 		}
 		build_cost_resources = {
-			steel = 1
+			steel = 0
 		}
 		can_convert_from = {
 			module_category = ship_medium_battery
@@ -387,20 +387,20 @@ equipment_modules = {
 			hg_armor_piercing = 13
 		}
 		build_cost_resources = {
-			steel = 2
+			steel = 0
 		}
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 500
 			convert_cost_resources = {
-				steel = 2
+				steel = 0
 			}
 		}
 		can_convert_from = {
 			module = ship_medium_battery_2
 			convert_cost_ic = 350
 			convert_cost_resources = {
-				steel = 1
+				steel = 0
 			}
 		}
 		critical_parts = { damaged_heavy_guns }
@@ -424,13 +424,13 @@ equipment_modules = {
 			hg_armor_piercing = 14
 		}
 		build_cost_resources = {
-			steel = 2
+			steel = 0
 		}
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 600
 			convert_cost_resources = {
-				steel = 2
+				steel = 0
 			}
 		}
 		can_convert_from = {
@@ -483,7 +483,7 @@ equipment_modules = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 400
 			convert_cost_resources = {
-				steel = 1
+				steel = 0
 			}
 		}
 		can_convert_from = {
@@ -511,13 +511,13 @@ equipment_modules = {
 			max_strength = 20
 		}
 		build_cost_resources = {
-			steel = 1
+			steel = 0
 		}
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 500
 			convert_cost_resources = {
-				steel = 1
+				steel = 0
 			}
 		}
 		can_convert_from = {
@@ -545,13 +545,13 @@ equipment_modules = {
 			max_strength = 20
 		}
 		build_cost_resources = {
-			steel = 1
+			steel = 0
 		}
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 600
 			convert_cost_resources = {
-				steel = 1
+				steel = 0
 			}
 		}
 		can_convert_from = {
