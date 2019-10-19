@@ -1061,7 +1061,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_completed_focus = ENG_no_further_appeasement
 			}
 			add_political_power = -200
 		}
@@ -1180,7 +1179,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-				NOT = { has_completed_focus = ENG_no_further_appeasement }
 			}
 			add_political_power = -200
 		}
