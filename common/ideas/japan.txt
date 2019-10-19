@@ -23,6 +23,36 @@ ideas = {
 				sortie_efficiency = 0.10
 			}
 		}
+
+		JAP_militarism = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = warrior_traditions_idea
+			rule = {
+				can_create_factions = yes
+			}
+			modifier = {
+				war_support_factor = 0.2
+				mobilization_laws_cost_factor = -0.25
+				production_speed_industrial_complex_factor = -0.15
+				production_speed_dockyard_factor = 0.10
+				production_speed_arms_factory_factor = 0.10
+				production_speed_fuel_silo_factor = 0.15
+				army_core_attack_factor = 0.25
+				army_core_defence_factor = 0.25
+				industry_air_damage_factor = -0.1
+				army_morale_factor = 0.04
+				min_export = -0.30
+			}
+		}
 	
 		state_shintoism = {
 			allowed = {
@@ -329,28 +359,6 @@ ideas = {
 			picture = jap_duplicate_research
 			
 			research_bonus = { air_equipment = -0.10 }
-		}
-
-		JAP_militarism = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-
-			picture = warrior_traditions_idea
-			
-			modifier = {
-				war_support_factor = 0.2
-				mobilization_laws_cost_factor = -0.25
-				justify_war_goal_time = -0.2
-				research_speed_factor = -0.05
-				production_speed_industrial_complex_factor = -0.1
-			}
 		}
 
 		JAP_militarism_shogunate = {
