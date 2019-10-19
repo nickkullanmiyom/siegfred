@@ -4,7 +4,7 @@ state=
 	name="STATE_118"
 	manpower=21372
 	
-	state_category = enclave
+	state_category = city
 	history={
 		owner = ENG
 		victory_points = { 4135 10 }
@@ -19,6 +19,6 @@ state=
 		add_claim_by = SPR
 	}
 	provinces={
-		4135
+		4135 13219
 	}
 }

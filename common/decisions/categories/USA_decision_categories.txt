@@ -47,8 +47,6 @@ USA_intervention_mandate = {
 	}
 	visible = {
 		OR = {
-			has_completed_focus = USA_focus_on_asia
-			has_completed_focus = USA_reinforce_monroe_doctrine
 		}
 	}
 }
