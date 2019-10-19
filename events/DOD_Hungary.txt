@@ -1219,7 +1219,6 @@ country_event = {
 		ai_chance = {
 			factor = 35
 			modifier = {
-				has_completed_focus = ROM_balkans_dominance
 				factor = 10 #NO DEALS WITH THE HUNGARIAN SCUM
 			}
 			modifier = { 
@@ -1782,7 +1781,6 @@ country_event = {
 		ai_chance = {
 			factor = 35
 			modifier = {
-				has_completed_focus = ROM_balkans_dominance
 				factor = 2 #come and have a go
 			}
 		}
@@ -1969,7 +1967,6 @@ country_event = {
 		ai_chance = {
 			factor = 80
 			modifier = {
-				has_completed_focus = ROM_balkans_dominance
 				factor = 0.2
 			}
 		}

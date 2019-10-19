@@ -242,7 +242,6 @@ bookmarks = {
 				neutrality_idea
 			}
 			focuses = {
-				ROM_balkans_dominance
 				ROM_institute_royal_dictatorship
 				ROM_preserve_greater_romania
 			}
