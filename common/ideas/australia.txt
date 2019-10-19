@@ -514,10 +514,6 @@ ideas = {
 			cost = 100
 
 			traits = { smooth_talking_charmer }
-
-			available = {
-				has_completed_focus = AST_never_another_gallipoli
-			}
 		}
 
 		AST_herbert_v_evatt = {
