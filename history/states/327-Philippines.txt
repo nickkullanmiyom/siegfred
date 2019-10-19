@@ -7,7 +7,7 @@ state=
 	state_category = town
 	history=
 	{
-		owner = PHI
+		owner = USA
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
@@ -18,7 +18,7 @@ state=
 			}
 		}
 		victory_points = {
-			10265 15 
+			10265 20 
 		}
 		victory_points = {
 			1221 1 
