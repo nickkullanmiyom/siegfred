@@ -1255,7 +1255,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			army_experience = 10
+			army_experience = 100
 			add_tech_bonus = {
 				name = SAF_special_service_battalion
 				bonus = 1.0
