@@ -183,47 +183,6 @@ if = {
 set_convoys = 300
 set_stability = 0.5
 set_war_support = 0.15
-add_equipment_to_stockpile = {
-         type = artillery_equipment_1
-         amount = 2000
-         producer = FRA
-}  
-add_equipment_to_stockpile = {
-         type = support_equipment
-         amount = 1500
-         producer = FRA
-} 
-add_equipment_to_stockpile = {
-    type = infantry_equipment_1
-    amount = 50000
-    producer = FRA
-} 
-add_equipment_to_stockpile = {
-    type = motorized_equipment_1
-    amount = 1900
-    producer = FRA
-} 
-add_equipment_to_stockpile = {
-    type = light_tank_equipment_2
-    amount = 500
-    producer = FRA
-} 
-add_equipment_to_stockpile = {
-	type = anti_air_equipment_1
-    amount = 1000
-    producer = FRA
-}
-add_equipment_to_stockpile = {
-	type = anti_tank_equipment_1
-    amount = 1000
-    producer = FRA
-}
-set_politics = {	
-	ruling_party = democratic
-	last_election = "1932.5.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
 set_popularities = {
     democratic = 70
     communism = 30
