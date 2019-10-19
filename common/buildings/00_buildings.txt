@@ -6,7 +6,7 @@ buildings = {
 
 
 	infrastructure = {
-		base_cost = 2500
+		base_cost = 750
 		per_level_extra_cost = 500
 		icon_frame = 3
 		infrastructure = yes
