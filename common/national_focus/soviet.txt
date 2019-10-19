@@ -766,11 +766,11 @@ focus_tree = {
 		available_if_capitulated = yes	
 
 		completion_reward = {
-			air_experience = 25
+			air_experience = 100
 
 			add_tech_bonus = {
 				name = air_bonus
-				bonus = 1.0
+				bonus = 1.75
 				uses = 1
 				category = light_air
 				category = medium_air
@@ -780,30 +780,6 @@ focus_tree = {
 		}
 	}
 
-	
-	focus = {
-		id = SOV_new_soviet_man
-		icon = GFX_goal_support_communism
-		prerequisite = { focus = SOV_aviation_cult }
-		x = 0
-		y = 1
-		relative_position_id = SOV_aviation_cult
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			hidden_effect = {
-				set_rule = {
-					can_use_kamikaze_pilots = yes
-				}
-			}
-			custom_effect_tooltip = kamikaze_focus_tooltip
-		}
-	}
 
 	focus = {
 		id = SOV_socialist_realism
@@ -1245,39 +1221,6 @@ focus_tree = {
 		completion_reward = {
 			TAN = {
 				country_event = { id = soviet.14 }
-			}
-		}
-	}
-
-	focus = {
-		id = SOV_permanent_revolution
-		icon = GFX_goal_support_fourth_int
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = SOV_permanent_revolution_tt
-				has_country_flag = counter_purge
-			}
-			has_government = communism
-			has_civil_war = no
-		}
-		x = 19
-		y = 0
-		cost = 10
-		ai_will_do = {
-			factor = 10
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			if = {
-				limit = { has_country_flag = counter_purge }
-				remove_country_leader_trait = permanent_revolutionary
-				add_country_leader_trait = triumphant_revolutionary
-			}
-			if = {
-				limit = { NOT = { has_country_flag = counter_purge } }
-				custom_effect_tooltip = SOV_permanent_revolution_tt2
 			}
 		}
 	}
