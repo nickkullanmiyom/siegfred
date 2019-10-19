@@ -1,7 +1,7 @@
 state={
 	id=724
 	name="STATE_724"
-	manpower = 2041700
+	manpower = 1
 	
 	state_category = rural
 	
@@ -11,14 +11,14 @@ state={
 
 
 	history={
-		owner = SIA
+		owner = JAP
 		buildings = {
 			infrastructure = 3
 		}
 		victory_points = {
 			7236 1 
 		}
-		add_core_of = SIA
+		add_core_of = JAP
 	}
 	
 	provinces={
