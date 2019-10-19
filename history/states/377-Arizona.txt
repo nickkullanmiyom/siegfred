@@ -4,7 +4,7 @@ state={
 	name="STATE_377"
 	manpower = 435572
 	
-	state_category = rural
+	state_category = metropolis
 	
 	resources={
 		steel=20 # was: 40
@@ -16,7 +16,7 @@ state={
 		owner = USA
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
+			industrial_complex = 31
 			air_base = 2
 		}
 		add_core_of = USA
