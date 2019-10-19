@@ -17029,7 +17029,6 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				AND = { is_in_faction_with = ROM ROM = { is_faction_leader = yes } ROM = { has_country_flag = ROM_HUN_aligned } ROM = { has_completed_focus = ROM_align_hungary } } # ROM_BALKAN_FACTION
 				# LOWER PRIORITY
 				AND = { is_in_faction_with = ENG ENG = { is_faction_leader = yes } ENG = { has_government = democratic } } # Allies
 			}
