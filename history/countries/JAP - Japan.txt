@@ -113,7 +113,7 @@ if = {
 create_import = {
 		resource = oil
 		factories = 2
-		exporter = USA
+		exporter = ROM
 }
 
 1939.1.1 = {
