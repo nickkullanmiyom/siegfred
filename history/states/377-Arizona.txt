@@ -16,7 +16,7 @@ state={
 		owner = USA
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 31
+			industrial_complex = 11
 			air_base = 2
 		}
 		add_core_of = USA
