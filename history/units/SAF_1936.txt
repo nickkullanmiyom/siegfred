@@ -111,23 +111,8 @@ units = {
 		division_template = "District Force"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
-	}
-
-	##### No Naval OOB #####
-}
-
-air_wings = {
-	###South African Air Force (SAAF)
-	275 = {
-		# SAAF Fighter Squadron -- Hawker Furys
-		fighter_equipment_0 =  {
-			owner = "SAF" 
-			amount = 30
-		}
 	}
 }
-
 
 ##### Starting Production #####
 instant_effect = {

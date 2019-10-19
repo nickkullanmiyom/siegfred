@@ -80,7 +80,6 @@ ENG_imperial_conference_decision = {
 
 		visible = {
 			tag = ENG
-			has_completed_focus = ENG_imperial_conference
 			has_country_flag = ENG_imperial_conference_timer_flag
 		}
 
@@ -111,7 +110,6 @@ ENG_imperial_conference_decision = {
 
 		visible = {
 			tag = ENG
-			has_completed_focus = ENG_imperial_conference
 			has_country_flag = ENG_imperial_conference_timer_flag
 		}
 
@@ -142,7 +140,6 @@ ENG_imperial_conference_decision = {
 
 		visible = {
 			tag = ENG
-			has_completed_focus = ENG_imperial_conference
 			has_country_flag = ENG_imperial_conference_timer_flag
 		}
 
@@ -174,7 +171,6 @@ ENG_imperial_conference_decision = {
 
 		visible = {
 			tag = ENG
-			has_completed_focus = ENG_imperial_conference
 			has_country_flag = ENG_imperial_conference_timer_flag
 		}
 

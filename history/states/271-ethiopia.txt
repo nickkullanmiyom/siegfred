@@ -8,6 +8,7 @@ state=
 	}
 	
 	state_category = town
+	impassable = yes
 
 	history=
 	{

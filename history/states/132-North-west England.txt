@@ -16,17 +16,16 @@ state= {
 			6384 30 
 		}
 		victory_points = {
-			6318 5 
+			6318 30 
 		}
-		
 		buildings = {
 			infrastructure = 8
 			arms_factory = 1
-			industrial_complex = 1
+			industrial_complex = 5
 			dockyard = 3
 			air_base = 3
 			6384 = {
-				naval_base = 5
+				naval_base = 18
 			}
 		}
 		add_core_of = ENG
