@@ -4,6 +4,7 @@ oob = "LIT_1936"
 
 set_research_slots = 3
 
+add_timed_idea = { idea = cantdeploy_unit  days = 200000 }
 add_ideas = {
 	limited_conscription
 }

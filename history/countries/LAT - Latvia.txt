@@ -9,6 +9,7 @@ if = {
 	}
 }
 
+add_timed_idea = { idea = cantdeploy_unit  days = 200000 }
 add_ideas = {
 	limited_conscription
 }
