@@ -350,7 +350,7 @@ instant_effect = {
 				creator = "ITA"
 			}
 			requested_factories = 2
-			progress = 0.20
+			progress = 0.75
 			amount = 1
 		}
 
@@ -361,7 +361,7 @@ instant_effect = {
 				creator = "ITA"
 			}
 			requested_factories = 2
-			progress = 0.20
+			progress = 0.76
 			amount = 1
 		}
 
