@@ -292,6 +292,32 @@ if = {
 	}
 }
 
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 4000
+         producer = GER
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 1500
+         producer = GER
+} 
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 100000
+         producer = GER
+} 
+add_equipment_to_stockpile = {
+         type = motorized_equipment_1
+         amount = 1900
+         producer = GER
+} 
+
+add_equipment_to_stockpile = {
+	type = anti_air_equipment_1
+    amount = 2000
+    producer = GER
+}
 set_politics = {
 	ruling_party = fascism
 	last_election = "1936.1.1"

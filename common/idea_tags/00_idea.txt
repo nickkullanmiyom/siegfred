@@ -34,7 +34,7 @@ idea_categories = {
 		slot = industrial_concern
 		slot = theorist
 
-		cost = 150
+		cost = 100
 		removal_cost = 0
 
 	}

@@ -98,9 +98,6 @@ if = {
 		improved_secondary_battery = 1
 		basic_fire_control_system = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
-	set_global_flag = MTG_second_london_conference
-	set_global_flag = { flag = MTG_naval_treaty_signatories value = 5 }
 }
 
 set_variable = { var = eng_gateway_to_europe_influence value = 0 }
@@ -314,7 +311,6 @@ create_country_leader = {
 		}
 		set_naval_oob = "ENG_1939_Naval"
 		remove_ideas = MTG_naval_treaty_adherent
-		add_ideas = MTG_naval_treaty_adherent_reduced
 		clr_global_flag = MTG_second_london_conference
 		modify_global_flag = { flag = MTG_naval_treaty_signatories value = -2 }
 	}
