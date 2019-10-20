@@ -2,7 +2,7 @@
 
 oob = "CZE_1936"
 
-add_timed_idea = { idea = cantdeploy_unit  days = 920 }
+add_timed_idea = { idea = cantdeploy_unit  days = 10000 }
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -35,6 +35,16 @@ set_popularities = {
 	fascism = 5
 	communism = 10
 }
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 50000
+         producer = CZE
+} 
+add_equipment_to_stockpile = {
+         type = light_tank_equipment_2
+         amount = 500
+         producer = FRA
+} 
 
 create_country_leader = {
 	name = "Edvard Beneš"

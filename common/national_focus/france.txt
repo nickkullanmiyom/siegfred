@@ -1054,7 +1054,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 5
+			army_experience = 100
 			add_ideas = FRA_infantry_focus
 		}
 	}
@@ -1131,7 +1131,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 5
+			army_experience = 120
 			add_ideas = FRA_motorized_focus
 		}
 	}
