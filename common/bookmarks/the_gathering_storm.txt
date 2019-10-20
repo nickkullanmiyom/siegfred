@@ -160,11 +160,6 @@ bookmarks = {
 			ideas = {
 				AST_great_depression_1
 			}
-			focuses = {
-				AST_never_another_gallipoli
-				AST_support_indonesian_uprising
-				AST_delegation_to_china
-			}
 		}
 		"NZL"={
 			minor = yes

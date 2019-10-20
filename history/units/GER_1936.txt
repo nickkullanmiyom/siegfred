@@ -116,7 +116,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 6334
+		location = 13218
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -125,9 +125,18 @@ units = {
 				is_name_ordered = yes
 				name_order = 12
 		}
-		location = 537
+		location = 13218
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 13218
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.8
 	}
 	# III. Armeekorps
 	division= {	
@@ -135,18 +144,18 @@ units = {
 				is_name_ordered = yes
 				name_order = 3
 		}
-		location = 478
+		location = 13218
 		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.8
 	}
 	division= {	
 		division_name = {
 				is_name_ordered = yes
 				name_order = 23
 		}
-		location = 478
+		location = 13218
 		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.8
 	}
 	# Panzertruppenkommando
 	division= {	
@@ -164,7 +173,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 6521
+		location = 13218
 		division_template = "PanzerSS-Division"
 		start_experience_factor = 1.0
 		force_equipment_variants = { light_tank_equipment_2 = { owner = "GER" } }
@@ -185,7 +194,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 11
 		}
-		location = 266
+		location = 6521
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
@@ -194,7 +203,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 21
 		}
-		location = 3384
+		location = 6521
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
