@@ -1330,6 +1330,7 @@ focus_tree = {
 		x = 1
 		y = 0
 		completion_reward = {
+		    add_ideas = fall_blau
 			add_political_power = -75
 	    }
 	}

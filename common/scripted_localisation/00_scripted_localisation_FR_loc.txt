@@ -17014,7 +17014,6 @@ defined_text = {
 			OR = {
 				AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_idea = soviet_german_friendship } } # the_berlin_moscow_axis
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
-				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
@@ -17104,7 +17103,6 @@ defined_text = {
 			OR = {
 				AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_idea = soviet_german_friendship } } # the_berlin_moscow_axis
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
-				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_bolivarian_alliance } } # faction_mexico_bolivarian_alliance
@@ -17197,7 +17195,6 @@ defined_text = {
 			OR = {
 				AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_idea = soviet_german_friendship } } # the_berlin_moscow_axis
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
-				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
@@ -17288,7 +17285,6 @@ defined_text = {
 			OR = {
 				AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_idea = soviet_german_friendship } } # the_berlin_moscow_axis
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
-				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
@@ -17382,7 +17378,6 @@ defined_text = {
 			OR = {
 				AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_idea = soviet_german_friendship } } # the_berlin_moscow_axis
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
-				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
@@ -17473,7 +17468,6 @@ defined_text = {
 			OR = {
 				AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_idea = soviet_german_friendship } } # the_berlin_moscow_axis
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
-				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
@@ -17561,7 +17555,6 @@ defined_text = {
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_decolonization_left_faction } # ENG_coalition_of_free_commonwealth_states
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
-				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
@@ -17630,7 +17623,6 @@ defined_text = {
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_decolonization_left_faction } # ENG_coalition_of_free_commonwealth_states
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
-				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
@@ -17702,7 +17694,6 @@ defined_text = {
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_decolonization_left_faction } # ENG_coalition_of_free_commonwealth_states
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
-				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
@@ -17774,7 +17765,6 @@ defined_text = {
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_decolonization_left_faction } # ENG_coalition_of_free_commonwealth_states
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
-				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
@@ -17846,7 +17836,6 @@ defined_text = {
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_decolonization_left_faction } # ENG_coalition_of_free_commonwealth_states
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
-				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
@@ -17918,7 +17907,6 @@ defined_text = {
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_smash_the_bureaucrats } } # faction_mexico_4th_international
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_decolonization_left_faction } # ENG_coalition_of_free_commonwealth_states
 				AND = { is_in_faction_with = FRA FRA = { is_faction_leader = yes } } # french_entente_alliance
-				AND = { is_in_faction_with = AST AST = { is_faction_leader = yes } AST = { has_completed_focus = AST_the_south_west_pacific_initiative } } # south_west_pacific_initiative
 				AND = { is_in_faction_with = CZE CZE = { is_faction_leader = yes } CZE = { has_completed_focus = CZE_an_entente_of_our_own } } # CZE_little_entente
 				AND = { is_in_faction_with = HOL HOL = { is_faction_leader = yes } HOL = { has_completed_focus = HOL_form_the_benelux has_completed_focus = HOL_foundations_for_a_european_union } } # european_union
 				AND = { is_in_faction_with = MEX MEX = { is_faction_leader = yes } MEX = { has_completed_focus = MEX_focus_hispanic_alliance NOT = { has_completed_focus = MEX_focus_crusade_against_atheism } } } # faction_mexico_hispanic_alliance
