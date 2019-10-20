@@ -570,7 +570,6 @@ ideas = {
 			available = {
 				if = {
 					limit = { has_dlc = "Together for Victory" }
-					has_completed_focus = AST_support_the_centre_party
 				}
 				if = {
 					limit = { has_dlc = "Man the Guns" }	
