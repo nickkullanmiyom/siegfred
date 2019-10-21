@@ -45,6 +45,21 @@ ideas = {
 		    }
 		}
 
+ger_ss_divisions = {
+       
+            allowed = {
+                always = no
+            } 
+            picture = 
+
+            removal_cost = -1
+            modifier = {
+            army_speed_factor = 0.05
+            research_speed_factor = -0.025
+           } 
+}   
+           
+
 		fall_blau = {
 		
 			allowed = {
