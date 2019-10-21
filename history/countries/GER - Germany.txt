@@ -405,10 +405,10 @@ create_field_marshal = {
 	picture = "Portrait_Germany_Gerd_von_Rundstedt.dds"
 	traits = { defensive_doctrine offensive_doctrine old_guard }
 	skill = 3
-	attack_skill = 3
-	defense_skill = 2
+	attack_skill = 5
+	defense_skill = 5
 	planning_skill = 3
-	logistics_skill = 2
+	logistics_skill = 5
 	id = 1
 }
 
@@ -418,10 +418,10 @@ create_field_marshal = {
 	traits = {  offensive_doctrine armor_officer }
 	skill = 3
 	id = 2
-	attack_skill = 3
-	defense_skill = 2
+	attack_skill = 6
+	defense_skill = 5
 	planning_skill = 2
-	logistics_skill = 3
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -439,12 +439,12 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Erwin Rommel"
 	picture = "Portrait_Germany_Erwin_Rommel.dds"
-	traits = { trickster trait_reckless war_hero armor_officer media_personality }
-	skill = 4
+	traits = { desert_fox trickster trait_reckless war_hero panzer_leader armor_officer media_personality }
+	skill = 7
 	id = 4
-	attack_skill = 4
+	attack_skill = 7
 	defense_skill = 4
-	planning_skill = 2
+	planning_skill = 6
 	logistics_skill = 3
 }
 
@@ -454,8 +454,8 @@ create_corps_commander = {
 	traits = { trickster armor_officer brilliant_strategist trait_engineer }
 	skill = 4
 	id = 5
-	attack_skill = 2
-	defense_skill = 4
+	attack_skill = 6
+	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 4
 }
@@ -527,10 +527,10 @@ create_corps_commander = {
 	traits = { cavalry_officer }
 	skill = 4
 	id = 11
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 4
+	attack_skill = 9
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -540,9 +540,9 @@ create_corps_commander = {
 	skill = 3
 	id = 13
 	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 2
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
 }
 
 create_corps_commander = {
@@ -551,8 +551,8 @@ create_corps_commander = {
 	traits = { trait_cautious armor_officer }
 	skill = 3
 	id = 14
-	attack_skill = 1
-	defense_skill = 2
+	attack_skill = 3
+	defense_skill = 3
 	planning_skill = 4
 	logistics_skill = 3
 }
@@ -563,22 +563,22 @@ create_corps_commander = {
 	traits = { armor_officer trait_reckless politically_connected}
 	skill = 3
 	id = 15
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 3
+	attack_skill = 5
+	defense_skill = 7
+	planning_skill = 2
+	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Kurt Student"
 	picture = "Portrait_Germany_Kurt_Student.dds"
-	traits = { commando trait_reckless }
+	traits = { infantry_officer commando trait_reckless }
 	skill = 4
 	id = 16
-	attack_skill = 4
+	attack_skill = 7
 	defense_skill = 2
 	planning_skill = 4
-	logistics_skill = 3
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -744,7 +744,7 @@ create_navy_leader = {
 	traits = { navy_career_officer seawolf }
 	skill = 5
 	id = 26
-	attack_skill = 5
+	attack_skill = 8
 	defense_skill = 3
 	maneuvering_skill = 3
 	coordination_skill = 5

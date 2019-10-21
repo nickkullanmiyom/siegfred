@@ -2925,7 +2925,6 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				NOT = { AST = { has_completed_focus = AST_the_singapore_strategy } } #ENG can defend its own stuff!
 				factor = 0.2
 			}
 		}
@@ -3147,11 +3146,7 @@ focus_tree = {
 			has_war_with = JAP
 		}
 
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = GDU_refinery_prebuild_disincentive
-				add_idea = AST_synthetic_rubber
-			}			
+		completion_reward = {		
         	modify_building_resources = {
         	   building = synthetic_refinery
         	   resource = rubber
