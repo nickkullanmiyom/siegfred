@@ -5,6 +5,7 @@ oob = "GER_1936"
 set_fuel_ratio = 0.8
 
 add_timed_idea = { idea = cantdeploy_unit  days = 730 }
+add_ideas = { idea = ger_ss_divisions } 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
