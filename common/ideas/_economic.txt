@@ -559,6 +559,32 @@ ideas = {
 				}
    			}
 		}
+
+		fascism_trade = {
+
+		visible = {
+        has_government = fascism
+		}
+			cost = 137
+			removal_cost = -1
+			
+			available = {
+			    OR = { 
+			    has_government = fascism
+			}
+		}
+
+			picture = fascist_economy_gfx
+
+			modifier = {
+				min_export = 0.6
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.10
+			}
+			cancel_if_invalid = no
+		}
 		
 		closed_economy = {
 			
