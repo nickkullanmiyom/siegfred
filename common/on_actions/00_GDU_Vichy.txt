@@ -1,0 +1,288 @@
+on_actions = {
+	on_capitulation = { 
+		effect = { 			
+			if = {
+				limit = { 
+					AND = { 
+						tag = FRA 
+						NOT = { has_global_flag = fall_of_france } 
+					}
+				}
+				
+				set_global_flag = achievement_france_surrender
+				set_global_flag = fall_of_france
+				
+				country_event = { days = 1 id = news.34 }
+				
+				country_event = { days = 7 id = free_france.1 }
+				
+				
+				if = { 
+					limit = { 
+						AND = { 
+							ITA = { NOT = { has_war_with = ENG } }  
+						}
+					}
+					ITA = { country_event = { id = pfu.35 days = 20 } } # Force Italian war declaration on the allies.
+				}
+				
+				FRF = {
+					
+					add_state_core = 539
+					
+					##add checks if general exists
+					remove_unit_leader = 801 # Jean de Lattre de Tassigny
+					remove_unit_leader = 802 # Alphonse Juin
+					remove_unit_leader = 803 # Maurice Gamelin
+					remove_unit_leader = 804 # Maxime Weygand
+					remove_unit_leader = 805 # Alphonse Georges
+					remove_unit_leader = 806 # De Gaulle (We replace him.) 
+					remove_unit_leader = 807 # Philippe leclerc (We replace him) 
+					remove_unit_leader = 808 # Henri Giraud (Captured)
+					remove_unit_leader = 809 # Charles Huntziger
+					remove_unit_leader = 810 # François Darlan
+					remove_unit_leader = 811 # Jean-Marie Charles Abrial
+					remove_unit_leader = 812 # Jean-Pierre Esteva
+					remove_unit_leader = 813 # René-Émile Godfroy
+					remove_unit_leader = 814 # Jean de Laborde
+					add_ideas = FRA_FREE_army
+					set_cosmetic_tag = FRA_FREE
+			
+					create_corps_commander = {
+						name = "Charles De Gaulle"
+						picture = "Portrait_France_Charles_De_Gaulle.dds"
+						traits = { armor_officer harsh_leader media_personality trait_reckless panzer_leader exiled_leader }
+						skill = 6
+						attack_skill = 6
+						defense_skill = 6
+						planning_skill = 3
+						logistics_skill = 4
+					}
+					create_field_marshal = {
+						name = "Philippe Leclerc"
+						picture = "portrait_france_philippe_leclerc.dds"
+						traits = { armor_officer trait_reckless career_officer politically_connected panzer_leader skilled_staffer organizer exiled_leader }
+						skill = 5
+						attack_skill = 5
+						defense_skill = 5
+						planning_skill = 3
+						logistics_skill = 6
+					}
+					create_corps_commander = {
+						name = "Marie-Pierre Koenig"
+						picture = "Portrait_France_Marie_Pierre_Koenig.dds"
+						traits = { trickster trait_mountaineer infantry_leader infantry_officer career_officer harsh_leader exiled_leader }
+						skill = 5
+						attack_skill = 6
+						defense_skill = 5
+						planning_skill = 4
+						logistics_skill = 4
+					}
+					create_corps_commander = {
+						name = "Edgard de Larminat"
+						picture = "Portrait_France_Generic_land_4.dds"
+						traits = { desert_fox war_hero politically_connected trait_reckless cavalry_leader armor_officer exiled_leader }
+						skill = 4
+						attack_skill = 5
+						defense_skill = 3
+						planning_skill = 1
+						logistics_skill = 4
+					}
+					create_navy_leader = {
+						name = "Émile Muselier"
+						picture = "Portrait_France_Emile_Muselier.dds"
+						traits = { spotter }
+						skill = 3
+						attack_skill = 3
+						defense_skill = 3
+						maneuvering_skill = 3
+						coordination_skill = 3
+					}
+					set_country_flag = free_france
+					set_capital = 539
+					
+				}
+				
+				if = {
+						limit = {
+						AND = {
+							21 = { #Provence
+								NOT = { is_controlled_by = ITA } 
+							}
+						}
+					}
+					EFR = { transfer_state = 21 }
+				}
+				if = {
+					limit = {
+						AND = {
+							1 = { #Corsica
+								NOT = { is_controlled_by = ITA } 
+							}
+						}
+					}
+					EFR = { transfer_state = 1 }
+				}
+				if = {
+					limit = {
+						AND = {
+							665 = { #Gabes
+								NOT = { is_controlled_by = ITA } 
+							}
+						}
+					}
+					EFR = { transfer_state = 665 }
+				}
+				if = {
+					limit = {
+						AND = {
+							665 = { #Gabes
+								NOT = { is_controlled_by = ITA } 
+							}
+						}
+					}
+					EFR = { transfer_state = 665 }
+				}			
+				if = {
+					limit = {
+						AND = { 
+							32 = { #Alpes
+								NOT = { is_controlled_by = ITA } 
+							}
+						}
+					}
+					EFR = { transfer_state = 32 }
+				}
+				if = {
+					limit = {
+						AND = { 
+							735 = { #Savoy
+								NOT = { is_controlled_by = ITA } 
+							}
+						}
+					}
+					EFR = { transfer_state = 735 }
+				}
+				
+				
+				
+				
+				if = {
+						limit = {
+						AND = {
+							21 = { #Provence
+								is_controlled_by = ITA
+							}
+						}
+					}
+					ITA = { transfer_state = 21 }
+					21 = { add_claim_by = ITA }										
+				}
+				if = {
+					limit = {
+						AND = {
+							1 = { #Corsica
+								is_controlled_by = ITA
+							}
+						}
+					}
+					ITA = { transfer_state = 1 }
+					1 = { add_claim_by = ITA }										
+				}
+				if = {
+					limit = {
+						AND = {
+							665 = { #Gabes
+								is_controlled_by = ITA 
+							}
+						}
+					}
+					ITA = { transfer_state = 665 }
+					665 = { add_claim_by = ITA }										
+				}				
+				if = {
+					limit = {
+						AND = {
+							458 = { #Tunisia
+								is_controlled_by = ITA
+							}
+						}
+					}
+					ITA = { transfer_state = 458 }
+					458 = { add_claim_by = ITA }					
+				}
+				if = {
+					limit = {
+						AND = { 
+							32 = { #Alpes
+								is_controlled_by = ITA 
+							}
+						}
+					}
+					ITA = { transfer_state = 32 }
+					32 = { add_claim_by = ITA }					
+				}
+				if = {
+					limit = {
+						AND = { 
+							735 = { #Savoy
+								is_controlled_by = ITA 
+							}
+						}
+					}
+					ITA = { transfer_state = 735 }
+					735 = { add_claim_by = ITA }
+				}				
+			
+				EFR = {
+					transfer_state = 26
+					set_capital = 26 
+					
+					country_event = { id = gduvichy.6 days = 4 }  # Give Vichy stuff, spacing out the African and Asian colonies to avoid death via much lag # 
+					
+					add_ideas = idea_EFR_neutrality
+					diplomatic_relation = { country = GER relation = non_aggression_pact }
+				
+					set_capital = 26					
+					
+					set_politics = {
+						ruling_party = fascism
+						elections_allowed = no
+					}
+
+					set_popularities = {
+						fascism = 70
+						democratic = 18
+						communism = 2
+						neutrality = 10
+					}
+
+				}
+				
+				every_state = {
+					limit = {
+						is_core_of = FRA
+						is_controlled_by = EFR
+					}
+					add_core_of = EFR
+				}
+				every_state = {
+					limit = {
+						NOT = {
+							is_core_of = FRA
+						}
+						is_controlled_by = EFR
+					}
+					add_claim_by  = FRA
+				}
+				28 = {
+					remove_core_of = EFR
+				}
+						
+						
+						
+			}
+		}
+	}
+
+}
