@@ -45,6 +45,21 @@ ideas = {
 		    }
 		}
 
+		ger_ss_divisions = {
+       
+            allowed = {
+                always = no
+            } 
+            picture = generic_opperession
+
+            removal_cost = -1
+            modifier = {
+            army_speed_factor = 0.05
+            research_speed_factor = -0.025
+            
+           } 
+        }   
+
 		fall_blau = {
 		
 			allowed = {
@@ -1764,65 +1779,8 @@ ideas = {
 			ai_will_do = {
 				factor = 1
 			}
-		}
-
-		ernst_thalmann = {
-
-			
-			allowed = {
-				original_tag = GER
-			}
-			
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			
-			traits = { communist_revolutionary }
-
-			do_effect = {
-				NOT = {
-					has_government = communism
-				}
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
 		}	
 			
-		kurt_schumacher = {
-
-			
-			allowed = {
-				original_tag = GER
-			}
-			
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-				if = {
-					limit = { has_dlc = "Waking the Tiger" }
-				}
-			}
-			
-			traits = { democratic_reformer }
-
-			do_effect = {
-				NOT = {
-					has_government = democratic
-				}
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		
 		joseph_goebbels = {
 
 			

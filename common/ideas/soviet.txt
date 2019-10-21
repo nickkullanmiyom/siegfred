@@ -78,7 +78,7 @@ ideas = {
 			}
 
 			modifier = {
-				industrial_capacity_factory = 0.10
+				industrial_capacity_factory = 0.025
 			}
 		}
 		
@@ -152,6 +152,22 @@ ideas = {
 			
 			modifier = {
 				subversive_activites_upkeep = -0.5
+				land_reinforce_rate = 0.05
+			}
+		}
+
+		stalin_cons = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+			
+			modifier = {
 				land_reinforce_rate = 0.05
 			}
 		}
