@@ -1,0 +1,279 @@
+﻿add_namespace = gduvichy
+
+#### Event that gives Vichy stuff from 00_GDU_Vichy, we space it out to avoid destroying inferior CPU's #### 
+country_event = { 
+	id = gduvichy.1
+	title = gduvichy.1.t
+	desc = gduvichy.1.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = { 
+					transfer_state = 22
+					transfer_state = 31
+					transfer_state = 25
+					transfer_state = 20
+					transfer_state = 33
+					country_event = { id = gduvichy.2 days = 3 } 
+					GER = { add_to_faction = SPR }
+					SPR = {
+						declare_war_on = {
+							target = ENG 
+							type = annex_everything
+						}
+					}
+					EFR = { give_military_access = SPR }
+					
+	}
+	
+	option = {
+		name = gduvichy.1.a
+	
+	}
+	
+	
+	
+}
+
+country_event = { 
+	id = gduvichy.2
+	title = gduvichy.2.t
+	desc = gduvichy.2.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = {  
+					transfer_state = 677
+					transfer_state = 680
+					transfer_state = 553
+					transfer_state = 554
+					transfer_state = 459
+					transfer_state = 460
+					transfer_state = 461
+					transfer_state = 462
+					transfer_state = 513
+					country_event = { id = gduvichy.3 days = 3 } 
+	}
+	
+	option = {
+		name = gduvichy.2.a
+	
+	}
+	
+	
+	
+}
+
+country_event = { 
+	id = gduvichy.3
+	title = gduvichy.3.t
+	desc = gduvichy.3.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = {  
+					transfer_state = 556 # Africa 
+					transfer_state = 557
+					transfer_state = 272
+					transfer_state = 778 
+					transfer_state = 781
+					
+					country_event = { id = gduvichy.4 days = 3 }
+	}
+	
+	option = {
+		name = gduvichy.3.a
+	
+	}
+	
+	
+	
+}
+
+country_event = { 
+	id = gduvichy.4
+	title = gduvichy.4.t
+	desc = gduvichy.4.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = {  
+					transfer_state = 779
+					transfer_state = 780
+					transfer_state = 776
+					transfer_state = 777
+					transfer_state = 298 # Liberia, lol 
+					transfer_state = 543 #Madagascar 
+					
+					country_event = { id = gduvichy.5 days = 3 }
+
+	}
+	
+	option = {
+		name = gduvichy.4.a
+	
+	}
+	
+	
+	
+}
+
+country_event = { 
+	id = gduvichy.5
+	title = gduvichy.5.t
+	desc = gduvichy.5.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = {  
+
+					
+					transfer_state = 671
+					transfer_state = 670
+					transfer_state = 741
+					transfer_state = 286
+					
+				EFR = { country_event = { id = france.1 days = 5 } }							
+					
+				country_event = { id = gduvichy.8 days = 3 }				
+				
+	}
+		
+	
+	option = {
+		name = gduvichy.5.a
+	
+	}
+	
+	
+	
+}
+
+
+
+country_event = { 
+	id = gduvichy.6
+	title = gduvichy.6.t
+	desc = gduvichy.6.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = {  
+
+					
+				#### Stuff to replace the old France (FRA) with a brand new Free France (FRF) country #### 
+			
+				FRF = {
+					transfer_state = 539
+					transfer_state = 772
+					transfer_state = 773
+					transfer_state = 660
+					transfer_state = 774
+					transfer_state = 268
+					transfer_state = 708
+					transfer_state = 706					
+				}
+			
+				#### switch France (FRA) to Free France (FRF) ####
+
+				FRF = {
+					change_tag_from = FRA
+					add_state_core = 539
+				}					
+
+				FRF = { inherit_technology = FRA }
+				
+				ENG = { add_to_faction = FRF }
+				
+				GER = { declare_war_on = { target = FRF type = annex_everything } }
+					
+				country_event = { id = gduvichy.7 days = 3 }
+				FRF = { news_event = { id = france.20 days = 1 } }
+					
+	}
+	
+	option = {
+		name = gduvichy.6.a
+	
+	}
+	
+	
+	
+}
+
+
+
+country_event = { 
+	id = gduvichy.7
+	title = gduvichy.7.t
+	desc = gduvichy.7.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = {  
+
+					
+				FRF = {
+					transfer_state = 713
+					transfer_state = 320
+					transfer_state = 728
+					transfer_state = 635
+					transfer_state = 734
+					transfer_state = 641
+					transfer_state = 310
+					transfer_state = 694
+					transfer_state = 730					
+				}	
+					
+				country_event = { id = gduvichy.1 days = 3 }					
+					
+	}
+	
+	option = {
+		name = gduvichy.7.a
+	
+	}
+	
+	
+	
+}
+
+
+
+
+country_event = { 
+	id = gduvichy.8
+	title = gduvichy.8.t
+	desc = gduvichy.8.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = {  
+
+					
+				GER = {	
+					annex_country = {
+							target = FRA
+							transfer_troops = no
+					}
+				}	
+										
+					
+	}
+	
+	option = {
+		name = gduvichy.8.a
+	
+	}
+	
+	
+	
+}

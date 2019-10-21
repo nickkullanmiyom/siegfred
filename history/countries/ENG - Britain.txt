@@ -1643,7 +1643,6 @@ if = {
 				rear_1_custom_slot = ship_mine_layer_sub
 			}
 		}
-	}
 		create_equipment_variant = {
 		    name = "Hurricane 109 B"
 		    type = fighter_equipment_1

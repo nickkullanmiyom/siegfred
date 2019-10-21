@@ -1,0 +1,268 @@
+﻿###########################
+# FREE FRANCE events
+###########################
+##
+##
+add_namespace = free_france
+
+#Appel du 18 Juin
+news_event = {
+	id = free_france.1
+	title = free_france.1.t
+	desc = free_france.1.desc
+	picture = GFX_news_event_appel_18_juin
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = free_france.1.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+# Military Operations in West Africa
+country_event = {
+	id = free_france.2
+	title = free_france.2.t
+	desc = free_france.2.desc
+	picture = GFX_report_event_west_africa_sway
+
+	is_triggered_only = yes
+
+	#Try to attack
+	option = {
+		name = free_france.2.a
+		ai_chance = {
+			factor = 100
+		}
+		EFR = { country_event = free_france.3 }
+	}
+}
+
+# Vichy defense in West Africa
+country_event = {
+	id = free_france.3
+	title = free_france.3.t
+	desc = free_france.3.desc
+	picture = GFX_report_event_west_africa_sway
+
+	is_triggered_only = yes
+
+	#Repulse them !
+	option = {
+		name = free_france.3.a
+		ai_chance = {
+			factor = 100
+		}
+		FRF = { country_event = free_france.4 }
+	}
+}
+
+# Failure of West Africa
+country_event = {
+	id = free_france.4
+	title = free_france.4.t
+	desc = free_france.4.desc
+	picture = GFX_report_event_west_africa_sway
+
+	is_triggered_only = yes
+
+	#Damn
+	option = {
+		name = free_france.4.a
+		ai_chance = {
+			factor = 100
+		}
+		FRF = { transfer_state = 557 }
+		FRF = { transfer_state = 272 }
+		FRF = { transfer_state = 780 }
+		FRF = { transfer_state = 298 }
+		FRF = { transfer_state = 556 }
+		FRF = { transfer_state = 779 }
+		FRF = { transfer_state = 778 }
+		FRF = { transfer_state = 781 }
+		FRF = { transfer_state = 777 }
+		FRF = { transfer_state = 776 }
+	}
+}
+
+# Military Operations in Syria
+country_event = {
+	id = free_france.5
+	title = free_france.5.t
+	desc = free_france.5.desc
+	picture = GFX_report_event_syria_sway
+
+	is_triggered_only = yes
+
+	#Try to attack and ask the british for help
+	option = {
+		name = free_france.5.a
+		ai_chance = {
+			factor = 100
+		}
+		ENG = { country_event = free_france.6 }
+	}
+}
+
+# British response for help in Syria
+country_event = {
+	id = free_france.6
+	title = free_france.6.t
+	desc = free_france.6.desc
+	picture = GFX_report_event_syria_sway
+
+	is_triggered_only = yes
+
+	#Sure boyo
+	option = {
+		name = free_france.6.a
+		ai_chance = {
+			factor = 100
+		}
+		FRF = { country_event = free_france.7 }
+	}
+}
+
+# The British accept
+country_event = {
+	id = free_france.7
+	title = free_france.7.t
+	desc = free_france.7.desc
+	picture = GFX_report_event_syria_sway
+
+	is_triggered_only = yes
+
+	# Très bien !
+	option = {
+		name = free_france.7.a
+		ai_chance = {
+			factor = 100
+		}
+		EFR = { country_event = free_france.80 }
+	}
+}
+
+# Vichy responds to the attack
+country_event = {
+	id = free_france.80
+	title = free_france.80.t
+	desc = free_france.80.desc
+	picture = GFX_report_event_syria_sway
+
+	is_triggered_only = yes
+
+	# Ils nous ont battus les salops
+	option = {
+		name = free_france.80.a
+		ai_chance = {
+			factor = 100
+		}
+		FRF = { transfer_state = 553 }
+		FRF = { transfer_state = 677 }
+		FRF = { transfer_state = 554 }
+		FRF = { transfer_state = 680 }
+		hidden_effect = {
+			FRF = {
+				custom_effect_tooltip = FRA_free_france_operation_exporter_tt
+				country_event = free_france.71
+			}
+		}
+	}
+}
+
+# Victoire pour l'opération Exporter
+country_event = {
+	id = free_france.71
+	title = free_france.71.t
+	desc = free_france.71.desc
+	picture = GFX_report_event_syria_sway
+
+	is_triggered_only = yes
+
+	# Yay
+	option = {
+		name = free_france.71.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+# Organize the Resistance in NAF
+country_event = {
+	id = free_france.8
+	title = free_france.8.t
+	desc = free_france.8.desc
+	picture = GFX_report_event_french_resistance
+
+	is_triggered_only = yes
+
+	option = {
+		name = free_france.8.a
+		ai_chance = {
+			factor = 100
+		}
+		FRF = { transfer_state = 309 }
+		FRF = { transfer_state = 695 }
+	}
+}
+
+# Unleash the Resistance in NAF
+country_event = {
+	id = free_france.9
+	title = free_france.9.t
+	desc = free_france.9.desc
+	picture = GFX_report_event_french_resistance
+
+	is_triggered_only = yes
+
+	option = {
+		name = free_france.9.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+
+country_event = {
+	id = free_france.11
+	title = free_france.11.t
+	desc = free_france.11.desc
+	picture = GFX_report_event_french_resistance
+
+
+	trigger = {
+		tag = FRA
+		NOT = { has_global_flag = FRA_dontleave }
+	}
+
+	immediate = {
+		set_global_flag = FRA_dontleave
+	}
+
+	option = {
+		name = pfu.10.a
+	}
+	mean_time_to_happen = { days = 30 }
+}
+
+# Military Operations in Madagascar
+country_event = {
+	id = free_france.12
+	title = free_france.12.t
+	desc = free_france.12.desc
+	picture = GFX_report_event_syria_sway
+
+	is_triggered_only = yes
+
+	option = {
+		name = free_france.12.a
+		FRF = { transfer_state = 543 }
+	}
+}

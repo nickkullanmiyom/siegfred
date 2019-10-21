@@ -50,13 +50,13 @@ ideas = {
             allowed = {
                 always = no
             } 
-            picture = generic_opperession
+            picture = prc_the_long_march
 
             removal_cost = -1
             modifier = {
-            army_speed_factor = 0.05
-            research_speed_factor = -0.025
-            
+            	conscription = 0.005
+                army_speed_factor = 0.05
+                research_speed_factor = -0.025
            } 
         }   
 

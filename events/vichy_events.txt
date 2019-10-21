@@ -1,0 +1,100 @@
+﻿add_namespace = vichy
+
+
+# Invite Vichy into the Allies # US text
+country_event = {
+	id = vichy.1
+	title = vichy.1.t
+	desc = vichy.1.desc
+	picture = GFX_report_event_vichy_negotiations
+	is_triggered_only = yes
+	
+	option = {
+		name = vichy.1.a
+	}
+}
+
+# Vichy receives the invitation
+country_event = {
+	id = vichy.2
+	title = vichy.2.t
+	desc = vichy.2.desc
+	picture = GFX_report_event_vichy_negotiations
+	
+	is_triggered_only = yes
+		
+	option = { # stay neutral & prepare to our defenses
+		name = vichy.2.a
+		ai_chance = { factor = 100 }
+		USA = { country_event = { id = vichy.3 } }
+		news_event = { hours = 6 id = pfu.30 }
+	}	
+}
+
+# Vichy Answers to USA # USA text
+country_event = {
+	id = vichy.3
+	title = vichy.3.t
+	desc = vichy.3.desc
+	picture = GFX_report_event_vichy_neutrality
+	is_triggered_only = yes
+	
+	# Prepare for Torch
+	option = {
+		name = vichy.3.a
+		every_country = { 
+			limit = { 
+				is_in_faction_with = USA  
+			}
+			declare_war_on = {
+				target = EFR
+				type = annex_everything
+			}
+				USA = {
+					transfer_state = 461
+					transfer_state = 462					
+					}	
+		}
+			461 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}			
+			}
+			462 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}			
+			}
+		}
+}
+
+# Vichy loses neutrality when attacked
+country_event = {
+	id = vichy.4
+	title = vichy.4.t
+	desc = vichy.4.desc
+	picture = GFX_report_event_vichy_neutrality
+	fire_only_once = yes
+	hidden = yes
+	
+	trigger = {
+		tag = EFR
+		EFR = { has_war_with = USA }
+	}
+	
+	immediate = {
+		remove_ideas = idea_EFR_neutrality
+		GER = { puppet = EFR }
+	}
+	
+	option = {
+		name = vichy.3.a	
+	}
+}
+
+
+

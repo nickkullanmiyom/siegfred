@@ -16,7 +16,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_ethiopian_war_logistics
-		icon = GFX_ITA_Veni_Vedi_Veci
+		icon = GFX_Focus_generic_italy_first
 		x = 0
 		y = 0
 		cost = 10

@@ -125,6 +125,25 @@ ideas = {
 	
 	
 	political_advisor = {
+		FRA_FREE_felix_eboue = { ##gave Free France  first lands
+		
+		    Cost = 25
+			
+			allowed = {
+				original_tag = FRF
+			}
+			
+			available = {
+				original_tag = FRF
+				has_country_flag = free_france
+			}
+			
+			traits = { efficient_colonial_administrator }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
 	}
 	army_chief = {
 		FRA_FREE_georges_catroux = { ##		
@@ -274,7 +293,36 @@ ideas = {
 			
 			ai_will_do = { 
 				factor = 1 
-			} 	
+			} 
+			
 		}		
-	}	
+
+	}
+	
+	naval_manufacturer = {
+
+		designer = yes	
+		
+		free_french_fleet = {
+			
+			picture = generic_naval_manufacturer_2
+
+			allowed = {
+				original_tag = FRF
+			}
+
+			available = {
+				has_completed_focus = FRA_revive_naval_construction
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}			
+
+			traits = { free_france_fleet }
+
+			modifier = {
+			}
+		}
+    }
 }

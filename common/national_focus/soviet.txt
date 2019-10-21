@@ -135,29 +135,77 @@ focus_tree = {
 
 	}
 	focus = {
-		id = sov_great_purge
-		text = GreatPurge
-		icon = GFX_goal_unknown
-		cost = 10,00
+		id = SOV_great_purge
+		icon = GFX_goal_generic_war_with_comintern
 		prerequisite = {
 			focus = stalin_constitution
 		}
 		x = 8
 		y = 2
+        cost = 0
 
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = SOV_great_purge_complete_tt 
+				has_country_flag = SOV_purge_complete
+			}
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = SOV_great_purge_completed
+
+			#Full military purge. Hardest penalty
+			if = {
+				limit = {
+					OR = {
+						has_country_flag = purge_1_group_a
+						has_country_flag = purge_1_group_b
+					}
+					OR = {
+						has_country_flag = purge_2_group_a
+						has_country_flag = purge_2_group_b
+					}
+				}
+				add_timed_idea = {
+					idea = officers_purged
+					days = 2200
+				}
+				hidden_effect = {
+					country_event = { id = soviet.37 days = 146 }
+				}
+				hidden_effect = {
+					news_event = { hours = 6 id = news.219 }
+				}
+			}
+		}
 	}
+
 	focus = {
 		id = great_patriotic_war
 		text = GreatPatrioticWar
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = sov_great_purge
+			focus = SOV_great_purge
 		}
 		x = 8
 		y = 3
+		avaible = {
+			OR = {
+				has_war_with = GER
+				ENG = { surrender_progress > 0.15 }
+				USA = { surrender_progress > 0.15 }			
+			}
 
+	    cancel_if_invalid = no
+		continue_if_invalid = yes
+
+		completion_reward = {
+			add_ideas = tot_economic_mobilisation 	
+		    }
+		}
 	}
+	
 	focus = {
 		id = red_army_get_suck
 		text = RedArmyGetSuck

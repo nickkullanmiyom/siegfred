@@ -1,0 +1,110 @@
+﻿###########################
+# Guide Events
+###########################
+
+add_namespace = guides
+
+
+########################### Starts bellow ###########
+## this is the positioning guide. will be put into an event where people can choose which guide they want to read when other guides explaining gdu mechanics are added too
+
+country_event = {   
+	id = guides.0
+	title = guides.0.t
+	desc = guides.0.d
+
+	picture = GFX_report_event_physics_lab_01 
+
+	is_triggered_only = yes
+    fire_only_once = yes 
+
+			option = {
+				name =  pfu.10.a			
+			}
+}
+
+
+#### Navy Positioning
+country_event = {   
+	id = guides.1
+	title = guides.1.t
+	desc = guides.1.d
+
+	picture = GFX_report_event_physics_lab_01 
+
+	is_triggered_only = yes 
+
+			option = {
+				name =  pfu.10.a			
+			}
+}
+#### GDU Armor Piercing
+country_event = {   
+	id = guides.2
+	title = guides.2.t
+	desc = guides.2.d
+
+	picture = GFX_report_event_physics_lab_01 
+
+	is_triggered_only = yes 
+
+			option = {
+				name =  pfu.10.a			
+			}
+}
+#### GDU Cas Guide
+country_event = {   
+	id = guides.3
+	title = guides.3.t
+	desc = guides.3.d
+
+	picture = GFX_report_event_physics_lab_01 
+
+	is_triggered_only = yes 
+
+			option = {
+				name =  pfu.10.a			
+			}
+}
+#### Air Reverse Gangbang
+country_event = {   
+	id = guides.4
+	title = guides.4.t
+	desc = guides.4.d
+
+	picture = GFX_report_event_physics_lab_01 
+
+	is_triggered_only = yes 
+
+			option = {
+				name =  pfu.10.a			
+			}
+}
+#### Basic Template tips 
+country_event = {   
+	id = guides.5
+	title = guides.5.t
+	desc = guides.5.d
+
+	picture = GFX_report_event_physics_lab_01 
+
+	is_triggered_only = yes 
+
+			option = {
+				name =  pfu.10.a			
+			}
+}
+#### 10 air tips 
+country_event = {   
+	id = guides.6
+	title = guides.6.t
+	desc = guides.6.d
+
+	picture = GFX_report_event_physics_lab_01 
+
+	is_triggered_only = yes 
+
+			option = {
+				name =  pfu.10.a			
+			}
+}
