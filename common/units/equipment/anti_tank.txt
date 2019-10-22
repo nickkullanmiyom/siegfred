@@ -72,7 +72,7 @@ equipments = {
 		priority = 90
 		visual_level = 2
 		
-		hard_attack = 35
+		hard_attack = 34
 		ap_attack = 20
 		
 		build_cost_ic = 4.5
