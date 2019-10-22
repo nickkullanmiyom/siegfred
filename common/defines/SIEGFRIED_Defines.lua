@@ -121,7 +121,7 @@ NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 200
 NDefines.NBuildings.DESTRUCTION_COOLDOWN_IN_WAR = 120
 NDefines.NBuildings.OWNER_CHANGE_EXTRA_SHARED_SLOTS_FACTOR = 1.0 --Scale factor of extra shared slots when state owner change.
 
-NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 45.0  -- increased from 45 to 55 8/3/2019
+NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 60.0  -- increased from 45 to 55 8/3/2019
 NDefines.NTechnology.BASE_TECH_COST = 90
 NDefines.NTechnology.LICENSE_PRODUCTION_TECH_BONUS = 0.00
 NDefines.NTechnology.MAX_TECH_SHARING_BONUS = 0.40  			-- Max technology sharing bonus that can be applied instantly
