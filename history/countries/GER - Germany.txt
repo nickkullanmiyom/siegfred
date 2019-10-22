@@ -330,7 +330,6 @@ add_ideas = {
 	general_staff
 	limited_exports
 	limited_conscription
-	fascism_trade
     ger_ss_divisions
 }
 add_ideas = GER_mefo_bills_1

@@ -7,7 +7,6 @@ set_war_support = 0.8
 
 set_research_slots = 4
 set_fuel_ratio = 1.0
-add_timed_idea = { idea = cantdeploy_unit  days = 730 }
 add_ideas = {
 	state_shintoism
 	limited_exports
@@ -15,7 +14,6 @@ add_ideas = {
 	partial_economic_mobilisation
 
 	JAP_zaibatsus
-	JAP_duplicate_research_efforts
 	JAP_militarism
 }
 
@@ -25,9 +23,6 @@ if = {
 		JAP_interservice_rivalry_balanced		
 	}
 }
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
 
 set_technology = {
 	infantry_weapons = 1
@@ -49,6 +44,7 @@ set_technology = {
 	naval_bomber1 = 1
 	early_bomber = 1
 	CAS1 = 1
+	tactical_bomber1 = 1
 	
 	trench_warfare = 1
 	base_strike = 1
@@ -83,7 +79,6 @@ if = {
 		basic_secondary_battery = 1
 		basic_depth_charges = 1
 		basic_cruiser_armor_scheme = 1
-		cruiser_submarines = 1
 	}
 	set_naval_oob = "JAP_1936_naval"
 }
@@ -107,11 +102,6 @@ if = {
 	set_naval_oob = "JAP_1936_naval_legacy"
 }
 
-create_import = {
-		resource = oil
-		factories = 2
-		exporter = ROM
-}
 
 1939.1.1 = {
 
@@ -131,12 +121,6 @@ create_import = {
 		tot_economic_mobilisation
 		service_by_requirement
 		closed_economy
-	}
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		remove_ideas = MTG_naval_treaty_adherent
 	}
 	complete_national_focus = JAP_purge_the_kodoha_faction
 	complete_national_focus = JAP_army_expansion_law
@@ -184,6 +168,7 @@ create_import = {
 	
 		#doctrines
 		#air
+		force_rotation = 1
 
 		grand_battle_plan = 1
 		prepared_defense = 1
@@ -224,6 +209,7 @@ create_import = {
 			improved_ship_hull_cruiser = 1
 			improved_ship_hull_carrier = 1
 			ship_hull_super_heavy = 1
+			cruiser_submarines = 1
 		}
 		set_naval_oob = "JAP_1939_naval"
 	}
@@ -243,12 +229,11 @@ create_import = {
 	}
 }
 
-set_convoys = 400
+set_convoys = 800
 
 if = {
 	limit = {
 		has_dlc = "Together for Victory"
-		not = { has_dlc = "Waking the Tiger" }
 	}
 	set_autonomy = {
 		target = MEN
@@ -258,71 +243,46 @@ if = {
 		target = MAN
 		autonomous_state = autonomy_integrated_puppet
 	}
-}
-if = {
-	limit = { 
-		not = {
-			has_dlc = "Waking the Tiger"
-			has_dlc = "Together for Victory"
+	else = {
+		set_autonomy = {
+			target = MEN
+			autonomous_state = autonomy_puppet
+		}
+		set_autonomy = {
+			target = MAN
+			autonomous_state = autonomy_puppet
 		}
 	}
-	set_autonomy = {
-		target = MEN
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = MAN
-		autonomous_state = autonomy_puppet
-	}
-}
-if = {
-	limit = { 
-		has_dlc = "Waking the Tiger"
-	}
-	set_autonomy = {
-		target = MEN
-		autonomous_state = autonomy_wtt_imperial_protectorate
-	}
-	set_autonomy = {
-		target = MAN
-		autonomous_state = autonomy_wtt_imperial_protectorate
-	}
 }
 
-add_equipment_to_stockpile = {
-         type = artillery_equipment_1
-         amount = 4000
-         producer = GER
-}  
-add_equipment_to_stockpile = {
-         type = support_equipment
-         amount = 1500
-         producer = GER
-} 
-add_equipment_to_stockpile = {
-         type = infantry_equipment_1
-         amount = 100000
-         producer = GER
-} 
-add_equipment_to_stockpile = {
-         type = motorized_equipment_1
-         amount = 1900
-         producer = GER
-} 
 
-add_equipment_to_stockpile = {
-	type = anti_air_equipment_1
-    amount = 2000
-    producer = GER
-}
-set_politics = {
+set_politics = {	
 	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	fascism = 100
+    democratic = 0
+    fascism = 100
+    communism = 0
+}
+
+
+1939.1.1 = {
+	set_politics = {		
+		ruling_party = fascism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+}
+
+    set_popularities = {
+        democratic = 0
+        fascism = 100
+        communism = 0
+    }
 }
 
 create_country_leader = {
@@ -363,10 +323,10 @@ create_corps_commander = {
 	name = "Tomoyuki Yamashita"
 		picture = "Portrait_Japan_Tomoyuki_Yamashita.dds"
 	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
+		trickster trait_engineer brilliant_strategist politically_connected infantry_leader naval_invader skilled_staffer
 	}
-	skill = 5
-	attack_skill = 4
+	skill = 6
+	attack_skill = 6
 	defense_skill = 5
 	planning_skill = 3
 	logistics_skill = 4
@@ -390,9 +350,9 @@ create_field_marshal = {
 create_field_marshal = {
 	name = "Shunroku Hata"
 		picture = "Portrait_Japan_Shunroku_Hata.dds"
-	traits = { offensive_doctrine JAP_samurai_lineage }
+	traits = { offensive_doctrine JAP_samurai_lineage organizer infantry_leader }
 	skill = 4
-	attack_skill = 3
+	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 2
 	logistics_skill = 4
@@ -423,7 +383,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Shizuichi Tanaka"
 		picture = "Portrait_Japan_Shizuichi_Tanaka.dds"
-	traits = { trickster career_officer infantry_officer }
+	traits = { trickster career_officer infantry_officer infantry_leader hill_fighter }
 	skill = 4
 	attack_skill = 4
 	defense_skill = 3
@@ -445,10 +405,10 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Toshizo Nishio" #Toshizo
 		picture = "Portrait_Japan_Toshizo_Nishio.dds"
-	traits = { brilliant_strategist infantry_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
+	traits = { brilliant_strategist infantry_officer infantry_leader commando }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 2
 }
@@ -641,7 +601,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Hitoshi Imamura"
 		picture = "Portrait_Japan_Hitoshi_Imamura.dds"
-	traits = {  commando career_officer infantry_officer }
+	traits = {  commando career_officer infantry_officer naval_invader jungle_rat }
 	skill = 3
 	attack_skill = 3
 	defense_skill = 1

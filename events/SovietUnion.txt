@@ -897,7 +897,6 @@ country_event = {
 		show_ideas_tooltip = pavel_rychagov
 		show_ideas_tooltip = alexander_novikov
 		custom_effect_tooltip = remove_military_high_command
-		show_ideas_tooltip = gordey_levchenko
 		remove_unit_leader = 406 #gordey_levchenko, naval commander
 		custom_effect_tooltip = soviet.27_tt
 		hidden_effect = {
@@ -905,7 +904,6 @@ country_event = {
 			remove_ideas = yakov_smushkevich
 			remove_ideas = pavel_rychagov
 			remove_ideas = alexander_novikov
-			remove_ideas = gordey_levchenko
 		}
 	}
 	option = {
@@ -1003,7 +1001,6 @@ country_event = {
 		remove_unit_leader = 408
 		remove_ideas = pavel_zhigarev
 		remove_ideas = stepan_krasovsky
-		remove_ideas = arseniy_golovko
 		remove_unit_leader = 409
 		remove_ideas = georgy_zhukov
 		remove_unit_leader = 410

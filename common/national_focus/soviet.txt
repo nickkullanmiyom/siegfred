@@ -14,7 +14,6 @@ focus_tree = {
 	focus = {
 		id = stalin_constitution
 		icon = GFX_focus_ger_great_red_menace
-		text = Stalin_Constitution
 		cost = 10
 		x = 8
 		y = 0
@@ -160,6 +159,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+		        add_research_slot = 1
 				add_timed_idea = {
 					idea = officers_purged
 					days = 2200
@@ -182,14 +182,14 @@ focus_tree = {
 				ENG = { surrender_progress > 0.15 }
 				USA = { surrender_progress > 0.15 }			
 			}
+		}
 
 	    cancel_if_invalid = no
 		continue_if_invalid = yes
 
 		completion_reward = {
 			add_ideas = tot_economic_mobilisation 	
-		    }
-        }
+		}
 	}
 	
 	focus = {
@@ -213,7 +213,9 @@ focus_tree = {
 		x = 12
 		y = 1
 		available = { has_completed_focus = SOV_great_purge }
-
+		completion_reward {
+		    add_ideas = recovery_october 	
+		}
 	}
 	focus = {
 		id = 53K

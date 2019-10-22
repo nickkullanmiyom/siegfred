@@ -574,7 +574,7 @@ ideas = {
 			}
 		}
 
-			picture = Fascismtrade
+			picture = GFX_fascismtrade
 
 			modifier = {
 			    production_speed_arms_factory_factor = 0.035

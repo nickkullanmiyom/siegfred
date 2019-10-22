@@ -1195,6 +1195,271 @@ SOV_great_patriotic_war = {
 	}
 }
 
+#Category only allowed for SOV
+SOV_great_patriotic_war = {
+
+	SOV_Capital_Kuibyshev = {
+
+		icon = generic_political_actions
+
+		visible = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		available = {
+			has_war = yes
+			any_enemy_country = {
+				is_major = yes
+			}
+		}
+
+		complete_effect = {
+				if = { 
+					limit = { 251 = { is_controlled_by = SOV } } 
+					set_capital = 251 
+				}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	SOV_Capital_Moscow = {
+
+		icon = generic_political_actions
+
+		visible = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		available = {
+			has_war = yes
+			any_enemy_country = {
+				is_major = yes
+			}
+		}
+
+		complete_effect = {
+				if = { 
+					limit = { 219 = { is_controlled_by = SOV } } 
+					set_capital = 219 
+				}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	SOV_Capital_Gorki = {
+
+		icon = generic_political_actions
+
+		visible = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		available = {
+			has_war = yes
+			any_enemy_country = {
+				is_major = yes
+			}
+		}
+
+		complete_effect = {
+				if = { 
+					limit = { 252 = { is_controlled_by = SOV } } 
+					set_capital = 252 
+				}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	SOV_Capital_Kazan = {
+
+		icon = generic_political_actions
+
+		visible = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		available = {
+			has_war = yes
+			any_enemy_country = {
+				is_major = yes
+			}
+		}
+
+		complete_effect = {
+				if = { 
+					limit = { 249 = { is_controlled_by = SOV } } 
+					set_capital = 249 
+				}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	SOV_Capital_Kirov = {
+
+		icon = generic_political_actions
+
+		visible = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		available = {
+			has_war = yes
+			any_enemy_country = {
+				is_major = yes
+			}
+		}
+
+		complete_effect = {
+				if = { 
+					limit = { 400 = { is_controlled_by = SOV } } 
+					set_capital = 400 
+				}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	SOV_Capital_Stalingrad = {
+
+		icon = generic_political_actions
+
+		visible = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		available = {
+			has_war = yes
+			any_enemy_country = {
+				is_major = yes
+			}
+		}
+
+		complete_effect = {
+				if = { 
+					limit = { 217 = { is_controlled_by = SOV } } 
+					set_capital = 217 
+				}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	SOV_Capital_Baku = {
+
+		icon = generic_political_actions
+
+		visible = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		available = {
+			has_war = yes
+			any_enemy_country = {
+				is_major = yes
+			}
+		}
+
+		complete_effect = {
+				if = { 
+					limit = { 229 = { is_controlled_by = SOV } } 
+					set_capital = 229 
+				}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	SOV_Capital_Magnitogorsk = {
+
+		icon = generic_political_actions
+
+		visible = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		available = {
+			has_war = yes
+			any_enemy_country = {
+				is_major = yes
+			}
+		}
+
+		complete_effect = {
+				if = { 
+					limit = { 582 = { is_controlled_by = SOV } } 
+					set_capital = 582 
+				}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}	
+
+	SOV_Capital_Perm = {
+
+		icon = generic_political_actions
+
+		visible = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		available = {
+			has_war = yes
+			any_enemy_country = {
+				is_major = yes
+			}
+		}
+
+		complete_effect = {
+				if = { 
+					limit = { 398 = { is_controlled_by = SOV } } 
+					set_capital = 398 
+				}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}	
+
+
 operations = {
 
 	SOV_seize_manchuria = {

@@ -64,6 +64,26 @@ ideas = {
 			}
 		}
 
+	    recovery_october = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				army_morale_factor = 0.025
+			    conscription = 0.03
+			}
+		}
+
 		track_factory = {
 			removal_cost = -1
 
@@ -410,31 +430,25 @@ ideas = {
 			}
 
 			modifier = {
-				experience_gain_army_factor = -0.5
-				army_attack_factor = -0.165
-				army_org_factor = -0.56
-				planning_speed = -0.66
+			    supply_consumption_factor = 0.1 
+				army_armor_attack_factor = -0.2
+				army_attack_factor = -0.2
 				max_planning = -0.23
 			}
 			equipment_bonus = {
 				fighter_equipment = {
-					air_agility = -0.23
-					air_attack = -0.23
+					air_agility = -0.20
+					air_attack = -0.15
 					instant = yes
 				}
 				heavy_fighter_equipment = {
-					air_agility = -0.23
-					air_attack = -0.23
-					instant = yes
-				}
-				CAS_equipment = {
-					air_agility = -0.23
-					air_ground_attack = -0.23
+					air_agility = -0.20
+					air_attack = -0.15
 					instant = yes
 				}
 				tac_bomber_equipment = {
-					air_agility = -0.23
-					air_ground_attack = -0.23
+					air_agility = -0.20
+					air_ground_attack = -0.15
 					instant = yes
 				}
 			}
@@ -1686,67 +1700,6 @@ ideas = {
 				factor = 0.2
 			}
 		}
-		
-		gordey_levchenko = {
-			#Also unit leader: 406
-			
-			allowed = {
-				original_tag = SOV
-
-			}
-			available = 
-			{
-				NOT = { has_country_flag = purge_2_group_a }
-				hidden_trigger = {
-					NOT = { 
-						any_other_country = {
-							has_war_with = SOV
-							original_tag = SOV
-							has_unit_leader = 406
-						} 
-					}
-				}
-			}
-			
-
-			
-			# Not purged, but arrested and released
-			traits = { navy_capital_ship_2 }
-			
-			ai_will_do = {
-				factor = 0.2
-			}
-		}
-		
-		arseniy_golovko = {
-			#Also unit leader: 409
-			
-			allowed = {
-				original_tag = SOV
-
-			}
-			available = 
-			{
-				NOT = { has_country_flag = counter_purge }
-				hidden_trigger = {
-					NOT = { 
-						any_other_country = {
-							has_war_with = SOV
-							original_tag = SOV
-							has_unit_leader = 409
-						} 
-					}
-				}
-			}
-			
-
-			
-			traits = { navy_amphibious_assault_2 }
-			
-			ai_will_do = {
-				factor = 0.2
-			}
-		}	
 	}
 		
 	tank_manufacturer = {
@@ -1927,7 +1880,7 @@ ideas = {
 
 			
 			research_bonus = {
-				industry = 0.15
+				industry = 0.20
 			}
 			
 			traits = { industrial_concern }
@@ -2060,7 +2013,7 @@ ideas = {
 				NOT = { has_country_flag = purge_1_group_a }
 			}
 			
-			cost = 250
+			cost = 150
 			
 			research_bonus = {
 				cat_mass_assault = 0.15
@@ -2101,7 +2054,7 @@ ideas = {
 				has_completed_focus = SOV_positive_heroism
 			}
 			
-			cost = 250
+			cost = 150
 			
 			research_bonus = {
 				cat_mass_assault = 0.15
