@@ -80,7 +80,6 @@ focus_tree = {
 
 	focus = {
 		id = sov_gulag
-		text = Gulag
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
@@ -92,7 +91,6 @@ focus_tree = {
 	}
 	focus = {
 		id = work_for_ussr
-		text = WorkforUSSR
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
@@ -107,7 +105,6 @@ focus_tree = {
 	}
 	focus = {
 		id = aviation_cult
-		text = AviationCult
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
@@ -122,7 +119,6 @@ focus_tree = {
 	}
 	focus = {
 		id = soviet_war_eco
-		text = SovietWarEconomy
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
@@ -130,6 +126,9 @@ focus_tree = {
 		}
 		x = 4
 		y = 4
+		completion_reward = {
+		    add_ideas = war_economy
+		}
 
 	}
 	focus = {
@@ -180,7 +179,6 @@ focus_tree = {
 
 	focus = {
 		id = great_patriotic_war
-		text = GreatPatrioticWar
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
@@ -201,12 +199,11 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = tot_economic_mobilisation 	
 		    }
-		}
+        }
 	}
 	
 	focus = {
 		id = red_army_get_suck
-		text = RedArmyGetSuck
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
@@ -218,7 +215,6 @@ focus_tree = {
 	}
 	focus = {
 		id = power_of_the_revolution
-		text = RecoveringFromOctoberRev
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
@@ -229,8 +225,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = 53-K
-		text = 53-K
+		id = 53K
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
@@ -249,7 +244,6 @@ focus_tree = {
 	
 	focus = {
 		id = T50_focus
-		text = T50isenough
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
@@ -265,7 +259,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10,00
 		prerequisite = {
-			focus = 53-K
+			focus = 53K
 		}
 		prerequisite = {
 			focus = T50_focus

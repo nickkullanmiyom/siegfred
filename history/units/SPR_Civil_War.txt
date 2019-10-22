@@ -1,277 +1,340 @@
 ﻿division_template = {
 	name = "Brigada Internacionales"			# International volunteers -- poor equipment, no experience (militia)
 	is_locked = yes
-	division_names_group = SPR_INF_01
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-	}
-}
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 0 y = 3 }
+		mountaineers = { x = 0 y = 4 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 1 y = 3 }
+		mountaineers = { x = 1 y = 4 }
 
+
+	}
+		support = {
+		engineer = { x = 0 y = 0 }      # includes 1x AC comp, 1x L tank comp
+		artillery = { x = 0 y = 1 }
+}
+}
 units = {
 	division = {
 		name = "I Brigada Internacionales"
-		location = 3938  # Madrid
+		location = 9703  # Madrid
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "II Brigada Internacionales"
-		location = 3938  # Madrid
+		location = 9857  # Madrid
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "III Brigada Internacionales"
-		location = 3938  # Madrid
+		location = 6836  # Madrid
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "IV Brigada Internacionales"
-		location = 3938  # Madrid
+		location = 3799  # Madrid
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "V Brigada Internacionales"
-		location = 3938  # Madrid
+		location = 6841  # Madrid
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 
 	division = {
 		name = "VI Brigada Internacionales"
-		location = 9764  # Barcelona
+		location = 11820  # Barcelona
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "VII Brigada Internacionales"
-		location = 9764  # Barcelona
+		location = 12081  # Barcelona
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "VIII Brigada Internacionales"
-		location = 9764  # Barcelona
+		location = 4095  # Barcelona
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "IX Brigada Internacionales"
-		location = 6906  # Valencia
+		location = 7198  # Valencia
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "X Brigada Internacionales"
-		location = 6906  # Valencia
+		location = 7153  # Valencia
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "XI Brigada Internacionales"
-		location = 6906  # Valencia
+		location = 738  # Valencia
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "XII Brigada Internacionales"
-		location = 10024  # Murcia
+		location = 3931  # Murcia
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "XIII Brigada Internacionales"
-		location = 10024  # Murcia
+		location = 6966  # Murcia
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "XIV Brigada Internacionales"
-		location = 10024  # Murcia
+		location = 3891  # Murcia
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "XV Brigada Internacionales"
-		location = 9979  # Malaga
+		location = 977  # Malaga
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "XVI Brigada Internacionales"
-		location = 9979  # Malaga
+		location = 3986  # Malaga
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "XVII Brigada Internacionales"
-		location = 9979  # Malaga
+		location = 12083  # Malaga
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "XVIII Brigada Internacionales"
-		location = 740  # Bilbao
+		location = 1090  # Bilbao
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "XIX Brigada Internacionales"
-		location = 740  # Bilbao
+		location = 10009  # Bilbao
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "XX Brigada Internacionales"
-		location = 740  # Bilbao
+		location = 3735  # Bilbao
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "XXI Brigada Internacionales"
-		location = 3938  # Madrid
+		location = 3899  # Madrid
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "XXII Brigada Internacionales"
-		location = 9764  # Barcelona
+		location = 3873  # Barcelona
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "XXIII Brigada Internacionales"
-		location = 9764  # Barcelona
+		location = 3945  # Barcelona
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "XXIV Brigada Internacionales"
-		location = 9764  # Barcelona
+		location = 3794  # Barcelona
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "XXV Brigada Internacionales"
-		location = 9764  # Barcelona
+		location = 9881  # Barcelona
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "XXVI Brigada Internacionales"
-		location = 6906  # Valencia
+		location = 897  # Valencia
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "XXVII Brigada Internacionales"
-		location = 6906  # Valencia
+		location = 6817  # Valencia
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 
 	division = {
 		name = "XXVIII Brigada Internacionales"
-		location = 6993  
+		location = 9933  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 
 	division = {
 		name = "XXIX Brigada Internacionales"
-		location = 6993  
+		location = 939  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "XXX Brigada Internacionales"
-		location = 6993  
+		location = 6832  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "XXXI Brigada Internacionales"
-		location = 6993  
+		location = 932  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "XXXII Brigada Internacionales"
-		location = 6993  
+		location = 872  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "XXXIII Brigada Internacionales"
-		location = 6993  
+		location = 9896  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "XXXIV Brigada Internacionales"
-		location = 6993  
+		location = 9785  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "XXXV Brigada Internacionales"
-		location = 6993  
+		location = 6896  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "XXXVI Brigada Internacionales"
 		location = 6993  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "XXXVII Brigada Internacionales"
 		location = 6993  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "XXXVIII Brigada Internacionales"
 		location = 6993  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "XXXIX Brigada Internacionales"
 		location = 6993  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "XL Brigada Internacionales"
 		location = 6993  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "XLI Brigada Internacionales"
 		location = 6993  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "XLII Brigada Internacionales"
 		location = 6993  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "XLIII Brigada Internacionales"
 		location = 6993  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "XLIV Brigada Internacionales"
-		location = 6993  
+		location = 740
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "XLV Brigada Internacionales"
-		location = 6993  
+		location = 740  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "XLVI Brigada Internacionales"
-		location = 6993  
+		location = 740  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "XLVII Brigada Internacionales"
-		location = 6993  
+		location = 740  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "XLVIII Brigada Internacionales"
-		location = 6993  
+		location = 740  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "XLIX Brigada Internacionales"
 		location = 6993  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "L Brigada Internacionales"
 		location = 6993  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "LI Brigada Internacionales"
 		location = 6993  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 	division = {
 		name = "LII Brigada Internacionales 25"
 		location = 6993  
 		division_template = "Brigada Internacionales"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}	
 
 }

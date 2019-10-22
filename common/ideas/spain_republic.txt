@@ -1,5 +1,55 @@
 ideas = {
+	
+	country = {
+	
+		SPR_Communism_Idea = {
+		
+			picture = trotskyite_plot_purged
+			
+			allowed = {
+				original_tag = SPR
+				NOT = { has_government = fascism }
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				conscription = 0.03
+				foreign_subversive_activites = -0.5
+			}
+		}
+		SPR_influence_drift_communism = {
 
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+			picture = generic_communism_drift_bonus
+			modifier = {
+				communism_drift = 0.13
+			}
+		} 
+		SPR_influence_drift_democratic = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1
+			picture = generic_democratic_drift_bonus
+			modifier = {
+				democratic_drift = 0.13
+				foreign_subversive_activites = -0.5
+			}
+		}
+	}
+	
 	political_advisor = {
 
 		SPR_augusto_barcia_trelles = {
@@ -35,13 +85,6 @@ ideas = {
 				NOT = { has_government = fascism }
 			}
 			
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			
 			traits = { communist_revolutionary }
 		}
 
@@ -74,7 +117,7 @@ ideas = {
 			picture = generic_army_europe_3
 			
 			research_bonus = {
-				land_doctrine = 0.10
+				land_doctrine = 0.1
 			}
 			
 			traits = { military_theorist }
@@ -91,7 +134,7 @@ ideas = {
 			picture = generic_navy_europe_1
 			
 			research_bonus = {
-				naval_doctrine = 0.10
+				naval_doctrine = 0.1
 			}
 			
 			traits = { naval_theorist }
@@ -102,7 +145,7 @@ ideas = {
 
 		SPR_carlos_masquelet_lacaci = {
 			
-			picture = generic_army_europe_4
+			picture = generic_army_europe_2
 			
 			allowed = {
 				original_tag = SPR
@@ -121,7 +164,7 @@ ideas = {
 		
 		SPR_vincente_rojo_lluch = {
 			
-			picture = generic_army_europe_5
+			picture = generic_army_europe_3
 			
 			allowed = {
 				original_tag = SPR
@@ -139,7 +182,7 @@ ideas = {
 
 		SPR_fransisco_franco = {
 			
-			picture = francisco_franco
+			picture = generic_army_europe_1
 			
 			allowed = {
 				original_tag = SPR
@@ -153,7 +196,7 @@ ideas = {
 						AND = {
 							NOT = { has_government = communism }
 							NOT = {
-								any_other_country = {
+								any_country = {
 									NOT = {
 										tag = ROOT
 									}
@@ -320,7 +363,7 @@ ideas = {
 			
 
 			
-			traits = { navy_fleet_logistics_2 }
+			traits = { army_armored_1 }
 			
 			ai_will_do = {
 				factor = 1
@@ -333,7 +376,7 @@ ideas = {
 		
 		designer = yes
 		
-		secn = {
+		secna = {
 			
 			picture = generic_naval_manufacturer_3
 
@@ -383,6 +426,30 @@ ideas = {
 			
 			ai_will_do = {
 				factor = 1
+			}
+		}
+	}
+		
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		Instalaza_SA = {
+			
+			
+			allowed = {
+				original_tag = SPR
+			}
+			
+			picture = FRA_scw_intervention_nationalists_focus
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+			modifier = {
 			}
 		}
 	}

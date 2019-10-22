@@ -1211,39 +1211,9 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
-		}
-		
-		konstantin_rodzaevsky = {
-			
-			
-			allowed = {
-				original_tag = "SOV"
-			}
-			available = 
-			{
-				NOT = { has_country_flag = counter_purge }
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			
-
-			
-			traits = { fascist_demagogue }
-	
-			do_effect = {
-				NOT = {
-					has_government = fascism
-				}
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
-		}
+		}	
 	}
-		
+
 	army_chief = {
 		
 		

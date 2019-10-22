@@ -1,285 +1,327 @@
 ﻿division_template = {
 	name = "Brigada Legionario"
 	is_locked = yes
-	division_names_group = SPAN_INF_01
+	division_names_group = SPRN_INF_01
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 0 y = 3 }
+		mountaineers = { x = 0 y = 4 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 1 y = 3 }
+		mountaineers = { x = 1 y = 4 }
+
+
+	}
+	support = {
+		engineer = { x = 0 y = 0 }      # includes 1x AC comp, 1x L tank comp
+		artillery = { x = 0 y = 1 }
 	}
 }
 
 units = {
 	division = {
-		name = "1a Brigada Legionario"
-		location = 6901  # Zaragoza
+		name = "Brigada Legionario Special"
+		location = 9917  # Zaragoza
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
+	}
+	division = {
+		name = "Brigada Legionario Special"
+		location = 11780  # Zaragoza
+		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
+	}
+	division = {
+		name = "Brigada Legionario Special"
+		location = 985  # Zaragoza
+		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
+	}
+	division = {
+		name = "1a Brigada Legionario"
+		location = 6948  # Zaragoza
+		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "2a Brigada Legionario"
-		location = 9842  # Zaragoza
+		location = 3810  # Zaragoza
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "3a Brigada Legionario"
-		location = 11838  # Zaragoza
+		location = 3871  # Zaragoza
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "4a Brigada Legionario"
-		location = 899  # Zaragoza
+		location = 950  # Zaragoza
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "5a Brigada Legionario"
-		location = 11819  # Zaragoza
+		location = 11838  # Zaragoza
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
-	division = {
-		name = "48a Brigada Legionario"
-		location = 11793  # Zaragoza
-		division_template = "Brigada Legionario"
-	}
-	division = {
-		name = "49a Brigada Legionario"
-		location = 790  # Zaragoza
-		division_template = "Brigada Legionario"
-	}
-	division = {
-		name = "50a Brigada Legionario"
-		location = 3816  # Zaragoza
-		division_template = "Brigada Legionario"
-	}
-
 	division = {
 		name = "6a Brigada Legionario"
 		location = 3902  # Burgos
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "7a Brigada Legionario"
-		location = 11852  # Burgos
+		location = 9700  # Burgos
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "8a Brigada Legionario"
-		location = 9700  # Burgos
+		location = 6749  # Burgos
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "9a Brigada Legionario"
-		location = 3820  # Valladolid
+		location = 9800  # Valladolid
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "10a Brigada Legionario"
-		location = 3859  # Valladolid
+		location = 11756  # Valladolid
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "11a Brigada Legionario"
-		location = 9800  # Valladolid
+		location = 10111  # Valladolid
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "12a Brigada Legionario"
-		location = 11707  # Oviedo
+		location = 6744  # Oviedo
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "13a Brigada Legionario"
-		location = 11707  # Oviedo
+		location = 4182  # Oviedo
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "14a Brigada Legionario"
-		location = 11707  # Oviedo
+		location = 10094  # Oviedo
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "15a Brigada Legionario"
-		location = 3954  # Coruna
+		location = 3887 # Coruna
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "16a Brigada Legionario"
-		location = 3909  # Coruna
+		location = 3954  # Coruna
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "17a Brigada Legionario"
-		location = 10094  # Sevilla
+		location = 813  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "18a Brigada Legionario"
-		location = 4182  # Sevilla
+		location = 948  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "19a Brigada Legionario"
-		location = 875  # Cordoba
+		location = 7213  # Cordoba
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "20a Brigada Legionario"
-		location = 875  # Cordoba
+		location = 9812  # Cordoba
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "21a Brigada Legionario"
-		location = 9842  # Zaragoza
+		location = 7213  # Zaragoza
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "22a Brigada Legionario"
-		location = 813  # Zaragoza
+		location = 9812  # Zaragoza
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "23a Brigada Legionario"
-		location = 6744  # Sevilla
+		location = 9842  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 
 	division = {
 		name = "24a Brigada Legionario"
-		location = 3871  # Sevilla
+		location = 11852  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "25a Brigada Legionario"
-		location = 3810  # Sevilla
+		location = 11684  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "26a Brigada Legionario"
-		location = 985  # Sevilla
+		location = 11806  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "27a Brigada Legionario"
-		location = 3871  # Sevilla
+		location = 3874  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "28a Brigada Legionario"
-		location = 3871  # Sevilla
+		location = 871  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "29a Brigada Legionario"
-		location = 6744  # Sevilla
+		location = 11766  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "30a Brigada Legionario"
-		location = 11780  # Sevilla
+		location = 3909  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "31a Brigada Legionario"
-		location = 9917  # Sevilla
+		location = 798  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "32a Brigada Legionario"
-		location = 11756  # Sevilla
+		location = 790  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "33a Brigada Legionario"
-		location = 794  # Sevilla
+		location = 11793  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "34a Brigada Legionario"
-		location = 7183  # Sevilla
+		location = 11819  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "35a Brigada Legionario"
-		location = 7183  # Sevilla
+		location = 899  # Sevilla
 		division_template = "Brigada Legionario"
-	}
-	division = {
-		name = "51a Brigada Legionario"
-		location = 7183  # Sevilla
-		division_template = "Brigada Legionario"
-	}
-	division = {
-		name = "52a Brigada Legionario"
-		location = 7183  # Sevilla
-		division_template = "Brigada Legionario"
-	}
-	division = {
-		name = "53a Brigada Legionario"
-		location = 7183  # Sevilla
-		division_template = "Brigada Legionario"
-	}
-	division = {
-		name = "54a Brigada Legionario"
-		location = 7183  # Sevilla
-		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "36a Brigada Legionario"
-		location = 7213  # Teruel
+		location = 6901  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "37a Brigada Legionario"
-		location = 7213  # Teruel
+		location = 6878  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "38a Brigada Legionario"
-		location = 7213  # Teruel
+		location = 6903  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "39a Brigada Legionario"
-		location = 7213  # Teruel
+		location = 11854  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "40a Brigada Legionario"
-		location = 3874  # Salamanca
+		location = 9699  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "41a Brigada Legionario"
-		location = 3874  # Salamanca
+		location = 3820  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "42a Brigada Legionario"
-		location = 3874  # Salamanca
+		location = 794  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "43a Brigada Legionario"
-		location = 3874  # Salamanca
+		location = 3816  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "44a Brigada Legionario"
-		location = 6948  # Extramadura
+		location = 3859  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "45a Brigada Legionario"
-		location = 6948  # Extramadura
+		location = 6749  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "46a Brigada Legionario"
-		location = 6948  # Extramadura
+		location = 726  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 	division = {
 		name = "47a Brigada Legionario"
-		location = 6948  # Extramadura
+		location = 950  # Sevilla
 		division_template = "Brigada Legionario"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
 }

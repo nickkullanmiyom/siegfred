@@ -10,20 +10,19 @@ if = {
 }
 
 set_research_slots = 3
-add_timed_idea = { idea = cantdeploy_unit  days = 730 }
-add_ideas = {
-		general_staff		
-	}
+
+add_ideas = SPA_recovering_from_civil_war2
+add_ideas = extensive_conscription
+add_ideas = general_staff
 
 set_technology = {
-	infantry_weapons = 1
+	interwar_antiair = 1
 	infantry_weapons1 = 1
 	tech_recon = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_engineers = 1
 	tech_mountaineers = 1
 	gw_artillery = 1
-	interwar_antiair = 1
 	early_fighter = 1
 	early_bomber = 1
 	naval_bomber1 = 1
@@ -61,26 +60,49 @@ if = {
 		mtg_transport = 1
 	}
 }
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 1700
+         producer = SPR
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 321
+         producer = SPR
+} 
 
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 21000
+         producer = SPR
+} 
+
+add_equipment_to_stockpile = {
+         type = anti_air_equipment_1
+         amount = 850
+         producer = SPR
+} 
 set_politics = {
 	ruling_party = democratic
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
+
 set_popularities = {
-	democratic = 47
-	fascism = 46
-	communism = 7
+    democratic = 47
+    fascism = 46
+    communism = 7
 }
 
 set_convoys = 150
 set_stability = 0.5
+set_war_support = 0.8
 
 1939.1.1 = {
 
 	add_political_power = 1198
-	
+
 	#generic focuses
 	complete_national_focus = army_effort
 	complete_national_focus = equipment_effort
@@ -91,17 +113,9 @@ set_stability = 0.5
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
-	
+
 	oob = "SPA_1939"
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "SPA_1939_naval_mtg"
-		else = {
-			set_naval_oob = "SPA_1939_naval_legacy"
-		}
-	}
 	load_oob = "unlock_tanks"
-	
 	set_technology = {
 		fighter1 = 1
 		CAS1 = 1
@@ -109,6 +123,7 @@ set_stability = 0.5
 		gwtank = 1
 		basic_light_tank = 1
 		interwar_artillery = 1
+		interwar_antiair = 1
 		interwar_antitank = 1
 		motorised_infantry = 1
 		infantry_weapons2 = 1
@@ -135,9 +150,8 @@ set_stability = 0.5
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
 		synth_oil_experiments = 1
-		fuel_silos = 1
 		oil_processing = 1
-		improved_oil_processing = 1
+		rubber_processing = 1
 		construction1 = 1
 		construction2 = 1
 		construction3 = 1
@@ -145,29 +159,19 @@ set_stability = 0.5
 		dispersed_industry2 = 1
 		dispersed_industry3 = 1
 	}
-	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		set_technology = {
-		}
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		set_technology = {
-			basic_light_battery = 1
-		}
-	}
 
 	set_politics = {
 		ruling_party = fascism
 		last_election = "1934.3.26"
 		election_frequency = 60
 		elections_allowed = no
-	}
-	set_popularities = {
-		democratic = 22
-		fascism = 76
-		communism = 2
-	}
+}
+
+    set_popularities = {
+        democratic = 22
+        fascism = 76
+        communism = 2
+    }
 
 	set_global_flag = scw_over
 	add_timed_idea = { idea = SPA_recovering_from_civil_war days = 1095 }
@@ -222,10 +226,21 @@ create_field_marshal = {
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	traits = { defensive_doctrine }
 	skill = 2
-    attack_skill = 1
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "José Sanjurjo y Sacanell"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	traits = { infantry_leader infantry_officer }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
 }
 
 

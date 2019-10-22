@@ -16,13 +16,37 @@ ideas = {
 			}
 
 			modifier = {
-				ai_get_ally_desire_factor = -200
-				join_faction_tension = 0.5
+				justify_war_goal_time = 5.00
+				consumer_goods_factor = 0.2								
+				join_faction_tension = 2
+				stability_factor = -0.2
+			}
 		}
-	} 
-	
-	general_staff = {
-			
+
+		SPA_recovering_from_civil_war2 = {
+
+			picture = FRA_matignon_agreements
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+
+			}
+
+			modifier = {
+				production_speed_naval_base_factor = -5
+				production_speed_air_base_factor = -5
+				production_speed_dockyard_factor = -5
+				production_speed_radar_station_factor = -5
+				industrial_capacity_dockyard = -5
+			}
+		}
+
+		SPR_Conv = {
+
+			picture = FRA_factory_strikes
+
 			allowed = {
 				original_tag = SPR
 			}
@@ -31,15 +55,46 @@ ideas = {
 				always = yes
 			}
 
-			removal_cost = -1
-			
+
 			modifier = {
-				army_org_Factor = 0.10
-				planning_speed = 0.25
-				air_ace_generation_chance_factor = 0.10
-				industry_air_damage_factor = 0.15
-		    } 
-	    }
+				conversion_cost_civ_to_mil_factor= -0.2
+			}
+		}
+
+		SPR_Recruitment_Fascist = {
+
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = SPR
+				has_government = fascism
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				conscription = 0.03
+			}
+		}
+
+		SPR_Civ_Factory_Idea = {
+
+			picture = generic_goods_red_bonus
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
 	}
 
 	political_advisor = {
@@ -52,7 +107,7 @@ ideas = {
 				original_tag = SPR
 				has_government = fascism
 			}
-			
+
 			traits = { prince_of_terror }
 		}
 
@@ -64,19 +119,19 @@ ideas = {
 				original_tag = SPR
 				has_government = fascism
 			}
-			
+
 			traits = { compassionate_gentleman }
 		}
 
 		SPA_fidel_davila_arrondo = {
 
-			picture = generic_army_europe_4
+			picture = generic_army_europe_1
 
 			allowed = {
 				original_tag = SPR
 				has_government = fascism
 			}
-			
+
 			traits = { war_industrialist }
 		}
 	}
@@ -84,92 +139,131 @@ ideas = {
 	theorist = {
 
 	SPA_jose_enrique_varela = {
-				
-				
+
+
 		allowed = {
 			original_tag = SPR
 			has_government = fascism
 		}
-		
+
 		picture = generic_army_europe_3
-		
+
 		research_bonus = {
-			land_doctrine = 0.10
+			land_doctrine = 0.1
 		}
-		
+
 		traits = { military_theorist }
 	}
 
 	SPA_emilio_herrera = {
-				
-				
+
+
 		allowed = {
 			original_tag = SPR
 			has_government = fascism
 		}
-		
+
 		picture = generic_air_europe_3
-		
+
 		research_bonus = {
-			air_doctrine = 0.10
+			air_doctrine = 0.1
 		}
-		
+
 		traits = { air_warfare_theorist }
 	}
 }
+tank_manufacturer = {
+
+		designer = yes
+
+		SPR_MAN = {
+			cost = 75
+			picture = GER_MAN
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			research_bonus = {
+				armor = 0.15
+			}
+
+			ai_will_do = {
+				factor = 1
+			}
+
+			equipment_bonus = {
+				medium_tank_equipment = {
+					reliability = 0.25
+					soft_attack = 0.1
+				}
+				medium_tank_destroyer_equipment = {
+					hard_attack = 0.1
+					ap_attack = 0.10
+					reliability = 0.1
+					defense = 0.1
+					build_cost_ic = -0.1
+				}
+				medium_tank_aa_equipment = {
+					reliability = 0.1
+					air_attack = 0.1
+				}
+			}
+		}
+	}
 	# MILITARY
 	army_chief = {
-		
+
 
 		SPA_miguel_cabanellas_ferrer = {
-			
+
 			picture = generic_army_europe_3
-			
+
 			allowed = {
 				original_tag = SPR
 				has_government = fascism
 			}
-			
 
-			
+
+
 			traits = { army_chief_old_guard }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
 		SPA_ricardo_rada = {
-			
+
 			picture = generic_army_europe_1
-			
+
 			allowed = {
 				original_tag = SPR
 				has_government = fascism
 			}
-			
 
-			
+
+
 			traits = { army_chief_defensive_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
 		SPA_emilio_mola_vidal = {
-			
-			picture = generic_army_europe_5
-			
+
+			picture = generic_army_europe_2
+
 			allowed = {
 				original_tag = SPR
 				has_government = fascism
 			}
-			
 
-			
+
+
 			traits = { army_chief_offensive_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
@@ -179,36 +273,36 @@ ideas = {
 	air_chief = {
 
 		SPA_alfredo_kindelan_duany = {
-			
+
 			picture = generic_air_europe_1
-			
+
 			allowed = {
 				original_tag = SPR
 				has_government = fascism
 			}
-			
 
-			
+
+
 			traits = { air_chief_ground_support_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
 		SPA_juan_yague_blanco = {
-			
+
 			picture = generic_air_europe_3
-			
+
 			allowed = {
 				original_tag = SPR
 				has_government = fascism
 			}
-			
 
-			
+
+
 			traits = { air_chief_reform_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
@@ -216,130 +310,149 @@ ideas = {
 	}
 
 	navy_chief = {
-		
+
 
 		SPA_salvador_moreno_fernandez = {
-			
+
 			picture = generic_navy_europe_1
-			
+
 			allowed = {
 				original_tag = SPR
 				has_government = fascism
 			}
-			
 
-			
+
+
 			traits = { navy_chief_decisive_battle_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
 		SPA_fransisco_moreno_fernandez = {
-			
+
 			picture = generic_navy_europe_2
-			
+
 			allowed = {
 				original_tag = SPR
 				has_government = fascism
 			}
-			
 
-			
+
+
 			traits = { navy_chief_reform_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
 		SPA_luis_carrero_blanco = {
-			
+
 			picture = generic_navy_europe_1
-			
+
 			allowed = {
 				original_tag = SPR
 				has_government = fascism
 			}
-			
 
-			
+
+
 			traits = { navy_chief_old_guard }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
 	}
 
-	
+
 	high_command = {
 		SPA_emilio_esteban_infantes = {
-			
-			picture = generic_army_europe_5
+
+
 			allowed = {
 				original_tag = SPR
 				has_government = fascism
 			}
-			
 
-			
+
+
 			traits = { army_logistics_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
-		
+
 		SPA_agustin_munoz_grandes = {
-			
-			picture = generic_army_europe_3
+
+
 			allowed = {
 				original_tag = SPR
 				has_government = fascism
 			}
-			
 
-			
-			traits = { army_infantry_2 }
-			
+
+
+			traits = { army_commando_2 }
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
-	
+
 		SPA_joaquin_garcia_morato = {
-			
-			picture = generic_air_europe_2
+
+
 			allowed = {
 				original_tag = SPR
 				has_government = fascism
 			}
-			
 
-			
+
+
 			traits = { air_air_combat_training_3 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
-		
+
 		SPA_angel_salas_larrazabal = {
-			
-			picture = generic_air_europe_1
+
+
 			allowed = {
 				original_tag = SPR
 				has_government = fascism
 			}
-			
 
-			
+
+
 			traits = { air_strategic_bombing_2 }
-			
+
 			ai_will_do = {
 				factor = 1
+			}
+		}
+	}
+
+	naval_manufacturer = {
+		SECN = {
+			picture = GFX_SPR_idea_SECN
+
+			allowed = {
+				original_TAG = SPR
+			}
+
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+
+			traits = { raiding_fleet_naval_manufacturer }
+
+			modifier = {
 			}
 		}
 	}

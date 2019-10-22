@@ -601,7 +601,6 @@ ideas = {
 			available = {
 				if = {
 					limit = { has_dlc = "Together for Victory" }
-					has_completed_focus = AST_empower_the_workers
 				}
 				if = {
 					limit = { has_dlc = "Man the Guns" }	

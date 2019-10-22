@@ -64,33 +64,6 @@ economy_decisions = {
 }
 
 foreign_support = {
-	HUN_call_in_sweden = {
-		available = {
-			has_war = yes
-		}
-		visible = {
-			NOT = {
-				has_war_with = SWE
-			}
-			NOT = {
-				is_in_faction_with = SWE
-			}
-			SWE = {
-				not = {
-					has_government = communism
-				}
-			}
-		}
-		cost = 0
-		ai_will_do = {
-			factor = 1
-		}
-		complete_effect = {
-			SWE = {
-				country_event = DOD_hungary.20
-			}
-		}
-	}
 	HUN_call_in_hungary = {
 		available = {
 			has_war = yes
