@@ -13,7 +13,8 @@ focus_tree = {
 
 	focus = {
 		id = stalin_constitution
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ger_great_red_menace
+		text = Stalin_Constitution
 		cost = 10
 		x = 8
 		y = 0
@@ -32,13 +33,14 @@ focus_tree = {
 
 	focus = {
 		id = finish_seven_year_plan
-		icon = GFX_goal_unknown
+		icon = GFX_focus_chi_army_reform
 		cost = 10
 		prerequisite = {
 			focus = stalin_constitution
 		}
 		x = 4
 		y = 1
+		available = { has_completed_focus = SOV_great_purge }
 		available_if_capitulated = yes
 				bypass = {
 					    custom_trigger_tooltip = {
@@ -80,7 +82,7 @@ focus_tree = {
 
 	focus = {
 		id = sov_gulag
-		icon = GFX_goal_unknown
+		icon = GFX_focus_cze_german_puppet
 		cost = 10,00
 		prerequisite = {
 			focus = finish_seven_year_plan
@@ -91,7 +93,7 @@ focus_tree = {
 	}
 	focus = {
 		id = work_for_ussr
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_join_comintern
 		cost = 10,00
 		prerequisite = {
 			focus = finish_seven_year_plan
@@ -115,7 +117,16 @@ focus_tree = {
 		}
 		x = 4
 		y = 3
+        completion_reward = {
+        
+		    add_tech_bonus = {
+			    name = fighter2bonussov
+			    bonus = 1.75
+			    uses = 1
+			    technology = light_fighter
+		    }
 
+		}				
 	}
 	focus = {
 		id = soviet_war_eco
@@ -149,33 +160,12 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			custom_effect_tooltip = SOV_great_purge_completed
-
-			#Full military purge. Hardest penalty
-			if = {
-				limit = {
-					OR = {
-						has_country_flag = purge_1_group_a
-						has_country_flag = purge_1_group_b
-					}
-					OR = {
-						has_country_flag = purge_2_group_a
-						has_country_flag = purge_2_group_b
-					}
-				}
 				add_timed_idea = {
 					idea = officers_purged
 					days = 2200
-				}
-				hidden_effect = {
-					country_event = { id = soviet.37 days = 146 }
-				}
-				hidden_effect = {
-					news_event = { hours = 6 id = news.219 }
-				}
-			}
-		}
-	}
+			    }
+		    }
+	    }
 
 	focus = {
 		id = great_patriotic_war
@@ -215,19 +205,20 @@ focus_tree = {
 	}
 	focus = {
 		id = power_of_the_revolution
-		icon = GFX_goal_unknown
-		cost = 10,00
+		icon = GFX_goal_generic_soviet_construction
+		cost = 7
 		prerequisite = {
 			focus = stalin_constitution
 		}
 		x = 12
 		y = 1
+		available = { has_completed_focus = SOV_great_purge }
 
 	}
 	focus = {
 		id = 53K
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 5
 		prerequisite = {
 			focus = power_of_the_revolution
 		}
@@ -245,7 +236,7 @@ focus_tree = {
 	focus = {
 		id = T50_focus
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 5
 		prerequisite = {
 			focus = power_of_the_revolution
 		}
@@ -273,7 +264,7 @@ focus_tree = {
 	focus = {
 		id = SOV_scientist
 		text = Scientists
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_socialist_science
 		cost = 10,00
 		prerequisite = {
 			focus = progress_cult
@@ -288,7 +279,7 @@ focus_tree = {
 	focus = {
 		id = SOV_positive_heroism
 		text = PositiveHeroism
-		icon = GFX_goal_unknown
+		icon = GFX_focus_prc_agrarian_socialism
 		cost = 10,00
 		prerequisite = {
 			focus = SOV_scientist

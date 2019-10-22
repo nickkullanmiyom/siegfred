@@ -1430,47 +1430,6 @@ focus_tree = {
 			}
 		}
 	}
-	
-	focus = {
-	    id = JAP_integrate_puppets
-		icon = GFX_goal_japan
-        x = 10
-		y = 0
-		cost = 5
-		completion_reward = {
-		    annex_country = {
-			    target = MEN
-				transfer_troops = yes
-			}
-			annex_country = {
-			    target = MAN
-				transfer_troops = yes
-			}
-		}
-	}
-	
-	focus = {
-	    id = JAP_annex_siam
-		icon = GFX_goal_japan
-        x = 12
-		y = 0
-		cost = 5
-	    available = {
-		    date > 1939.1.1
-		}
-		completion_reward = {
-		    annex_country = {
-			    target = SIA
-				transfer_troops = yes
-			}
-				add_tech_bonus = {
-					name = armor_bonus
-					bonus = 8
-					uses = 1
-					category = armor
-				}
-		}
-	}
 
 	focus = {
 		id = JAP_expand_the_showa_steel_works

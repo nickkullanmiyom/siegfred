@@ -577,6 +577,7 @@ ideas = {
 			picture = Fascismtrade
 
 			modifier = {
+			    production_speed_arms_factory_factor = 0.035
 				min_export = 0.6
 				industrial_capacity_factory = 0.15
 				industrial_capacity_dockyard = 0.15

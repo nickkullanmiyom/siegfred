@@ -16,7 +16,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_ethiopian_war_logistics
-		icon = GFX_Focus_generic_italy_first
+		icon = GFX_focus_generic_italy_first
 		x = 0
 		y = 0
 		cost = 10
@@ -102,7 +102,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_industrial_effort
-		icon = GFX_ITA_Il_Nord
+		icon = GFX_focus_research
 		text = industrial_effort
 		prerequisite = { focus = ITA_ethiopian_war_logistics }
 		x = 0
@@ -315,7 +315,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_extra_tech_slot
-		icon = GFX_goal_oil_research
+		icon = GFX_focus_research
 		text = extra_tech_slot
 		prerequisite = { focus = ITA_industrial_effort_2 }
 		x = 1
@@ -441,7 +441,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_prospect_for_oil
-		icon = GFX_agoal_2
+		icon = GFX_focus_mex_caudillo_private_armies
 		text = ITA_prospect_for_oil
 		prerequisite = { focus = ITA_italian_highways }
 		available = {
@@ -589,7 +589,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_army_primacy
-		icon = GFX_ITA_MVSN_Legion
+		icon = GFX_focus_prc_infiltration
 		x = 4
 		y = 0
 		cost = 10
@@ -629,7 +629,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_modernized_artillery
-		icon = GFX_ITA_Pionner_Dual_Purpose_Guns
+		icon = GFX_goal_generic_army_artillery2
 		prerequisite = { focus = ITA_army_primacy }
 		x = 3
 		y = 1
@@ -679,63 +679,6 @@ focus_tree = {
 				bonus = 1
 				uses = 2
 				category = land_doctrine
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_special_forces
-		icon = GFX_ITA_Regio_Esercito
-		text = special_forces
-		prerequisite = { focus = ITA_modernized_army }
-		x = 3
-		y = 4
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			army_experience = 5
-			add_tech_bonus = {
-				name = special_bonus
-				bonus = 1
-				uses = 1
-				technology = paratroopers
-				technology = paratroopers2
-			}
-			add_tech_bonus = {
-				name = special_bonus
-				ahead_reduction = 1
-				uses = 1
-				technology = tech_mountaineers2
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_armored_effort
-		icon = GFX_ITA_P_Tanks
-		prerequisite = { focus = ITA_special_forces }
-		x = 3
-		y = 5
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			army_experience = 5
-			add_tech_bonus = {
-				name = armor_effort
-				bonus = 1
-				uses = 2
-				category = cat_light_armor
-				category = cat_medium_armor
 			}
 		}
 	}
@@ -829,7 +772,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = cv_bonus
-				bonus = 1.0
+				bonus = 2.0
 				uses = 2
 				category = cv_tech
 			}
