@@ -13,7 +13,6 @@ focus_tree = {
 
 	focus = {
 		id = stalin_constitution
-		text = StalinConstitution
 		icon = GFX_goal_unknown
 		cost = 10
 		x = 8
@@ -33,14 +32,10 @@ focus_tree = {
 
 	focus = {
 		id = finish_seven_year_plan
-		text = FinishTheSevenYearPlan
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
 			focus = stalin_constitution
-		}
-		mutually_exclusive = {
-			focus = power_of_the_revolution
 		}
 		x = 4
 		y = 1
@@ -105,6 +100,9 @@ focus_tree = {
 		}
 		x = 5
 		y = 2
+		completion_reward = {
+		    add_ideas = workers_culture
+        }
 
 	}
 	focus = {
@@ -226,9 +224,6 @@ focus_tree = {
 		prerequisite = {
 			focus = stalin_constitution
 		}
-		mutually_exclusive = {
-			focus = finish_seven_year_plan
-		}
 		x = 12
 		y = 1
 
@@ -291,10 +286,13 @@ focus_tree = {
 		}
 		x = 12
 		y = 4
-
+		completion_reward = {
+			add_research_slot = 1
+	    }
 	}
+	
 	focus = {
-		id = Positive_Heroism
+		id = SOV_positive_heroism
 		text = PositiveHeroism
 		icon = GFX_goal_unknown
 		cost = 10,00
@@ -307,6 +305,11 @@ focus_tree = {
 		}
 		x = 8
 		y = 5
-
+		completion_reward = {
+		    add_ideas = soviettank_bonus
+        }
+        custom_effect_tooltip = available_military_high_command
+	    show_ideas_tooltip = konstantin_rokossovsky
+	    # REVISIT Might want to add more
 	}
 }

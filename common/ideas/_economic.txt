@@ -574,7 +574,7 @@ ideas = {
 			}
 		}
 
-			picture = idea_generic_facsist_economy
+			picture = Fascismtrade
 
 			modifier = {
 				min_export = 0.6
