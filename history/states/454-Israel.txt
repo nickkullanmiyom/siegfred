@@ -1,7 +1,7 @@
 
 state={
 	id=454
-	name="STATE_454" #Palestine
+	name="STATE_454" #Israel
 	manpower = 933142
 	
 	state_category = rural

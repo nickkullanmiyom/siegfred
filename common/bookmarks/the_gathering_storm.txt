@@ -6,7 +6,7 @@ bookmarks = {
 		picture = "GFX_select_date_1936"
 		default_country = "GER"
 		default = yes
-		
+
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -18,6 +18,7 @@ bookmarks = {
 			focuses = {
 				FRA_initiate_government_reform
 				FRA_support_status_quo
+				FRA_army_reform 
 			}
 		}
 		"USA"={
@@ -29,45 +30,37 @@ bookmarks = {
 				undisturbed_isolation
 			}
 			focuses = {
-				USA_war_plan_black
-				USA_limited_intervention
+				USA_two_ocean_navy_act 
+				USA_lend_lease_act
+				USA_the_giant_wakes 
 			}
 		}
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = democratic
-			available = { has_dlc = "Man the Guns" }
-			ideas = {
-				stiff_upper_lip
-				ENG_the_war_to_end_all_wars
-				george_v
-			}
-		}
-		"ENG"={
-			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
-			available = { NOT = { has_dlc = "Man the Guns" } }
 			ideas = {
 				stiff_upper_lip
 				ENG_the_war_to_end_all_wars
 				george_v
 			}
 			focuses = {
+				general_rearmament_focus 
+				fighter_command_focus 
 				tizard_mission_focus
-				ENG_war_with_italy
 			}
 		}
+
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
 			ideology = fascism
-			available = { NOT = { has_dlc = "Waking the Tiger" } }
 			ideas = {
+				GER_mefo_bills_1 
 				sour_loser
 				general_staff
-				GER_mefo_bills_1
 			}
 			focuses = {
 				GER_anschluss
+				GER_danzig_or_war
 				GER_ussr_war_goal
 			}
 		}
@@ -77,10 +70,12 @@ bookmarks = {
 			ideas = {
 				vittoria_mutilata
 				victor_emmanuel
-			}	
+			}
 			focuses = {
+				ITA_mare_nostrum
+				ITA_slovenia_dalmatia_claims 
 				ITA_pact_of_steel
-			}		
+			}
 		}
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
@@ -89,12 +84,12 @@ bookmarks = {
 				state_shintoism
 				JAP_zaibatsus
 				JAP_militarism
-			}	
+			}
 			focuses = {
-				JAP_the_zero
-				JAP_warrior_spirit
 				JAP_strike_on_the_southern_resource_area
-			}			
+				JAP_intervene_in_china
+				JAP_the_zero
+			}
 		}
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
@@ -105,8 +100,9 @@ bookmarks = {
 			}
 			focuses = {
 				SOV_great_purge
-				stalin_constitution
-			}	
+				SOV_defense_of_stalingrad
+				SOV_proclaim_victory_over_fascism 
+			}
 		}
 
 		"---"={
@@ -133,6 +129,20 @@ bookmarks = {
 			ideas = {
 				AST_great_depression_1
 			}
+			focuses = {
+			}
+		}
+		"NZL"={
+			minor = yes
+			history = "NZL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+				NZL_bob_semple_tank
+				NZL_maori_volunteers
+			}
 		}
 		"SAF"={
 			minor = yes
@@ -155,7 +165,6 @@ bookmarks = {
 				RAJ_princely_states
 			}
 			focuses = {
-				RAJ_all_india_forward_bloc
 				RAJ_indian_gurkhas
 				RAJ_the_smiling_buddha
 			}
@@ -187,4 +196,10 @@ bookmarks = {
 				ROM_preserve_greater_romania
 			}
 		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
 }

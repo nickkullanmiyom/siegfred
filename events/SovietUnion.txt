@@ -717,11 +717,7 @@ country_event = {
 	
 	trigger = {
 		tag = SOV
-		NOT = { has_completed_focus = SOV_great_purge }
-		focus_progress = {
-			focus = SOV_great_purge
-			progress > 0.25
-		}
+        has_completed_focus = SOV_great_purge
 	}
 
 	mean_time_to_happen = {
@@ -785,11 +781,7 @@ country_event = {
 	
 	trigger = {
 		tag = SOV
-		NOT = { has_completed_focus = SOV_great_purge }
-		focus_progress = {
-			focus = SOV_great_purge
-			progress > 0.5
-		}
+        has_completed_focus = SOV_great_purge
 	}
 
 	mean_time_to_happen = {
@@ -873,11 +865,7 @@ country_event = {
 	
 	trigger = {
 		tag = SOV
-		NOT = { has_completed_focus = SOV_great_purge }
-		focus_progress = {
-			focus = SOV_great_purge
-			progress > 0.75
-		}
+	    has_completed_focus = SOV_great_purge
 	}
 
 	mean_time_to_happen = {
