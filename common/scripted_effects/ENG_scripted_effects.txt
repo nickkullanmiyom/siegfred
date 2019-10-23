@@ -439,9 +439,6 @@ SAF_enforce_loyalty = {
 RAJ_enforce_loyalty = {
 	set_country_flag = britain_enforced_our_loyalty
 	if = {
-		limit = {
-			has_completed_focus = RAJ_swaraj
-		}
 		complete_national_focus = RAJ_indian_national_congress
 	}
 	if = {

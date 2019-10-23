@@ -101,7 +101,6 @@ bookmarks = {
 			focuses = {
 				SOV_great_purge
 				SOV_defense_of_stalingrad
-				SOV_proclaim_victory_over_fascism 
 			}
 		}
 

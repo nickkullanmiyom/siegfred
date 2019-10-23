@@ -45,6 +45,23 @@ ideas = {
 		    }
 		}
 
+		GER_foreign_ss = {
+			removal_cost = -1
+			allowed = {
+				always = no # Unlocked via focus
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_infantry_bonus
+
+         	modifier = {
+            	conscription = 0.015
+			}
+		}
+
 		ger_ss_divisions = {
        
             allowed = {

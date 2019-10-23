@@ -271,7 +271,6 @@ country_event = {
 #				NOT = { tag = RAJ }
 #				AND = {
 #					tag = RAJ
-#					NOT = { has_completed_focus = RAJ_swaraj }
 #				}
 #			}
 #		}

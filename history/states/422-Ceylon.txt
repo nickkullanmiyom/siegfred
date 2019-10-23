@@ -11,17 +11,17 @@ state=
 	}
 
 	history={
-		add_core_of = SRL
-		owner = ENG
+		add_core_of = RAJ
+		owner = RAJ
 		victory_points = {
-			10201 3 
+			10201 5 
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			air_base = 3
+			air_base = 5
 			10201 = {
-				naval_base = 5
+				naval_base = 7
 			}
 			7260 = {
 				naval_base = 3
