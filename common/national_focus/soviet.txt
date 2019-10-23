@@ -13,7 +13,7 @@ focus_tree = {
 
 	focus = {
 		id = stalin_constitution
-		icon = GFX_goal_appeal_to_stalin
+		icon = GFX_focus_generic_tank_production
 		cost = 10
 		x = 8
 		y = 0
@@ -82,7 +82,7 @@ focus_tree = {
 	focus = {
 		id = sov_gulag
 		icon = GFX_focus_generic_industry_1
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = finish_seven_year_plan
 		}
@@ -93,7 +93,7 @@ focus_tree = {
 	focus = {
 		id = work_for_ussr
 		icon = GFX_focus_generic_join_comintern
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = finish_seven_year_plan
 		}
@@ -131,12 +131,15 @@ focus_tree = {
 	focus = {
 		id = soviet_war_eco
 		icon = GFX_focus_eng_liberate_the_home_of_marx
-		cost = 10,00
+		cost = 4
 		prerequisite = {
 			focus = aviation_cult
 		}
 		x = 4
 		y = 4
+		available = {
+			GER = { has_completed_focus = GER_anschluss }		
+		}
 		completion_reward = {
 		    add_ideas = war_economy
 		}
@@ -172,19 +175,16 @@ focus_tree = {
 	}
 	focus = {
 		id = great_patriotic_war
-		icon = GFX_goal_unknown
-		cost = 10,00
+		icon = GFX_focus_generic_join_comintern
+		cost = 10
 		prerequisite = {
 			focus = SOV_great_purge
 		}
 		x = 8
 		y = 3
-		avaible = {
-			OR = {
-				has_war_with = GER
-				ENG = { surrender_progress > 0.15 }
-				USA = { surrender_progress > 0.15 }			
-			}
+
+		available = {
+			GER = { has_completed_focus = GER_ussr_war_goal }		
 		}
 
 	    cancel_if_invalid = no
@@ -194,11 +194,10 @@ focus_tree = {
 			add_ideas = tot_economic_mobilisation 	
 		}
 	}
-	
 	focus = {
 		id = red_army_get_suck
 		icon = GFX_focus_ger_bulwark_against_bolshevism
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = great_patriotic_war
 		}
@@ -252,8 +251,8 @@ focus_tree = {
 	focus = {
 		id = progress_cult
 		text = ProgressCult
-		icon = GFX_goal_unknown
-		cost = 10,00
+		icon = GFX_focus_research2
+		cost = 10
 		prerequisite = {
 			focus = 53K
 		}
@@ -269,7 +268,7 @@ focus_tree = {
 	focus = {
 		id = SOV_scientist
 		icon = GFX_focus_generic_socialist_science
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = progress_cult
 		}
@@ -286,8 +285,8 @@ focus_tree = {
 	focus = {
 		id = SOV_positive_heroism
 		text = PositiveHeroism
-		icon = GFX_focus_prc_agrarian_socialism
-		cost = 10,00
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		cost = 10
 		prerequisite = {
 			focus = SOV_scientist
 			focus = soviet_war_eco

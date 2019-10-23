@@ -10,4 +10,10 @@ category = {
 	paris
  }
 }
+category = {
+ name = "DFU SOUNDS"
+ soundeffects = {
+	rhineland
+ }
+}
 

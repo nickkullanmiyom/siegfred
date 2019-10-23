@@ -359,441 +359,441 @@ add_namespace = {
 	type = unit_leader
 }
 
-create_corps_commander = {
-	name = "Georgy Zhukov"
-	id = 410
-		picture = "Portrait_Soviet_Gregory_Zhukov.dds"
-	traits = { winter_specialist armor_officer media_personality war_hero }
-	skill = 5
+#create_field_marshal = {
+#	name = "Georgy Zhukov"
+#	id = 410
+#		picture = "Portrait_Soviet_Gregory_Zhukov.dds"
+#	traits = { winter_specialist armor_officer media_personality brilliant_strategist harsh_leader politically_connected panzer_leader trait_engineer}
+#	skill = 6
 
+	
+#	attack_skill = 6
+#	defense_skill = 4
+#	planning_skill = 4
+#	logistics_skill = 5
+#}
+
+#create_corps_commander = {
+#	name = "Konstantin Rokossovsky"
+#	id = 402
+#		picture = "Portrait_Soviet_Konstantin_Rokossovsky.dds"
+#	traits = {  armor_officer trait_cautious brilliant_strategist harsh_leader panzer_leader  war_hero}
+#	skill = 6
+	
+#	attack_skill =6
+#	defense_skill = 5
+#	planning_skill = 5
+#	logistics_skill = 3
+#}
+
+#create_corps_commander = {
+#	name = "Aleksandr Vasilevsky"
+#	id = 407
+#		picture = "Portrait_Soviet_Aleksandr_Vasilevsky.dds"
+#	traits = { armor_officer politically_connected trait_cautious harsh_leader skilled_staffer panzer_leader organizer}
+#	skill = 6
+
+	
+#	attack_skill = 4
+#	defense_skill = 3
+#	planning_skill = 8
+#	logistics_skill = 4
+#}
+
+#create_field_marshal = {
+#	name = "Boris Shaposhnikov"
+#		picture = "Portrait_Soviet_Boris_Shaposhnikov.dds"
+#	traits = { trait_cautious career_officer old_guard infantry_officer organizer defensive_doctrine politically_connected organizer}
+#	skill = 5
+	
+#	attack_skill = 2
+#	defense_skill = 4
+#	planning_skill = 3
+#	logistics_skill = 7
+#}
+
+create_corps_commander = {
+	name = "Nikolai Vatutututin"
+		picture = "Portrait_Soviet_Nikolai_Fyodorovich_Vatutin.dds"
+	traits = { infantry_officer trait_reckless trait_engineer infantry_leader trickster }
+	skill = 4
 	
 	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "Konstantin Rokossovsky"
-	id = 402
-		picture = "Portrait_Soviet_Konstantin_Rokossovsky.dds"
-	traits = {  armor_officer trait_cautious brilliant_strategist }
-	skill = 4
-	
-	attack_skill = 3
 	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Aleksandr Vasilevsky"
-	id = 407
-		picture = "Portrait_Soviet_Aleksandr_Vasilevsky.dds"
-	traits = { armor_officer politically_connected }
-	skill = 4
-
-	
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Boris Shaposhnikov"
-		picture = "Portrait_Soviet_Boris_Shaposhnikov.dds"
-	traits = { trait_cautious career_officer }
-	skill = 3
-	
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Nikolai Vatutin"
-		picture = "Portrait_Soviet_Nikolai_Fyodorovich_Vatutin.dds"
-	traits = { infantry_officer trait_reckless }
-	skill = 3
-	
-	attack_skill = 1
-	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 3
 }
 
-create_corps_commander = {
-	name = "Ivan Konev"
-	id = 408
-		picture = "Portrait_Soviet_Ivan_Konev.dds"
-	traits = { armor_officer harsh_leader politically_connected }
-	skill = 5
+#create_corps_commander = {
+#	name = "Ivan Konev"
+#	id = 408
+#		picture = "Portrait_Soviet_Ivan_Konev.dds"
+#	traits = { armor_officer harsh_leader politically_connected panzer_leader trait_reckless ranger }
+#	skill = 5
 
 
 	
-	attack_skill = 4
-	defense_skill = 5
-	planning_skill = 2
-	logistics_skill = 5
-}
+#	attack_skill = 3
+#	defense_skill = 7
+#	planning_skill = 2
+#	logistics_skill = 4
+#}
 
 create_corps_commander = {
 	name = "Semyon Timoshenko"
 	id = 404
 		picture = "Portrait_Soviet_Semyon_Timoshenko.dds"
-	traits = { cavalry_officer politically_connected career_officer }
+	traits = { cavalry_officer politically_connected career_officer trickster hill_fighter cavalry_leader }
 	skill = 3
 
 
 	
-	attack_skill = 3
-	defense_skill = 2
+	attack_skill = 5
+	defense_skill = 3
 	planning_skill = 2
-	logistics_skill = 3
+	logistics_skill = 2
 }
 
 create_field_marshal = {
 	name = "Kliment Voroshilov"
 	id = 405
 		picture = "Portrait_Soviet_Kliment_Voroshilov.dds"
-	traits = { old_guard politically_connected inflexible_strategist }
-	skill = 1
+	traits = { old_guard politically_connected inflexible_strategist harsh_leader defensive_doctrine}
+	skill = 3
 
 
 	
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_field_marshal = {
 	name = "Mikhail Tukhachevsky"
 	id = 401
 		picture = "Portrait_Soviet_Mikhail_Tukhachevsky.dds"
-	traits = { old_guard offensive_doctrine brilliant_strategist career_officer infantry_officer trait_reckless }
-	skill = 4
+	traits = { offensive_doctrine brilliant_strategist career_officer infantry_officer trait_reckless skilled_staffer}
+	skill = 7
 
 	
 	attack_skill = 7
-	defense_skill = 5
-	planning_skill = 4
-	logistics_skill = 2
+	defense_skill = 6
+	planning_skill = 3
+	logistics_skill = 4
 }
 
 create_field_marshal = {
 	name = "Semyon Budyonny"
 		picture = "Portrait_Soviet_Semyon_Budyonny.dds"
-	traits = { old_guard politically_connected inflexible_strategist }
-	skill = 1
+	traits = { old_guard politically_connected inflexible_strategist trait_reckless skilled_staffer  }
+	skill = 3
 
 	
 	attack_skill = 1
-	defense_skill = 1
+	defense_skill = 5
 	planning_skill = 1
-	logistics_skill = 1
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Ivan Chernyakhovsky"
 		picture = "Portrait_Soviet_Ivan_Chernyakhovsky.dds"
-	traits = { armor_officer }
-	skill = 1 
+	traits = { armor_officer panzer_leader harsh_leader trait_reckless }
+	skill = 3
 
 	
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Issa Pliyev"
 		picture = "Portrait_Soviet_Issa_Pliyev.dds"
-	traits = { cavalry_officer }
-	skill = 1
+	traits = { cavalry_officer cavalry_leader harsh_leader trickster desert_fox }
+	skill = 3
 
 	
-	attack_skill = 1
-	defense_skill = 1
+	attack_skill = 4
+	defense_skill = 2
 	planning_skill = 1
-	logistics_skill = 1
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Leonid Govorov"
 		picture = "Portrait_Soviet_Leonid_Govorov.dds"
-	traits = {   }
+	traits = {  skilled_staffer organizer urban_assault_specialist infantry_leader trait_cautious}
 	skill = 3
 	
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
 }
 
 create_field_marshal = {
 	name = "Grigory Kulik"
 		picture = "Portrait_Soviet_Grigory_Kulik.dds"
-	traits = { old_guard career_officer politically_connected inflexible_strategist }
-	skill = 1	
+	traits = { old_guard career_officer politically_connected inflexible_strategist trait_cautious }
+	skill = 3
 	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	defense_skill = 5
+	planning_skill = 2
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Kirill Meretskov"
 		picture = "Portrait_Soviet_Kirill_Meretskov.dds"
-	traits = { trait_reckless infantry_officer }
-	skill = 3
+	traits = { trait_reckless infantry_officer infantry_leader harsh_leader }
+	skill = 2
 	
 
 	
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Filipp Golikov"
-		picture = "Portrait_Soviet_Filipp_Golikov.dds"
-	traits = { career_officer }
-	skill = 3
-	
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 1
 	logistics_skill = 1
 }
+
+#create_corps_commander = {
+#	name = "Filipp Golikov"
+#		picture = "Portrait_Soviet_Filipp_Golikov.dds"
+#	traits = { career_officer brilliant_strategist harsh_leader panzer_leader armor_officer trait_reckless }
+#	skill = 4
+#	
+#	attack_skill = 3
+#	defense_skill = 4
+#	planning_skill = 3
+#	logistics_skill = 1
+#}
 
 create_corps_commander = {
 	name = "Andrey Yeryomenko"
 		picture = "Portrait_Soviet_Andrey_Yeryomenko.dds"
-	traits = { cavalry_officer trait_reckless }
-	skill = 1 
+	traits = { cavalry_officer trait_reckless panzer_leader swamp_fox}
+	skill = 2
 
 	
 	attack_skill = 1
-	defense_skill = 1
+	defense_skill = 4
 	planning_skill = 1
-	logistics_skill = 1
+	logistics_skill = 4
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Georgiy Zakharov"
 		picture = "Portrait_Soviet_Georgiy_Zakharov.dds"
-	traits = { career_officer }
-	skill = 1 
+	traits = { career_officer politically_connected infantry_leader organizer old_guard }
+	skill = 3
 
 	
-	attack_skill = 1
-	defense_skill = 1
+	attack_skill = 2
+	defense_skill = 2
 	planning_skill = 1
-	logistics_skill = 1
+	logistics_skill = 5
 }
 
 create_corps_commander = {
 	name = "Yakov Cherevichenko"
 		picture = "Portrait_Soviet_Yakov_Cherevichenko.dds"
-	traits = { cavalry_officer }
+	traits = { cavalry_officer trait_mountaineer cavalry_leader inflexible_strategist}
 	skill = 3
 	
 	attack_skill = 3
-	defense_skill = 3
+	defense_skill = 2
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Max Reyter"
 		picture = "Portrait_Soviet_Max_Andreyevich.dds"
-	traits = { career_officer }
-	skill = 1
-
-	
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Nikandr Chibisov"
-		picture = "Portrait_Soviet_Nikandr_Yevlampyevich_Chibisov.dds"
-	traits = { trickster }
-	skill = 3
-
-	
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-create_corps_commander = {
-	name = "Vasily Kuznetsov"
-		picture = "Portrait_Soviet_Vasily_Kuznetsov.dds"
-	traits = { commando infantry_officer }
-	skill = 3
-	
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Andrey Vlasov"
-		picture = "Portrait_Soviet_Andrey_Vlasov.dds"
-	traits = { winter_specialist infantry_officer }
-	id = 412
-	skill = 3
-	
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Ivan Fedyuninsky"
-		picture = "Portrait_Soviet_Ivan_Fedyuninsky.dds"
-	traits = { infantry_officer }
-	skill = 1 
-	
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Maksim Purkayev"
-		picture = "Portrait_Soviet_Maksim_Purkayev.dds"
-	traits = { career_officer }
-	skill = 3
-
-	
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
-}
-create_corps_commander = {
-	name = "Kuzma Galitsky"
-		picture = "Portrait_Soviet_Kuzma_Galitsky.dds"
-	traits = { infantry_officer }
-	skill = 1 
-
-	
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Markian Popov"
-		picture = "Portrait_Soviet_Matkian_Popov.dds"
-	traits = { winter_specialist infantry_officer brilliant_strategist }
+	traits = { career_officer old_guard infantry_leader trait_reckless }
 	skill = 2
 
 	
-	attack_skill = 2
+	attack_skill = 3
 	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 2
 }
+#create_corps_commander = {
+#	name = "Nikandr Chibisov"
+#		picture = "Portrait_Soviet_Nikandr_Yevlampyevich_Chibisov.dds"
+#	traits = { trickster war_hero urban_assault_specialist infantry_leader infantry_officer harsh_leader }
+#	skill = 4
 
-create_corps_commander = {
-	name = "Nikolai Berzarin"
-		picture = "Portrait_Soviet_Nikolai_Berzarin.dds"
-	traits = { infantry_officer }
-	skill = 3
 	
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Alexander Gorbatov"
-		picture = "Portrait_Soviet_Alexander_Gorbatov.dds"
-	traits = { career_officer cavalry_officer }
-	skill = 3
+#	attack_skill = 5
+#	defense_skill = 2
+#	planning_skill = 1
+#	logistics_skill = 4
+#}
+#create_corps_commander = {
+#	name = "Vasily Kuznetsov"
+#		picture = "Portrait_Soviet_Vasily_Kuznetsov.dds"
+#	traits = { commando infantry_officer politically_connected infantry_leader media_personality war_hero swamp_fox brilliant_strategist }
+#	skill = 5
 	
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
-}
+#	attack_skill = 5
+#	defense_skill = 5
+#	planning_skill = 3
+#	logistics_skill = 3
+#}
 
-create_corps_commander = {
-	name = "Kirill Moskalenko"
-		picture = "Portrait_Soviet_Kirill_Moskalenko.dds"
-	traits = {  }
-	skill = 3
+#create_corps_commander = {
+	#name = "Andrey Vlasov"
+#		picture = "Portrait_Soviet_Andrey_Vlasov.dds"
+#	traits = { winter_specialist infantry_officer skilled_staffer organizer trait_engineer career_officer}
+#	id = 412
+#	skill = 4
 	
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
-}
+#	attack_skill = 4
+#	defense_skill = 3
+#	planning_skill = 1
+#	logistics_skill = 5
+#}
 
+#create_corps_commander = {
+#	name = "Ivan Fedyuninsky"
+#		picture = "Portrait_Soviet_Ivan_Fedyuninsky.dds"
+#	traits = { infantry_officer war_hero harsh_leader trait_reckless hill_fighter }
+#	skill = 4
+	
+#	attack_skill = 5
+#	defense_skill = 4
+#	planning_skill = 2
+#	logistics_skill = 2
+#}
+
+#create_corps_commander = {
+#	name = "Maksim Purkayev"
+#		picture = "Portrait_Soviet_Maksim_Purkayev.dds"
+#	traits = { career_officer ranger trait_reckless infantry_leader inflexible_strategist  }
+#	skill = 4
+
+	
+#	attack_skill = 4
+#	defense_skill = 5
+#	planning_skill = 2
+#	logistics_skill = 2
+#}
 create_corps_commander = {
-	name = "Dmitry Lelyushenko"
-		picture = "Portrait_Soviet_Dmitri_Danilovich_Lelyushenko.dds"
-	traits = {armor_officer trait_reckless  }
+	name = "Kuzma Galitsky"
+		picture = "Portrait_Soviet_Kuzma_Galitsky.dds"
+	traits = { infantry_officer ranger hill_fighter trait_reckless harsh_leader }
 	skill = 1 
+
 	
 	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
 }
+#create_corps_commander = {
+#	name = "Markian Popov"
+#		picture = "Portrait_Soviet_Matkian_Popov.dds"
+#	traits = { winter_specialist infantry_officer brilliant_strategist urban_assault_specialist trait_engineer}
+#	skill = 5
+
+	
+#	attack_skill = 6
+#	defense_skill = 4
+#	planning_skill = 3
+#	logistics_skill = 3
+#}
+
+#create_corps_commander = {
+#	name = "Nikolai Berzarin"
+#		picture = "Portrait_Soviet_Nikolai_Berzarin.dds"
+#	traits = { infantry_officer trait_mountaineer skilled_staffer old_guard trait_cautious }
+#	skill = 5
+	
+#	attack_skill = 6
+#	defense_skill = 4
+#	planning_skill = 2
+#	logistics_skill = 4
+#}
+
+#create_corps_commander = {
+#	name = "Alexander Gorbatov"
+#		picture = "Portrait_Soviet_Alexander_Gorbatov.dds"
+#	traits = { career_officer cavalry_officer harsh_leader trait_reckless infantry_leader }
+#	skill = 5
+	
+#	attack_skill = 4
+#	defense_skill = 4
+#	planning_skill = 4
+#	logistics_skill = 4
+#}
+
+#create_field_marshal = {
+#	name = "Kirill Moskalenko"
+#		picture = "Portrait_Soviet_Kirill_Moskalenko.dds"
+#	traits = {  brilliant_strategist infantry_leader old_guard career_officer ranger skilled_staffer}
+#	skill = 6
+	
+#	attack_skill = 6
+#	defense_skill = 3
+#	planning_skill = 6
+#	logistics_skill = 1
+#}
+
+#create_corps_commander = {
+#	name = "Dmitry Lelyushenko"
+#		picture = "Portrait_Soviet_Dmitri_Danilovich_Lelyushenko.dds"
+#	traits = {armor_officer trait_reckless panzer_leader harsh_leader ranger trickster  }
+#	skill = 5
+	
+#	attack_skill = 5
+#	defense_skill = 4
+#	planning_skill = 6
+#	logistics_skill = 1
+#}
 
 create_corps_commander = {
 	name = "Andrei Grechko"
 		picture = "Portrait_Soviet_Andrei_Antonovich_Grechko.dds"
-	traits = { cavalry_officer }
-	skill = 3
+	traits = { cavalry_officer hill_fighter trait_mountaineer trickster infantry_leader harsh_leader }
+	skill = 2
 
 
 	
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Rodion Malinovsky"
-		picture = "Portrait_Soviet_Rodion_Malinovsky.dds"
-	traits = { career_officer old_guard trait_cautious politically_connected }
-	skill = 1 
-
-	
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
 	logistics_skill = 1
 }
 
-create_corps_commander = {
-	name = "Vasily Chuikov"
-		picture = "Portrait_Soviet_Vasily_Chuikov.dds"
-	traits = { brilliant_strategist career_officer }
-	skill = 1
+#create_corps_commander = {
+#	name = "Rodion Malinovsky"
+#		picture = "Portrait_Soviet_Rodion_Malinovsky.dds"
+#	traits = { career_officer old_guard trait_cautious politically_connected }
+#	skill = 5
+
+#	
+#	attack_skill = 3
+#	defense_skill = 3
+#	planning_skill = 2
+#	logistics_skill = 8
+#}
+
+#create_field_marshal = {
+#	name = "Vasily Chuikov"
+#		picture = "Portrait_Soviet_Vasily_Chuikov.dds"
+#	traits = { brilliant_strategist career_officer infantry_leader panzer_leader trait_engineer urban_assault_specialist trait_cautious}
+#	skill = 4
 
 	
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
+#	attack_skill = 4
+#	defense_skill = 2
+#	planning_skill = 3
+#	logistics_skill = 4
+#} = 1
 
 create_navy_leader = {
 	name = "Filipp Oktyabrskiy"

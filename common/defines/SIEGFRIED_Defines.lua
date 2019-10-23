@@ -193,7 +193,7 @@ NDefines.NMilitary.MAX_OUT_OF_SUPPLY_DAYS = 20 -- Because 30 is too long.
 NDefines.NMilitary.OUT_OF_SUPPLY_ATTRITION = 0.4                -- max attrition when out of supply
 NDefines.NMilitary.AIR_SUPPORT_BASE = 0.29
 NDefines.NMilitary.ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0
-NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.4
+NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.1
 NDefines.NMilitary.PLAYER_ORDER_PLANNING_DECAY = 0.01
 NDefines.NMilitary.STRATEGIC_SPEED_BASE = 7.0
 NDefines.NMilitary.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_STRATEGIC_BOMBER = 0.018
@@ -231,7 +231,7 @@ NDefines.NMilitary.PROMOTE_LEADER_CP_COST = 500.0 -- CP is used for too many thi
 
 NDefines.NMilitary.FUEL_CAPACITY_DEFAULT_HOURS = 200               -- default capacity if not specified 
 
-NDefines.NMilitary.DECRYPTION_ADVANTAGE_BONUS = 0.025 -- Reducing all combat modifiers across the board
+NDefines.NMilitary.DECRYPTION_ADVANTAGE_BONUS = 0.05 -- Reducing all combat modifiers across the board
 NDefines.NMilitary.BASE_FORT_PENALTY = -0.12 					   -- fort penalty 
 NDefines.NNavy.SHORE_BOMBARDMENT_CAP = 0.2
 

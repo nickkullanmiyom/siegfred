@@ -263,3 +263,42 @@ adjacency_rule
 	icon = 11366
 	offset = { 5 0 -6 }
 }
+#Gulf of Aden
+adjacency_rule
+{
+	name = "ADEN_STRAIT"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 4985 10752 }
+		
+	icon = 2753
+	offset = { 1 0 -6 }
+}
