@@ -102,7 +102,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_industrial_effort
-		icon = GFX_focus_research
+		icon = GFX_focus_generic_industry_1
 		text = industrial_effort
 		prerequisite = { focus = ITA_ethiopian_war_logistics }
 		x = 0

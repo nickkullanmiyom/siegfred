@@ -254,7 +254,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_autarky
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_goal_ger_autarchy
 		prerequisite = { focus = GER_four_year_plan }
 		x = 0
 		y = 1
@@ -361,7 +361,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_kdf_wagen
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_goal_kdf_wagen
 		dynamic = yes
 		prerequisite = { focus = GER_hermann_goring_werke }
 		x = 0
@@ -953,7 +953,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_soviet_treaty
-		icon = GFX_GER_Panzerkorps
+		icon = GFX_focus_generic_army_tanks2
 		prerequisite = { focus = GER_army_innovation }
 		#cancel = {
 		#	OR = {
@@ -1084,7 +1084,7 @@ focus_tree = {
 		
 	focus = {
 		id = GER_rhineland
-		icon = GFX_focus_ger_reichskommisariats
+		icon = GFX_goal_ger_gdu_rhineland
 		x = 20
 		y = 0
 		cost = 10

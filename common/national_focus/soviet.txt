@@ -81,7 +81,7 @@ focus_tree = {
 
 	focus = {
 		id = sov_gulag
-		icon = GFX_focus_cze_german_puppet
+		icon = GFX_focus_generic_industry_1
 		cost = 10,00
 		prerequisite = {
 			focus = finish_seven_year_plan
@@ -130,7 +130,7 @@ focus_tree = {
 	}
 	focus = {
 		id = soviet_war_eco
-		icon = GFX_goal_unknown
+		icon = GFX_focus_eng_liberate_the_home_of_marx
 		cost = 10,00
 		prerequisite = {
 			focus = aviation_cult
@@ -197,7 +197,7 @@ focus_tree = {
 	
 	focus = {
 		id = red_army_get_suck
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ger_bulwark_against_bolshevism
 		cost = 10,00
 		prerequisite = {
 			focus = great_patriotic_war

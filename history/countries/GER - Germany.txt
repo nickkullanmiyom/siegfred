@@ -328,6 +328,7 @@ add_to_faction = GER
 add_ideas = {
 	sour_loser
 	general_staff
+	partial_economic_mobilisation
 	limited_exports
 	limited_conscription
     ger_ss_divisions

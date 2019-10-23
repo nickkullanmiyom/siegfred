@@ -575,7 +575,7 @@ ideas = {
 			}
 		}
 
-			picture = GFX_fascismtrade
+			picture = can_wartime_prices_and_trade_board
 
 			modifier = {
 			    production_speed_arms_factory_factor = 0.035
