@@ -1,0 +1,33 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_ITA_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/technologies/ITA_transport_savoiamarchetti75.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/technologies/GER_transport_junkersju52.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/technologies/JAP_transport_NakajimaL2D.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/technologies/ENG_transport_BristolBombay.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/technologies/FRA_transport_BlochMB220.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_USA_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/technologies/USA_transport_DouglasC47.dds"
+	}
+
+}

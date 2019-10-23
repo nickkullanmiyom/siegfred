@@ -1,0 +1,453 @@
+spriteTypes = {
+
+	### SPR ###
+
+	spriteType = {
+		name = "GFX_idea_SECN"
+		texturefile = "gfx/interface/ideas/idea_generic_naval_manufacturer_2.dds"
+	}
+
+	### UNIQUE national focus icons BUL
+	spriteType = {
+		name = "GFX_idea_varna_shipyard"
+		#texturefile = "gfx/interface/ideas/varna_shipyard.dds"
+		#texturefile = "gfx/interface/ideas/idea_generic_naval_manufacturer_3.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_shattered_militarism"
+		texturefile = "gfx/interface/ideas/BUL_shattered_militarism.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_dar"
+		texturefile = "gfx/interface/ideas/darzhavna_aeroplanna_rabotilnitsa.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_kaproni"
+		texturefile = "gfx/interface/ideas/kaproni_bulgarski.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_petrol_ad"
+		texturefile = "gfx/interface/ideas/petrol_ad.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_vmz_sopot"
+		texturefile = "gfx/interface/ideas/vmz_sopot.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_darzhavna_voenna_fabrika"
+		texturefile = "gfx/interface/ideas/darzhavna_voenna_fabrika.dds"
+	}
+
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_alexander_girginov"
+		texturefile = "gfx/interface/ideas/BUL_alexander_girginov.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_aleksandar_tsankov"
+		texturefile = "gfx/interface/ideas/BUL_aleksandar_tsankov.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_boris_iotsov"
+		texturefile = "gfx/interface/ideas/BUL_boris_iotsov.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_bogdan_filov"
+		texturefile = "gfx/interface/ideas/BUL_bogdan_filov.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_alexander_belev"
+		texturefile = "gfx/interface/ideas/BUL_alexander_belev.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_stefan_stefanov"
+		texturefile = "gfx/interface/ideas/BUL_stefan_stefanov.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_konstantin_muraviev"
+		texturefile = "gfx/interface/ideas/BUL_alexander_belev.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_dobri_bozhilov"
+		texturefile = "gfx/interface/ideas/BUL_dobri_bozhilov.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_georgi_ivanov_kyoseivanov"
+		texturefile = "gfx/interface/ideas/BUL_georgi_ivanov_kyoseivanov.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_vasil_petrov_kolarov"
+		texturefile = "gfx/interface/ideas/BUL_vasil_petrov_kolarov.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_hristo_kabakchiev"
+		texturefile = "gfx/interface/ideas/BUL_hristo_kabakchiev.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_petar_gabrovski"
+		texturefile = "gfx/interface/ideas/BUL_petar_gabrovski.dds"
+	}
+
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_konstantin_lukash"
+		texturefile = "gfx/interface/ideas/BUL_konstantin_lukash.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_nikola_hadzipetkov"
+		texturefile = "gfx/interface/ideas/BUL_nikola_hadzipetkov.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_asen_toshev"
+		texturefile = "gfx/interface/ideas/BUL_asen_toshev.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_vasil_boydev"
+		texturefile = "gfx/interface/ideas/BUL_vasil_boydev.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_vasil_boydev2"
+		texturefile = "gfx/interface/ideas/BUL_vasil_boydev.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_vasil_vulkov"
+		texturefile = "gfx/interface/ideas/BUL_vasil_vulkov.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_dimitar_ayryanov"
+		texturefile = "gfx/interface/ideas/BUL_dimitar_ayryanov.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_hristo_lukov"
+		texturefile = "gfx/interface/ideas/BUL_hristo_lukov.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_ivan_variklechkov"
+		texturefile = "gfx/interface/ideas/BUL_ivan_variklechkov.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_valko_chervenkov"
+		texturefile = "gfx/interface/ideas/BUL_valko_chervenkov.dds"
+	}
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_BUL_kimon_georgiev"
+		texturefile = "gfx/interface/ideas/BUL_kimon_georgiev.dds"
+	}
+	#Croatia
+    spriteType = {
+		name = "GFX_idea_CRO_ivan_orsanic"
+		texturefile = "gfx/interface/ideas/CRO_ivan_orsanic.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_CRO_milan_budak"
+		texturefile = "gfx/interface/ideas/CRO_milan_budak.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_CRO_ivan_subasic"
+		texturefile = "gfx/interface/ideas/CRO_ivan_subasic.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_CRO_vladimir_laxa"
+		texturefile = "gfx/interface/ideas/CRO_vladimir_laxa.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_CRO_friedrich_navratil"
+		texturefile = "gfx/interface/ideas/CRO_miroslav_navrati.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_CRO_slavko_stancer"
+		texturefile = "gfx/interface/ideas/CRO_slavko_stancer.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_CRO_alojzije_stepinac"
+		texturefile = "gfx/interface/ideas/CRO_alojzije_stepinac.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_CRO_andrija_hebrang"
+		texturefile = "gfx/interface/ideas/CRO_andrija_hebrang.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_CRO_vladimir_nazor"
+		texturefile = "gfx/interface/ideas/CRO_vladimir_nazor.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_CRO_bozidar_magovac"
+		texturefile = "gfx/interface/ideas/CRO_bozidar_magovac.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_CRO_august_kosutic"
+		texturefile = "gfx/interface/ideas/CRO_august_kosutic.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_CRO_mladen_lorkovic"
+		texturefile = "gfx/interface/ideas/CRO_mladen_lorkovic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_ante_vokic"
+		texturefile = "gfx/interface/ideas/CRO_ante_vokic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_vladko_macek"
+		texturefile = "gfx/interface/ideas/CRO_vladko_macek.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_slavko_kvaternik"
+		texturefile = "gfx/interface/ideas/CRO_slavko_kvaternik.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_vladimir_kren"
+		texturefile = "gfx/interface/ideas/CRO_vladimir_kren.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_djuro_jakcin"
+		texturefile = "gfx/interface/ideas/CRO_djuro_jakcin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_djuro_jakcin2"
+		texturefile = "gfx/interface/ideas/CRO_djuro_jakcin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_vilko_begic"
+		texturefile = "gfx/interface/ideas/CRO_vilko_begic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_vjekoslav_vrancic"
+		texturefile = "gfx/interface/ideas/CRO_vjekoslav_vrancic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_fedor_dragojlov"
+		texturefile = "gfx/interface/ideas/CRO_fedor_dragojlov.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_CRO_tomislav_II"
+		texturefile = "gfx/interface/ideas/CRO_tomislav_II.dds"
+	}
+
+	#Slovakia
+	spriteType = {
+		name = "GFX_idea_SLO_ferdinand_catlos"
+		texturefile = "gfx/interface/ideas/SLO_ferdinand_catlos.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SLO_ferdinand_catlos2"
+		texturefile = "gfx/interface/ideas/SLO_ferdinand_catlos.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_SLO_jan_golian"
+		texturefile = "gfx/interface/ideas/SLO_jan_golian.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_SLO_viliam_talsky"
+		texturefile = "gfx/interface/ideas/SLO_viliam_talsky.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_SLO_vojtech_tuka"
+		texturefile = "gfx/interface/ideas/SLO_vojtech_tuka.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_SLO_gustav_malar"
+		texturefile = "gfx/interface/ideas/SLO_augustin_malar.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_SLO_jozef_turanec"
+		texturefile = "gfx/interface/ideas/SLO_jozef_turanec.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_SLO_karol_sidor"
+		texturefile = "gfx/interface/ideas/SLO_karol_sidor.dds"
+	}
+
+    spriteType = {
+		name = "GFX_idea_SLO_alexander_mach"
+		texturefile = "gfx/interface/ideas/SLO_alexander_mach.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_SLO_vavro_srobar"
+		texturefile = "gfx/interface/ideas/SLO_vavro_srobar.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_SLO_jozef_lettrich"
+		texturefile = "gfx/interface/ideas/SLO_jozef_lettrich.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_SLO_jozef_lettrich_2"
+		texturefile = "gfx/interface/ideas/SLO_jozef_lettrich.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_SLO_jan_osoha"
+		texturefile = "gfx/interface/ideas/SLO_jan_osoha.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_SLO_ludovit_benada"
+		texturefile = "gfx/interface/ideas/SLO_ludovit_benada.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_SLO_karol_smidke"
+		texturefile = "gfx/interface/ideas/SLO_karol_smidke.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_SLO_frano_kral"
+		texturefile = "gfx/interface/ideas/SLO_frano_kral.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_SLO_ferdinand_durcansky"
+		texturefile = "gfx/interface/ideas/SLO_ferdinand_durcansky.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SLO_rudolf_viest"
+		texturefile = "gfx/interface/ideas/SLO_rudolf_viest.dds"
+	}
+	#Slovak Manufacturers
+    spriteType = {
+		name = "GFX_idea_apollo"
+		texturefile = "gfx/interface/ideas/SLO_apollo_refinery.dds"
+	}
+	#Carpathian Ruthenia
+	spriteType = {
+		name = "GFX_idea_RUT_andrej_brodij"
+		texturefile = "gfx/interface/ideas/RUT_andrej_brodij.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUT_stepan_klochurak"
+		texturefile = "gfx/interface/ideas/RUT_stepan_klochurak.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUT_yulian_revay"
+		texturefile = "gfx/interface/ideas/RUT_yulian_revay.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUT_andriy_melnyk"
+		texturefile = "gfx/interface/ideas/RUT_andriy_melnyk.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUT_dmitry_klympush"
+		texturefile = "gfx/interface/ideas/RUT_dmitry_klympush.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUT_dmitry_klympush2"
+		texturefile = "gfx/interface/ideas/RUT_dmitry_klympush.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUT_avhustyn_shtefan"
+		texturefile = "gfx/interface/ideas/RUT_avhustyn_shtefan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUT_yuriy_lopatynsky"
+		texturefile = "gfx/interface/ideas/RUT_yuriy_lopatynsky.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUT_roman_chukhevytch"
+		texturefile = "gfx/interface/ideas/RUT_roman_chukhevytch.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUT_ivan_turianytsia"
+		texturefile = "gfx/interface/ideas/RUT_ivan_turianytsia.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUT_ivan_turianytsia_army"
+		texturefile = "gfx/interface/ideas/RUT_ivan_turianytsia_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUT_oleksa_borkaniuk"
+		texturefile = "gfx/interface/ideas/RUT_oleksa_borkaniuk.dds"
+	}
+	##Etat français/Vichy France and Free France
+	spriteType = {
+		name = "GFX_idea_EFR_STO"
+		texturefile = "gfx/interface/ideas/EFR_STO.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EFR_joseph_darnand"
+		texturefile = "gfx/interface/ideas/EFR_joseph_darnand.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EFR_eugene_bridoux"
+		texturefile = "gfx/interface/ideas/EFR_eugene_bridoux.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EFR_henri_bineau"
+		texturefile = "gfx/interface/ideas/EFR_henri_bineau.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EFR_jacques_doriot"
+		texturefile = "gfx/interface/ideas/EFR_jacques_doriot.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EFR_jean_bergeret"
+		texturefile = "gfx/interface/ideas/EFR_jean_bergeret.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EFR_marcel_deat"
+		texturefile = "gfx/interface/ideas/EFR_marcel_deat.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EFR_pierre_laval"
+		texturefile = "gfx/interface/ideas/EFR_pierre_laval.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EFR_rene_belin"
+		texturefile = "gfx/interface/ideas/EFR_rene_belin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EFR_pierre_hering"
+		texturefile = "gfx/interface/ideas/EFR_pierre_hering.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EFR_gabriel_auphan"
+		texturefile = "gfx/interface/ideas/EFR_gabriel_auphan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EFR_bertrand_pujo"
+		texturefile = "gfx/interface/ideas/EFR_bertrand_pujo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EFR_charles_huntziger"
+		texturefile = "gfx/interface/ideas/idea_charles_huntziger.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EFR_odilon_picquendar"
+		texturefile = "gfx/interface/ideas/EFR_odilon_picquendar.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EFR_emile_mollard"
+		texturefile = "gfx/interface/ideas/EFR_emile_mollard.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EFR_francois_darlan"
+		texturefile = "gfx/interface/ideas/idea_francois_darlan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EFR_jean_romatet"
+		texturefile = "gfx/interface/ideas/EFR_jean_romatet.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_FREE_adolphe_cise"
+		texturefile = "gfx/interface/ideas/FRA_FREE_adolphe_cise.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_FREE_felix_eboue"
+		texturefile = "gfx/interface/ideas/FRA_FREE_felix_eboue.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_FREE_edgard_de_larminat"
+		texturefile = "gfx/interface/ideas/FRA_FREE_edgard_de_larminat.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_FREE_georges_catroux"
+		texturefile = "gfx/interface/ideas/FRA_FREE_georges_catroux.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_FREE_rene_cassin"
+		texturefile = "gfx/interface/ideas/FRA_FREE_rene_cassin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_andre_marty"
+		texturefile = "gfx/interface/ideas/FRA_FREE_andre_marty.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_FREE_henry_de_rancourt_de_mimerand"
+		texturefile = "gfx/interface/ideas/FRA_FREE_henry_de_rancourt_de_mimerand.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_FREE_army"
+		texturefile = "gfx/interface/ideas/FRA_FREE_army.dds"
+	}
+}

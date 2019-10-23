@@ -13,7 +13,7 @@ focus_tree = {
 
 	focus = {
 		id = stalin_constitution
-		icon = GFX_focus_ger_great_red_menace
+		icon = GFX_goal_appeal_to_stalin
 		cost = 10
 		x = 8
 		y = 0
@@ -32,7 +32,7 @@ focus_tree = {
 
 	focus = {
 		id = finish_seven_year_plan
-		icon = GFX_focus_chi_army_reform
+		icon = GFX_SOV_Portray_A_Global_Soviet_Image
 		cost = 10
 		prerequisite = {
 			focus = stalin_constitution
@@ -106,8 +106,8 @@ focus_tree = {
 	}
 	focus = {
 		id = aviation_cult
-		icon = GFX_goal_unknown
-		cost = 10,00
+		icon = GFX_focus_eng_crush_the_dream
+		cost = 10
 		prerequisite = {
 			focus = sov_gulag
 		}
@@ -116,15 +116,16 @@ focus_tree = {
 		}
 		x = 4
 		y = 3
-        completion_reward = {
-        
-		    add_tech_bonus = {
-			    name = fighter2bonussov
-			    bonus = 1.75
-			    uses = 1
-			    technology = light_fighter
-		    }
+        completion_reward = { 
+            air_experience = 100
 
+			add_tech_bonus = {
+				name = Fighterbonus
+				bonus = 1.5
+				ahead_reduction = 1
+				uses = 1
+				category = light_fighter
+			}
 		}				
 	}
 	focus = {
@@ -163,10 +164,12 @@ focus_tree = {
 				add_timed_idea = {
 					idea = officers_purged
 					days = 2200
-			    }
-		    }
-	    }
-
+				remove_ideas = {
+				trotskyite_plot 
+				}
+			}
+		}
+	}
 	focus = {
 		id = great_patriotic_war
 		icon = GFX_goal_unknown
@@ -265,7 +268,6 @@ focus_tree = {
 	}
 	focus = {
 		id = SOV_scientist
-		text = Scientists
 		icon = GFX_focus_generic_socialist_science
 		cost = 10,00
 		prerequisite = {
@@ -273,6 +275,9 @@ focus_tree = {
 		}
 		x = 12
 		y = 4
+		available = {
+		    date > 1939.9.1
+		}
 		completion_reward = {
 			add_research_slot = 1
 	    }

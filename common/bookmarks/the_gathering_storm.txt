@@ -105,6 +105,7 @@ bookmarks = {
 			}
 			focuses = {
 				SOV_great_purge
+				stalin_constitution
 			}	
 		}
 

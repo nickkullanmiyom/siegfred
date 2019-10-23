@@ -1,0 +1,77 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_goal_ger_heer"
+		texturefile = "gfx/interface/goals/ger/goal_ger_heer.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_baltic_cross"
+		texturefile = "gfx/interface/goals/ger/goal_baltic_cross.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_ger_autarchy"
+		texturefile = "gfx/interface/goals/ger/goal_ger_autarchy.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ger_goal_air"
+		texturefile = "gfx/interface/goals/ger/ger_goal_air.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ger_goal_air_2"
+		texturefile = "gfx/interface/goals/ger/ger_goal_air_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_der_kriegsmarine"
+		texturefile = "gfx/interface/goals/ger/goal_der_kriegsmarine.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_ger_donitz_plan"
+		texturefile = "gfx/interface/goals/ger/goal_ger_donitz_plan.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_luftwaffe"
+		texturefile = "gfx/interface/goals/ger/goal_luftwaffe.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_ger_bf"
+		texturefile = "gfx/interface/goals/ger/goal_ger_bf.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_german_raeder_plan"
+		texturefile = "gfx/interface/goals/ger/goal_german_raeder_plan.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_goring_plan"
+		texturefile = "gfx/interface/goals/ger/goal_goring_plan.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_ger_infrastructure"
+		texturefile = "gfx/interface/goals/ger/goal_ger_infrastructure.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_kdf_wagen"
+		texturefile = "gfx/interface/goals/ger/goal_kdf_wagen.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_military_mission"
+		texturefile = "gfx/interface/goals/ger/goal_military_mission.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_gdu_rhineland"
+		texturefile = "gfx/interface/goals/ger/goal_ger_gdu_rhineland.dds"
+	}
+}

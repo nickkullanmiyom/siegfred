@@ -1,0 +1,38 @@
+
+spriteTypes = {
+
+spriteType = {
+		name = "GFX_idea_leonid_serebryakov"
+		texturefile = "gfx/interface/ideas/idea_leonid_serebryakov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_guglielmo_nasi"
+		texturefile = "gfx/interface/ideas/idea_guglielmo_nasi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ansaldo"
+		texturefile = "gfx/interface/ideas/idea_ansaldo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_UKMed"
+		texturefile = "gfx/interface/ideas/idea_ansaldo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_odero_terni_orlando"
+		texturefile = "gfx/interface/ideas/idea_odero_terni_orlando.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_great_depression_1"
+		texturefile = "gfx/interface/ideas/great_depression.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_great_depression_2"
+		texturefile = "gfx/interface/ideas/great_depression.dds"
+	}
+	
+}

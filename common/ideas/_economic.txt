@@ -11,7 +11,7 @@ ideas = {
 			removal_cost = -1
 		
 			modifier = {
-				consumer_goods_factor = 0.50
+				consumer_goods_factor = 0.45
 				production_speed_industrial_complex_factor = -0.5
 				production_speed_arms_factory_factor = -0.5
 				production_speed_dockyard_factor = -0.5
@@ -390,7 +390,8 @@ ideas = {
 
 			available = {
 			NOT = { tag = SOV }
-			NOT = { tag = SPR }		
+			NOT = { tag = SPR }
+			NOT = { tag = GER }			
 			}
 			
 			modifier = {

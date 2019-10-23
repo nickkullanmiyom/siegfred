@@ -1,0 +1,230 @@
+spriteTypes = {
+	### USA Ships ###
+
+	SpriteType = {
+		name = "GFX_USA_early_destroyer_medium"
+		texturefile = "gfx/interface/technologies/USA_early_destroyer.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_basic_destroyer_medium"
+		texturefile = "gfx/interface/technologies/USA_basic_destroyer.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_improved_destroyer_medium"
+		texturefile = "gfx/interface/technologies/USA_improved_destroyer.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_advanced_destroyer_medium"
+		texturefile = "gfx/interface/technologies/USA_advanced_destroyer.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_early_light_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA_early_light_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_basic_light_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA_basic_light_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_improved_light_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA_improved_light_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_advanced_light_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA_advanced_light_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_early_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA_early_heavy_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_basic_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA_basic_heavy_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_improved_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA_improved_heavy_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_advanced_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA_advanced_heavy_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_early_battlecruiser_medium"
+		texturefile = "gfx/interface/technologies/USA_early_battlecruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_basic_battlecruiser_medium"
+		texturefile = "gfx/interface/technologies/USA_basic_battlecruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_early_battleship_medium"
+		texturefile = "gfx/interface/technologies/USA_early_battleship.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_basic_battleship_medium"
+		texturefile = "gfx/interface/technologies/USA_basic_battleship.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_improved_battleship_medium"
+		texturefile = "gfx/interface/technologies/USA_improved_battleship.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_advanced_battleship_medium"
+		texturefile = "gfx/interface/technologies/USA_advanced_battleship.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_heavy_battleship_medium"
+		texturefile = "gfx/interface/technologies/USA_heavy_battleship.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_heavy_battleship2_medium"
+		texturefile = "gfx/interface/technologies/USA_heavy_battleship2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_early_carrier_medium"
+		texturefile = "gfx/interface/technologies/USA_early_carrier.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_basic_carrier_medium"
+		texturefile = "gfx/interface/technologies/USA_basic_carrier.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_improved_carrier_medium"
+		texturefile = "gfx/interface/technologies/USA_improved_carrier.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_advanced_carrier_medium"
+		texturefile = "gfx/interface/technologies/USA_advanced_carrier.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_early_submarine_medium"
+		texturefile = "gfx/interface/technologies/USA_early_submarine.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_basic_submarine_medium"
+		texturefile = "gfx/interface/technologies/USA_basic_submarine.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_improved_submarine_medium"
+		texturefile = "gfx/interface/technologies/USA_improved_submarine.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_advanced_submarine_medium"
+		texturefile = "gfx/interface/technologies/USA_advanced_submarine.dds"
+	}
+	### JAPANESE Ships ###
+
+	SpriteType = {
+		name = "GFX_JAP_early_destroyer_medium"
+		texturefile = "gfx/interface/technologies/JAP_early_destroyer.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_basic_destroyer_medium"
+		texturefile = "gfx/interface/technologies/JAP_basic_destroyer.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_improved_destroyer_medium"
+		texturefile = "gfx/interface/technologies/JAP_improved_destroyer.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_advanced_destroyer_medium"
+		texturefile = "gfx/interface/technologies/JAP_advanced_destroyer.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_early_light_cruiser_medium"
+		texturefile = "gfx/interface/technologies/JAP_early_light_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_basic_light_cruiser_medium"
+		texturefile = "gfx/interface/technologies/JAP_basic_light_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_improved_light_cruiser_medium"
+		texturefile = "gfx/interface/technologies/JAP_improved_light_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_advanced_light_cruiser_medium"
+		texturefile = "gfx/interface/technologies/JAP_advanced_light_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_early_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/JAP_early_heavy_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_basic_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/JAP_basic_heavy_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_improved_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/JAP_improved_heavy_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_advanced_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/JAP_advanced_heavy_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_early_battlecruiser_medium"
+		texturefile = "gfx/interface/technologies/JAP_early_battlecruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_basic_battlecruiser_medium"
+		texturefile = "gfx/interface/technologies/JAP_basic_battlecruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_early_battleship_medium"
+		texturefile = "gfx/interface/technologies/JAP_early_battleship.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_basic_battleship_medium"
+		texturefile = "gfx/interface/technologies/JAP_basic_battleship.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_improved_battleship_medium"
+		texturefile = "gfx/interface/technologies/JAP_improved_battleship.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_advanced_battleship_medium"
+		texturefile = "gfx/interface/technologies/JAP_advanced_battleship.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_heavy_battleship_medium"
+		texturefile = "gfx/interface/technologies/JAP_heavy_battleship.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_heavy_battleship2_medium"
+		texturefile = "gfx/interface/technologies/JAP_heavy_battleship2.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_early_carrier_medium"
+		texturefile = "gfx/interface/technologies/JAP_early_carrier.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_basic_carrier_medium"
+		texturefile = "gfx/interface/technologies/JAP_basic_carrier.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_improved_carrier_medium"
+		texturefile = "gfx/interface/technologies/JAP_improved_carrier.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_advanced_carrier_medium"
+		texturefile = "gfx/interface/technologies/JAP_advanced_carrier.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_early_submarine_medium"
+		texturefile = "gfx/interface/technologies/JAP_early_submarine.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_basic_submarine_medium"
+		texturefile = "gfx/interface/technologies/JAP_basic_submarine.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_improved_submarine_medium"
+		texturefile = "gfx/interface/technologies/JAP_improved_submarine.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_advanced_submarine_medium"
+		texturefile = "gfx/interface/technologies/JAP_advanced_submarine.dds"
+	}
+}

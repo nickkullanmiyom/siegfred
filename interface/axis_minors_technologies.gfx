@@ -1,0 +1,237 @@
+spriteTypes = {
+	
+	### France Aircrafts ###
+	
+	SpriteType = {
+		name = "GFX_EFR_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/FRA_tactical_bomber1.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_EFR_tactical_bomber2_medium"
+		texturefile = "gfx/interface/technologies/FRA_tactical_bomber2.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_EFR_tactical_bomber3_medium"
+		texturefile = "gfx/interface/technologies/FRA_tactical_bomber3.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_EFR_strategic_bomber1_medium"
+		texturefile = "gfx/interface/technologies/FRA_strategic_bomber1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_EFR_strategic_bomber2_medium"
+		texturefile = "gfx/interface/technologies/FRA_strategic_bomber2.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_EFR_strategic_bomber3_medium"
+		texturefile = "gfx/interface/technologies/FRA_strategic_bomber3.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_EFR_CAS1_medium"
+		texturefile = "gfx/interface/technologies/FRA_CAS1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_EFR_CAS2_medium"
+		texturefile = "gfx/interface/technologies/FRA_CAS2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_EFR_CAS3_medium"
+		texturefile = "gfx/interface/technologies/FRA_CAS3.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_EFR_heavy_fighter1_medium"
+		texturefile = "gfx/interface/technologies/FRA_heavy_fighter1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_EFR_heavy_fighter2_medium"
+		texturefile = "gfx/interface/technologies/FRA_heavy_fighter2.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_EFR_heavy_fighter3_medium"
+		texturefile = "gfx/interface/technologies/FRA_heavy_fighter3.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_EFR_naval_bomber1_medium"
+		texturefile = "gfx/interface/technologies/FRA_naval_bomber1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_EFR_naval_bomber2_medium"
+		texturefile = "gfx/interface/technologies/FRA_naval_bomber2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_EFR_naval_bomber3_medium"
+		texturefile = "gfx/interface/technologies/FRA_naval_bomber3.dds"
+	}	
+
+	
+	SpriteType = {
+		name = "GFX_EFR_fighter1_medium"
+		texturefile = "gfx/interface/technologies/FRA_fighter1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_EFR_fighter2_medium"
+		texturefile = "gfx/interface/technologies/FRA_fighter2.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_EFR_fighter3_medium"
+		texturefile = "gfx/interface/technologies/FRA_fighter3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_EFR_early_bomber_medium"
+		texturefile = "gfx/interface/technologies/FRA_early_bomber.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EFR_early_fighter_medium"
+		texturefile = "gfx/interface/technologies/FRA_early_fighter.dds"
+	}
+
+	### FRE equipment	###
+	
+	SpriteType = {
+		name = "GFX_EFR_rocket_artillery4_medium"
+		texturefile = "gfx/interface/technologies/Rocket_Art_2_allies.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_rocket_artillery_medium"
+		texturefile = "gfx/interface/technologies/Rocket_Art_1_allies.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_EFR_artillery4_medium"
+		texturefile = "gfx/interface/technologies/Art_3_allies.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_FRA_artillery1_medium"
+		texturefile = "gfx/interface/technologies/Art_2_allies.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_EFR_gw_artillery_medium"
+		texturefile = "gfx/interface/technologies/Art_1_allies.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_EFR_antitank5_medium"
+		texturefile = "gfx/interface/technologies/AT_3_allies.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_EFR_antitank2_medium"
+		texturefile = "gfx/interface/technologies/AT_2_allies.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_EFR_interwar_antitank_medium"
+		texturefile = "gfx/interface/technologies/AT_1_allies.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_EFR_antiair5_medium"
+		texturefile = "gfx/interface/technologies/AA_3_allies.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_FRA_antiair2_medium"
+		texturefile = "gfx/interface/technologies/AA_2_allies.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_EFR_interwar_antiair_medium"
+		texturefile = "gfx/interface/technologies/AA_1_allies.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FRA_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/fra_advanced_infantry_weapons.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/fra_improved_infantry_weapons.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_FRA_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/fra_basic_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FRA_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/fra_infantry_weapons1.dds"
+	}	
+	### FRA tanks ###
+
+	SpriteType = {
+		name = "GFX_EFR_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/FRA_basic_light_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_EFR_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/FRA_imp_light_tank.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_EFR_advanced_light_tank_medium"
+		texturefile = "gfx/interface/technologies/FRA_adv_light_tank.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_EFR_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/FRA_basic_main_tank.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_EFR_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/FRA_imp_main_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_EFR_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/FRA_adv_main_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_EFR_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/FRA_main_battle_tank.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_EFR_basic_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/FRA_basic_heavy_tank.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_EFR_improved_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/FRA_imp_heavy_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_EFR_advanced_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/FRA_adv_heavy_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_EFR_super_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/FRA_superheavy_tank.dds"
+	}	
+}

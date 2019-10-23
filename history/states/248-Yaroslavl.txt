@@ -9,7 +9,7 @@ state={
 	history={
 		owner = SOV
 		victory_points = {
-			121 5 
+			121 25 
 		}
 		buildings = {
 			infrastructure = 5

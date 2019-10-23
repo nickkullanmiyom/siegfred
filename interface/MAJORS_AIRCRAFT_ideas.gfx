@@ -1,0 +1,153 @@
+spriteTypes = {	
+
+	### GERMAN IDEAS
+	spriteType = {
+		name = "GFX_idea_blohm_und_voss2"
+		texturefile = "gfx/interface/ideas/idea_blohm_und_voss2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_arado"
+		texturefile = "gfx/interface/ideas/idea_arado.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_gotha"
+		texturefile = "gfx/interface/ideas/idea_gotha.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_henschelair"
+		texturefile = "gfx/interface/ideas/idea_henschelair.tga"
+	}
+	
+	
+	### BRITISH IDEAS
+	spriteType = {
+		name = "GFX_idea_bristol"
+		texturefile = "gfx/interface/ideas/idea_bristol.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_vickers"
+		texturefile = "gfx/interface/ideas/idea_vickers_armstrong.dds"
+	}
+	
+	### RUSSIAN IDEAS
+	spriteType = {
+		name = "GFX_idea_lavochkin_design_bureau"
+		texturefile = "gfx/interface/ideas/idea_lavochkin.tga"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_petyakov_design_bureau"
+		texturefile = "gfx/interface/ideas/idea_petyakov.tga"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_sukhoi_design_bureau"
+		texturefile = "gfx/interface/ideas/idea_sukhoi.tga"
+	}	
+	
+	
+	### USA IDEAS		
+	spriteType = {
+		name = "GFX_idea_martin"
+		texturefile = "gfx/interface/ideas/idea_martin.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_republic"
+		texturefile = "gfx/interface/ideas/idea_republic.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_northrop"
+		texturefile = "gfx/interface/ideas/idea_northrop.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_curtiss_wright"
+		texturefile = "gfx/interface/ideas/idea_curtiss_wright.tga"
+	}
+	
+	### JAPANESE IDEAS
+	spriteType = {
+		name = "GFX_idea_kawasaki2"
+		texturefile = "gfx/interface/ideas/idea_kawasaki2.dds"
+	}	
+	
+	### ITALIAN IDEAS	
+	spriteType = {
+		name = "GFX_idea_crdaair"
+		texturefile = "gfx/interface/ideas/idea_crdaair.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_imam"
+		texturefile = "gfx/interface/ideas/idea_imam.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_fiatair"
+		texturefile = "gfx/interface/ideas/idea_fiatair.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_regianne"
+		texturefile = "gfx/interface/ideas/idea_regianne.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_bredaair"
+		texturefile = "gfx/interface/ideas/idea_bredaair.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fiatair"
+		texturefile = "gfx/interface/ideas/idea_fiatair.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_macchi"
+		texturefile = "gfx/interface/ideas/idea_macchi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_savoia_marchetti"
+		texturefile = "gfx/interface/ideas/idea_savoia_marchetti.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_caproni"
+		texturefile = "gfx/interface/ideas/idea_caproni.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_piaggio"
+		texturefile = "gfx/interface/ideas/idea_piaggio.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_crda"
+		texturefile = "gfx/interface/ideas/idea_crda.dds"
+	}
+	
+	### FRENCH IDEAS	
+	spriteType = {
+		name = "GFX_idea_fcm"
+		texturefile = "gfx/interface/ideas/idea_fcm.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_famh"
+		texturefile = "gfx/interface/ideas/idea_famh.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dewoitine"
+		texturefile = "gfx/interface/ideas/idea_dewoitine.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_delage"
+		texturefile = "gfx/interface/ideas/idea_delage.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_farman"
+		texturefile = "gfx/interface/ideas/idea_farman.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_latecoere"
+		texturefile = "gfx/interface/ideas/idea_latecoere.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_sncaso"
+		texturefile = "gfx/interface/ideas/idea_sncaso.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nord"
+		texturefile = "gfx/interface/ideas/idea_nord.dds"
+	}
+	
+}

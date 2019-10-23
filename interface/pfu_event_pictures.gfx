@@ -1,0 +1,136 @@
+spriteTypes = {
+
+spriteType = {
+		name = "GFX_news_event_hitler_paris"
+		texturefile = "gfx/event_pictures/news_event_hitler_paris.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_white_death"
+		texturefile = "gfx/event_pictures/news_event_white_death.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_katyn"
+		texturefile = "gfx/event_pictures/news_event_katyn.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_Großdeutschland"
+		texturefile = "gfx/event_pictures/report_event_Großdeutschland.dds"
+	}
+		spriteType = {
+		name = "GFX_report_event_lssah"
+		texturefile = "gfx/event_pictures/report_event_lssah.dds"
+	}
+			spriteType = {
+		name = "GFX_report_event_dasreich"
+		texturefile = "gfx/event_pictures/report_event_dasreich.dds"
+	}
+			spriteType = {
+		name = "GFX_report_event_totenkopf"
+		texturefile = "gfx/event_pictures/report_event_totenkopf.dds"
+	}
+				spriteType = {
+		name = "GFX_report_event_warningger"
+		texturefile = "gfx/event_pictures/report_event_warningger.dds"
+	}
+					spriteType = {
+		name = "GFX_report_event_warningsov"
+		texturefile = "gfx/event_pictures/report_event_warningsov.dds"
+	}
+						spriteType = {
+		name = "GFX_report_event_heavytank"
+		texturefile = "gfx/event_pictures/report_event_heavytank.dds"
+	}
+							spriteType = {
+		name = "GFX_report_event_ratstobruk"
+		texturefile = "gfx/event_pictures/report_event_ratstobruk.dds"
+	}
+								spriteType = {
+		name = "GFX_report_event_stratbombers"
+		texturefile = "gfx/event_pictures/report_event_stratbombers.dds"
+	}
+								spriteType = {
+		name = "GFX_report_event_wiking"
+		texturefile = "gfx/event_pictures/report_event_wiking.dds"
+	}
+									spriteType = {
+		name = "GFX_goal_generic_SS_focus"
+		texturefile = "gfx/interface/goals/goal_generic_SS_focus.dds"
+	}
+									spriteType = {
+		name = "GFX_report_event_moscow"
+		texturefile = "gfx/event_pictures/report_event_moscow.dds"
+	}
+									spriteType = {
+		name = "GFX_report_event_tihkvin"
+		texturefile = "gfx/event_pictures/report_event_tihkvin.dds"
+	}
+									spriteType = {
+		name = "GFX_report_event_voronezh"
+		texturefile = "gfx/event_pictures/report_event_voronezh.dds"
+	}
+										spriteType = {
+		name = "GFX_report_event_shortwar"
+		texturefile = "gfx/event_pictures/report_event_shortwar.dds"
+	}
+											spriteType = {
+		name = "GFX_report_event_nord"
+		texturefile = "gfx/event_pictures/report_event_nord.dds"
+	}
+												spriteType = {
+		name = "GFX_report_event_finesthour"
+		texturefile = "gfx/event_pictures/report_event_finesthour.dds"
+	}
+													spriteType = {
+		name = "GFX_report_event_totalwar"
+		texturefile = "gfx/event_pictures/report_event_totalwar.dds"
+	}
+														spriteType = {
+		name = "GFX_report_event_hohenstaufen"
+		texturefile = "gfx/event_pictures/report_event_hohenstaufen.dds"
+	}
+															spriteType = {
+		name = "GFX_report_event_frundsberg"
+		texturefile = "gfx/event_pictures/report_event_frundsberg.dds"
+	}
+																spriteType = {
+		name = "GFX_report_event_nordland"
+		texturefile = "gfx/event_pictures/report_event_nordland.dds"
+	}
+																spriteType = {
+		name = "GFX_report_event_hitlerjugend"
+		texturefile = "gfx/event_pictures/report_event_Hitlerjugend.dds"
+	}
+																	spriteType = {
+		name = "GFX_report_event_jap_southern"
+		texturefile = "gfx/event_pictures/report_event_jap_southern.dds"
+	}
+																		spriteType = {
+		name = "GFX_report_event_JAP_rebels"
+		texturefile = "gfx/event_pictures/report_event_JAP_rebels.dds"
+	}
+																			spriteType = {
+		name = "GFX_report_event_JAP_warning"
+		texturefile = "gfx/event_pictures/report_event_JAP_warning.dds"
+	}
+																				spriteType = {
+		name = "GFX_report_event_fall_blau"
+		texturefile = "gfx/event_pictures/report_event_fall_blau.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_confused_hitler"
+		texturefile = "gfx/event_pictures/report_event_confused_hitler.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_royalarmor"
+		texturefile = "gfx/event_pictures/report_event_royalarmor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_pearl_harbor"
+		texturefile = "gfx/event_pictures/news_event_pearl_harbor.dds"
+	}
+	
+}
+	

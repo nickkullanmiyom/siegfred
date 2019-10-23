@@ -1,0 +1,6 @@
+spriteTypes = {#Design companies
+	spriteType = {
+		name = "GFX_SPR_idea_SECN"
+		texturefile = "gfx/interface/ideas/idea_brooklyn_naval_yard.dds"
+	}
+}

@@ -1121,10 +1121,10 @@ focus_tree = {
 
 	focus = {
 		id = ITA_slovenia_dalmatia_claims
-		icon = GFX_SER_form_yugoslavia
+		icon = GFX_focus_mex_triumph_over_the_cristeros
 		prerequisite = { focus = ITA_albania_war_goal }
 		available = {
-			#date > 1939.1.1
+			date > 1938.6.1
 		}
 		x = 14
 		y = 2
@@ -1138,46 +1138,21 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_state_claim = 102
-			add_state_claim = 103
-			create_wargoal = { type = take_claimed_state target = YUG }
+	    transfer_state = 102
+        transfer_state = 103
+        transfer_state = 104
+        transfer_state = 107
+        transfer_state = 108
+        transfer_state = 106
+        transfer_state = 105
+        transfer_state = 109
+        transfer_state = 764
+        transfer_state = 45        
 			add_named_threat = { threat = 4 name = ITA_slovenia_dalmatia_claims_threat }
-			YUG = {
-				add_opinion_modifier = { target = ITA modifier = claimed_western_yugoslavia }
-				if = {
-					limit = {
-						ROOT = { has_government = fascism }
-						NOT = { has_government = fascism }
-					}
-					add_popularity = {
-						ideology = fascism
-						popularity = -0.3
-					}
-				}
-				if = {
-					limit = {
-						ROOT = { has_government = communism }
-						NOT = { has_government = communism }
-					}
-					add_popularity = {
-						ideology = communism
-						popularity = -0.3
-					}
-				}
-				if = {
-					limit = {
-						ROOT = { has_government = democratic }
-						NOT = { has_government = democratic }
-					}
-					add_popularity = {
-						ideology = democratic
-						popularity = -0.3
-					}
-				}
-			}
 
-			hidden_effect = {
-				news_event = { hours = 6 id = news.192 }
+				add_popularity = {
+					ideology = democratic
+					popularity = -0.22
 			}
 		}
 	}
