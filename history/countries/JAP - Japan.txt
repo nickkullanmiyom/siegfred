@@ -168,7 +168,6 @@ if = {
 	
 		#doctrines
 		#air
-		force_rotation = 1
 
 		grand_battle_plan = 1
 		prepared_defense = 1

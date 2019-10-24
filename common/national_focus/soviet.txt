@@ -31,6 +31,281 @@ focus_tree = {
 	}
 
 	focus = {
+		id = SOV_rehabilitated_military
+		icon = GFX_goal_generic_small_arms
+		relative_position_id = soviet_war_eco
+		prerequisite = { focus = soviet_war_eco } 
+		x = 0
+		y = 1
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 100
+				any_claim = yes
+				has_war = yes
+			}
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = rehabilitated_military_focus
+		}
+	}
+
+	focus = {
+		id = SOV_military_reorganization
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = SOV_rehabilitated_military }
+		x = 0
+		y = 1
+		relative_position_id = SOV_rehabilitated_military
+		cost = 10
+		ai_will_do = {
+			factor = 0.25
+			modifier = {
+				factor = 1000
+				any_claim = yes
+				has_war = yes
+			}
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.00 
+				uses = 1
+				category = land_doctrine
+			}
+			army_experience = 20
+		}
+	}
+
+	focus = {
+		id = SOV_nkvd_primacy
+		icon = GFX_goal_generic_military_deal
+		relative_position_id = SOV_scientist
+		prerequisite = { focus = SOV_scientist } 
+		x = 0
+		y = 1
+		
+		cost = 10
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1000
+				any_claim = yes
+				has_war = yes
+			}
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = nkvd
+		}
+	}
+
+	focus = {
+		id = SOV_nkvd_divisions
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = SOV_nkvd_primacy }
+		x = 0
+		y = 1
+		relative_position_id = SOV_nkvd_primacy
+		cost = 10
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 1000
+				any_claim = yes
+				has_war = yes
+			}
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = SOV_nkvd_upgrade_tooltip
+
+			swap_ideas = {
+				remove_idea = nkvd
+				add_idea = nkvd_2
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_lessons_of_war
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = SOV_nkvd_divisions focus = SOV_military_reorganization }
+		available = {
+			OR = {
+				date > 1941.1.1
+				has_country_flag = SOV_war_since_purge
+			}
+		}
+		x = -4
+		y = 1
+		relative_position_id = SOV_nkvd_divisions
+		cost = 10
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 1000
+				any_claim = yes
+				has_war = yes
+			}
+		}
+
+		available_if_capitulated = yes
+		completion_reward = {
+			custom_effect_tooltip = GDU_lessons_of_war_tt
+			hidden_effect = {
+         # skill 4 generals and field marshals
+			create_corps_commander = {
+			name = "Nikolai Vatutin"
+				picture = "Portrait_Soviet_Nikolai_Fyodorovich_Vatutin.dds"
+			traits = { winter_specialist infantry_officer trait_reckless trait_engineer infantry_leader trickster }
+			skill = 4
+			
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		create_corps_commander = {
+		name = "Filipp Golikov"
+		picture = "Portrait_Soviet_Filipp_Golikov.dds"
+		traits = { winter_specialist career_officer brilliant_strategist harsh_leader panzer_leader armor_officer trait_reckless }
+		skill = 4
+		
+		attack_skill = 3
+		defense_skill = 4
+		planning_skill = 3
+		logistics_skill = 1
+		}
+		create_corps_commander = {
+		name = "Nikandr Chibisov"
+		picture = "Portrait_Soviet_Nikandr_Yevlampyevich_Chibisov.dds"
+		traits = { winter_specialist trickster war_hero urban_assault_specialist infantry_leader infantry_officer harsh_leader }
+		skill = 4
+
+	
+		attack_skill = 5
+		defense_skill = 2
+		planning_skill = 1
+		logistics_skill = 4
+		}
+	create_corps_commander = {
+		name = "Andrey Vlasov"
+		picture = "Portrait_Soviet_Andrey_Vlasov.dds"
+		traits = { winter_specialist infantry_officer skilled_staffer organizer trait_engineer career_officer}
+		id = 412
+		skill = 4
+	
+		attack_skill = 4
+		defense_skill = 3
+		planning_skill = 1
+		logistics_skill = 5
+	}
+	create_corps_commander = {
+		name = "Ivan Fedyuninsky"
+		picture = "Portrait_Soviet_Ivan_Fedyuninsky.dds"
+		traits = { winter_specialist infantry_officer war_hero harsh_leader trait_reckless hill_fighter }
+		skill = 4
+	
+		attack_skill = 5
+		defense_skill = 4
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+	name = "Maksim Purkayev"
+		picture = "Portrait_Soviet_Maksim_Purkayev.dds"
+	traits = { winter_specialist career_officer ranger trait_reckless infantry_leader inflexible_strategist  }
+	skill = 4
+
+	
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 2
+	logistics_skill = 2
+	}
+		create_field_marshal = {
+			name = "Vasily Chuikov"
+			picture = "Portrait_Soviet_Vasily_Chuikov.dds"
+			traits = { winter_specialist brilliant_strategist career_officer infantry_leader panzer_leader trait_engineer urban_assault_specialist trait_cautious}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+}
+		completion_reward = {
+			army_experience = 20
+			add_tech_bonus = {
+				name = USSR_MEME_project
+				bonus = 1.00 
+				uses = 1
+				category = nuclear
+			}
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.00 
+				category = land_doctrine
+			}
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus2
+				bonus = 1.5
+				technology = improved_heavy_tank
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_research_city_experiment
+		icon = GFX_focus_research
+		prerequisite = { focus = SOV_lessons_of_war }
+		available = {
+
+		}
+		x = 0
+		y = 1
+		relative_position_id = SOV_lessons_of_war	
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_research_slot = 1
+
+			add_tech_bonus = {
+				name = secret
+				bonus = 1.00 
+				uses = 2
+				category = rocketry
+			}
+						add_tech_bonus = {
+				name = radar_tech_bonus
+				bonus = 1.00 
+				uses = 1
+				category = radar_tech
+			}
+		}
+	}
+
+	focus = {
 		id = finish_seven_year_plan
 		icon = GFX_SOV_Portray_A_Global_Soviet_Image
 		cost = 10
@@ -280,12 +555,6 @@ focus_tree = {
 		}
 		x = 12
 		y = 4
-		available = {
-		    date > 1939.9.1
-		}
-		completion_reward = {
-			add_research_slot = 1
-	    }
 	}
 	
 	focus = {
@@ -294,7 +563,9 @@ focus_tree = {
 		cost = 10
 		prerequisite = {
 			focus = SOV_scientist
-			focus = soviet_war_eco
+		}
+		prerequisite = {
+            focus = soviet_war_eco
 		}
 		prerequisite = {
 			focus = red_army_get_suck

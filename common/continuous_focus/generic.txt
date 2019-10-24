@@ -8,7 +8,7 @@ continuous_focus_palette = {
 	default = yes
 	reset_on_civilwar = no
 
-	position = { x = 48 y = 1000 }
+	position = { x = 48 y = 1500 }
 
 	focus = {
 		id = continuous_non_factory_construct
