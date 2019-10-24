@@ -773,10 +773,11 @@ news_event = {
 	
 	is_triggered_only = yes
 	
-	hidden_effect = {
+	immediate = {
+	    hidden_effect = {
 		sound_effect = rhineland
-	}
-	
+	}	
+
 	option = {
 		name = news.25.a
 		trigger = {

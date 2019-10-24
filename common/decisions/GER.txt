@@ -226,25 +226,6 @@ political_actions = {
 		complete_effect = {
 			GER = {
 				annex_country = { target = BUL transfer_troops = yes }
-				add_ideas = annex_bulgaria_idea
-			}
-		}
-	}
-
-	Operation_Panzerfaust = {
-		ai_will_do = { factor = 0 }
-		cost = 10
-		visible = {
-			tag = GER
-			HUN = { is_ai = yes }
-			country_exists = HUN
-			date > 1937.1.1
-		}
-		fire_only_once = yes
-		complete_effect = {
-			GER = {
-				annex_country = { target = HUN transfer_troops = yes }
-				add_ideas = annex_hungary_idea
 			}
 		}
 	}

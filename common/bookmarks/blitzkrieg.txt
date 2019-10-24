@@ -166,7 +166,6 @@ bookmarks = {
 				RAJ_princely_states
 			}
 			focuses = {
-				RAJ_all_india_forward_bloc
 				RAJ_indian_gurkhas
 				RAJ_the_smiling_buddha
 			}
