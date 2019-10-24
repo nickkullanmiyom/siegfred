@@ -2,19 +2,14 @@
 state={
 	id=488
 	name="STATE_488"
-	manpower = 245642
+	manpower = 1
 	
 	state_category = pastoral
 
 	history={
-		owner = VEN
 		buildings = {
 			infrastructure = 1
 
-		}
-		add_core_of = VEN
-		victory_points = {
-			10879 1
 		}
 	}
 

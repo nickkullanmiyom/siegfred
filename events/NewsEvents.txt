@@ -776,6 +776,7 @@ news_event = {
 	immediate = {
 	    hidden_effect = {
 		sound_effect = rhineland
+	    }
 	}	
 
 	option = {

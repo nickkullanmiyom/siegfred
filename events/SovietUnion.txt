@@ -996,7 +996,6 @@ country_event = {
 		remove_unit_leader = 411
 		remove_ideas = sergei_rudenko
 		remove_ideas = nikita_khrushchev
-		remove_ideas = konstantin_rodzaevsky
 		add_timed_idea = {
 			idea = officers_purged_7
 			days = 584

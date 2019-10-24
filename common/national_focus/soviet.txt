@@ -284,7 +284,6 @@ focus_tree = {
 	
 	focus = {
 		id = SOV_positive_heroism
-		text = PositiveHeroism
 		icon = GFX_focus_generic_anti_fascist_diplomacy
 		cost = 10
 		prerequisite = {
@@ -296,11 +295,27 @@ focus_tree = {
 		}
 		x = 8
 		y = 5
+
 		completion_reward = {
 		    add_ideas = soviettank_bonus
-        }
+
+		    custom_effect_tooltip = SOV_positive_heroism_tt
+		    hidden_effect = {
+
+		    create_corps_commander = {	
+		    name = "Konstantin Rokossovsky"
+		    id = 402
+	        picture = "Portrait_Soviet_Konstantin_Rokossovsky.dds"
+		    traits = {  armor_officer panzer_leader trait_cautious brilliant_strategist harsh_leader trickster panzer_expert winter_specialist expert_improviser trait_engineer war_hero}
+		    skill = 6
+	
+		    attack_skill = 5
+		    defense_skill = 5
+		    planning_skill = 5
+		    logistics_skill = 3
+		    }
+        }     
         custom_effect_tooltip = available_military_high_command
 	    show_ideas_tooltip = konstantin_rokossovsky
-	    # REVISIT Might want to add more
+	    }
 	}
-}

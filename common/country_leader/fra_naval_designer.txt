@@ -1,0 +1,20 @@
+leader_traits = {
+
+	free_france_fleet = {
+		random = no
+		equipment_bonus = {
+			carrier = {
+	            carrier_size = 0.1 naval_range = 0.1
+			}
+			capital_ship = {
+				naval_range = 0.1 armor_value = 0.05 hg_attack = 0.05
+			}
+			screen_ship = {
+			    naval_range = 0.1 build_cost_ic = -0.05 sub_detection = 0.1 naval_speed = 0.1
+			}
+			submarine = { 
+				naval_range = 0.10 sub_visibility = -0.05
+		    }
+		}
+	}
+}

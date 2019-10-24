@@ -127,7 +127,6 @@ bookmarks = {
 				AST_great_depression_1
 			}
 			focuses = {
-				AST_never_another_gallipoli
 				AST_support_indonesian_uprising
 				AST_delegation_to_china
 			}
@@ -195,7 +194,6 @@ bookmarks = {
 				ROM_iron_guard
 			}
 			focuses = {
-				ROM_balkans_dominance
 				ROM_institute_royal_dictatorship
 				ROM_preserve_greater_romania
 		}

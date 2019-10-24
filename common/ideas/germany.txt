@@ -2091,7 +2091,7 @@ ideas = {
 				air_equipment = 0.15
 			}
 			
-			traits = { light_aircraft_manufacturer }
+			traits = { messerschmitt_aircraft_manufacturer }
 			
 			equipment_bonus = {
 				
@@ -2111,7 +2111,7 @@ ideas = {
 				air_equipment = 0.15
 			}
 			
-			traits = { CAS_manufacturer }
+			traits = { junkers_aircraft_manufacturer }
 			
 			equipment_bonus = {
 				
@@ -2135,7 +2135,7 @@ ideas = {
 				air_equipment = 0.15
 			}
 			
-			traits = { medium_aircraft_manufacturer }
+			traits = { focke_wulf_aircraft_manufacturer }
 			
 			ai_will_do = {
 				factor = 1

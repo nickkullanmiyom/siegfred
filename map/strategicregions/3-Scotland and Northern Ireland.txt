@@ -8,7 +8,7 @@ strategic_region={
 	weather={
 		period={
 			between={ 0.0 30.0 }
-			temperature={ -10.0 5.0 }
+			temperature={ -20.0 -5.0 }
 			temperature_day_night={ 5.0 -5.0 }
 			no_phenomenon=0.500
 			rain_light=1.000
@@ -22,7 +22,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.1 27.1 }
-			temperature={ -10.0 5.0 }
+			temperature={ -15.0 -5.0 }
 			temperature_day_night={ 5.0 -5.0 }
 			no_phenomenon=0.500
 			rain_light=1.000
@@ -36,7 +36,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.2 30.2 }
-			temperature={ 0.0 6.0 }
+			temperature={ -15 -6.0 }
 			temperature_day_night={ 5.0 -5.0 }
 			no_phenomenon=0.500
 			rain_light=1.000

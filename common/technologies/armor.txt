@@ -1117,6 +1117,10 @@ technologies = {
 		
 		research_cost = 2
 		start_year = 1943
+
+		allow = { 
+			date > 1941.3.1 
+		}
 		
 		folder = {
 			name = armour_folder
