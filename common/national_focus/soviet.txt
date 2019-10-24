@@ -190,9 +190,15 @@ focus_tree = {
 	    cancel_if_invalid = no
 		continue_if_invalid = yes
 
-		completion_reward = {
-			add_ideas = tot_economic_mobilisation 	
-		}
+        completion_reward = {
+                remove_ideas = {
+				officers_purged 
+				}
+                add_timed_idea = {
+                    idea = officers_purged2
+                    days = 180
+            }
+        }
 	}
 	focus = {
 		id = red_army_get_suck

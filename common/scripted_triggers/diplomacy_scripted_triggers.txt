@@ -250,7 +250,24 @@ DIPLOMACY_MILACC_ENABLE_TRIGGER = {
 				option = FREE
 			}
 		}
-		always = yes
+		#always = yes
+		OR = {
+			NOT = {
+				OR = {
+					tag = USA
+					tag = PHI
+				}
+			}
+			AND = {
+				tag = USA			
+				USA = { has_war = yes }					
+			}
+			AND = {
+				tag = PHI			
+				PHI = { has_war = yes }					
+			}			
+		}
+		
 	}
 	if = {
 		limit = {
@@ -263,6 +280,22 @@ DIPLOMACY_MILACC_ENABLE_TRIGGER = {
 			tooltip = RULE_ALLOW_MILITARY_ACCESS_SAME_IDEOLOGY_TT
 			has_government = FROM
 		}
+		OR = {
+			NOT = {
+				OR = {
+					tag = USA
+					tag = PHI
+				}
+			}
+			AND = {
+				tag = USA			
+				USA = { has_war = yes }					
+			}
+			AND = {
+				tag = PHI			
+				PHI = { has_war = yes }					
+			}			
+		}			
 	}
 	if = {
 		limit = {
@@ -285,7 +318,19 @@ DIPLOMACY_OFFER_MILACC_ENABLE_TRIGGER = {
 				option = FREE
 			}
 		}
-		always = yes
+		#always = yes
+			NOT = {
+				AND = {
+					FROM = { tag = USA }
+					date < 1941.1.1
+				}
+				AND = {
+					FROM = { tag = USA }
+					ENG = { surrender_progress < 0.7 }
+				}				
+			}
+		
+					
 	}
 	if = {
 		limit = {
@@ -298,6 +343,16 @@ DIPLOMACY_OFFER_MILACC_ENABLE_TRIGGER = {
 			tooltip = RULE_ALLOW_MILITARY_ACCESS_SAME_IDEOLOGY_TT
 			has_government = FROM
 		}
+			NOT = {
+				AND = {
+					FROM = { tag = USA }
+					date < 1941.1.1
+				}
+				AND = {
+					FROM = { tag = USA }
+					ENG = { surrender_progress < 0.7 }
+				}				
+			}	
 	}
 	if = {
 		limit = {
@@ -320,7 +375,23 @@ DIPLOMACY_DOCKING_RIGHTS_ENABLE_TRIGGER = {
 				option = FREE
 			}
 		}
-		always = yes
+		#always = yes
+		OR = {
+			NOT = {
+				OR = {
+					tag = USA
+					tag = PHI
+				}
+			}
+			AND = {
+				tag = USA			
+				USA = { has_war = yes }					
+			}
+			AND = {
+				tag = PHI			
+				PHI = { has_war = yes }					
+			}			
+		}		
 	}
 	if = {
 		limit = {
@@ -333,6 +404,22 @@ DIPLOMACY_DOCKING_RIGHTS_ENABLE_TRIGGER = {
 			tooltip = RULE_ALLOW_MILITARY_ACCESS_SAME_IDEOLOGY_TT
 			has_government = FROM
 		}
+		OR = {
+			NOT = {
+				OR = {
+					tag = USA
+					tag = PHI
+				}
+			}
+			AND = {
+				tag = USA			
+				USA = { has_war = yes }					
+			}
+			AND = {
+				tag = PHI			
+				PHI = { has_war = yes }					
+			}			
+		}		
 	}
 	if = {
 		limit = {
@@ -355,7 +442,18 @@ DIPLOMACY_OFFER_DOCKING_RIGHTS_ENABLE_TRIGGER = {
 				option = FREE
 			}
 		}
-		always = yes
+		#always = yes
+			NOT = {
+				AND = {
+					FROM = { tag = USA }
+					date < 1941.1.1
+				}
+				AND = {
+					FROM = { tag = USA }
+					ENG = { surrender_progress < 0.7 }
+				}				
+			}	
+	
 	}
 	if = {
 		limit = {
@@ -368,6 +466,16 @@ DIPLOMACY_OFFER_DOCKING_RIGHTS_ENABLE_TRIGGER = {
 			tooltip = RULE_ALLOW_MILITARY_ACCESS_SAME_IDEOLOGY_TT
 			has_government = FROM
 		}
+			NOT = {
+				AND = {
+					FROM = { tag = USA }
+					date < 1941.1.1
+				}
+				AND = {
+					FROM = { tag = USA }
+					ENG = { surrender_progress < 0.7 }
+				}				
+			}		
 	}
 	if = {
 		limit = {
@@ -390,7 +498,105 @@ DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
 				option = FREE
 			}
 		}
-		always = yes
+		#always = yes
+		NOT = { tag = FRA }
+		NOT = {
+			AND = {
+			FROM = { tag = ENG }
+			ENG = { controls_state = 126 }
+			ENG = { controls_state = 447 }
+			ENG = { controls_state = 446 }
+			ENG = { controls_state = 118 }
+			FRA = { controls_state = 16 }
+			FRA = { controls_state = 15 }
+			FRA = { controls_state = 27 }
+			FRA = { controls_state = 22 }
+			}
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}		
 	}
 	if = {
 		limit = {
@@ -399,7 +605,105 @@ DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
 				option = LIMITED
 			}
 		}
-		always = yes #handled by game logic, see above
+		#always = yes #handled by game logic, see above
+		NOT = { tag = FRA }
+		NOT = {
+			AND = {
+			FROM = { tag = ENG }
+			ENG = { controls_state = 126 }
+			ENG = { controls_state = 447 }
+			ENG = { controls_state = 446 }
+			ENG = { controls_state = 118 }
+			FRA = { controls_state = 16 }
+			FRA = { controls_state = 15 }
+			FRA = { controls_state = 27 }
+			FRA = { controls_state = 22 }
+			}
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}		
 	}
 	if = {
 		limit = {
@@ -412,6 +716,104 @@ DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
 			tooltip = RULE_ALLOW_LEND_LEASE_SAME_IDEOLOGY_TT
 			has_government = FROM
 		}
+		NOT = { tag = FRA }
+		NOT = {
+			AND = {
+			FROM = { tag = ENG }
+			ENG = { controls_state = 126 }
+			ENG = { controls_state = 447 }
+			ENG = { controls_state = 446 }
+			ENG = { controls_state = 118 }
+			FRA = { controls_state = 16 }
+			FRA = { controls_state = 15 }
+			FRA = { controls_state = 27 }
+			FRA = { controls_state = 22 }
+			}
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}		
 	}
 	if = {
 		limit = {
@@ -423,6 +825,104 @@ DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
 		custom_trigger_tooltip = {
 			tooltip = RULE_ALLOW_LEND_LEASE_SAME_FACTION_TT
 			is_in_faction_with = FROM
+		}
+		NOT = { tag = FRA }
+		NOT = {
+			AND = {
+			FROM = { tag = ENG }
+			ENG = { controls_state = 126 }
+			ENG = { controls_state = 447 }
+			ENG = { controls_state = 446 }
+			ENG = { controls_state = 118 }
+			FRA = { controls_state = 16 }
+			FRA = { controls_state = 15 }
+			FRA = { controls_state = 27 }
+			FRA = { controls_state = 22 }
+			}
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
 		}
 	}
 	if = {
@@ -446,7 +946,105 @@ DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
 				option = FREE
 			}
 		}
-		always = yes
+		#always = yes
+		NOT = { FROM = { tag = FRA } }
+		NOT = {
+			AND = {
+			ROOT = { tag = ENG }
+			ENG = { controls_state = 126 }
+			ENG = { controls_state = 447 }
+			ENG = { controls_state = 446 }
+			ENG = { controls_state = 118 }
+			FRA = { controls_state = 16 }
+			FRA = { controls_state = 15 }
+			FRA = { controls_state = 27 }
+			FRA = { controls_state = 22 }
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}
 	}
 	if = {
 		limit = {
@@ -455,7 +1053,105 @@ DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
 				option = LIMITED
 			}
 		}
-		always = yes #handled by game logic, see above
+		#always = yes #handled by game logic, see above
+		NOT = { FROM = { tag = FRA } }
+		NOT = {
+			AND = {
+			ROOT = { tag = ENG }
+			ENG = { controls_state = 126 }
+			ENG = { controls_state = 447 }
+			ENG = { controls_state = 446 }
+			ENG = { controls_state = 118 }
+			FRA = { controls_state = 16 }
+			FRA = { controls_state = 15 }
+			FRA = { controls_state = 27 }
+			FRA = { controls_state = 22 }
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}	
 	}
 	if = {
 		limit = {
@@ -467,7 +1163,106 @@ DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
 		custom_trigger_tooltip = {
 			tooltip = RULE_ALLOW_LEND_LEASE_SAME_IDEOLOGY_TT
 			has_government = FROM
+		}	
+			NOT = { FROM = { tag = FRA } }
+		NOT = {
+			AND = {
+			ROOT = { tag = ENG }
+			ENG = { controls_state = 126 }
+			ENG = { controls_state = 447 }
+			ENG = { controls_state = 446 }
+			ENG = { controls_state = 118 }
+			FRA = { controls_state = 16 }
+			FRA = { controls_state = 15 }
+			FRA = { controls_state = 27 }
+			FRA = { controls_state = 22 }
+			}
 		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}		
+		
 	}
 	if = {
 		limit = {
@@ -479,7 +1274,106 @@ DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
 		custom_trigger_tooltip = {
 			tooltip = RULE_ALLOW_LEND_LEASE_SAME_FACTION_TT
 			is_in_faction_with = FROM
+		}	
+			NOT = { FROM = { tag = FRA } }
+		NOT = {
+			AND = {
+			ROOT = { tag = ENG }
+			ENG = { controls_state = 126 }
+			ENG = { controls_state = 447 }
+			ENG = { controls_state = 446 }
+			ENG = { controls_state = 118 }
+			FRA = { controls_state = 16 }
+			FRA = { controls_state = 15 }
+			FRA = { controls_state = 27 }
+			FRA = { controls_state = 22 }
+			}
 		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}	
+		
 	}
 	if = {
 		limit = {
@@ -502,13 +1396,81 @@ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = {
 				option = FREE
 			}
 		}
-		always = yes
+		#always = yes
+		NOT = {
+		OR = { 
+            
+            AND = {
+				FROM = { tag = JAP }
+				OR = {
+					tag = GER
+					tag = JAP
+					tag = FIN
+					tag = SPR
+					tag = BUL
+					tag = HUN
+					tag = ROM
+					tag = BUL
+					
+				}			
+			}
+
+			AND = {
+				FROM = { tag = SOV }
+				OR = {
+					tag = USA
+					tag = ENG
+					tag = CAN
+					tag = SAF
+					tag = RAJ
+					tag = AST
+					tag = NZL
+					tag = FRA
+					tag = FRF
+				}			
+			}
+			}
+		}
 	}
 	if = {
 		limit = {
 			has_game_rule = {
 				rule = allow_licensing
 				option = SAME_IDEOLOGY
+			}
+		}
+		NOT = {
+		OR = { 
+            
+            AND = {
+				FROM = { tag = JAP }
+				OR = {
+					tag = GER
+					tag = JAP
+					tag = FIN
+					tag = SPR
+					tag = BUL
+					tag = HUN
+					tag = ROM
+					tag = BUL
+					
+				}			
+			}
+
+			AND = {
+				FROM = { tag = SOV }
+				OR = {
+					tag = USA
+					tag = ENG
+					tag = CAN
+					tag = SAF
+					tag = RAJ
+					tag = AST
+					tag = NZL
+					tag = FRA
+					tag = FRF
+				}			
+			}
 			}
 		}
 		custom_trigger_tooltip = {
@@ -521,6 +1483,40 @@ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = {
 			has_game_rule = {
 				rule = allow_licensing
 				option = SAME_FACTION
+			}
+		}
+		NOT = {
+		OR = { 
+            
+            AND = {
+				FROM = { tag = JAP }
+				OR = {
+					tag = GER
+					tag = JAP
+					tag = FIN
+					tag = SPR
+					tag = BUL
+					tag = HUN
+					tag = ROM
+					tag = BUL
+					
+				}			
+			}
+
+			AND = {
+				FROM = { tag = SOV }
+				OR = {
+					tag = USA
+					tag = ENG
+					tag = CAN
+					tag = SAF
+					tag = RAJ
+					tag = AST
+					tag = NZL
+					tag = FRA
+					tag = FRF
+				}			
+			}
 			}
 		}
 		custom_trigger_tooltip = {

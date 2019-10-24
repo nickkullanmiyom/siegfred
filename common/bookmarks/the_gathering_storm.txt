@@ -100,7 +100,7 @@ bookmarks = {
 			}
 			focuses = {
 				SOV_great_purge
-				SOV_defense_of_stalingrad
+				SOV_positive_heroism
 			}
 		}
 

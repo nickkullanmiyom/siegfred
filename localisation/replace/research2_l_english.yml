@@ -1,0 +1,54 @@
+﻿l_english:
+# German Support
+ GER_support_weapons:0 "Maschinengewehr MG '08/15'|8cm Granatwerfer Gr.W. 34"
+ GER_support_weapons_desc:0 "Automatic weapons are becoming more portable. Submachine guns have already proven effective and the development of hand-held support weapons must continue."
+ 
+ GER_support_weapons2:0 "Maschinengewehr MG 13|5cm Granatwerfer Gr.W. 36"
+ GER_support_weapons2_desc:0 "The development of automatic weapons which combine the aspects of light and heavy machine guns allows versatility in how our infantry employ their equipment."
+ 
+ GER_support_weapons3:0 "Maschinengewehr MG 34|8cm Granatwerfer Gr.W. 42"
+ GER_support_weapons3_desc:0 "While maintaining and improving reliability of machine guns, we can also experiment with higher firing rates to ensure lethality of the constant stream of bullets."
+ 
+ GER_support_weapons4:0 "Maschinengewehr MG 42|12cm Granatwerfer Gr.W. 42"
+ GER_support_weapons4_desc:0 "With the increased use of assault rifles, developing reliable automatic weapons that can be used in any environment by all soldiers is a priority for a modern army."
+ 
+# German NightVision
+ GER_night_vision:0 "Zielgerät Z.G. 1221"
+ GER_night_vision_desc:0 "Being able to see the enemy without being seen is key to night operations. With the invention of infra-red technology, we can outfit our army with devices which, though unwieldy, makes this possible."
+  
+ GER_night_vision2:0 "Zielgerät Z.G. 1229 'Vampir'"
+ GER_night_vision2_desc:0 "Early infra-red scopes, although initially intended for use by snipers, had a limited vision range. As both portability and vision improves, these devices can be used by more troops operating at night."
+ 
+# German Weapons small pictures
+ GER_infantry_weapons2:0 "Gewehr '33/40'|Maschinenpistole 38|Karabiner 98k ZF"
+ GER_infantry_weapons2_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Improved weapon models and more specialized equipment."
+ 
+ GER_improved_infantry_weapons_2:0 "Gewehr 41(W)|Maschinenkarabiner 42(H)|Gewehrgranatgerät"
+ GER_improved_infantry_weapons_2_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Improved weapon models and more specialized equipment."
+ 
+ GER_advanced_infantry_weapons2:0 "Gewehr 43|Volksgewehr|Fallschirmjägergewehr 42"
+ GER_advanced_infantry_weapons2_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Further Modernized to include personal Assault Rifles and anti-tank rockets. Improved availability of weapons previously distributed to a limited extent."
+ 
+# German Weapons big pictures
+ GER_infantry_equipment_0:0 "Gewehr 98|Stielhandgranate 24|Maschinenpistole 18"
+ GER_infantry_equipment_0_short:0 "G.98|SH24|MP18"
+ GER_infantry_equipment_0_desc:0 "Basic infantryman equipment developed before and during the Great War."
+ 
+ GER_infantry_equipment_1:0 "Karabiner 98k|Eihandgranate M39|Maschinenpistole 34"
+ GER_infantry_equipment_1_short:0 "K.98k|EH M39|MP34"
+ GER_infantry_equipment_1_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs."
+  
+ GER_infantry_equipment_2:0 "Maschinenpistole 40|Stielhandgranate 39|Panzerfaust 60/100"
+ GER_infantry_equipment_2_short:0 "MP40|SH39|PzFst60"
+ GER_infantry_equipment_2_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Modernized to include a great number of sub-machineguns and anti-tank rifles."
+ 
+ GER_infantry_equipment_3:0 "Sturmgewehr 44|Stielhandgranate 43|Panzerschreck 54"
+ GER_infantry_equipment_3_short:0 "StG44|SH43|RPzB54"
+ GER_infantry_equipment_3_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Further modernized to include personal Assault Rifles and anti-tank rockets."
+    
+# German AntiTank
+ GER_infantry_at:0 "7,92mm Panzerbüchse PzB 38/39"
+ GER_infantry_at_desc:0 "Arming our infantry units with anti-tank rifles will allow them to take out lighter armored vehicles while maintaining mobility."
+ 
+ GER_infantry_at2:0 "2,8cm schwere Panzerbüchse sPzB 41"
+ GER_infantry_at2_desc:0 "For infantry to effectively engage heavier armored units, high-explosive anti-tank weapons need to be made smaller and lighter."

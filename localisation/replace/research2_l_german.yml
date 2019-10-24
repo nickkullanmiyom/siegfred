@@ -1,0 +1,54 @@
+﻿l_german:
+# German Support
+ GER_support_weapons:0 "Maschinengewehr MG '08/15'|8cm Granatwerfer Gr.W. 34"
+ GER_support_weapons_desc:0 "Das leichte wassergekühltes MG 08/15 war ein deutsches Maschinengewehr des Ersten Weltkriegs im Kaliber 7,92mm. Zu Beginn des Ersten Weltkrieges besaß Deutschland 4.919 Stück. Der Granatwerfer 34 war ein Standardgranatwerfer der deutschen Wehrmacht im Zweiten Weltkrieg. "
+ 
+ GER_support_weapons2:0 "Maschinengewehr MG 13|5cm Granatwerfer Gr.W. 36"
+ GER_support_weapons2_desc:0 "Das MG 13 war ein leichtes deutsches Maschinengewehr Kaliber 7,92mm, das für wenige Jahre als Standard-MG bei der Reichswehr eingeführt wurde. Der aus zwei Teilen bestehende leichte Granatwerfer 36 war ein Vorderlader mit glattem Rohr, das beim Instellunggehen auf die kleine Bodenplatte aufgesetzt wurde."
+ 
+ GER_support_weapons3:0 "Maschinengewehr MG 34|8cm Granatwerfer Gr.W. 42"
+ GER_support_weapons3_desc:0 "Das MG 34 wurde von der Wehrmacht im Zweiten Weltkrieg als Universal-Maschinengewehr eingesetzt. Im Laufe des Krieges wurde es vom MG 42 abgelöst, blieb aber bis zum Kriegsende im Einsatz. Der Granatwerfer 42 8mm, der auch 'Stummelwerfer' genannt wurde, war ein verkürzter Granatwerfer 34, dessen Rohr um 39,6 cm gekürzt war."
+ 
+ GER_support_weapons4:0 "Maschinengewehr MG 42|12cm Granatwerfer Gr.W. 42"
+ GER_support_weapons4_desc:0 "Das bei den Alliierten gefürchtete MG 42 ('Hitlersäge', 'Knochensäge') bewies hohe Zuverlässigkeit, auch bei schlechten Witterungsverhältnissen, bei einer dennoch guten Schussgenauigkeit mit sehr hoher Schussfolge. Der Granatwerfer 42 war ein schwerer Granatwerfer der deutschen Wehrmacht. Er konnte deutsche und sowjetische Sprenggranaten verschießen."
+ 
+# German NightVision
+ GER_night_vision:0 "Zielgerät Z.G. 1221"
+ GER_night_vision_desc:0 "Zu den interessantesten Entwicklungen des 2. Weltkrieges gehören ohne Zweifel die Infrarot-Geräte, die damals noch Ultrarot-Geräte hießen.1939 war der erste erfolgreiche Prototyp des Zielgerätes 1221 für den Einsatz fertiggestellt. Der Bildwandler wurde von AEG, die optischen Elemente (u.a. 1.000 Objektive) von Zeiss hergestellt."
+ 
+ GER_night_vision2:0 "Zielgerät Z.G. 1229 'Vampir'"
+ GER_night_vision2_desc:0 "Das Zielgerät 1229 (ZG 1229), auch bekannt unter seinem Trivialnamen Vampir, war ein aktives Nachtsichtgerät, entwickelt im Zweiten Weltkrieg für die Wehrmacht für die Montage auf dem Sturmgewehr 44, um damit ausgestatteten Soldaten eine gewisse Nachtkampffähigkeit zu verleihen."
+ 
+# German Weapons small pictures
+ GER_infantry_weapons2:0 "Gewehr '33/40'|Maschinenpistole 38|Karabiner 98k ZF"
+ GER_infantry_weapons2_desc:0 "Das Gewehr 33/40 war eine kurze Form des K98k und wurde meist an Gebirgsjäger ausgegeben. Die MP38 war der direkte Vorgänger der MP40, allerdings teurer und schwieriger in der Produktion. Für gezielten Schusswaffeneinsatz wurden Scharfschützen nun mit Zielfernrohren ausgestattet welche anfänglich auf dem K98k montiert wurden."
+ 
+ GER_improved_infantry_weapons_2:0 "Gewehr 41(W)|Maschinenkarabiner 42(H)|Gewehrgranatgerät"
+ GER_improved_infantry_weapons_2_desc:0 "Das Gewehr 41 (G 41) war der erster Versuch, für ein halbautomatisches Gewehr zu entwickeln, welches aber noch recht anfällig war. Der Maschinenkarabiner MKb 42(H) war der direkte Vorgänger der sehr guten MP 43, hatte jedoch eine mangelhafte Präzision bei Einzelfeuer. Zur Bekämpfung von Zielen, die sich außerhalb der Handgranatenreichweite befanden, entwickelte man das aufsteckbare Gewehrgranatgerät 'Schießbecher'."
+ 
+ GER_advanced_infantry_weapons2:0 "Gewehr 43|Volksgewehr|Fallschirmjägergewehr 42"
+ GER_advanced_infantry_weapons2_desc:0 "Das Gewehr 43, später Karabiner 43 (G43/K43), war ein halbautomatischer aufschießender Gasdrucklader, die verbesserte Version des wenig erfolgreichen Gewehr 41, welches den Karabiner 98k als Standard-Infanteriewaffe ablösen sollte. Als Volkssturmgewehr oder Volksgewehr zählten zur Ausrüstung des Volkssturmes. Das Fallschirmjägergewehr 42 ist ein Vielzweck-Selbstladegewehr und wurde für die deutschen Fallschirmjäger entwickelt."
+
+# German Weapons big pictures
+ GER_infantry_equipment_0:0 "Gewehr 98|Stielhandgranate 24|Maschinenpistole 18"
+ GER_infantry_equipment_0_short:0 "G.98|SH24|MP18"
+ GER_infantry_equipment_0_desc:0 "Mit dem Modell 98 (Gewehr 98) war die Infanterie des deutschen Heeres während des Ersten Weltkriegs ausgerüstet. Die Stielhandgranate 24 war zum Beginn des Zweiten Weltkrieges die einzige Handgranate der Wehrmacht. Die Bergmann MP18 war die erste Maschinenpistole, die serienmäßig produziert wurde. Sie wurde speziell für den Grabenkrieg während des Ersten Weltkriegs von Theodor Bergmann und Hugo Schmeisser im Deutschen Reich entwickelt."
+ 
+ GER_infantry_equipment_1:0 "Karabiner 98k|Eihandgranate M39|Maschinenpistole 34"
+ GER_infantry_equipment_1_short:0 "K.98k|EH M39|MP34"
+ GER_infantry_equipment_1_desc:0 "Der K.98k wurde nach dem Ersten Weltkrieg entwickelt und ab 1935 in Serie hergestellt und als Standardwaffe in die Wehrmacht eingeführt. Bis 1945 wurden über 12 Millionen Karabiner 98k hergestellt. Die Eihandgranate M39 war noch vor den Stielhandgranaten die meistgebaute Handgranate der Wehrmacht im zweiten WK. Die MP 34 ist eine österreichischen Maschinenpistole und wurde von verschiedenen Einheiten der Wehrmacht und der Waffen-SS verwendet"
+ 
+ GER_infantry_equipment_2:0 "Maschinenpistole 40|Stielhandgranate 39|Panzerfaust 60/100"
+ GER_infantry_equipment_2_short:0 "MP40|SH39|PzFst60"
+ GER_infantry_equipment_2_desc:0 "Die MP 40 (Weiterentwicklung MP 38) wurde seit Anfang 1940 hergestellt und war die Standardmaschinenpistole der Wehrmacht im Zweiten Weltkrieg. Die Stielhandgranate 39 bestand aus einem hohlen hölzernen Stiel mit Abreißschnur. Sie wurde auch als 'geballte Ladung' verwendet. Die Panzerfaust (Panzerabwehrrohr) ist eine reaktive Panzerbüchse die in großen Stückzahlen produzierte wurde.  Varianten 30,60,100,150,250 geben die Reichweite in Metern an."
+ 
+ GER_infantry_equipment_3:0 "Sturmgewehr 44|Stielhandgranate 43|Panzerschreck 54"
+ GER_infantry_equipment_3_short:0 "StG44|SH43|RPzB54"
+ GER_infantry_equipment_3_desc:0 "Das Sturmgewehr 44 (StG44, später MP44) ist eine automatische Waffe, die bei der Wehrmacht im Jahr 1943 eingeführt wurde. Es begründete die Waffenkategorie der Sturmgewehre. Die Stielhandgranate 43 war eine Weiterentwicklung der Stielhandgranate 24 und Stielhandgranate 39 mit erhöhter Splitterwirkung. Die Raketenpanzerbüchse 54 'Panzerschreck' oder RPzB 54 genannt, war eine wiederverwendbare Panzerabwehrwaffe der Kaliber 88mm und 100mm."
+    
+# German AntiTank
+ GER_infantry_at:0 "7,92mm Panzerbüchse PzB 38/39"
+ GER_infantry_at_desc:0 "Beim Aufkommen der ersten »Tanks« an der Front im Ersten Weltkrieg wurde auf deutscher Seite das T-Gewehr entwickelt. Dieses überdimensionale Gewehr hatte aber den Nachteil, sogar bei relativ starken Schützen zu Schlüsselbeinbrüchen zu führen. Die Panzerbüchsen (kurz „Pz. B.“) 38 und 39 wurde als leichte Panzerabwehrwaffe bei den Schützenkompanien der Wehrmacht eingesetzt."
+ 
+ GER_infantry_at2:0 "2,8cm schwere Panzerbüchse sPzB 41"
+ GER_infantry_at2_desc:0 "Die schwere Panzerbüchse 41 stellte dann das Ende der Entwicklungsmöglichkeit dieser Waffe dar. Mit der Panzergranatpatrone 41 konnten auf 100 Meter Entfernung, bei einer 60° schrägen Panzerplatte, 69 mm durchschlagen werden. Das Geschoss hatte ein Kaliber von 28 mm. In einem Mantel aus Weichmetall war ein Kern aus Wolframcarbid eingebettet."
