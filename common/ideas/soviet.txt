@@ -282,7 +282,8 @@ ideas = {
 			
 			modifier = {
 				land_reinforce_rate = 0.02
-				army_morale_factor = 0.10
+				army_morale_factor = 0.04
+                                army_speed_factor = 0.20
 			}
 		}
 		
@@ -433,6 +434,7 @@ ideas = {
 			    supply_consumption_factor = 0.1 
 				army_armor_attack_factor = -0.2
 				army_attack_factor = -0.2
+                                army_org_factor = -0.37
 				max_planning = -0.23
 			}
 			equipment_bonus = {
