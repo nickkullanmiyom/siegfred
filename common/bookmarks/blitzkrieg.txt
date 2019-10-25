@@ -100,9 +100,6 @@ bookmarks = {
 				officers_purged
 				nkvd_2
 			}
-			focuses = {
-				SOV_move_industry_to_urals
-			}
 		}
 
 		"---"={
@@ -125,10 +122,6 @@ bookmarks = {
 			ideology = democratic
 			ideas = {
 				AST_great_depression_1
-			}
-			focuses = {
-				AST_support_indonesian_uprising
-				AST_delegation_to_china
 			}
 		}
 		"NZL"={

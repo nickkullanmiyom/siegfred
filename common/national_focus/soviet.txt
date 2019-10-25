@@ -29,7 +29,22 @@ focus_tree = {
 			add_political_power = 160	
 		}
 	}
-
+	focus = {
+		id = soviet_war_eco
+		icon = GFX_focus_eng_liberate_the_home_of_marx
+		cost = 4
+		prerequisite = {
+			focus = aviation_cult
+		}
+		x = 4
+		y = 4
+		available = {
+			GER = { has_completed_focus = GER_anschluss }		
+		}
+		completion_reward = {
+		    add_ideas = war_economy
+		}
+	}
 	focus = {
 		id = SOV_rehabilitated_military
 		icon = GFX_goal_generic_small_arms
@@ -83,7 +98,16 @@ focus_tree = {
 			army_experience = 20
 		}
 	}
-
+  	focus = {
+		id = SOV_scientist
+		icon = GFX_focus_generic_socialist_science
+		cost = 10
+		prerequisite = {
+			focus = progress_cult
+		}
+		x = 12
+		y = 4
+	}
 	focus = {
 		id = SOV_nkvd_primacy
 		icon = GFX_goal_generic_military_deal
@@ -404,23 +428,6 @@ focus_tree = {
 		}				
 	}
 	focus = {
-		id = soviet_war_eco
-		icon = GFX_focus_eng_liberate_the_home_of_marx
-		cost = 4
-		prerequisite = {
-			focus = aviation_cult
-		}
-		x = 4
-		y = 4
-		available = {
-			GER = { has_completed_focus = GER_anschluss }		
-		}
-		completion_reward = {
-		    add_ideas = war_economy
-		}
-
-	}
-	focus = {
 		id = SOV_great_purge
 		icon = GFX_goal_generic_war_with_comintern
 		prerequisite = {
@@ -501,8 +508,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = 53K
-		icon = GFX_goal_unknown
+		id = SOV_collectivist_propaganda
+		icon = GFX_goal_generic_propaganda
 		cost = 5
 		prerequisite = {
 			focus = power_of_the_revolution
@@ -510,23 +517,65 @@ focus_tree = {
 		x = 11
 		y = 2
 	    completion_reward = {
-		    add_tech_bonus = {
-                bonus = 1.5
-                uses = 2
-                category = artillery
-            }
+		    add_ideas = SOV_collectivist_propaganda
 		}
 	}
 	
 	focus = {
-		id = T50_focus
-		icon = GFX_goal_unknown
+		id = SOV_sentetik
+		icon = GFX_focus_generic_rubber
 		cost = 5
 		prerequisite = {
 			focus = power_of_the_revolution
 		}
 		x = 13
 		y = 2
+		completion_reward = {
+			add_ideas = SOV_Sinteticheskii_Kauchuk_idea
+			modify_building_resources = {
+        	   building = synthetic_refinery
+        	   resource = rubber
+        	   amount = 2
+        	}
+			add_tech_bonus = {
+				name = USA_rubber_reserve_company
+				bonus = 3.00 
+				ahead_reduction = 1.0
+				uses = 2
+				technology = improved_rubber_processing
+				technology = advanced_rubber_processing
+				technology = modern_rubber_processing
+			}
+			set_technology = { synth_oil_experiments = 1 }
+			set_technology = { rubber_processing = 1 }
+			248 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = SOV_Sinteticheskii_Kauchuk_2IC
+			}
+			260 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SOV_Sinteticheskii_Kauchuk_1IC
+			}
+			223 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SOV_Sinteticheskii_Kauchuk_1IC
+			}
+		}
 
 	}
 	focus = {
@@ -535,26 +584,16 @@ focus_tree = {
 		icon = GFX_focus_research2
 		cost = 10
 		prerequisite = {
-			focus = 53K
+			focus = SOV_collectivist_propaganda
 		}
 		prerequisite = {
-			focus = T50_focus
+			focus = SOV_sentetik
 		}
 		x = 12
 		y = 3
 		completion_reward = {
 		    add_ideas = progress_cult_focus
         }
-	}
-	focus = {
-		id = SOV_scientist
-		icon = GFX_focus_generic_socialist_science
-		cost = 10
-		prerequisite = {
-			focus = progress_cult
-		}
-		x = 12
-		y = 4
 	}
 	
 	focus = {

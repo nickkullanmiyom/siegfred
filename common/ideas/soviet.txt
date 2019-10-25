@@ -21,6 +21,25 @@ ideas = {
 			}
 		}
 
+		SOV_Sinteticheskii_Kauchuk_idea = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = FRA_motorized_focus
+
+			modifier = {
+				production_speed_synthetic_refinery_factor = 0.4
+			}
+		}
+
 		soviet_closed_market = {
 		
 			allowed = {

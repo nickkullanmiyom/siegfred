@@ -14,6 +14,7 @@ add_timed_idea = { idea = cantdeploy_unit  days = 730 }
         closed_economy
     }
 
+set_convoys = 1000
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.8
@@ -259,7 +260,7 @@ if = {
 }
 
 
-set_convoys = 50
+set_convoys = 1000
 
 set_politics = {
 	ruling_party = communism
