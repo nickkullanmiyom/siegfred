@@ -63,6 +63,21 @@ ideas = {
 				air_intercept_efficiency = -0.20
 			}	
 		}
+
+		meaning_of_production = {
+		
+			allowed = {
+				always = no 
+			}
+			
+			picture = idea_man_five_year_plan_industry
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.15
+			}	
+		}
 	
 		workers_culture = {
 			
@@ -191,7 +206,7 @@ ideas = {
 			
 			modifier = {
 				subversive_activites_upkeep = -0.5
-				land_reinforce_rate = 0.05
+				land_reinforce_rate = 0.25
 			}
 		}
 
@@ -1657,13 +1672,12 @@ ideas = {
 			available = 
 			{
 				NOT = { has_country_flag = purge_1_group_b }
-				has_completed_focus = SOV_positive_heroism
 			}
 			
 
 			
 			# Not purged, but tried and tortured, then released
-			traits = { army_armored_3 }
+			traits = { army_armored_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -1681,8 +1695,7 @@ ideas = {
 			{
 				NOT = { has_country_flag = counter_purge }
 			}
-			
-
+		
 			
 			traits = { air_airborne_1 }
 			

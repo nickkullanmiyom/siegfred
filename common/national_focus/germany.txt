@@ -3527,13 +3527,6 @@ focus_tree = {
 							instant_build = yes
 						}
 					}
-			add_tech_bonus = {
-				name = anti_air
-				bonus = 2.0 
-				ahead_reduction = 4.0 
-				uses = 6
-				category = cat_antiair
-			}
 			
 		}
 	}
