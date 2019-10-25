@@ -1462,48 +1462,6 @@ SOV_great_patriotic_war = {
 
 operations = {
 
-	SOV_seize_manchuria = {
-
-		icon = generic_operation
-
-		allowed = {
-			original_tag = SOV
-		}
-
-		available = {
-			MAN = { is_puppet = no }
-			NOT = {
-				has_war_with = MAN
-			}
-		}
-
-		cost = 25
-		fire_only_once = yes
-		visible = {
-			MAN = { exists = yes }
-		}
-
-		complete_effect = {
-			create_wargoal = {
-				target = MAN
-				type = annex_everything
-			}			
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				MAN = {
-					is_ai = no
-				}
-				factor = 0 #we're mean but not that mean
-			}
-			modifier = {
-				threat < 0.25
-				factor = 0
-			}
-		}
-	}
 }
 
 political_actions = {
