@@ -10,8 +10,8 @@ if = {
 }
 
 add_timed_idea = { idea = cantdeploy_unit  days = 730 }
-set_research_slots = 4
-set_stability = 0.8
+set_research_slots = 5
+set_stability = 0.81
 set_war_support = 0
 set_variable = { var = senators_support value = 48 }
 set_variable = { var = senators_total value = 96 }
@@ -287,8 +287,7 @@ add_equipment_to_stockpile = {
          producer = ENG
 } 
 set_popularities = {
-	democratic = 99
-	communism = 1
+	democratic = 100
 }
 
 add_ideas = {

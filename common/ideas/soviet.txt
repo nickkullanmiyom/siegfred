@@ -59,8 +59,6 @@ ideas = {
 				supply_consumption_factor = -0.175 
 				production_factory_max_efficiency_factor = 0.10	
 				global_building_slots_factor = 0.10
-				air_superiority_efficiency = -0.20
-				air_intercept_efficiency = -0.20
 			}	
 		}
 

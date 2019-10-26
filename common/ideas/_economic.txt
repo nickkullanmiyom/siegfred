@@ -47,7 +47,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.40
+				consumer_goods_factor = 0.37
 				production_speed_industrial_complex_factor = -0.4
 				production_speed_arms_factory_factor = -0.4
 				production_speed_dockyard_factor = -0.4
@@ -61,10 +61,9 @@ ideas = {
 				fuel_gain_factor = -0.5
 			}
 			allowed_to_remove = {
-				OR = {
-					has_war_support > 0.75
+				AND = {
 					has_war = yes
-					has_completed_focus = USA_limited_intervention					
+					has_war_support > 0.5
 				}
 			}
 			
