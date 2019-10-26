@@ -310,7 +310,6 @@ create_country_leader = {
 			improved_sonar = 1
 		}
 		set_naval_oob = "ENG_1939_Naval"
-		remove_ideas = MTG_naval_treaty_adherent
 		clr_global_flag = MTG_second_london_conference
 		modify_global_flag = { flag = MTG_naval_treaty_signatories value = -2 }
 	}

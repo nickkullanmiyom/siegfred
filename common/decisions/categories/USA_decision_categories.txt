@@ -21,17 +21,6 @@ USA_aid_britain = {
 		}
 	}
 }
-
-USA_congress = {
-	icon = usa_congress
-	allowed = {
-		original_tag = USA
-	}
-
-	scripted_gui = usa_congress_decision_ui	
-
-	priority = 85
-}
 USA_war_plans = {
 	allowed = {
 		original_tag = USA
