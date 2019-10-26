@@ -1716,29 +1716,14 @@ country_event = {
 	trigger = {
 		has_government = communism
 		tag = SOV
-		has_global_flag = SOV_fourth_international_fired
 		NOT = { has_completed_focus = SOV_great_purge }
 	}
 
 	mean_time_to_happen = {
-		days = 90
+		days = 45
 	}
 
 	fire_only_once = yes
-
-	#Don't invite trotsky
-	option = {
-		name = soviet.48.a
-		custom_effect_tooltip = soviet.48.a_tt
-		set_country_flag = SOV_soviet.48_notrotsky
-	}
-
-	#Invite back Trotsky
-	option = {
-		name = soviet.48.b
-		custom_effect_tooltip = soviet.48.b_tt
-		set_country_flag = SOV_soviet.48_trotsky
-	}
 
 }
 

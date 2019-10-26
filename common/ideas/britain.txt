@@ -29,6 +29,25 @@ ideas = {
 
 		}
 
+	    production_idea = {
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.2		
+			}
+			
+		}
+
 		ENG_king_edward = {
 			
 			allowed = {

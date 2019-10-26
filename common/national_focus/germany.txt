@@ -2309,7 +2309,6 @@ focus_tree = {
 		will_lead_to_war_with = POL
 		available = {
 			is_puppet = no
-			has_army_manpower = { size > 899999 } #100 div
 			#Make custom trigger tooltip here
 			85 = {
 				owner = {
@@ -2568,7 +2567,6 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				OR = {
-					has_army_manpower = { size < 1299999 }
 					any_home_area_neighbor_country = {
 						has_war_with = ROOT
 					}
@@ -2603,7 +2601,6 @@ focus_tree = {
 			has_completed_focus = GER_soviet_treaty 
 			is_puppet = no
 			has_government = fascism
-			has_army_manpower = { size > 899999 } #ca 90 div
 			SOV = {
 				NOT = { has_war_with = GER }
 				country_exists = SOV
@@ -2769,7 +2766,6 @@ focus_tree = {
 		will_lead_to_war_with = FRA
 		available = {
 			is_puppet = no
-			has_army_manpower = { size > 549999 } #80 div
 			NOT = {
 				AND = {
 					CZE = { is_in_faction_with = GER }

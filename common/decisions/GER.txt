@@ -230,55 +230,6 @@ political_actions = {
 		}
 	}
 
-	Puppet_ROM = {
-		ai_will_do = { factor = 0 }
-		cost = 0
-		fire_only_once = yes
-		visible = {
-			tag = GER
-			ROM = { is_ai = yes }
-			country_exists = ROM
-			date > 1936.1.1
-		}
-
-		complete_effect = {
-			GER = { puppet = ROM }
-		}
-	}
-
-	Puppet_Finland = {
-		ai_will_do = { factor = 0 }
-		cost = 0
-		fire_only_once = yes
-		visible = {
-			tag = GER
-			FIN = { is_ai = yes }
-			country_exists = FIN
-			date > 1940.1.1
-		}
-
-		complete_effect = {
-			GER = { puppet = FIN }
-		}
-	}
-
-	Operation_Margarethe = {
-		ai_will_do = { factor = 0 }
-		cost = 0
-		fire_only_once = yes
-		visible = {
-			tag = GER
-			HUN = { is_ai = yes }
-			country_exists = HUN
-			date > 1936.1.1
-		}
-
-		complete_effect = {
-			GER = { puppet = HUN }
-		}
-	}
-
-
 	# Reinstate Wilhelm IV into the line of succession
 	reinstate_wilhelm_iv_succession_rights = {
 

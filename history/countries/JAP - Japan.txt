@@ -2,6 +2,7 @@
 
 oob = "JAP_1936"
 
+add_timed_idea = { idea = cantdeploy_unit  days = 730 }
 set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
 set_war_support = 0.8
 

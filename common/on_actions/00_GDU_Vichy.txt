@@ -12,6 +12,8 @@ on_actions = {
 				set_global_flag = achievement_france_surrender
 				set_global_flag = fall_of_france
 				
+				country_event = { days = 30 id = pfunews.2 } 
+				
 				country_event = { days = 1 id = news.34 }
 				
 				country_event = { days = 7 id = free_france.1 }
@@ -46,6 +48,7 @@ on_actions = {
 					remove_unit_leader = 813 # René-Émile Godfroy
 					remove_unit_leader = 814 # Jean de Laborde
 					add_ideas = FRA_FREE_army
+					add_ideas = GDU_special_forces_cap
 					set_cosmetic_tag = FRA_FREE
 			
 					create_corps_commander = {
@@ -136,13 +139,49 @@ on_actions = {
 				if = {
 					limit = {
 						AND = {
+							458 = { #tunisia
+								NOT = { is_controlled_by = ITA } 
+							}
+						}
+					}
+					EFR = { transfer_state = 458 }
+				}
+				if = {
+					limit = {
+						AND = {
+							805 = { #Sfax
+								NOT = { is_controlled_by = ITA } 
+							}
+						}
+					}
+					EFR = { transfer_state = 805 }
+				}
+				if = {
+					limit = {
+						AND = {
 							665 = { #Gabes
 								NOT = { is_controlled_by = ITA } 
 							}
 						}
 					}
 					EFR = { transfer_state = 665 }
-				}			
+				}				
+				if = {
+					limit = {
+							458 = { #Tunisia
+								is_controlled_by = ITA
+							}
+					}
+					ITA = { transfer_state = 805 }
+				}
+				if = {
+					limit = {
+							665 = { #Tunisia
+								is_controlled_by = ITA
+							}
+					}
+					ITA = { transfer_state = 805 }
+				}				
 				if = {
 					limit = {
 						AND = { 
@@ -199,6 +238,17 @@ on_actions = {
 					}
 					ITA = { transfer_state = 665 }
 					665 = { add_claim_by = ITA }										
+				}
+				if = {
+					limit = {
+						AND = {
+							805 = { #Sfax
+								is_controlled_by = ITA
+							}
+						}
+					}
+					ITA = { transfer_state = 805 }
+					805 = { add_claim_by = ITA }										
 				}				
 				if = {
 					limit = {
@@ -277,6 +327,12 @@ on_actions = {
 				}
 				28 = {
 					remove_core_of = EFR
+				}				
+				
+				VEN = { 
+					transfer_navy = { 
+						target = EFR 
+					}
 				}
 						
 						
