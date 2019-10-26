@@ -767,7 +767,7 @@ focus_tree = {
 		}
 
 		available = {
-			date > 1939.1.1 
+			date > 1939.2.1 
 
 		}
 		
