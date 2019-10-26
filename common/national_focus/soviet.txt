@@ -595,7 +595,7 @@ focus_tree = {
 	focus = {
 		id = SOV_collectivist_propaganda
 		icon = GFX_goal_generic_propaganda
-		cost = 5
+		cost = 10
 		prerequisite = {
 			focus = power_of_the_revolution
 		}
@@ -609,7 +609,7 @@ focus_tree = {
 	focus = {
 		id = SOV_sentetik
 		icon = GFX_focus_generic_rubber
-		cost = 5
+		cost = 10
 		prerequisite = {
 			focus = power_of_the_revolution
 		}

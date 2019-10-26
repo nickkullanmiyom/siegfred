@@ -80,7 +80,6 @@ on_actions = {
 				limit = {
 					original_tag = ENG
 					has_government = fascism
-					has_completed_focus = ENG_organize_the_blackshirts
 				}
 				set_country_flag = { flag = won_british_civil_war value = 1 days = 365 }
 				country_event = { id = mtg_britain.34 }
@@ -118,7 +117,6 @@ on_actions = {
 				limit = {
 					original_tag = ENG
 					has_government = fascism
-					has_completed_focus = ENG_organize_the_blackshirts
 				}
 				random_other_country = {
 					limit = {
