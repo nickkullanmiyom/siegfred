@@ -13,7 +13,7 @@ state=
 			air_base = 3
 			
 			arms_factory = 5
-			industrial_complex = 5
+			industrial_complex = 13
 
 		}
 		
