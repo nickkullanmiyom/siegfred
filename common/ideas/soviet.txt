@@ -40,6 +40,25 @@ ideas = {
 			}
 		}
 
+		shattered_retreat = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = FRA_army_of_aggression_focus
+
+			removal_cost = -1
+
+			modifier = {
+             army_speed_factor = 0.15
+			}
+		}
+
 		soviet_closed_market = {
 		
 			allowed = {
@@ -989,7 +1008,7 @@ ideas = {
 
 		}
 
-		SOV_great_patriotic_war = {
+		SOV_great_patriotic_war3 = {
 			removal_cost = -1
 
 			picture = generic_intel_bonus

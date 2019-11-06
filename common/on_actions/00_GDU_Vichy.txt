@@ -48,7 +48,6 @@ on_actions = {
 					remove_unit_leader = 813 # René-Émile Godfroy
 					remove_unit_leader = 814 # Jean de Laborde
 					add_ideas = FRA_FREE_army
-					add_ideas = GDU_special_forces_cap
 					set_cosmetic_tag = FRA_FREE
 			
 					create_corps_commander = {
