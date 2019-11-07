@@ -24,7 +24,7 @@ units= {
 		}
 		task_force = {
 			name = "Ostseeflotte"
-			location = 6332  # Konigsberg
+			location = 241  # Konigsberg
 			ship = { name = "Schleswig-Holstein" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
 			ship = { name = "Schlesien" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = GER version_name = "Deutschland Class" } } }			
 			# 2. Torpedobootflottille
@@ -40,7 +40,7 @@ units= {
 		}
 		task_force = {
 			name = "Marineschule Kiel"
-			location = 6389 	# Kiel
+			location = 241 	# Kiel
 			ship = { name = "Brummer" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Bremse Class" } } }			
 			ship = { name = "Bremse" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Bremse Class" } } }
 		}
@@ -50,7 +50,7 @@ units= {
 		naval_base = 6389  # Kiel
 		task_force = {
 			name = "I. U-Boots Flottille Weddigen"
-			location = 6389  # Kiel
+			location = 241  # Kiel
 			# 1. Unterseebootsflottille
 			ship = { name = "U-7" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
 			ship = { name = "U-8" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
