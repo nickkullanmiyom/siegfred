@@ -332,7 +332,7 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "GER"
 		}
-		requested_factories = 10
+		requested_factories = 1
 		progress = 0.1
 		efficiency = 50
 	}
@@ -352,7 +352,7 @@ instant_effect = {
 			type = artillery_equipment_1
 			creator = "GER" 
 		}
-		requested_factories = 1
+		requested_factories = 3
 		progress = 0.3
 		efficiency = 50
 	}
@@ -362,7 +362,7 @@ instant_effect = {
 			type = light_tank_equipment_2
 			creator = "GER" 
 		}
-		requested_factories = 2
+		requested_factories = 4
 		progress = 0.4
 		efficiency = 50
 	}
@@ -383,7 +383,7 @@ instant_effect = {
 			creator = "GER" 
 			version_name = "Bf 109 E"
 		}
-		requested_factories = 15
+		requested_factories = 21
 		progress = 0.15
 		efficiency = 50
 	}
@@ -393,7 +393,7 @@ instant_effect = {
 			type = CAS_equipment_1
 			creator = "GER" 
 		}
-		requested_factories = 1
+		requested_factories = 10
 		progress = 0.2
 		efficiency = 50
 	}
@@ -413,7 +413,7 @@ instant_effect = {
 			type = tac_bomber_equipment_1
 			creator = "GER" 
 		}
-		requested_factories = 1
+		requested_factories = 3
 		progress = 0.1
 		efficiency = 50
 	}

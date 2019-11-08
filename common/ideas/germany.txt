@@ -1761,6 +1761,7 @@ ideas = {
 			
 			allowed = {
 				original_tag = GER
+				has_completed_focus = GER_improve_national_spirit
 			}
 			
 			traits = { armaments_organizer }
@@ -1843,27 +1844,6 @@ ideas = {
 			traits = { silent_workhorse }
 		}
 		
-		heinrich_himmler = {
-
-			
-			allowed = {
-				original_tag = GER
-			}
-
-			available = {
-				OR = {
-					has_government = fascism
-					has_country_flag = GER_reinstated_nazi_leadership
-				}
-			}
-
-			on_add = {
-				custom_effect_tooltip = GER_SS_himmler_recruit
-			}
-			
-			traits = { prince_of_terror }
-		}
-		
 		martin_bormann = {
 
 			
@@ -1916,24 +1896,6 @@ ideas = {
 			traits = { smooth_talking_charmer }
 		}
 
-		GER_hans_oster = {
-
-			
-			allowed = {
-				original_tag = GER
-				has_dlc = "Waking the Tiger"
-			}
-
-			available = {
-			}
-			
-			traits = { anti_fascist_agent }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
 		GER_julius_leber = {
 
 			
@@ -1946,24 +1908,6 @@ ideas = {
 			}
 			
 			traits = { connected_citizen }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		GER_theodor_heuss = {
-
-			
-			allowed = {
-				original_tag = GER
-				has_dlc = "Waking the Tiger"
-			}
-
-			available = {
-			}
-			
-			traits = { liberal_journalist }
 
 			ai_will_do = {
 				factor = 0
