@@ -6,12 +6,12 @@ state={
 	
 	state_category = wasteland
 	resources={
-		rubber=5 # was: 5
+		rubber=15 # was: 15
 	}
 	history={
-		owner = BEL
+		owner = ENG
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
 		}
 		add_core_of = COG
 	}

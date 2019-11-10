@@ -55,7 +55,7 @@ units= {
 		}					
 		task_force = {					
 			name = "Cruisers, Battle Force"
-			location = 9814 # Los Angeles
+			location = 1562 # Los Angeles
 			# Cruiser Division 2 #			
 			ship = { name = "USS Omaha" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }				
 			ship = { name = "USS Milwaukee" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }				
@@ -119,7 +119,7 @@ units= {
 		### Destroyer Flotilla 2 ###				
 		task_force = {					
 			name = "Destroyer Flotilla 2"				
-			location = 9814 # Los Angeles
+			location = 1562 # Los Angeles
 			ship = { name = "USS Detroit" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }				
 			### Destroyer Squadron 7 ###
 			# 24th Destroyer Division			
@@ -148,7 +148,7 @@ units= {
 		# Separate DESRONS #
 		task_force = {					
 			name = "Destroyer Division 20"				
-			location = 9671 # San Francisco
+			location = 1562 # San Francisco
 			# 20th Destroyer Division				
 			ship = { name = "USS Breckinridge" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }		
 			ship = { name = "USS Barney" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }		
@@ -163,7 +163,7 @@ units= {
 		naval_base = 9814 # Los Angeles
 		task_force = {				
 			name = "Scouting Force"				
-			location = 9814 # Los Angeles
+			location = 1562 # Los Angeles
 			### Battleship Division 4 ###			
 			ship = { name = "USS Arkansas" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "New York Class" } } }				
 			ship = { name = "USS New York" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "New York Class" } } }				
@@ -209,7 +209,7 @@ units= {
 		}
 		task_force = {					
 			name = "4th Submarine Squadron"			
-			location = 4180 # Pearl Harbor, HI
+			location = 1562 # Pearl Harbor, HI
 			ship = { name = "USS Argonaut" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda Class" } } }
 			# 7th Submarine Division				
 			ship = { name = "USS S-1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Class" } } }
@@ -278,7 +278,7 @@ units= {
 		# Independent Squadron #
 		task_force = {					
 			name = "Destroyer Squadron 12"				
-			location = 3878 # New York
+			location = 1562 # New York
 			### Destroyer Squadron 12 ###
 			ship = { name = "USS Gilmer" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }		
 			# 21st Destroyer Division				
@@ -294,7 +294,7 @@ units= {
 		# ATLANTIC SUBMARINES #
 		task_force = {					
 			name = "2nd Submarine Squadron"		
-			location = 9832 # New London, CT
+			location = 1562 # New London, CT
 			# 1st Experimental Division			
 			ship = { name = "USS S-20" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Class" } } }
 			ship = { name = "USS S-22" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Class" } } }
@@ -316,7 +316,7 @@ units= {
 		# ATLANTIC RESERVES #
 		task_force = {					
 			name = "Atlantic Reserve Destroyers"		# Decommissioned ships docked in Philadelphia					
-			location = 6845 # Philadelphia
+			location = 1562 # Philadelphia
 			ship = { name = "USS Allen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }	
 			ship = { name = "USS Colhoun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }		
 			ship = { name = "USS Gregory" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }		
@@ -335,7 +335,7 @@ units= {
 		}					
 		task_force = {					
 			name = "Atlantic Reserve Submarines"		# Decommissioned ships docked in Philadelphia	
-			location = 6845 # Philadelphia
+			location = 1562 # Philadelphia
 			ship = { name = "USS O-2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Class" } } }
 			ship = { name = "USS O-3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Class" } } }
 			ship = { name = "USS O-4" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Class" } } }
@@ -368,20 +368,20 @@ units= {
 		naval_base = 7617 # Canal Zone
 		task_force = {					
 			name = "Naval Detachment Atlantic"			# Historically based in France	
-			location = 6732 # Boston
+			location = 1562 # Boston
 			ship = { name = "USS Dickerson" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }		
 			ship = { name = "USS Herbert" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }		
 			ship = { name = "USS Dahlgren" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }		
 		}		
 		task_force = {							
 			name = "Special Service Squadron"
-			location = 7617 # Canal Zone
+			location = 1562 # Canal Zone
 			ship = { name = "USS Tattnall" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }		
 			ship = { name = "USS J Fred Talbott" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }		
 		}
 		task_force = {					
 			name = "3rd Submarine Squadron"	
-			location = 7617 # Canal Zone
+			location = 1562 # Canal Zone
 			# 11th Submarine Division			
 			ship = { name = "USS S-42" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Class" } } }
 			ship = { name = "USS S-43" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Class" } } }
@@ -398,7 +398,7 @@ units= {
 		naval_base = 10265 # Manilla
 		task_force = {					
 			name = "Asiatic Fleet"				
-			location = 10265 # Manilla
+			location = 1562 # Manilla
 			ship = { name = "USS Augusta" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Pensacola Class" } } }				
 			ship = { name = "USS Marblehead" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
 			### Destroyer Squadron 5 ###				
@@ -421,7 +421,7 @@ units= {
 		}					
 		task_force = {					
 			name = "5th Submarine Squadron"				
-			location = 10265 # Manilla
+			location = 1562 # Manilla
 			# 10th Submarine Division				
 			ship = { name = "USS S-36" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Class" } } }
 			ship = { name = "USS S-37" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Class" } } }

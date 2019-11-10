@@ -108,7 +108,6 @@ set_war_support = 0.3
 	add_ideas = {
 		henschel
 		ig_faben
-		heinrich_himmler
 		rudolf_hess
 		ludwig_beck
 		gerd_von_rundstedt
