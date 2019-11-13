@@ -2,7 +2,7 @@
 state={
 	id=210
 	name="STATE_210" # Nevel
-	manpower = 830133
+	manpower = 1330133
 	
 	state_category = rural
 
@@ -13,7 +13,13 @@ state={
 		}
 		add_core_of = SOV
 		victory_points = {
-			11234 1
+			11234 5
+		}
+		victory_points = {
+			9331 5
+		}
+		victory_points = {
+			6293 5
 		}
 	}
 

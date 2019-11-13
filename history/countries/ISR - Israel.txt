@@ -5,6 +5,10 @@ set_technology = {
 	infantry_weapons = 1
 	gwtank = 1
 	fuel_silos = 1
+	tech_support = 1
+	tech_recon = 1
+	support_weapons = 1
+	gw_artillery = 1
 }
 
 set_convoys = 5
@@ -65,8 +69,7 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 80
-	communism = 20
+	democratic = 100
 }
 
 create_country_leader = {

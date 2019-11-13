@@ -678,7 +678,6 @@ ideas = {
 			picture = jap_interservice_rivalry_navy_dominant
 			
 			research_bonus = { 
-				land_doctrine = -0.1
 				naval_doctrine = 0.05
 			}
 
@@ -724,9 +723,9 @@ ideas = {
 			picture = jap_supremacy_of_will
 			
 			modifier = {
-				army_defence_factor = 0.1
-				army_attack_factor = 0.1
-				army_morale_factor = 0.1
+				army_defence_factor = 0.05
+				army_attack_factor = 0.08
+				army_morale_factor = 0.025
 			}
 		}
 
