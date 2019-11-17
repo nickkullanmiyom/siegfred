@@ -281,9 +281,6 @@ focus_tree = {
 		offset = {
 			x = -5
 			y = 0
-			trigger = {
-				NOT = { has_dlc = "Man the Guns" }
-			}
 		}
 		relative_position_id = uk_empire_focus
 		cost = 2
@@ -599,9 +596,6 @@ focus_tree = {
 		prerequisite = { focus = ENG_home_defence }
 		available = {
 			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
 				OR = {
 					threat > 0.05
 					has_war = yes
@@ -609,9 +603,6 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = {
-					NOT = { has_dlc = "Man the Guns" }
-				}
 				OR = {
 					threat > 0.05
 					has_war = yes
@@ -683,9 +674,6 @@ focus_tree = {
 		prerequisite = { focus = limited_rearmament_focus }
 		available = {
 			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
 				OR = {
 					threat > 0.1 
 					has_war = yes
@@ -696,9 +684,6 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = {
-					NOT = { has_dlc = "Man the Guns" }
-				}
 				OR = {
 					threat > 0.1 
 					has_war = yes
@@ -749,9 +734,6 @@ focus_tree = {
 		id = royal_ordinance_focus
 		available = {
 			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
 				OR = {
 					any_other_country = {
 						has_war_with = ROOT
@@ -764,9 +746,6 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = {
-					NOT = { has_dlc = "Man the Guns" }
-				}
 				OR = {
 					any_other_country = {
 						has_war_with = ROOT
@@ -1349,9 +1328,6 @@ focus_tree = {
 		offset = {
 			x = -1
 			y = 0
-			trigger = {
-				NOT = { has_dlc = "Man the Guns" }
-			}
 		}
 		relative_position_id = general_rearmament_focus
 		cost = 10
@@ -1418,10 +1394,6 @@ focus_tree = {
 			factor = 1
 		}
 
-		allow_branch = {
-			has_dlc = "Man the Guns"
-		}
-
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -1475,10 +1447,6 @@ focus_tree = {
 		}
 
 		available_if_capitulated = yes
-
-		allow_branch = {
-			has_dlc = "Man the Guns"
-		}
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -1681,9 +1649,6 @@ focus_tree = {
 		prerequisite = { focus = ENG_home_defence }
 		available = {
 			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
 				OR = {
 					threat > 0.05
 					has_war = yes
@@ -1691,9 +1656,6 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = {
-					NOT = { has_dlc = "Man the Guns" }
-				}
 				OR = {
 					threat > 0.05
 					has_war = yes
@@ -1980,10 +1942,6 @@ focus_tree = {
 		id = ENG_global_defense
 		prerequisite = { focus = uk_empire_focus }
 
-		allow_branch = {
-			has_dlc = "Man the Guns"
-		}
-
 		available = {
 
 		}
@@ -2108,9 +2066,6 @@ focus_tree = {
 		offset = {
 			x = 2
 			y = 0
-			trigger = {
-				NOT = { has_dlc = "Man the Guns" }
-			}
 		}
 		relative_position_id = ENG_global_defense
 		cost = 2
@@ -2444,9 +2399,6 @@ focus_tree = {
 		offset = {
 			x = -7
 			y = 0
-			trigger = {
-				NOT = { has_dlc = "Man the Guns" }
-			}
 		}
 		cost = 5
 		ai_will_do = {
@@ -2729,9 +2681,6 @@ focus_tree = {
 			}
 			add_war_support = 0.05
 			if = {
-				limit = {
-					has_dlc = "Waking the Tiger"
-				}
 				unlock_decision_tooltip = CHI_expand_the_burma_road
 			}
 			CHI = {
@@ -3682,9 +3631,6 @@ focus_tree = {
 		offset = {
 			x = 1
 			y = 0
-			trigger = {
-				NOT = { has_dlc = "Man the Guns" }
-			}
 		}
 		relative_position_id = shadow_scheme_focus
 		cost = 10
@@ -3888,9 +3834,6 @@ focus_tree = {
 		offset = {
 			x = 1
 			y = 0
-			trigger = {
-				NOT = { has_dlc = "Man the Guns" }
-			}
 		}
 		relative_position_id = ENG_home_defence
 		cost = 5

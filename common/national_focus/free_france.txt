@@ -359,9 +359,6 @@ focus_tree = {
 
 		available_if_capitulated = yes
 
-		completion_reward = {
-			add_ideas = FRA_FREE_research_efforts
-		}
 	}
 	
 	focus = {

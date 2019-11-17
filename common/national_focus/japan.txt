@@ -22,9 +22,6 @@ focus_tree = {
 		offset = {
 			x = -5
 			y = 0
-			trigger = {
-				NOT = { has_dlc = "Waking the Tiger" }
-			}
 		}
 
 		cost = 10
@@ -317,7 +314,6 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = { has_dlc = "Waking the Tiger" }
 				unlock_decision_category_tooltip = prospect_for_resources
 			}
 		}

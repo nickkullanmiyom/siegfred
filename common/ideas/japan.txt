@@ -1246,8 +1246,7 @@ ideas = {
 						has_DLC = "Waking the Tiger"
 					}
 				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
+				if = {	
 					NOT = { has_autonomy_state = autonomy_supervised_state }
 				}
 			}
@@ -1279,7 +1278,6 @@ ideas = {
 					}
 				}
 				if = {
-					limit = { has_dlc = "Man the Guns" }	
 					NOT = { has_autonomy_state = autonomy_supervised_state }
 				}
 			}
@@ -1311,8 +1309,7 @@ ideas = {
 			}
 			
 			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
+				if = {	
 					NOT = { has_autonomy_state = autonomy_supervised_state }
 				}
 			}
