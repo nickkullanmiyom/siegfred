@@ -508,7 +508,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = AST
-				has_dlc = "Together for Victory"
 			}
 			
 			cost = 100
@@ -530,7 +529,6 @@ ideas = {
 
 			available = {
 				if = {
-					limit = { has_dlc = "Together for Victory" }
 					has_completed_focus = AST_support_the_policy_of_appeasement
 				}
 			}
@@ -542,7 +540,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = AST
-				has_dlc = "Together for Victory"
 			}
 			
 			traits = { war_industrialist }
@@ -555,7 +552,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = AST
-				has_dlc = "Together for Victory"
 			}
 			
 			traits = { compassionate_gentleman }
@@ -569,10 +565,6 @@ ideas = {
 			}
 			available = {
 				if = {
-					limit = { has_dlc = "Together for Victory" }
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
 					NOT = { has_autonomy_state = autonomy_supervised_state }
 				}
 			}
@@ -599,13 +591,7 @@ ideas = {
 				
 			}
 			available = {
-				if = {
-					limit = { has_dlc = "Together for Victory" }
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
+
 			}
 
 			picture = generic_communist_revolutionary_western_european_2d
@@ -631,13 +617,11 @@ ideas = {
 			}
 			available = {
 				if = {
-					limit = { has_dlc = "Together for Victory" }
 					OR = {
 						has_completed_focus = AST_support_the_policy_of_appeasement
 					}
 				}
 				if = {
-					limit = { has_dlc = "Man the Guns" }	
 					NOT = { has_autonomy_state = autonomy_supervised_state }
 				}
 			}
@@ -761,7 +745,6 @@ high_command = {
 			
 		allowed = {
 			original_tag = AST
-			has_dlc = "Together for Victory"
 		}
 			
 		traits = {air_air_combat_training_2 }
@@ -773,7 +756,6 @@ high_command = {
 		
 		allowed = {
 			original_tag = AST
-			has_dlc = "Together for Victory"
 		}
 		cost = 100
 		available = {
@@ -915,7 +897,6 @@ high_command = {
 			
 			allowed = {
 				original_TAG = AST
-				has_dlc = "Together for Victory"
 			}
 			
 
@@ -936,7 +917,6 @@ high_command = {
 				
 			allowed = {
 				original_tag = AST
-				has_dlc = "Together for Victory"
 			}
 			
 			research_bonus = {
@@ -958,7 +938,6 @@ high_command = {
 
 			allowed = {
 				original_TAG = AST
-				has_dlc = "Together for Victory"
 			}
 			
 
@@ -985,7 +964,6 @@ high_command = {
 
 			allowed = {
 				original_TAG = AST
-				has_dlc = "Together for Victory"
 			}
 						
 			research_bonus = {
@@ -1002,7 +980,6 @@ high_command = {
 
 			allowed = {
 				original_TAG = AST
-				has_dlc = "Together for Victory"
 			}
 			
 
@@ -1027,7 +1004,6 @@ high_command = {
 
 			allowed = {
 				original_TAG = AST
-				has_dlc = "Together for Victory"
 			}
 			
 
@@ -1047,7 +1023,6 @@ high_command = {
 			
 			allowed = {
 				original_TAG = AST
-				has_dlc = "Together for Victory"
 			}
 			
 
@@ -1074,7 +1049,6 @@ high_command = {
 
 			allowed = {
 				original_tag = AST
-				has_dlc = "Together for Victory"
 			}
 
 			available = {

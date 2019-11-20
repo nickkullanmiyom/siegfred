@@ -2,7 +2,6 @@
 
 oob = "ROM_1936"
 if = {
-	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "ROM_1936_naval_mtg"
 	else = {
 		set_naval_oob = "ROM_1936_naval_legacy"
@@ -32,14 +31,12 @@ set_technology = {
 	early_fighter = 1
 }
 if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
 		early_submarine = 1
 		early_destroyer = 1
 	}
 }
 if = {
-	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
 		basic_naval_mines = 1
 		submarine_mine_laying = 1
@@ -54,9 +51,6 @@ if = {
 
 #Ideas
 if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
 	add_ideas = {
 		ROM_king_carol_ii_hedonist
 	}
@@ -65,9 +59,6 @@ add_ideas = neutrality_idea
 
 #Kick off kings crazy life
 if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
 	ROM = {
 		#Pick from list of the sane events first
 		random_list = {
@@ -85,9 +76,6 @@ set_convoys = 10
 
 	add_political_power = 1198
 	if = {
-		limit = {
-			has_dlc = "Death or Dishonor"
-		}
 		complete_national_focus = ROM_preserve_greater_romania
 		complete_national_focus = ROM_army_maneuvers
 		complete_national_focus = ROM_expand_the_air_force
@@ -150,7 +138,6 @@ set_convoys = 10
 	
 	oob = "ROM_1939"
 	if = {
-		limit = { has_dlc = "Man the Guns" }
 			set_naval_oob = "ROM_1939_naval_mtg"
 		else = {
 			set_naval_oob = "ROM_1939_naval_legacy"
@@ -197,13 +184,11 @@ set_convoys = 10
 		dispersed_industry2 = 1
 	}
 	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
 		set_technology = {
 			basic_submarine = 1
 		}
 	}
 	if = {
-		limit = { has_dlc = "Man the Guns" }
 		set_technology = {
 		}
 	}
@@ -366,7 +351,6 @@ create_navy_leader = {
 ### VARIANTS ###
 # 1936 Start #
 if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
 	### Ship Variants ###
 	create_equipment_variant = {
 		name = "Regele Ferdinand Class"
@@ -380,7 +364,6 @@ if = {
 	}
 }
 if = {
-	limit = { has_dlc = "Man the Guns" }
 	# Submarines #
 	create_equipment_variant = {
 		name = "Delfinul Class"				
@@ -431,11 +414,5 @@ if = {
 
 # 1939 Start #
 1939.1.1 = {
-	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		# Ship variants #
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-	}
+
 }

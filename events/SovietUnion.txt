@@ -550,7 +550,6 @@ country_event = {
 		date > 1936.11.1
 		tag = CHI
 		has_opinion_modifier = hostile_status
-		NOT = { has_dlc = "Waking the Tiger" }
 	}
 
 	fire_only_once = yes
@@ -941,7 +940,6 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		has_country_flag = SOV_soviet.48_trotsky
 		tag = SOV
 		NOT = {
 			MEX = {
@@ -1638,27 +1636,6 @@ country_event = {
 	}
 }
 
-#No purges completed - decide what to do
-country_event = {
-	id = soviet.48
-	title = soviet.48.t
-	desc = soviet.48.d
-	picture = GFX_report_event_soviet_purge_politicians
-
-	trigger = {
-		has_government = communism
-		tag = SOV
-		NOT = { has_completed_focus = SOV_great_purge }
-	}
-
-	mean_time_to_happen = {
-		days = 45
-	}
-
-	fire_only_once = yes
-
-}
-
 #No purges massive civil war
 country_event = {
 	id = soviet.49
@@ -1668,7 +1645,6 @@ country_event = {
 
 	trigger = {
 		tag = SOV
-		has_country_flag = SOV_soviet.48_notrotsky
 	}
 	
 	fire_only_once = yes

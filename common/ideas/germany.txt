@@ -1809,7 +1809,6 @@ ideas = {
 			available = {
 				has_government = fascism
 				if = {
-					limit = { has_dlc = "Man the Guns" }	
 					NOT = { has_autonomy_state = autonomy_supervised_state }
 				}
 			}
@@ -1901,7 +1900,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = GER
-				has_dlc = "Waking the Tiger"
 			}
 
 			available = {

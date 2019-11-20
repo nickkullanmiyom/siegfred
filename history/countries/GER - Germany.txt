@@ -36,9 +36,6 @@ set_technology = {
 }
 
 if = {
-	limit = {
-		not = { has_dlc = "Man the Guns" }
-	}
 	set_technology = {
 		early_submarine = 1
 		basic_submarine = 1
@@ -56,9 +53,6 @@ if = {
 	set_naval_oob = "GER_1936_naval"
 }
 if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
 	set_technology = {
 		basic_naval_mines = 1
 		submarine_mine_laying = 1
@@ -243,9 +237,6 @@ set_war_support = 0.3
 	}
 	if = {
 		limit = {
-			not = {
-				has_dlc = "Man the Guns"
-			}
 		}
 		set_technology = {
 			basic_heavy_cruiser = 1
@@ -258,9 +249,6 @@ set_war_support = 0.3
 		set_naval_oob = "GER_1939_naval_legacy"
 	}
 	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
 		set_technology = {
 			improved_ship_hull_cruiser = 1
 			basic_ship_hull_heavy = 1
@@ -810,9 +798,6 @@ create_navy_leader = {
 }
 
 if = {
-	limit = {
-		not = { has_dlc = "Man the Guns" }
-	}
 	### Ship Variants ###
 	## 1936 Start ##
 	# Light Cruisers #
@@ -842,7 +827,6 @@ if = {
 	}
 }
 if = {
-	limit = { has_dlc = "Man the Guns" }
 	create_equipment_variant = {
 		name = "Deutschland Class"
 		type = ship_hull_cruiser_panzerschiff
@@ -1099,9 +1083,6 @@ create_equipment_variant = {
 ## 1939 Start ##
 1939.1.1 = {
 	if = {
-		limit = {
-			not = { has_dlc = "Man the Guns" }
-		}
 		# Submarines #
 		create_equipment_variant = {
 			name = "Type VIIA"
@@ -1128,9 +1109,6 @@ create_equipment_variant = {
 		}
 	}
 	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
 		create_equipment_variant = {
 			name = "Zerstörer 1936 Class"
 			type = ship_hull_light_2

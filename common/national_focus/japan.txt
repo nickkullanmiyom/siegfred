@@ -746,7 +746,6 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = { has_dlc = "Waking the Tiger" }
 				unlock_decision_category_tooltip = prospect_for_resources
 			}
 		}
@@ -1334,9 +1333,6 @@ focus_tree = {
 			}
 			custom_effect_tooltip = kamikaze_focus_tooltip
 			if = {
-				limit = {
-					has_dlc = "Waking the Tiger"
-				}
 				custom_effect_tooltip = cost_reduced_last_stand
 			}
 		}
@@ -1387,9 +1383,6 @@ focus_tree = {
 		offset = {
 			x = -4
 			y = 0
-			trigger = {
-				NOT = { has_dlc = "Waking the Tiger" }
-			}
 		}
 
 		cost = 5
@@ -2406,9 +2399,6 @@ focus_tree = {
 
 		completion_reward = {
 			if = {
-				limit = {
-					not = { has_dlc = "Man the Guns" }
-				}
 				add_tech_bonus = {
 					name = JAP_the_ultimate_battleship
 					bonus = 3.0

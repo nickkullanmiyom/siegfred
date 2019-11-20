@@ -1274,7 +1274,6 @@ ideas = {
 				NOT = { has_country_flag = purged_khrushchev }
 				NOT = { has_country_flag = counter_purge }
 				if = {
-					limit = { has_dlc = "Man the Guns" }	
 					NOT = { has_autonomy_state = autonomy_supervised_state }
 				}
 			}
@@ -1303,7 +1302,6 @@ ideas = {
 			
 			available = {
 				if = {
-					limit = { has_dlc = "Man the Guns" }	
 					NOT = { has_autonomy_state = autonomy_supervised_state }
 				}
 			}
@@ -1809,7 +1807,6 @@ ideas = {
 							is_literally_china = yes
 							tag = MAN
 						}
-						has_dlc = "Waking the Tiger"
 					}
 				}
 			}
