@@ -188,7 +188,6 @@ focus_tree = {
 
 		available_if_capitulated = yes
 		completion_reward = {
-			custom_effect_tooltip = GDU_lessons_of_war_tt
 			hidden_effect = {
          # skill 4 generals and field marshals
 			create_corps_commander = {

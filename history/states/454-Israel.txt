@@ -17,11 +17,12 @@ state={
 			}
 		}
 		victory_points = {
-			1086 1 
+			1086 30 
 		}
 		victory_points = {
 			4206 1 
 		}
+		add_core = ISR
 	}
 
 	provinces={

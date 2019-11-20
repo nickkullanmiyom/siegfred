@@ -114,14 +114,6 @@ set_convoys = 1600
 # DIPLOMACY
 if = {
 	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = MAL
-		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
 		target = RAJ
@@ -148,15 +140,18 @@ if = {
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
 	}
+	set_autonomy = {
+		target = ISR
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
 	else = {
-		puppet = MAL
 		puppet = RAJ
 	}
 }
 
 
 if = {
-	limit = { has_dlc = "Together for Victory" }
 
 	add_to_tech_sharing_group = commonwealth_research
 }
@@ -373,7 +368,7 @@ set_popularities = {
 
 create_faction = Allies
 add_to_faction = ENG
-#add_to_faction = FRA
+add_to_faction = FRA
 add_to_faction = CAN
 add_to_faction = AST
 add_to_faction = NZL
