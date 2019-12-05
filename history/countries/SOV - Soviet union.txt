@@ -329,7 +329,7 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = stalinism
 	traits = {
-		
+	easy_surrender	
 	}
 }
 

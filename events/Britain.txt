@@ -878,6 +878,111 @@ country_event = {
 	}
 }
 
+#Time for run from Egypt
+country_event = {
+	id = britain.25
+	title = britain.25.t
+	desc = britain.25.d
+	picture = GFX_report_event_ghandi_women
+
+	trigger = {
+	    has_war_with = GER
+		tag = ENG
+		date > 1940.02.01
+		has_completed_focus = uk_protect_suez
+		controls_state = 446
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = britain.25.a
+		effect_tooltip = {		
+		add_ideas = sgfrafineri_eng
+		}
+    }
+}
+#Time for run from Egypt
+country_event = {
+	id = britain.26
+	title = britain.25.t
+	desc = britain.25.d
+	picture = GFX_report_event_ghandi_women
+
+	trigger = {
+	    has_war_with = GER
+		tag = ENG
+		date > 1940.03.01
+		has_completed_focus = uk_protect_suez
+		controls_state = 446
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = britain.25.a
+				effect_tooltip = {		
+		add_ideas = sgfrafineri_eng
+		}
+    }
+}
+#Time for run from Egypt
+country_event = {
+	id = britain.27
+	title = britain.25.t
+	desc = britain.25.d
+	picture = GFX_report_event_ghandi_women
+
+	trigger = {
+	    has_war_with = GER
+		tag = ENG
+		date > 1940.04.01
+		has_completed_focus = uk_protect_suez
+		controls_state = 446
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = britain.25.a
+				effect_tooltip = {		
+		add_ideas = sgfrafineri_eng
+		}
+    }
+}
+#Time for run from Egypt
+country_event = {
+	id = britain.28
+	title = britain.25.t
+	desc = britain.25.d
+	picture = GFX_report_event_ghandi_women
+
+	trigger = {
+	    has_war_with = GER
+		tag = ENG
+		date > 1940.05.01
+		has_completed_focus = uk_protect_suez
+		controls_state = 446
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = britain.25.a
+				effect_tooltip = {		
+		add_ideas = sgfrafineri_eng
+		}
+    }
+}
+
 # Shadow Scheme Factories
 country_event = {
     id = britain.24

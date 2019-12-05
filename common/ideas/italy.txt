@@ -51,6 +51,21 @@ ideas = {
 			}
 		}
 
+		roma_class = {	
+
+		    picture = Idea_generic_coastal_navy		
+			
+			allowed = {
+				original_tag = "ITA"
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_dockyard = 0.10
+			}
+		}
+
 		ITA_german_millitary_cooperation_focus = {
 
 			picture = german_advisors

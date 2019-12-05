@@ -249,7 +249,7 @@ leader_traits = {
 		cost = 1000
 		
 		field_marshal_modifier = {
-			supply_consumption_factor = -0.10
+			supply_consumption_factor = -0.15
 		}
 		enable_ability = extra_suplies
 		ai_will_do = {
@@ -268,7 +268,6 @@ leader_traits = {
 		cost = 1000
 		field_marshal_modifier = {
 			org_loss_when_moving = -0.30
-			army_speed_factor = 0.025
 		}
 		
 		attack_skill = 1
@@ -277,6 +276,7 @@ leader_traits = {
 			factor = 1
 		}
 		trait_type = assignable_trait
+		mutually_exclusive = defensive_doctrine
 		gui_row = 5
 
 	}
@@ -289,13 +289,13 @@ leader_traits = {
 		cost = 1000
 		field_marshal_modifier = {
 			max_dig_in_factor = 0.30
-			dig_in_speed_factor = 0.30
 		}
 		
 		ai_will_do = {
 			factor = 1
 		}
 		trait_type = assignable_trait
+		mutually_exclusive = offensive_doctrine
 		gui_row = 6
 	}
 	
@@ -360,6 +360,7 @@ leader_traits = {
 		}
 		gui_row = 3
 		trait_type = assignable_trait
+		mutually_exclusive = aggressive_assaulter
 
 	}
 
@@ -374,7 +375,7 @@ leader_traits = {
 		}
 		cost = 1000
 		field_marshal_modifier = {
-			breakthrough_factor = 0.15
+			breakthrough_factor = 0.10
 		}
 		custom_effect_tooltip = INCREASED_ASSAULT_AND_SHOCK_CHANCE
 		ai_will_do = {
@@ -382,6 +383,7 @@ leader_traits = {
 		}
 		gui_row = 4
 		trait_type = assignable_trait
+		mutually_exclusive = unyielding_defender
 
 	}
 
@@ -500,7 +502,7 @@ leader_traits = {
 		
 		cost = 1000
 		modifier = {
-			army_infantry_defence_factor = 0.05
+			army_infantry_defence_factor = 0.10
 		}
 		
 		ai_will_do = {
@@ -701,8 +703,9 @@ leader_traits = {
 		cost = 700
 		modifier = {
 			desert = {
-				attack = 0.05
-				defence = 0.05
+				movement = 0.05
+				attack = 0.1
+				defence = 0.1
 			}
 		}
 		
@@ -742,6 +745,7 @@ leader_traits = {
 		cost = 700
 		modifier = {
 			mountain = {
+				movement = 0.05
 				attack = 0.1
 				defence = 0.1
 			}
@@ -868,8 +872,7 @@ leader_traits = {
 			always = no # not gainable
 		}
 		cost = 1000
-		modifier = { 
-            breakthrough_factor = 0.06
+		modifier = {
 			army_armor_defence_factor = 0.10 
 		}
 		
@@ -995,7 +998,7 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			army_infantry_attack_factor = 0.05
+			army_infantry_attack_factor = 0.10
 		}
 		
 		ai_will_do = {
@@ -1016,7 +1019,7 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			max_dig_in = 2.5
+			max_dig_in = 5
 			recon_factor_while_entrenched = 0.25
 		}
 		
@@ -1372,7 +1375,7 @@ leader_traits = {
 	silent_hunter = { 
 		type = navy
 		modifier = {
-			naval_torpedo_reveal_chance_factor = -0.20
+			naval_torpedo_reveal_chance_factor = -0.15
 		}
 
 		ai_will_do = {

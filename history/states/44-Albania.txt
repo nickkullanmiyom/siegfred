@@ -5,7 +5,7 @@ state={
 	manpower = 1003000
 	resources={
 		aluminium=2 # was: 3
-		chromium=2 # was: 3
+		chromium=34 # was: 34
 	}
 	
 	state_category = town
@@ -20,15 +20,12 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 2 
 			air_base = 3
 			11767 = {
 				naval_base = 4
 			}
 		}
 		add_core_of = ITA
-		add_claim_by = ITA
 
 		1939.4.12 = {
 			owner = ITA

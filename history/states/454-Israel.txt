@@ -7,22 +7,20 @@ state={
 	state_category = rural
 
 	history={
-		owner = ISR
+		owner = ENG
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
 			air_base = 2
 			4206 = {
-				naval_base = 3
+				naval_base = 7
 			}
 		}
 		victory_points = {
-			1086 30 
+			1086 25 
 		}
 		victory_points = {
 			4206 1 
 		}
-		add_core = ISR
 	}
 
 	provinces={

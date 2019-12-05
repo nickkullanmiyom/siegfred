@@ -818,6 +818,11 @@ leader_traits = {
 		surrender_limit = -0.25
 	}
 
+    easy_surrender = {
+		random = no
+		surrender_limit = -0.15
+	}
+
 	little_churchill = {
 		random = no
 		war_support_factor = 0.05

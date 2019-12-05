@@ -112,7 +112,10 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 				NOT = { original_tag = ENG }
 			}
 		}
-		always = yes
+		custom_trigger_tooltip = {
+			tooltip = RULE_ALLOW_RELEASE_NATIONS_BLOCKED_TOOLTIP
+			always = no
+		}
 	}
 	if = {
 		limit = {
@@ -124,44 +127,8 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 			original_tag = ENG
 		}
 		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_BRITAIN_TOOLTIP
-			NOT = { FROM = { tag = MLT } }
-			NOT = { FROM = { tag = CYP } }
-			NOT = { FROM = { tag = PAL } }
-			NOT = { FROM = { tag = ISR } }
-			NOT = { FROM = { tag = JOR } }
-			NOT = {
-				AND = {
-					FROM = { tag = EGY }
-					is_ironman = no
-				}
-			}
-			NOT = { FROM = { tag = KUW } }
-			NOT = { FROM = { tag = QAT } }
-			NOT = { FROM = { tag = UAE } }
-			NOT = { FROM = { tag = BLZ } }
-			NOT = { FROM = { tag = BAH } }
-			NOT = { FROM = { tag = JAM } }
-			NOT = { FROM = { tag = TRI } }
-			NOT = { FROM = { tag = BAS } }
-			NOT = { FROM = { tag = GYA } }
-			NOT = { FROM = { tag = SRL } }
-			NOT = { FROM = { tag = MLD } }
-			NOT = { FROM = { tag = FIJ } }
-			NOT = { FROM = { tag = BRM } }
-			NOT = { FROM = { tag = SUD } }
-			NOT = { FROM = { tag = SOM } }
-			NOT = { FROM = { tag = UGA } }
-			NOT = { FROM = { tag = KEN } }
-			NOT = { FROM = { tag = TZN } }
-			NOT = { FROM = { tag = ZAM } }
-			NOT = { FROM = { tag = MLW } }
-			NOT = { FROM = { tag = ZIM } }
-			NOT = { FROM = { tag = BOT } }
-			NOT = { FROM = { tag = NGA } }
-			NOT = { FROM = { tag = GHA } }
-			NOT = { FROM = { tag = SIE } }
-			NOT = { FROM = { tag = GAM } }
+			tooltip = RULE_ALLOW_RELEASE_NATIONS_BLOCKED_TOOLTIP
+			always = no
 		}
 	}
 	if = {
@@ -176,8 +143,8 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 			}
 		}
 		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_PEACE_ONLY_TOOLTIP
-			has_war = no
+			tooltip = RULE_ALLOW_RELEASE_NATIONS_BLOCKED_TOOLTIP
+			always = no
 		}
 	}
 	if = {
@@ -190,43 +157,8 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 			original_tag = ENG
 		}
 		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_PEACE_ONLY_TOOLTIP
-			has_war = no
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_BRITAIN_TOOLTIP
-			NOT = { FROM = { tag = MLT } }
-			NOT = { FROM = { tag = CYP } }
-			NOT = { FROM = { tag = PAL } }
-			NOT = { FROM = { tag = ISR } }
-			NOT = { FROM = { tag = JOR } }
-			NOT = { FROM = { tag = EGY } }
-			NOT = { FROM = { tag = KUW } }
-			NOT = { FROM = { tag = QAT } }
-			NOT = { FROM = { tag = UAE } }
-			NOT = { FROM = { tag = BLZ } }
-			NOT = { FROM = { tag = BAH } }
-			NOT = { FROM = { tag = JAM } }
-			NOT = { FROM = { tag = TRI } }
-			NOT = { FROM = { tag = BAS } }
-			NOT = { FROM = { tag = GYA } }
-			NOT = { FROM = { tag = SRL } }
-			NOT = { FROM = { tag = MLD } }
-			NOT = { FROM = { tag = FIJ } }
-			NOT = { FROM = { tag = BRM } }
-			NOT = { FROM = { tag = SUD } }
-			NOT = { FROM = { tag = SOM } }
-			NOT = { FROM = { tag = UGA } }
-			NOT = { FROM = { tag = KEN } }
-			NOT = { FROM = { tag = TZN } }
-			NOT = { FROM = { tag = ZAM } }
-			NOT = { FROM = { tag = MLW } }
-			NOT = { FROM = { tag = ZIM } }
-			NOT = { FROM = { tag = BOT } }
-			NOT = { FROM = { tag = NGA } }
-			NOT = { FROM = { tag = GHA } }
-			NOT = { FROM = { tag = SIE } }
-			NOT = { FROM = { tag = GAM } }
+			tooltip = RULE_ALLOW_RELEASE_NATIONS_BLOCKED_TOOLTIP
+			always = no
 		}
 	}
 	if = {
@@ -255,17 +187,12 @@ DIPLOMACY_MILACC_ENABLE_TRIGGER = {
 			NOT = {
 				OR = {
 					tag = USA
-					tag = PHI
 				}
 			}
 			AND = {
 				tag = USA			
 				USA = { has_war = yes }					
-			}
-			AND = {
-				tag = PHI			
-				PHI = { has_war = yes }					
-			}			
+			}		
 		}
 		
 	}
@@ -284,16 +211,11 @@ DIPLOMACY_MILACC_ENABLE_TRIGGER = {
 			NOT = {
 				OR = {
 					tag = USA
-					tag = PHI
 				}
 			}
 			AND = {
 				tag = USA			
 				USA = { has_war = yes }					
-			}
-			AND = {
-				tag = PHI			
-				PHI = { has_war = yes }					
 			}			
 		}			
 	}
@@ -380,18 +302,14 @@ DIPLOMACY_DOCKING_RIGHTS_ENABLE_TRIGGER = {
 			NOT = {
 				OR = {
 					tag = USA
-					tag = PHI
 				}
 			}
 			AND = {
 				tag = USA			
 				USA = { has_war = yes }					
-			}
-			AND = {
-				tag = PHI			
-				PHI = { has_war = yes }					
 			}			
-		}		
+		}
+		NOT = { tag = SOV }
 	}
 	if = {
 		limit = {
@@ -408,18 +326,14 @@ DIPLOMACY_DOCKING_RIGHTS_ENABLE_TRIGGER = {
 			NOT = {
 				OR = {
 					tag = USA
-					tag = PHI
 				}
 			}
 			AND = {
 				tag = USA			
 				USA = { has_war = yes }					
-			}
-			AND = {
-				tag = PHI			
-				PHI = { has_war = yes }					
-			}			
-		}		
+			}		
+		}
+		NOT = { tag = SOV }		
 	}
 	if = {
 		limit = {
@@ -453,7 +367,7 @@ DIPLOMACY_OFFER_DOCKING_RIGHTS_ENABLE_TRIGGER = {
 					ENG = { surrender_progress < 0.7 }
 				}				
 			}	
-	
+		NOT = { tag = SOV }	
 	}
 	if = {
 		limit = {
@@ -475,7 +389,8 @@ DIPLOMACY_OFFER_DOCKING_RIGHTS_ENABLE_TRIGGER = {
 					FROM = { tag = USA }
 					ENG = { surrender_progress < 0.7 }
 				}				
-			}		
+			}
+		NOT = { tag = SOV }			
 	}
 	if = {
 		limit = {
@@ -517,84 +432,84 @@ DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
 			AND = {
 			tag = HUN
 			FROM = { tag = GER }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = HUN
 			FROM = { tag = ITA }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = HUN
 			FROM = { tag = SPR }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = ROM
 			FROM = { tag = GER }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = ROM
 			FROM = { tag = ITA }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = ROM
 			FROM = { tag = SPR }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = BUL
 			FROM = { tag = GER }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = BUL
 			FROM = { tag = ITA }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = BUL
 			FROM = { tag = SPR }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = FIN
 			FROM = { tag = GER }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = FIN
 			FROM = { tag = ITA }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = FIN
 			FROM = { tag = SPR }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}		
 	}
@@ -624,84 +539,84 @@ DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
 			AND = {
 			tag = HUN
 			FROM = { tag = GER }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = HUN
 			FROM = { tag = ITA }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = HUN
 			FROM = { tag = SPR }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = ROM
 			FROM = { tag = GER }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = ROM
 			FROM = { tag = ITA }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = ROM
 			FROM = { tag = SPR }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = BUL
 			FROM = { tag = GER }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = BUL
 			FROM = { tag = ITA }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = BUL
 			FROM = { tag = SPR }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = FIN
 			FROM = { tag = GER }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = FIN
 			FROM = { tag = ITA }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = FIN
 			FROM = { tag = SPR }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}		
 	}
@@ -734,84 +649,84 @@ DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
 			AND = {
 			tag = HUN
 			FROM = { tag = GER }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = HUN
 			FROM = { tag = ITA }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = HUN
 			FROM = { tag = SPR }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = ROM
 			FROM = { tag = GER }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = ROM
 			FROM = { tag = ITA }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = ROM
 			FROM = { tag = SPR }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = BUL
 			FROM = { tag = GER }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = BUL
 			FROM = { tag = ITA }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = BUL
 			FROM = { tag = SPR }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = FIN
 			FROM = { tag = GER }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = FIN
 			FROM = { tag = ITA }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = FIN
 			FROM = { tag = SPR }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}		
 	}
@@ -844,84 +759,84 @@ DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
 			AND = {
 			tag = HUN
 			FROM = { tag = GER }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = HUN
 			FROM = { tag = ITA }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = HUN
 			FROM = { tag = SPR }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = ROM
 			FROM = { tag = GER }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = ROM
 			FROM = { tag = ITA }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = ROM
 			FROM = { tag = SPR }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = BUL
 			FROM = { tag = GER }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = BUL
 			FROM = { tag = ITA }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = BUL
 			FROM = { tag = SPR }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = FIN
 			FROM = { tag = GER }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = FIN
 			FROM = { tag = ITA }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			tag = FIN
 			FROM = { tag = SPR }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 	}
@@ -965,84 +880,84 @@ DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
 			AND = {
 			ROOT = { tag = GER }
 			FROM = { tag = HUN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = ITA }
 			FROM = { tag = HUN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = SPR }
 			FROM = { tag = HUN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = GER }
 			FROM = { tag = ROM }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = ITA }
 			FROM = { tag = ROM }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = SPR }
 			FROM = { tag = ROM }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = GER }
 			FROM = { tag = BUL }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = ITA }
 			FROM = { tag = BUL }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = SPR }
 			FROM = { tag = BUL }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = GER }
 			FROM = { tag = FIN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = ITA }
 			FROM = { tag = FIN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = SPR }
 			FROM = { tag = FIN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 	}
@@ -1072,84 +987,84 @@ DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
 			AND = {
 			ROOT = { tag = GER }
 			FROM = { tag = HUN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = ITA }
 			FROM = { tag = HUN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = SPR }
 			FROM = { tag = HUN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = GER }
 			FROM = { tag = ROM }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = ITA }
 			FROM = { tag = ROM }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = SPR }
 			FROM = { tag = ROM }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = GER }
 			FROM = { tag = BUL }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = ITA }
 			FROM = { tag = BUL }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = SPR }
 			FROM = { tag = BUL }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = GER }
 			FROM = { tag = FIN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = ITA }
 			FROM = { tag = FIN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = SPR }
 			FROM = { tag = FIN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}	
 	}
@@ -1182,84 +1097,84 @@ DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
 			AND = {
 			ROOT = { tag = GER }
 			FROM = { tag = HUN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = ITA }
 			FROM = { tag = HUN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = SPR }
 			FROM = { tag = HUN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = GER }
 			FROM = { tag = ROM }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = ITA }
 			FROM = { tag = ROM }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = SPR }
 			FROM = { tag = ROM }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = GER }
 			FROM = { tag = BUL }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = ITA }
 			FROM = { tag = BUL }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = SPR }
 			FROM = { tag = BUL }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = GER }
 			FROM = { tag = FIN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = ITA }
 			FROM = { tag = FIN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = SPR }
 			FROM = { tag = FIN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}		
 		
@@ -1293,84 +1208,84 @@ DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
 			AND = {
 			ROOT = { tag = GER }
 			FROM = { tag = HUN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = ITA }
 			FROM = { tag = HUN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = SPR }
 			FROM = { tag = HUN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = GER }
 			FROM = { tag = ROM }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = ITA }
 			FROM = { tag = ROM }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = SPR }
 			FROM = { tag = ROM }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = GER }
 			FROM = { tag = BUL }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = ITA }
 			FROM = { tag = BUL }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = SPR }
 			FROM = { tag = BUL }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = GER }
 			FROM = { tag = FIN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = ITA }
 			FROM = { tag = FIN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}
 		NOT = {
 			AND = {
 			ROOT = { tag = SPR }
 			FROM = { tag = FIN }
-			date < 1943.1.1
+			date < 1942.6.1
 			}
 		}	
 		
@@ -1613,7 +1528,12 @@ DIPLOMACY_BOOST_PARTY_POPULARITY_ENABLE_TRIGGER = {
 				option = FREE
 			}
 		}
-		always = yes
+			NOT = {
+				AND = {
+					FROM = { tag = HUN }
+					date < 1939.1.1
+				}				
+			}
 	}
 	if = {
 		limit = {
@@ -1622,6 +1542,12 @@ DIPLOMACY_BOOST_PARTY_POPULARITY_ENABLE_TRIGGER = {
 				option = AI_ONLY
 			}
 		}
+			NOT = {
+				AND = {
+					FROM = { tag = HUN }
+					date < 1939.1.1
+				}				
+			}		
 		custom_trigger_tooltip = {
 			tooltip = RULE_BOOST_PARTY_AI_ONLY_TT
 			FROM = { is_ai = yes }
@@ -1634,6 +1560,12 @@ DIPLOMACY_BOOST_PARTY_POPULARITY_ENABLE_TRIGGER = {
 				option = PLAYER_ONLY
 			}
 		}
+			NOT = {
+				AND = {
+					FROM = { tag = HUN }
+					date < 1939.1.1
+				}				
+			}		
 		custom_trigger_tooltip = {
 			tooltip = RULE_BOOST_PARTY_PLAYER_ONLY_TT
 			FROM = { is_ai = no }
@@ -1646,6 +1578,12 @@ DIPLOMACY_BOOST_PARTY_POPULARITY_ENABLE_TRIGGER = {
 				option = BLOCKED
 			}
 		}
+			NOT = {
+				AND = {
+					FROM = { tag = HUN }
+					date < 1939.1.1
+				}				
+			}		
 		custom_trigger_tooltip = {
 			tooltip = RULE_BOOST_PARTY_BLOCKED_TT
 			always = no
@@ -1660,7 +1598,10 @@ DIPLOMACY_STAGE_COUP_ENABLE_TRIGGER = {
 				option = FREE
 			}
 		}
-		always = yes
+		custom_trigger_tooltip = {
+			tooltip = RULE_COUP_BLOCKED_TT
+			always = no
+		}
 	}
 	if = {
 		limit = {
@@ -1670,8 +1611,8 @@ DIPLOMACY_STAGE_COUP_ENABLE_TRIGGER = {
 			}
 		}
 		custom_trigger_tooltip = {
-			tooltip = RULE_COUP_AI_ONLY_TT
-			FROM = { is_ai = yes }
+			tooltip = RULE_COUP_BLOCKED_TT
+			always = no
 		}
 	}
 	if = {

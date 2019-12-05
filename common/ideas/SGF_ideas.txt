@@ -1,7 +1,37 @@
 ideas = { 
 
 	country = {
-  
+
+        FRF_efficiency_gain = { 
+		
+			picture = generic_pp_unity_bonus	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				production_factory_efficiency_gain_factor = 99.9
+			}
+		}		
+		
+		FRF_retrain = { 
+		
+			picture = generic_pp_unity_bonus	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				training_time_factor = -0.99
+			}
+		}	
+
      	cantdeploy_unit = { 
 		
 			picture = generic_pp_unity_bonus	

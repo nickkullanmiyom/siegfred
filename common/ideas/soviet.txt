@@ -525,14 +525,14 @@ ideas = {
 			}
 
 			modifier = { 
-				army_armor_attack_factor = -0.14
+				army_armor_attack_factor = -0.11
 				army_attack_factor = -0.15
 				max_planning = -0.15
 			}
 			equipment_bonus = {
 				fighter_equipment = {
 					air_agility = -0.10
-					air_attack = -0.7
+					air_attack = -0.10
 					instant = yes
 				}
 				heavy_fighter_equipment = {

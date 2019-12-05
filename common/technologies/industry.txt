@@ -223,7 +223,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1937
 		
 		folder = {
@@ -284,9 +284,10 @@ technologies = {
 	###############
 	concentrated_industry = {
 
+        production_factory_efficiency_gain_factor = 0.025
 		industrial_capacity_factory = 0.15
-		industrial_capacity_dockyard = 0.1
-		global_building_slots_factor = 0.20
+		industrial_capacity_dockyard = 0.15
+		global_building_slots_factor = 0.40
 		
 		path = {
 			leads_to_tech = concentrated_industry2 
@@ -355,9 +356,9 @@ technologies = {
 	
 	concentrated_industry2 = {
 
+        production_factory_efficiency_gain_factor = 0.025
 		industrial_capacity_factory = 0.15
-		industrial_capacity_dockyard = 0.1
-		global_building_slots_factor = 0.20
+		industrial_capacity_dockyard = 0.15
 		
 		path = {
 			leads_to_tech = concentrated_industry3 
@@ -394,8 +395,10 @@ technologies = {
 	
 	concentrated_industry3 = {
 
+
+        production_factory_efficiency_gain_factor = 0.025
 		industrial_capacity_factory = 0.15
-		industrial_capacity_dockyard = 0.1
+		industrial_capacity_dockyard = 0.15
 		global_building_slots_factor = 0.20
 		
 		path = {
@@ -431,10 +434,11 @@ technologies = {
 	}
 	
 	concentrated_industry4 = {
-
-		industrial_capacity_factory = 0.15
-		industrial_capacity_dockyard = 0.1
-		global_building_slots_factor = 0.20
+        
+        production_factory_efficiency_gain_factor = 0.025
+		industrial_capacity_factory = 0.12
+		industrial_capacity_dockyard = 0.12
+		global_building_slots_factor = 0.10
 		
 		path = {
 			leads_to_tech = concentrated_industry5
@@ -470,9 +474,9 @@ technologies = {
 	
 	concentrated_industry5 = {
 
-		industrial_capacity_factory = 0.15
-		industrial_capacity_dockyard = 0.1
-		global_building_slots_factor = 0.20
+		industrial_capacity_factory = 0.12
+		industrial_capacity_dockyard = 0.12
+		global_building_slots_factor = 0.05
 		
 		research_cost = 2
 		start_year = 1943

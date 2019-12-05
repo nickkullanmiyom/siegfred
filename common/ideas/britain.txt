@@ -48,6 +48,25 @@ ideas = {
 			
 		}
 
+		sgfrafineri_eng = {
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			picture = generic_goods_red_bonus
+
+	        modifier = {
+	            production_speed_synthetic_refinery_factor = 0.025
+	        }
+			
+		}
+
 		ENG_king_edward = {
 			
 			allowed = {

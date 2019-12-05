@@ -696,6 +696,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+		    
+            add_ideas = roma_class
+
 			navy_experience = 55
 			156 = {
 				add_extra_state_shared_building_slots = 2
@@ -1301,7 +1304,7 @@ focus_tree = {
 			NOT = { has_war_with = GER }
 		}
 
-		x = 5
+		x = 7
 		y = 4
 		cost = 10
 		ai_will_do = {

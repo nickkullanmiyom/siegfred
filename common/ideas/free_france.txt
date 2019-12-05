@@ -57,7 +57,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-                production_speed_synthetic_refinery_factor = 0.10
+                production_speed_synthetic_refinery_factor = 0.20
 			}
 		}
 		FRA_FREE_gold_reserves = {
@@ -95,9 +95,10 @@ ideas = {
 
 			removal_cost = -1
 			
-			modifier = {
-				army_core_attack_factor = 0.05
-				army_core_defence_factor = 0.05
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
 			}
 		}
 		FRA_FREE_colonial_manpower = {
@@ -116,8 +117,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				non_core_manpower = 0.125
-				conscription = 0.015
+				non_core_manpower = 0.25
+				conscription = 0.02
 			}
 		}
 
@@ -312,7 +313,7 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = FRA_revive_naval_construction
+				has_completed_focus = FRA_naval_two_doctrine
 			}
 			
 			research_bonus = {

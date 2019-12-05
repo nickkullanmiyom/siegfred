@@ -15,10 +15,30 @@ ideas = {
 			removal_cost = -1
 
 			picture = FRA_factory_strikes
+			
+			equipment_bonus = {
 
-			modifier = {
+				ship_hull_heavy = {
+					build_cost_ic = 1.0 instant = yes
+				}
+				ship_hull_carrier = {
+					build_cost_ic = 1.0 instant = yes
+				}
+				ship_hull_cruiser = {
+					build_cost_ic = 1.0 instant = yes
+				}
+				ship_hull_light = {
+					build_cost_ic = 1.0 instant = yes
+				}
+				
+				ship_hull_submarine = {
+					build_cost_ic = 1.0 instant = yes
+				}
+            }
+			modifier = {	
 				conversion_cost_civ_to_mil_factor = 3.0
-				production_speed_naval_base_factor = -3
+				production_speed_naval_base_factor = -1.1
+				lend_lease_tension = 1.0
 			}
 			
 		}
@@ -40,6 +60,8 @@ ideas = {
 
 			research_bonus = {
 				land_doctrine = -0.4
+				air_doctrine = -0.9 
+				naval_doctrine = -0.4
 			}
 
 		}
@@ -106,9 +128,54 @@ ideas = {
 				army_core_defence_factor = 0.05
 				planning_speed = -0.15
 				max_command_power = -150
-				surrender_limit = -0.3
+				surrender_limit = 0.8
 			}
 		}
+		
+		FRA_protected_by_the_maginot_line2 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					OR = {
+						AND = {
+							has_government = democratic
+							GER = {
+								has_government = democratic
+							}
+						}
+						AND = {
+							has_government = communism
+							GER = {
+								has_government = communism
+							}
+						}
+						AND = {
+							has_government = fascism
+							GER = {
+								has_government = fascism
+							}
+						}
+					}
+				}
+			}
+
+			removal_cost = -1
+
+			picture = generic_wall_line
+
+			modifier = {
+				max_planning = 0.15
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+				planning_speed = -0.15
+				max_command_power = -150
+				surrender_limit = -0.8
+			}
+		}		
 
 		FRA_infantry_focus = {
 
