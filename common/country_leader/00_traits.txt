@@ -820,7 +820,7 @@ leader_traits = {
 
     easy_surrender = {
 		random = no
-		surrender_limit = -0.15
+		surrender_limit = -0.10
 	}
 
 	little_churchill = {
@@ -872,6 +872,10 @@ leader_traits = {
 		random = no
 		stability_factor = 0.05
 		industrial_capacity_factory = 0.05
+	}
+	    ez_surrenderer = {
+		random = no
+		surrender_limit = -0.70
 	}
 
 	### IDEA TRAITS ###
