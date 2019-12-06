@@ -390,25 +390,13 @@ add_namespace = {
 create_field_marshal = {
 	name = "Gerd von Rundstedt"
 	picture = "Portrait_Germany_Gerd_von_Rundstedt.dds"
-	traits = { defensive_doctrine offensive_doctrine old_guard }
+	traits = { offensive_doctrine }
 	skill = 3
 	attack_skill = 5
 	defense_skill = 5
 	planning_skill = 3
 	logistics_skill = 5
 	id = 1
-}
-
-create_field_marshal = {
-	name = "Günther von Kluge"
-	picture = "Portrait_Germany_Gunther_von_Kluge.dds"
-	traits = {  offensive_doctrine armor_officer }
-	skill = 3
-	id = 2
-	attack_skill = 6
-	defense_skill = 5
-	planning_skill = 2
-	logistics_skill = 1
 }
 
 create_corps_commander = {

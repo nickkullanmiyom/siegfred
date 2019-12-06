@@ -86,73 +86,46 @@ leader_skills = {
 	1 = {
 		cost = 100
 		type = corps_commander
-		modifier = {
-			equipment_capture = 0.003
-		}
 	}
 		
 	2 = {
 		cost = 300
 		type = corps_commander
-		modifier = {
-			equipment_capture = 0.004
-		}		
 	}
 	
 	3 = {
 		cost = 500
 		type = corps_commander
-		modifier = {
-			equipment_capture = 0.005
-		}		
 	}
 	
 	4 = {
 		cost = 1000
 		type = corps_commander
-		modifier = {
-			equipment_capture = 0.006
-		}		
 	}
 	
 	5 = {
 		cost = 1500
 		type = corps_commander
-		modifier = {
-			equipment_capture = 0.007
-		}		
 	}
 
 	6 = {
 		cost = 2500
 		type = corps_commander
-		modifier = {
-			equipment_capture = 0.008
-		}		
 	}
 
 	7 = {
 		cost = 5000
 		type = corps_commander
-		modifier = {
-			equipment_capture = 0.009
-		}		
 	}
 
 	8 = {
 		cost = 7500
 		type = corps_commander
-		modifier = {
-			equipment_capture = 0.01
-		}		
 	}
 
 	9 = {
 		cost = 10000
 		type = corps_commander
-		modifier = {
-			equipment_capture = 0.011
-		}		
 	}
 	
 	
@@ -160,73 +133,46 @@ leader_skills = {
 	1 = {
 		cost = 100
 		type = field_marshal
-		modifier = {
-			equipment_capture = 0.003
-		}		
 	}
 		
 	2 = {
 		cost = 300
 		type = field_marshal
-		modifier = {
-			equipment_capture = 0.004
-		}			
 	}
 	
 	3 = {
 		cost = 500
 		type = field_marshal
-		modifier = {
-			equipment_capture = 0.005
-		}			
 	}
 	
 	4 = {
 		cost = 1000
 		type = field_marshal
-		modifier = {
-			equipment_capture = 0.006
-		}			
 	}
 	
 	5 = {
 		cost = 1500
 		type = field_marshal
-		modifier = {
-			equipment_capture = 0.007
-		}			
 	}
 
 	6 = {
 		cost = 2500
 		type = field_marshal
-		modifier = {
-			equipment_capture = 0.008
-		}			
 	}
 
 	7 = {
 		cost = 5000
 		type = field_marshal
-		modifier = {
-			equipment_capture = 0.009
-		}			
 	}
 
 	8 = {
 		cost = 7500
 		type = field_marshal
-		modifier = {
-			equipment_capture = 0.01
-		}			
 	}
 
 	9 = {
 		cost = 10000
 		type = field_marshal
-		modifier = {
-			equipment_capture = 0.011
-		}			
 	}
 	
 }

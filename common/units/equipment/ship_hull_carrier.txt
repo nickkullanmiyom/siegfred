@@ -79,7 +79,7 @@ equipments = {
 		hg_attack = 0
 		
 		torpedo_attack = 0
-		sub_attack = 0
+		sub_attack = 100
 		
 		anti_air_attack = 0
 		
@@ -87,7 +87,7 @@ equipments = {
 
 		
 		surface_detection = 20
-		sub_detection = 5
+		sub_detection = 50
 		surface_visibility = 30
 		naval_speed = 26
 		reliability = 0.70
@@ -104,7 +104,7 @@ equipments = {
 		
 		build_cost_ic = 2450
 		resources = {
-			steel = 3
+			steel = 0
 			chromium = 1
 		}
 		
@@ -169,7 +169,7 @@ equipments = {
 
 		build_cost_ic = 2600
 		resources = {
-			steel = 4
+			steel = 0
 			chromium = 1
 		}
 		manpower = 5000
@@ -227,7 +227,7 @@ equipments = {
 
 		build_cost_ic = 3250
 		resources = {
-			steel = 4
+			steel = 1
 			chromium = 2
 		}
 		manpower = 5500
@@ -271,7 +271,7 @@ equipments = {
 
 		build_cost_ic = 2700
 		resources = {
-			steel = 4
+			steel = 1
 			chromium = 1
 		}
 		manpower = 5000
@@ -311,7 +311,7 @@ equipments = {
 		naval_speed = 20
 		build_cost_ic = 2700
 		resources = {
-			steel = 3
+			steel = 1
 		}
 		manpower = 1000
 	}
@@ -400,7 +400,7 @@ equipments = {
 		build_cost_ic = 3750
 		resources = {
 			#oil = 1
-			steel = 3
+			steel = 1
 			chromium = 1
 		}
 		
@@ -485,7 +485,7 @@ equipments = {
 		build_cost_ic = 4500
 		resources = {
 			#oil = 1
-			steel = 4
+			steel = 1
 			chromium = 1
 		}
 		manpower = 5000
@@ -532,7 +532,7 @@ equipments = {
 		build_cost_ic = 5250
 		resources = {
 			#oil = 2
-			steel = 4
+			steel = 1
 			chromium = 2
 		}
 		manpower = 5500
@@ -579,7 +579,7 @@ equipments = {
 		build_cost_ic = 6000
 		resources = {
 			#oil = 2
-			steel = 5
+			steel = 1
 			chromium = 2
 		}		
 		manpower = 6000

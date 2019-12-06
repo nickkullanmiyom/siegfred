@@ -92,8 +92,6 @@ GER_TB_HISTORICAL = {
 	can_use = { 
 		NOT = {
 			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser 
-				has_completed_focus = GER_the_monarchy_compromise
 			}
 		}
 	}
@@ -140,8 +138,6 @@ GER_SS_HISTORICAL = {
 	can_use = { 
 		NOT = {
 			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser 
-				has_completed_focus = GER_the_monarchy_compromise
 			}
 		}
 	}
@@ -189,8 +185,6 @@ GER_CA_HISTORICAL = {
 	can_use = { 
 		NOT = {
 			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser 
-				has_completed_focus = GER_the_monarchy_compromise
 			}
 		}
 	}
@@ -242,8 +236,6 @@ GER_CL_HISTORICAL = {
 	can_use = { 
 		NOT = {
 			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser 
-				has_completed_focus = GER_the_monarchy_compromise
 			}
 		}
 	}
@@ -382,8 +374,6 @@ GER_DD_HISTORICAL = {
 	can_use = { 
 		NOT = {
 			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser 
-				has_completed_focus = GER_the_monarchy_compromise
 			}
 		}
 	}
@@ -428,8 +418,6 @@ GER_CV_HISTORICAL = {
 	can_use = { 
 		NOT = {
 			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser 
-				has_completed_focus = GER_the_monarchy_compromise
 			}
 		}
 	}
@@ -461,8 +449,6 @@ GER_THEME_FISH = {
 	can_use = { 
 		NOT = {
 			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser 
-				has_completed_focus = GER_the_monarchy_compromise
 			}
 		}
 	}
@@ -507,9 +493,7 @@ GER_THEME_ANIMALS = {
 
 	can_use = { 
 		NOT = {
-			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser 
-				has_completed_focus = GER_the_monarchy_compromise
+			OR = {  
 			}
 		}
 	}
@@ -579,9 +563,7 @@ GER_THEME_RIVERS = {
 
 	can_use = { 
 		NOT = {
-			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser 
-				has_completed_focus = GER_the_monarchy_compromise
+			OR = {  
 			}
 		}
 	}
@@ -630,9 +612,7 @@ GER_THEME_GERMANIC = {
 
 	can_use = { 
 		NOT = {
-			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser 
-				has_completed_focus = GER_the_monarchy_compromise
+			OR = {  
 			}
 		}
 	}
@@ -681,9 +661,7 @@ GER_THEME_BATTLE = {
 
 	can_use = { 
 		NOT = {
-			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser 
-				has_completed_focus = GER_the_monarchy_compromise
+			OR = {  
 			}
 		}
 	}
@@ -725,9 +703,7 @@ GER_BB_IMPERIAL = {
 	for_countries = { GER }
 
 	can_use = { 
-		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser 
-			has_completed_focus = GER_the_monarchy_compromise
+		OR = {  
 		}
 	}
 	prefix = "SMS "
@@ -795,9 +771,7 @@ GER_BC_IMPERIAL = {
 	for_countries = { GER }
 
 	can_use = { 
-		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser 
-			has_completed_focus = GER_the_monarchy_compromise
+		OR = {  
 		}
 	}
 	prefix = "SMS "
@@ -830,8 +804,6 @@ GER_CA_IMPERIAL = {
 
 	can_use = { 
 		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser 
-			has_completed_focus = GER_the_monarchy_compromise
 		}
 	}
 	prefix = "SMS "
@@ -882,8 +854,6 @@ GER_THEME_ANIMALS_IMPERIAL = {
 	can_use = { 
 		
 		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser 
-			has_completed_focus = GER_the_monarchy_compromise
 		}
 		
 	}
@@ -952,8 +922,6 @@ GER_DD_IMPERIAL = {
 
 	can_use = { 
 		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser 
-			has_completed_focus = GER_the_monarchy_compromise
 		}
 	}
 	prefix = "SMS "
@@ -1073,8 +1041,6 @@ GER_CV_IMPERIAL = {
 
 	can_use = { 
 		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser 
-			has_completed_focus = GER_the_monarchy_compromise
 		}
 	}
 
@@ -1103,8 +1069,6 @@ GER_THEME_GERMANIC_IMPERIAL = {
 
 	can_use = { 
 		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser 
-			has_completed_focus = GER_the_monarchy_compromise
 		}
 	}
 
@@ -1151,8 +1115,6 @@ GER_THEME_BATTLE_IMPERIAL = {
 
 	can_use = { 
 		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser 
-			has_completed_focus = GER_the_monarchy_compromise
 		}
 	}
 
@@ -1193,8 +1155,6 @@ GER_THEME_FISH_IMPERIAL = {
 
 	can_use = { 
 		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser 
-			has_completed_focus = GER_the_monarchy_compromise
 		}
 	}
 
@@ -1238,8 +1198,6 @@ GER_SS_IMPERIAL = {
 
 	can_use = { 
 		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser 
-			has_completed_focus = GER_the_monarchy_compromise
 		}
 	}
 
@@ -1284,8 +1242,6 @@ GER_THEME_RIVERS_IMPERIAL = {
 
 	can_use = { 
 		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser 
-			has_completed_focus = GER_the_monarchy_compromise
 		}
 	}
 
@@ -1332,8 +1288,6 @@ GER_CL_IMPERIAL = {
 
 	can_use = { 
 		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser 
-			has_completed_focus = GER_the_monarchy_compromise
 		}
 	}
 	prefix = "SMS "
