@@ -1,0 +1,83 @@
+leader_maneuvering_skills = {
+
+	### NAVY ###
+	1 = {
+		cost = 100
+		type = navy
+		modifier = {
+			positioning = 0.46
+		}
+	}
+
+	2 = {
+		cost = 200
+		type = navy
+		modifier = {
+			positioning = 0.47
+		}
+	}
+
+	3 = {
+		cost = 400
+		type = navy
+		modifier = {
+			positioning = 0.48
+		}
+	}
+
+	4 = {
+		cost = 800
+		type = navy
+		modifier = {
+			positioning = 0.49
+		}
+	}
+
+	5 = {
+		cost = 1600
+		type = navy
+		modifier = {
+			positioning = 0.50
+		}
+	}
+
+	6 = {
+		cost = 3200
+		type = navy
+		modifier = {
+			positioning = 0.51
+		}
+	}
+
+	7 = {
+		cost = 6400
+		type = navy
+		modifier = {
+			positioning = 0.52
+		}
+	}
+
+	8 = {
+		cost = 12800
+		type = navy
+		modifier = {
+			positioning = 0.53
+		}
+	}
+
+	9 = {
+		cost = 25600
+		type = navy
+		modifier = {
+			positioning = 0.54
+		}
+	}
+
+	10 = {
+		cost = 51200
+		type = navy
+		modifier = {
+			positioning = 0.55
+		}
+	}
+}
