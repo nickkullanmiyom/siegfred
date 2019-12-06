@@ -253,8 +253,33 @@ if = {
 			autonomous_state = autonomy_puppet
 		}
 	}
-}
+} 
 
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 4000
+         producer = JAP
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 1500
+         producer = JAP
+} 
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 60000
+         producer = JAP
+} 
+add_equipment_to_stockpile = {
+         type = motorized_equipment_1
+         amount = 500
+         producer = JAP
+} 
+add_equipment_to_stockpile = {
+         type = light_tank_equipment_1
+         amount = 2000
+         producer = JAP
+}
 
 set_politics = {	
 	ruling_party = fascism
