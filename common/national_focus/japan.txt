@@ -1380,7 +1380,6 @@ focus_tree = {
 		icon = GFX_goal_JAP_toseiha
 		x = 6
 		y = 0
-		relative_position_id = JAP_the_manchurian_project
 
 		cost = 5
 
