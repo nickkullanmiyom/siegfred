@@ -38,7 +38,6 @@ if = {
 }
 if = {
 	set_technology = {
-		submarine_mine_laying = 1
 		early_ship_hull_light = 1
 		early_ship_hull_submarine = 1
 		basic_ship_hull_submarine = 1

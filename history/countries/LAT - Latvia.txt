@@ -19,19 +19,6 @@ set_technology = {
 	infantry_weapons1 = 1
 	early_fighter = 1
 }
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_submarine = 1
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		submarine_mine_laying = 1
-		early_ship_hull_submarine = 1
-	}
-}
 
 set_research_slots = 3
 

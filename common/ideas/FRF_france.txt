@@ -1481,26 +1481,5 @@ ideas = {
 
 			traits = { air_warfare_theorist }
 		}
-
-		FRF_frederic_irene_joliot_curie = {
-
-			picture = frederic_irene_joliot_curie
-
-
-			allowed = {
-				original_tag = FRF
-			}
-			available = {
-				original_tag = FRF
-				NOT = {has_country_flag = free_france}
-
-			}
-
-			research_bonus = {
-				nuclear = 0.15
-			}
-
-			traits = { nuclear_scientist }
-		}
 	}
 }

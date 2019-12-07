@@ -2021,37 +2021,5 @@ ideas = {
 			
 			traits = { air_warfare_theorist }
 		}
-		
-		yoshio_nishina = {
-			
-			
-			allowed = {
-				original_tag = JAP
-			}
-			
-
-			
-			research_bonus = {
-				nuclear = 0.15
-			}
-			
-			traits = { nuclear_scientist }
-		}
-		
-		hideo_itokawa = {
-			
-			
-			allowed = {
-				original_tag = JAP
-			}
-			
-
-			
-			research_bonus = {
-				rocketry = 0.15
-			}
-			
-			traits = { rocket_scientist }
-		}
 	}	
 }

@@ -2230,34 +2230,6 @@ ideas = {
 			traits = { motorized_equipment_manufacturer }
 		}
 	}
-	
-	theorist = {
-		von_braun = {
-			
-			allowed = {
-				original_tag = GER
-			}
-			
-			research_bonus = {
-				rocketry = 0.15
-			}
-			
-			traits = { rocket_scientist }
-		}
-		
-		heisenberg = {
-
-			
-			allowed = {
-				original_tag = GER
-			}
-		
-			research_bonus = {
-				nuclear = 0.15
-			}
-			
-			traits = { nuclear_scientist }
-		}
 		
 		heinz_guderian = {
 

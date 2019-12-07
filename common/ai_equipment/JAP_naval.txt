@@ -2245,7 +2245,6 @@ JAP_naval_mine_sweeper = {
 		
 		enable = {
 			has_tech = dp_secondary_battery
-			has_tech = basic_naval_mines
 		}
 		
 		target_variant = {

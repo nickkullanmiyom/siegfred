@@ -2242,37 +2242,6 @@ ideas = {
 			
 			traits = { air_warfare_theorist }
 		}
-		
-		igor_kurchatov = {
-			
-			
-			allowed = {
-				original_tag = SOV
-			}
-			
-
-			
-			research_bonus = {
-				nuclear = 0.15
-			}
-			
-			traits = { nuclear_scientist }
-		}
-		
-		sergei_korolev = {
-			
-			
-			allowed = {
-				original_tag = SOV
-			}
-			
-			research_bonus = {
-				rocketry = 0.15
-			}
-
-			
-			traits = { rocket_scientist }
-		}
 	}
 	
 }

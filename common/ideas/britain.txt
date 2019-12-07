@@ -3054,34 +3054,6 @@ ideas = {
 			
 			traits = { victory_through_airpower }
 		}
-		
-		james_chadwick = {
-			
-			allowed = {
-				original_tag = ENG
-			}
-			
-
-			
-			research_bonus = {
-				nuclear = 0.15
-			}
-			
-			traits = { nuclear_scientist }
-		}
-		
-		frank_whittle = {
-			
-			allowed = {
-				original_tag = ENG
-			}
-			
-			research_bonus = {
-				rocketry = 0.15
-			}
-			
-			traits = { rocket_scientist }
-		}
 
 		ENG_jfc_fuller = {
 			
