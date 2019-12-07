@@ -58,7 +58,6 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-		basic_naval_mines = 1
 		submarine_mine_laying = 1
 		basic_torpedo = 1
 		basic_battery = 1
