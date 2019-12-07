@@ -21,7 +21,6 @@
 		destroyer = {		
 			surface_detection = 0.10		
 		}		
-		mines_planting_by_fleets_factor = 0.1
 		#####
 
 
@@ -79,7 +78,6 @@
 		heavy_cruiser = {
 			max_organisation = 12
 		}
-		strike_force_movement_org_loss = -0.3
 		########
 
 		path = {
@@ -375,9 +373,8 @@
 			max_organisation = 25
 		}
 
-		navy_anti_air_attack_factor = 0.10
+		navy_anti_air_attack_factor = 0.20
 		navy_capital_ship_attack_factor = 0.15
-		mines_planting_by_fleets_factor = 0.1
 		
 		xp_research_type = navy
 		xp_research_cost = 75
@@ -963,11 +960,11 @@
 		# same as convoy interdiction
 		# EFFECT ##############
 		submarine = {
-			max_organisation = 10
+			max_organisation = 15
 			surface_detection = 0.05
 			convoy_raiding_coordination = 0.05
 		}
-		naval_torpedo_reveal_chance_factor = -0.10
+		naval_torpedo_reveal_chance_factor = -0.15
 		#######
 		
 		path = {
@@ -1024,7 +1021,7 @@
 			surface_detection = 0.1
 			convoy_raiding_coordination = 0.05
 		}
-		navy_submarine_attack_factor = 0.1
+		navy_submarine_attack_factor = 0.15
 		#######
 		
 		path = {
@@ -1156,6 +1153,7 @@
 			max_organisation = 10
 			convoy_raiding_coordination = 0.2
 			surface_detection = 0.1
+			surface_visibility = -0.1
 		}
 		
 		path = {
@@ -1360,7 +1358,7 @@
 			surface_detection = 0.25
 		}
 
-		naval_enemy_fleet_size_ratio_penalty_factor = 0.1
+		naval_enemy_fleet_size_ratio_penalty_factor = 0.2
 		#######
 		
 		path = {
@@ -1417,7 +1415,6 @@
 		heavy_cruiser = {
 			max_organisation = 10
 		}		
-		strike_force_movement_org_loss = -0.2
 		########
 		
 		path = {
@@ -1564,7 +1561,7 @@
 			max_organisation = 15
 		}
 		modifier = {
-			naval_strike_targetting_factor = 0.1
+			navy_carrier_air_targetting_factor = 0.05
 		}
 		########
 		
@@ -1704,7 +1701,7 @@
 			max_organisation = 5			
 		}
 		modifier = {
-			naval_strike_targetting_factor = 0.1
+			navy_carrier_air_targetting_factor = 0.05
 		}
 		########
 
@@ -1750,7 +1747,7 @@
 		carrier = {
 			max_organisation = 25
 		}
-		port_strike = 0.5
+		port_strike = 0.35
 		#####
 		
 		xor = { fleet_in_being trade_interdiction } 
@@ -1819,7 +1816,7 @@
 		sortie_efficiency = 0.2
 
 		modifier = {
-			naval_strike_targetting_factor = 0.125
+			navy_carrier_air_targetting_factor = 0.075
 		}
 		#############
 
@@ -1889,7 +1886,7 @@
 			max_organisation = 25
 		}
 		modifier = {
-			naval_strike_targetting_factor = 0.1
+			navy_carrier_air_targetting_factor = 0.075
 		}
 		##########
 
@@ -2038,7 +2035,7 @@
 		sortie_efficiency = 0.25
 
 		modifier = {
-			naval_strike_targetting_factor = 0.125
+			navy_carrier_air_targetting_factor = 0.075
 		}
 		########
 		
@@ -2112,9 +2109,9 @@
 		#same as floating_fortress
 		# EFFECT #############
 		battleship = {
-			max_organisation = 30
+			max_organisation = 25
 		}
-		navy_capital_ship_defence_factor = 0.20
+		navy_capital_ship_defence_factor = 0.1
 		########
 
 		path = {
@@ -2182,7 +2179,7 @@
 			max_organisation = 25
 		}
 
-		navy_carrier_air_agility_factor = 0.15
+		navy_carrier_air_agility_factor = 0.05
 
 		###########
 

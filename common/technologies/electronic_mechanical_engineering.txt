@@ -44,14 +44,14 @@ technologies = {
 	radio = {
 
 		# units with radios can more efficiently join combats when there is room
-		land_reinforce_rate = 0.05
+		land_reinforce_rate = 0.06
 		
 		path = {
 			leads_to_tech = radio_detection 
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.0
+		research_cost = 1.5
 		
 		folder = {
 			name = electronics_folder
@@ -98,6 +98,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		xp_research_type = navy
+		xp_research_cost = 35
+		xp_research_bonus = 1.50		
+		
 		research_cost = 1.5
 		
 		folder = {
@@ -127,6 +131,10 @@ technologies = {
 			leads_to_tech = improved_decimetric_radar 
 			research_cost_coeff = 1
 		}
+		
+		xp_research_type = navy
+		xp_research_cost = 35
+		xp_research_bonus = 1.50		
 		
 		research_cost = 1.5
 		start_year = 1938
@@ -181,6 +189,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50		
+		
 		research_cost = 2
 		start_year = 1939
 		
@@ -229,6 +241,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50		
+		
 		research_cost = 2.5
 		start_year = 1940
 		
@@ -266,9 +282,12 @@ technologies = {
 			level = 5
 		}
 
-		
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50		
 
 		static_anti_air_hit_chance_factor = 0.2
+		carrier_capacity_penalty_reduction = -0.1
 		
 		path = {
 			leads_to_tech = advanced_centimetric_radar 
@@ -317,6 +336,10 @@ technologies = {
 		}
 		
 		static_anti_air_hit_chance_factor = 0.2
+		
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50		
 		
 		research_cost = 2.5
 		start_year = 1942
@@ -487,7 +510,7 @@ technologies = {
 	advanced_computing_machine = {
 
 		# small boost to research speed
-		research_speed_factor = 0.10
+		research_speed_factor = 0.08
 		
 		path = {
 			leads_to_tech = advanced_encryption 
@@ -772,6 +795,10 @@ technologies = {
 			ship_fire_control_system_1
 		}
 		
+		xp_research_type = navy
+		xp_research_cost = 25
+		xp_research_bonus = 1.50		
+		
 		research_cost = 1
 		
 		folder = {
@@ -820,6 +847,10 @@ technologies = {
 			position = { x = 0 y = 8 }
 		}
 		
+		xp_research_type = navy
+		xp_research_cost = 25
+		xp_research_bonus = 1.50		
+		
 		ai_will_do = {
 			factor = 0.75
 			modifier = {
@@ -854,6 +885,10 @@ technologies = {
 		allow_branch = {
 			has_dlc = "Man the Guns"
 		}
+		
+		xp_research_type = navy
+		xp_research_cost = 25
+		xp_research_bonus = 1.50		
 		
 		research_cost = 1
 		
@@ -1086,7 +1121,7 @@ technologies = {
 	
 	atomic_research = {
 
-		research_speed_factor = 0.04
+		research_speed_factor = 0.02
 		
 		path = {
 			leads_to_tech = nuclear_reactor 
