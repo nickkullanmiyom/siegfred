@@ -48,7 +48,7 @@ categories =  {
 		sound_type = desert
 
 		units = {
-			attack = -0.25
+			attack = -0.27
 			#movement = -0.2
 		}
 		enemy_army_bonus_air_superiority_factor = -0.05
