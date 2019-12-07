@@ -498,14 +498,14 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = sov_gulag
+        focus = {
+		id = sov_gulag2
 		icon = GFX_focus_generic_industry_1
 		cost = 10
 		prerequisite = {
 			focus = finish_seven_year_plan
 		}
-		x = 3
+		x = 1
 		y = 2
 
 		bypass = {
@@ -556,6 +556,43 @@ focus_tree = {
 				}
 				set_state_flag = SOV_infrastructure_effort_3Inf	
 			}
+		}
+
+	}
+	focus = {
+		id = sov_gulag
+		icon = GFX_focus_generic_industry_1
+		cost = 10
+		prerequisite = {
+			focus = finish_seven_year_plan
+		}
+		x = 3
+		y = 2
+
+		bypass = {
+			custom_trigger_tooltip =  {
+				tooltip = infrastructure_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = infrastructure
+						size < 3
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = SOV_infrastructure_effort_3Inf }
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
 			586 = {
 				add_building_construction = {
 					type = infrastructure
