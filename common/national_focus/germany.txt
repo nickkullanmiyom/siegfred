@@ -64,35 +64,35 @@ focus_tree = {
 
 			add_tech_bonus = {
 				name = land_doc_bonus
-				bonus = 2.00 
+				bonus = 1.00 
 				uses = 2
 				category = land_doctrine
 			}
 
 			add_tech_bonus = {
 				name = land_doc_bonus
-				bonus = 2.00 
+				bonus = 1.00 
 				uses = 1
 				technology = improved_infantry_weapons
 			}
 			
 			add_tech_bonus = {
 				name = land_doc_bonus
-				bonus = 2.00 
+				bonus = 1.00 
 				uses = 1
 				technology = artillery1
 			}
 			
 			add_tech_bonus = {
 				name = land_doc_bonus
-				bonus = 2.00 
+				bonus = 1.00 
 				uses = 1
 				technology = antitank2 
 			}
 			
 			add_tech_bonus = {
 				name = land_doc_bonus
-				bonus = 2.00 
+				bonus = 1.00 
 				uses = 1
 				technology = tech_engineers2
 			}

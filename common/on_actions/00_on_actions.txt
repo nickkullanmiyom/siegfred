@@ -161,6 +161,69 @@ on_actions = {
 		}
 	}
 
+		#### This thing gives JAP EXP when they conquer things in China. Also, Spanish Civil War. ####
+	
+	on_state_control_changed = {
+		effect = {
+			
+		    if = {
+                limit = {
+                    tag = SPR 
+                    has_government = fascism
+                    has_volunteers_amount_from = { 
+                        tag = GER 
+                        count > 0 
+                    }
+                    FROM = {
+                        original_tag = SPR
+                        NOT = { has_government = fascism }
+                    }
+                    FROM.FROM = {
+                        is_core_of = SPR
+                        NOT = { has_state_flag = GDU_AXIS_xp_acquired } 
+                    }
+                }
+                FROM.FROM = { 
+                    set_state_flag = GDU_AXIS_xp_acquired 
+                }
+                GER = { 
+                    army_experience = 40
+                    air_experience = 40 
+                }
+				ITA = { 
+                    army_experience = 40
+                    air_experience = 40 
+                }
+            }
+			
+			if = {
+                limit = {
+                    original_tag = SPR 
+                    has_government = communism 
+                    has_volunteers_amount_from = { 
+                        tag = SOV 
+                        count > 0 
+                    }
+                    FROM = {
+                        original_tag = SPR
+                        NOT = { has_government = communism }
+                    }
+                    FROM.FROM = {
+                        is_core_of = SPR
+                        NOT = { has_state_flag = GDU_Soviet_XP_acquired } 
+                    }
+                }
+                FROM.FROM = { 
+                    set_state_flag = GDU_Soviet_XP_acquired 
+                }
+                SOV = { 
+                    army_experience = 50
+                    air_experience = 50
+                }
+            }	
+		}
+	}
+
 	#FROM is the one that joins the faction
 	on_create_faction = {
 		effect = {
