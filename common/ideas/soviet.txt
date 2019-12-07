@@ -413,31 +413,6 @@ ideas = {
 
 		}
 		
-		officers_purged_start1 = {
-		
-			removal_cost = -1
-			
-			picture = officers_purged
-
-			allowed = {
-				always = no # Added via event
-			}
-
-			allowed_civil_war = {
-				has_government = communism
-			}
-
-			modifier = {
-				experience_gain_army_factor = -0.5
-			}
-			research_bonus = {
-				land_doctrine = -0.10
-				naval_doctrine = -0.07
-				air_doctrine = -0.07
-			}
-
-		}
-		
 		officers_purged_start2 = {
 		
 			removal_cost = -1
@@ -490,6 +465,48 @@ ideas = {
 			equipment_bonus = {
 				fighter_equipment = {
 					air_agility = -0.20
+					air_attack = -0.15
+					instant = yes
+				}
+				heavy_fighter_equipment = {
+					air_agility = -0.20
+					air_attack = -0.15
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					air_agility = -0.20
+					air_ground_attack = -0.15
+					instant = yes
+				}
+			}
+
+		}
+
+		officers_purged3 = {
+			removal_cost = -1
+
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			research_bonus = {
+				naval_doctrine = -0.13
+				air_doctrine = -0.13
+			}
+
+			modifier = {
+				army_armor_attack_factor = -0.025
+				army_attack_factor = -0.05
+                army_org_factor = -0.1
+				max_planning = -0.05
+			}
+			equipment_bonus = {
+				fighter_equipment = {
+					air_agility = -0.075
 					air_attack = -0.15
 					instant = yes
 				}

@@ -89,7 +89,7 @@ GER_case_anton_category = {
 
 
 		available = {
-			original_tag = GER
+			original_tag = ITA
 			has_government = fascism
 			any_country = {
 				original_tag = EFR
@@ -97,17 +97,34 @@ GER_case_anton_category = {
 			}
 			OR = { 
 				EFR = { has_war = yes } 
-				date > 1942.1.1
-				ITA = { surrender_progress > 0.25 }
+				date > 1943.1.1
+				AND = {
+					date > 1941.6.1
+					ITA = { surrender_progress > 0.01 }				
+				}
+				AND = {
+					date > 1941.1.1
+					ITA = { surrender_progress > 0.25 }				
+				}				
 				OR = { 
-					FRA = {
-						controls_state = 19  
-						controls_state = 23  
-						controls_state = 30
-						controls_state = 14 
-						controls_state = 15 
-						controls_state = 29
+					any_enemy_country = {
+						controls_state = 19
 					}
+					any_enemy_country = {
+						controls_state = 23  
+					}
+					any_enemy_country = { 
+						controls_state = 30
+					}
+					any_enemy_country = {
+						controls_state = 14 
+					}
+					any_enemy_country = { 
+						controls_state = 15 
+					}
+					any_enemy_country = {
+						controls_state = 29
+					}					
 				} 
 			}
 		}
@@ -119,50 +136,21 @@ GER_case_anton_category = {
 		fire_only_once = yes
 
 		visible = {
-			original_tag = GER
+			original_tag = ITA
 			has_government = fascism
-			any_country = {
-				original_tag = EFR
-			}
 		}
 		ai_will_do = {
 			factor = 1
 		}
 		
 		complete_effect = {
-			GER = { country_event = gduevents.14 }
 				
 		}
 		
 		remove_effect = {
-			if = { 
-				limit = { 
-					OR = { 
-						has_global_flag = vichyfleet_GER 
-						NOT = { has_global_flag = vichyfleet_ITA } 
-					}
-				}
-				EFR = { 
-					transfer_navy = { 
-						target = GER 
-					}
-				}	
-			}
-			if = { 
-				limit = { 
-					has_global_flag = vichyfleet_ITA 
-				}
-				EFR = { 
-					transfer_navy = { 
-						target = ITA 
-					}
-				}	
-			}
 			GER = {
 				annex_country = { target = EFR transfer_troops = no }
-			}
-			
-		
+			}			
 		}
 	}
 	
@@ -187,7 +175,7 @@ operations = {
 			217 = { is_controlled_by_ROOT_or_ally = yes }
 		}
 
-		days_mission_timeout = 180
+		days_mission_timeout = 150
 		fire_only_once = yes
 
 		activation = {
@@ -213,22 +201,119 @@ operations = {
 
 political_actions = {
 
-	 annex_bulgaria = {
+	annex_bulgaria = {
 		ai_will_do = { factor = 0 }
-		cost = 10
+		cost = 0
 		visible = {
 			tag = GER
 			BUL = { is_ai = yes }
 			country_exists = BUL
-			date > 1937.1.1
+			date > 1939.1.1
+			GER = { has_war = yes }		
 		}
 		fire_only_once = yes
 		complete_effect = {
 			GER = {
 				annex_country = { target = BUL transfer_troops = yes }
+				add_state_core = 77
+				add_state_core = 211
+				add_state_core = 212
+				add_state_core = 48
+				add_state_core = 184
+				add_state_core = 731
+				add_state_core = 106					
 			}
 		}
 	}
+
+	Operation_Panzerfaust = {
+		ai_will_do = { factor = 0 }
+		cost = 0
+		visible = {
+			tag = GER
+			HUN = { is_ai = yes }
+			country_exists = HUN
+			date > 1939.1.1
+			GER = { has_war = yes }		
+		}
+		fire_only_once = yes
+		complete_effect = {
+			GER = {
+				annex_country = { target = HUN transfer_troops = yes }
+				add_state_core = 155
+				add_state_core = 154
+				add_state_core = 43			
+			}
+		}
+	}
+
+	Puppet_ROM = {
+		ai_will_do = { factor = 0 }
+		cost = 0
+		fire_only_once = yes
+		visible = {
+			tag = GER
+			ROM = { is_ai = yes }
+			country_exists = ROM
+			date > 1939.1.1
+			GER = { has_war = yes }		
+		}
+
+		complete_effect = {
+			ROM = {
+				give_resource_rights = { receiver = GER state = 46 }
+			}
+			GER = {
+				annex_country = { target = ROM transfer_troops = yes }
+				add_state_core = 78
+				add_state_core = 766
+				add_state_core = 79
+				add_state_core = 80
+				add_state_core = 46
+				add_state_core = 77
+				add_state_core = 76
+				add_state_core = 84
+				add_state_core = 81
+				add_state_core = 82
+				add_state_core = 83
+			}		
+		}
+	}
+
+	Puppet_Finland = {
+		ai_will_do = { factor = 0 }
+		cost = 0
+		fire_only_once = yes
+		visible = {
+			tag = GER
+			FIN = { is_ai = yes }
+			country_exists = FIN
+			date > 1940.1.1
+			GER = { has_war = yes }		
+		}
+
+		complete_effect = {
+			GER = { puppet = FIN }
+		}
+	}
+
+	Operation_Margarethe = {
+		ai_will_do = { factor = 0 }
+		cost = 0
+		fire_only_once = yes
+		visible = {
+			tag = GER
+			HUN = { is_ai = yes }
+			country_exists = HUN
+			date > 1939.1.1
+			GER = { has_war = yes }		
+		}
+
+		complete_effect = {
+			GER = { puppet = HUN }
+		}
+	}
+
 
 	# Reinstate Wilhelm IV into the line of succession
 	reinstate_wilhelm_iv_succession_rights = {
@@ -368,11 +453,7 @@ foreign_politics = {
 			declare_war_on = {
 				target = BEL
 				type = annex_everything
-			}
-			declare_war_on = {
-				target = LUX
-				type = annex_everything
-			}		
+			}	
 		}
 	
 	}
@@ -409,6 +490,9 @@ foreign_politics = {
 				target = NOR 
 				type = annex_everything
 			}
+			hidden_effect = {
+				NOR = { add_war_support = -0.25 }
+			}
 		
 		}
 	
@@ -425,7 +509,7 @@ foreign_politics = {
 	
 		available = { 
 			has_completed_focus = GER_ussr_war_goal
-			date > 1941.5.16
+			date > 1941.6.1
 			NOT = { has_war_with = SOV } 
 		}	
 	
@@ -453,14 +537,19 @@ foreign_politics = {
 				} 
 				country_event = { id = gduevents.3 }
 			}
-			
+
 				
 					
 		}
 		
 		remove_effect = {
 			custom_effect_tooltip = GER_barbarossa_tooltip
-		
+			GER = {
+				declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}
+			}
 			every_country = { 
 				limit = {
 					is_in_faction_with = GER 
@@ -501,6 +590,7 @@ foreign_politics = {
 		visible = {
 			has_war = no
 			has_government = neutrality
+			has_completed_focus = GER_ally_the_shade
 			has_country_flag = modernized_succession_laws
 		}
 
@@ -534,6 +624,7 @@ foreign_politics = {
 
 		visible = {
 			has_country_flag = poland_traded_danzig
+			has_completed_focus = GER_tackle_the_communist_threat
 		}
 
 		complete_effect = {
@@ -597,35 +688,7 @@ GER_military_buildup = {
 
 	}
 
-	
-	GER_jaegernotprogramm = {
 
-		icon = generic_air
-
-		available = {
-			has_war = yes
-			NOT = {
-				has_idea = GER_jaegernotprogramm
-			}
-		}
-
-		cost = 10
-		fire_only_once = yes
-		ai_will_do = {
-			factor = 1
-		}
-
-		visible = {
-			has_war = yes
-			NOT = {
-				has_idea = GER_jaegernotprogramm
-			}
-		}
-
-		complete_effect = {
-			add_timed_idea = { idea = GER_jaegernotprogramm days = 180 }
-		}
-	}
 }
 
 special_projects = {
@@ -642,7 +705,7 @@ special_projects = {
 			controls_state = 75 # Moravia
 		}
 
-		cost = 10
+		cost = 50
 		fire_only_once = yes
 
 		ai_will_do = {
@@ -657,13 +720,13 @@ special_projects = {
 		}
 		days_remove = 180
 		modifier = {
-			civilian_factory_use = 1
+			civilian_factory_use = 3
 		}
 		remove_effect = {
 			69 = {
 				set_building_level = {
 					type = bunker
-					level = 3
+					level = 1
 					province = {
 						all_provinces = yes
 						limit_to_border = no
@@ -674,7 +737,7 @@ special_projects = {
 			74 = {
 				set_building_level = {
 					type = bunker
-					level = 3
+					level = 1
 					province = {
 						all_provinces = yes
 						limit_to_border = no
@@ -685,7 +748,7 @@ special_projects = {
 			9 = {
 				set_building_level = {
 					type = bunker
-					level = 3
+					level = 1
 					province = {
 						all_provinces = yes
 						limit_to_border = no
@@ -696,7 +759,7 @@ special_projects = {
 			75 = {
 				set_building_level = {
 					type = bunker
-					level = 3
+					level = 1
 					province = {
 						all_provinces = yes
 						limit_to_border = no
@@ -726,7 +789,7 @@ special_projects = {
 				72 = {
 					set_building_level = {
 						type = bunker
-						level = 3
+						level = 1
 						province = {
 							all_provinces = yes
 							limit_to_border = no
@@ -737,7 +800,7 @@ special_projects = {
 				71 = {
 					set_building_level = {
 						type = bunker
-						level = 3
+						level = 1
 						province = {
 							all_provinces = yes
 							limit_to_border = no
@@ -760,7 +823,7 @@ special_projects = {
 				70 = {
 					set_building_level = {
 						type = bunker
-						level = 3
+						level = 1
 						province = {
 							all_provinces = yes
 							limit_to_border = no
@@ -791,7 +854,7 @@ special_projects = {
 				73 = {
 					set_building_level = {
 						type = bunker
-						level = 3
+						level = 1
 						province = {
 							all_provinces = yes
 							limit_to_border = no
@@ -802,7 +865,7 @@ special_projects = {
 				664 = {
 					set_building_level = {
 						type = bunker
-						level = 3
+						level = 1
 						province = {
 							all_provinces = yes
 							limit_to_border = no

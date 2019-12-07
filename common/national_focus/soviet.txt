@@ -818,6 +818,13 @@ focus_tree = {
 
 		completion_reward = {
 		    add_ideas = soviettank_bonus
+		    remove_ideas = {
+				officers_purged2 
+				}
+                add_timed_idea = {
+                    idea = officers_purged3
+                    days = 90
+            }
 
 		    custom_effect_tooltip = SOV_positive_heroism_tt
 		    hidden_effect = {
