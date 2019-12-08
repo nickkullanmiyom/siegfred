@@ -1,6 +1,6 @@
 ------ Recently Added -----
 NDefines.NMilitary.DEPLOY_TRAINING_MAX_LEVEL = 2                         -- vanilla 1, you can train to trained in deployment queue 
-NDefines.NMilitary.TRAINING_EXPERIENCE_SCALE = 156.0                     -- vanilla 62.0  how fast you train in deployment queue
+NDefines.NMilitary.TRAINING_EXPERIENCE_SCALE = 160.0                     -- vanilla 62.0  how fast you train in deployment queue
 NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 1				-- This many divisons are required for the country to be able to send volunteers.
 NDefines.NDiplomacy.TENSION_VOLUNTEER_FORCE_DIVISION = 0.1			-- Amount of tension generated for each sent division
 NDefines.NNavy.CARRIER_ONLY_COMBAT_ACTIVATE_TIME = 4                     -- this is done due to constantly retreating with carrier fleets essentially making all other ships useless, delete-revert if you see it is unnecesary, 
