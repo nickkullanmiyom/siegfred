@@ -2,6 +2,26 @@ ideas = {
 
 	country = {
 
+	    peace_time_bro = {
+
+	        picture = generic_pp_unity_bonus
+
+	        allowed = {
+	            always = no
+	        }
+
+	        removal_cost = -1
+
+	        modifier = {
+	            training_time_air_factor = 0.25
+	            minimum_training_level = -0.1
+	            training_time_army_factor = -0.1
+	            experience_gain_navy_factor = 0.1
+                experience_gain_navy = 0.05
+                experience_gain_army = 0.05
+	        }
+	    }
+
         FRF_efficiency_gain = { 
 		
 			picture = generic_pp_unity_bonus	
