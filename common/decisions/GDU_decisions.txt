@@ -1,4 +1,30 @@
 crisis = {
+
+    Lose_Bengazi_Crisis = {
+        icon = revolt
+        allowed {
+            OR = {
+                tag = ITA
+                tag = GER
+                tag = SPR 
+                tag = ROM            
+                tag = HUN 
+            }
+        }
+        available = {
+            controls_state = 450
+        }
+        highlight_states = { state = 450 }
+        days_mission_timeout = 30
+        is_good = no
+        activation = {
+            benghasi_taken = yes
+        }
+        timeout_effect = {
+            add_stability = -0.1
+            add_war_support = -0.2
+        }
+    }
     
     Retake_Africa_Crisis = {
         icon = revolt 
