@@ -2213,10 +2213,7 @@ ideas = {
 				factor = 2
 			}
 		}
-		
-		
 
-		
 		opel = {
 			
 			allowed = {
@@ -2230,6 +2227,8 @@ ideas = {
 			traits = { motorized_equipment_manufacturer }
 		}
 	}
+		
+
 		
 		heinz_guderian = {
 

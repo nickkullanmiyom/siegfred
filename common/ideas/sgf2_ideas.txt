@@ -1,0 +1,1361 @@
+ideas = { 
+
+	country = {
+	
+		FRA_armistice_negotiations_idea = {
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			targeted_modifier = {
+				tag = GER attack_bonus_against = -0.95
+			}
+			targeted_modifier = {
+				tag = ITA attack_bonus_against = -0.7
+			}
+			targeted_modifier = {
+				tag = ROM attack_bonus_against = -0.7
+			}
+			targeted_modifier = {
+				tag = HUN attack_bonus_against = -0.7
+			}
+			targeted_modifier = {
+				tag = BUL attack_bonus_against = -0.7
+			}
+
+			modifier = {
+				army_attack_factor = -0.95
+			}
+			
+		}
+
+		AXIS_armistice_negotiations_idea = {
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			targeted_modifier = {
+				tag = FRA attack_bonus_against = -0.3
+			}
+		}			
+	
+      GER_triumph_britain_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			picture = generic_manpower_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				production_speed_dockyard_factor = 0.15
+				industrial_capacity_dockyard = 0.05
+			}
+			research_bonus = {
+				naval_equipment = 0.1
+				naval_doctrine = 0.1				
+			}				
+		}	
+	
+		ENG_triumph_sealion_idea = {
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.10
+				army_morale_factor = 0.05
+				production_factory_efficiency_gain_factor = 4
+				industry_repair_factor = 4
+			}
+		}		
+	
+	
+
+				FRA = { targeted_modifier = { tag = GER attack_bonus_against = -0.9 } }
+
+				GER = { targeted_modifier = { tag = FRA attack_bonus_against = -0.6 } }		
+	
+	
+		AXIS_fail_sealion_idea = {
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				army_morale_factor = -0.05
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.8
+			}
+		}
+	
+		GDU_Commonwealth_Navy_Manpower1 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription_factor = 0.05
+			}
+		}
+		GDU_Commonwealth_Navy_Manpower2 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription_factor = 0.05
+			}
+		}	
+		GDU_Commonwealth_Navy_Manpower3 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription_factor = 0.05
+			}
+		}	
+		GDU_Commonwealth_Navy_Manpower4 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription_factor = 0.05
+			}
+		}
+		GDU_Commonwealth_Navy_Manpower5 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription_factor = 0.05
+			}
+		}
+		GDU_Commonwealth_Navy_Manpower6 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription_factor = 0.05
+			}
+		}
+		GDU_Commonwealth_Navy_Manpower7 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription_factor = 0.05
+			}
+		}			
+	
+        USA_low_dockyard_count = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+			
+
+			modifier = {
+            	
+            	navy_max_range_factor = 0.55
+			}
+		}
+        disloyal_puppet_idea = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+			
+
+			modifier = {
+            	
+            	surrender_limit = -0.3
+			}
+		}
+		 disloyal_puppet_idea_phi = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+			
+
+			modifier = {
+            	
+            	surrender_limit = -0.2
+			}
+		}
+
+
+
+
+		GDU_triumph_egypt = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.10
+				consumer_goods_factor = -0.01
+				army_speed_factor = 0.025
+			}
+		}
+		
+		GDU_triumph_egypt2 = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.20
+				consumer_goods_factor = -0.02
+				army_speed_factor = 0.025				
+			}
+		}		
+
+		mulberry_harbours_idea = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+			
+			modifier = {
+				production_speed_naval_base_factor = 1.5
+				no_supply_grace = 144
+				amphibious_invasion = 0.50
+				amphibious_invasion_defence = 0.65
+				naval_invasion_capacity = 50								
+			}
+		}	
+
+		GDU1942_airlosses = {
+
+			allowed = { 
+
+			}
+			
+			picture = GER_ace_idea
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					air_attack = 0.10
+					instant = yes
+				}
+				heavy_fighter_equipment = {
+					air_attack = 0.10
+					instant = yes
+				}
+				CAS_equipment = {
+					air_attack = 0.10
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					air_attack = 0.10
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.10
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.10
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.10
+					instant = yes
+				}
+				jet_strat_bomber_equipment = {
+					air_attack = 0.10
+					instant = yes
+				}				
+				jet_tac_bomber_equipment = {
+					air_attack = 0.10
+					instant = yes
+				}
+				cv_fighter_equipment = {
+					air_attack = 0.10
+					instant = yes
+				} 
+				cv_CAS_equipment = {
+					air_attack = 0.10
+					instant = yes
+				}
+				nav_bomber_equipment = {
+					air_attack = 0.10
+					instant = yes
+				} 
+				cv_nav_bomber_equipment = {
+					air_attack = 0.10
+					instant = yes
+				} 
+				jet_fighter_equipment = {
+					air_attack = 0.10
+					instant = yes
+				}
+				rocket_interceptor_equipment = {
+					air_attack = 0.10
+					instant = yes
+				}  
+			}
+		} 
+	
+	
+	
+		GDU1943_airlosses = {
+
+			allowed = { 
+
+			}
+			
+			picture = GER_ace_idea
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					air_attack = 0.3
+					instant = yes
+				}
+				heavy_fighter_equipment = {
+					air_attack = 0.3
+					instant = yes
+				}
+				CAS_equipment = {
+					air_attack = 0.3
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					air_attack = 0.3
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.3
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.3
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.3
+					instant = yes
+				}
+				jet_strat_bomber_equipment = {
+					air_attack = 0.3
+					instant = yes
+				}				
+				jet_tac_bomber_equipment = {
+					air_attack = 0.3
+					instant = yes
+				}
+				cv_fighter_equipment = {
+					air_attack = 0.3
+					instant = yes
+				} 
+				cv_CAS_equipment = {
+					air_attack = 0.3
+					instant = yes
+				}
+				nav_bomber_equipment = {
+					air_attack = 0.3
+					instant = yes
+				} 
+				cv_nav_bomber_equipment = {
+					air_attack = 0.3
+					instant = yes
+				} 
+				jet_fighter_equipment = {
+					air_attack = 0.3
+					instant = yes
+				}
+				rocket_interceptor_equipment = {
+					air_attack = 0.3
+					instant = yes
+				}  
+			}
+		}
+	
+		GDU1944_airlosses = {
+
+			allowed = { 
+
+			}
+			
+			picture = GER_ace_idea
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}
+				heavy_fighter_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}
+				CAS_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}
+				jet_strat_bomber_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}				
+				jet_tac_bomber_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}
+				cv_fighter_equipment = {
+					air_attack = 0.5
+					instant = yes
+				} 
+				cv_CAS_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}
+				nav_bomber_equipment = {
+					air_attack = 0.5
+					instant = yes
+				} 
+				cv_nav_bomber_equipment = {
+					air_attack = 0.5
+					instant = yes
+				} 
+				jet_fighter_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}
+				rocket_interceptor_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}  
+			}
+		}	
+
+		GDU1945_airlosses = {
+
+			allowed = { 
+
+			}
+			
+			picture = GER_ace_idea
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					air_attack = 0.7
+					instant = yes
+				}
+				heavy_fighter_equipment = {
+					air_attack = 0.7
+					instant = yes
+				}
+				CAS_equipment = {
+					air_attack = 0.7
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					air_attack = 0.7
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.7
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.7
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.7
+					instant = yes
+				}
+				jet_strat_bomber_equipment = {
+					air_attack = 0.7
+					instant = yes
+				}				
+				jet_tac_bomber_equipment = {
+					air_attack = 0.7
+					instant = yes
+				}
+				cv_fighter_equipment = {
+					air_attack = 0.7
+					instant = yes
+				} 
+				cv_CAS_equipment = {
+					air_attack = 0.7
+					instant = yes
+				}
+				nav_bomber_equipment = {
+					air_attack = 0.7
+					instant = yes
+				} 
+				cv_nav_bomber_equipment = {
+					air_attack = 0.7
+					instant = yes
+				} 
+				jet_fighter_equipment = {
+					air_attack = 0.7
+					instant = yes
+				}
+				rocket_interceptor_equipment = {
+					air_attack = 0.7
+					instant = yes
+				}  
+			}
+		}	
+	
+		GDU_refinery_prebuild_disincentive = {
+
+			allowed = { 
+				OR = { 
+				original_tag = USA
+				original_tag = ENG
+				original_tag = CAN
+				original_tag = SAF
+				original_tag = RAJ
+				original_tag = AST
+				original_tag = NZL
+				original_tag = FRF				
+				}
+			}
+			
+			picture = FRA_motorized_focus
+			
+			modifier = {
+				production_speed_synthetic_refinery_factor = -0.3
+			}
+		} 
+	
+		GDU_special_forces_cap = {
+
+			allowed = { 
+			}
+			
+			picture = eng_special_air_service
+			
+			modifier = { 
+				special_forces_min = 320
+			}
+		} 
+	
+		eng_blood_toil_tears_idea = { 
+			
+			allowed = { 
+				original_tag = ENG 
+			} 
+			
+			picture = chi_war_of_resistance	
+			
+			modifier = { 
+				production_factory_efficiency_gain_factor = 0.1 
+				training_time_factor = -0.25
+			}
+		}
+	
+		eng_nosealionpls = { 
+			
+			allowed = {
+				original_tag = ENG
+			}
+			
+			picture = ast_all_in
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_core_attack_factor = 0.3
+				army_core_defence_factor = 0.3
+			}
+			
+		}
+	
+		alli_phoney_war = {
+			
+			allowed = { 
+				always = no 
+			}
+			
+			cancel = {
+				OR = { 
+					has_war_with = ITA 
+					FRA = { has_capitulated = yes }
+				}
+			}
+			
+			removal_cost = -1
+
+			picture = chi_incompetent_officers
+			
+			modifier = {
+				army_attack_factor = -0.30
+				army_defence_factor = -0.30
+				army_core_attack_factor = 0.30
+				army_core_defence_factor = 0.30
+			}
+			
+		}
+		
+		FRA_phoney_war = {
+			
+			allowed = { 
+				always = no 
+			}
+			
+			cancel = {
+				GER = {
+					OR = { 
+						has_war_with = HOL
+						has_war_with = BEL
+						has_war_with = LUX
+					}
+				}
+			}
+			
+			removal_cost = -1
+
+			picture = chi_incompetent_officers
+			
+			modifier = {
+				army_attack_factor = -0.1
+				army_defence_factor = -0.1
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+			
+		}
+		
+		GDU_scuffed_acclim = { 
+			
+			allowed = { 
+				always = no 
+			}
+			
+			cancel = {
+				GER = {
+					has_war_with = SOV 
+				}
+			}
+			removal_cost = -1 
+			
+			picture = chi_incompetent_officers
+			
+			modifier = { 
+				acclimatization_cold_climate_gain_factor = -0.75 
+			}
+		}
+		
+		benelux_neutrality = {
+			allowed = {
+				always = no
+			}
+			
+			cancel = {
+				has_war = yes 
+			}
+			
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+			
+
+			modifier = {
+				enemy_justify_war_goal_time = 1.0
+				join_faction_tension = 2.00
+				lend_lease_tension = 2.00
+			}
+		}
+
+        irish_neutrality = {
+			allowed = {
+				always = no
+			}
+			
+			cancel = {
+				has_war = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+			
+
+			modifier = {
+				enemy_justify_war_goal_time = 0.15
+				join_faction_tension = 2.00
+				lend_lease_tension = 2.00
+			}
+		}
+		
+		scandinavian_neutrality = {
+			allowed = {
+				always = no
+			}
+			
+			cancel = {
+				has_war = yes 
+			}
+			
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+			
+
+			modifier = {
+				enemy_justify_war_goal_time = 1.0
+				join_faction_tension = 2.00
+				lend_lease_tension = 2.00
+			}
+		}
+		
+		norwegian_neutrality = {
+			allowed = {
+				always = no
+			}
+			
+			cancel = {
+				has_war = yes 
+			}
+			
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+			
+
+			modifier = {
+				war_support_factor = -0.25
+			}
+		}		
+		
+		GER_triumph_france_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.05 
+			}
+		}
+		
+		GER_triumph_dday_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.10
+				army_morale_factor = 0.05
+			}
+		}
+		
+		JAP_triumph_AST_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.10
+				war_support_factor = 0.10
+				army_morale_factor = 0.01
+			}
+		}
+
+		JAP_triumph_NZL_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				army_morale_factor = 0.005
+			}
+		}
+		
+		JAP_triumph_SAF_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.10
+				war_support_factor = 0.10
+				army_morale_factor = 0.01
+			}
+		}	
+
+		JAP_triumph_CAN_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.10
+				war_support_factor = 0.10
+				army_morale_factor = 0.01
+			}
+		}
+		
+		JAP_triumph_RAJ_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.10
+				war_support_factor = 0.10
+				army_morale_factor = 0.01
+			}
+		}		
+		
+		JAP_triumph_ENG_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.20
+				war_support_factor = 0.20
+				army_morale_factor = 0.02
+			}
+		}
+		
+		JAP_triumph_USA_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.20
+				war_support_factor = 0.20
+				army_morale_factor = 0.02
+			}
+		}
+
+		JAP_AST_resources = { 
+		
+			picture = generic_goods_red_bonus	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				local_resources_factor = 0.05				
+			}
+		}
+		
+		JAP_NZL_resources = { 
+		
+			picture = generic_goods_red_bonus	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				local_resources_factor = 0.025				
+			}
+		}
+
+		JAP_RAJ_resources = { 
+		
+			picture = generic_goods_red_bonus	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				local_resources_factor = 0.05				
+			}
+		}
+
+		JAP_SAF_resources = { 
+		
+			picture = generic_goods_red_bonus	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				local_resources_factor = 0.05				
+			}
+		}		
+
+		JAP_CAN_resources = { 
+		
+			picture = generic_goods_red_bonus	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				local_resources_factor = 0.05				
+			}
+		}
+		
+		JAP_ENG_resources = { 
+		
+			picture = generic_goods_red_bonus	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				local_resources_factor = 0.05				
+			}
+		}
+		
+		JAP_USA_resources = { 
+		
+			picture = generic_goods_red_bonus	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				local_resources_factor = 0.05			
+			}
+		}		
+
+		FRF_efficiency_gain = { 
+		
+			picture = generic_pp_unity_bonus	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				production_factory_efficiency_gain_factor = 99.9
+			}
+		}		
+		
+		FRF_retrain = { 
+		
+			picture = generic_pp_unity_bonus	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				training_time_factor = -0.99
+			}
+		}			
+		
+		
+		ALLIES_fail_dday_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				army_morale_factor = -0.05
+				industrial_capacity_factory = -0.20
+			}
+		}
+
+
+		ALLIES_AST_capitulated_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				industrial_capacity_factory = -0.05
+			}
+		}
+		
+		
+		ALLIES_NZL_capitulated_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = -0.05
+				war_support_factor = -0.05
+				industrial_capacity_factory = -0.025				
+			}
+		}
+
+		ALLIES_RAJ_capitulated_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				industrial_capacity_factory = -0.05				
+			}
+		}
+
+		ALLIES_SAF_capitulated_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				industrial_capacity_factory = -0.05				
+			}
+		}
+		
+		ALLIES_CAN_capitulated_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				industrial_capacity_factory = -0.05				
+			}
+		}
+
+		ALLIES_ENG_capitulated_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				industrial_capacity_factory = -0.05				
+			}
+		}
+
+		ALLIES_USA_capitulated_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				industrial_capacity_factory = -0.05				
+			}
+		}		
+		
+		airandnavy_idea = {
+			
+			picture = YUG_federal_defense_council
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+	
+			modifier = {
+				experience_gain_battleship_training_factor = 10.0
+				experience_gain_submarine_training_factor = 10.0
+				experience_gain_battle_cruiser_training_factor = 10.0
+				experience_gain_destroyer_training_factor = 10.0
+				experience_gain_carrier_training_factor = 10.0
+				experience_gain_heavy_cruiser_training_factor = 10.0
+				experience_gain_light_cruiser_training_factor = 10.0
+				training_time_factor = -0.45
+			}
+		}
+		
+      francecivsandmils_idea = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			picture = FRA_factory_strikes
+			
+			removal_cost = -1
+	
+			modifier = {
+		    production_speed_dockyard_factor = -1.00
+			production_speed_arms_factory_factor = -1.00
+		    production_speed_industrial_complex_factor = -0.15
+		    production_speed_infrastructure_factor = -0.15
+            production_speed_synthetic_refinery_factor = -0.15			
+			}
+		}
+		
+	czech_set_amount_artillery = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			
+			
+			
+			removal_cost = -1
+	
+			modifier = {
+			industrial_capacity_factory = -1.5
+				
+		
+			}
+		}
+
+
+		
+	}
+	
+	
+	
+	
+}

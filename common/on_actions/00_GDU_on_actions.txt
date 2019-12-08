@@ -1,0 +1,4100 @@
+on_actions = {
+	on_startup = {
+		effect = {
+		
+			# transfer AI allied navies to Commonwealth at the start of the game. In addition, later when they cap they will get any ships that the AI has built.
+				BEL = { 
+					transfer_navy = { 
+						target = CAN 
+					}
+				}
+				HOL = { 
+					transfer_navy = { 
+						target = AST 
+					}
+				}
+				DEN = { 
+					transfer_navy = { 
+						target = CAN 
+					}
+				}
+				NOR = { 
+					transfer_navy = { 
+						target = CAN 
+					}
+				}
+				GRE = { 
+					transfer_navy = { 
+						target = AST 
+					}
+				}
+				YUG = { 
+					transfer_navy = { 
+						target = AST 
+					}
+				}
+				POL = { 
+					transfer_navy = { 
+						target = CAN 
+					}
+				}		
+		
+			#Initializing the global.small_airbase_list array#
+	
+		if = { 
+			limit = { 
+				NOT = { has_global_flag = airbase_list_created } 
+			}
+			set_global_flag = airbase_list_created 
+			
+            ## Andachal land airfield
+            add_to_array = { global.small_airbase_list = 434 } #Andachal-tibet-china-india contested zone,Contested zone 
+
+			###Pacific Islands### 
+			
+			add_to_array = { global.small_airbase_list = 646 } #Saipan, JAP, Small Island 
+			add_to_array = { global.small_airbase_list = 638 } #Guam, USA, 
+			add_to_array = { global.small_airbase_list = 647 } #Palau, JAP 
+			add_to_array = { global.small_airbase_list = 633 } #Marshall Islands, JAP 
+			add_to_array = { global.small_airbase_list = 639 } #Gilbert Islands, UK 
+			add_to_array = { global.small_airbase_list = 725 } #Nauru, AST 
+			add_to_array = { global.small_airbase_list = 643 } #Ellice Islands, UK 
+			add_to_array = { global.small_airbase_list = 734 } #Nendo, France 
+			add_to_array = { global.small_airbase_list = 636 } #Fiji, NZL 
+			add_to_array = { global.small_airbase_list = 726 } #Samoa, NZL 
+			add_to_array = { global.small_airbase_list = 642 } #Phoenix Island, USA 
+			add_to_array = { global.small_airbase_list = 727 } #Line islands, USA 
+			add_to_array = { global.small_airbase_list = 641 } #Tahiti, FRA 
+			add_to_array = { global.small_airbase_list = 270 } #Pitcairn Island, UK 
+			add_to_array = { global.small_airbase_list = 630 } #Johnston Atoll, USA 
+			add_to_array = { global.small_airbase_list = 631 } #Midway Island, USA 
+			add_to_array = { global.small_airbase_list = 632 } #Wake Island, USA 
+			add_to_array = { global.small_airbase_list = 648 } #Marcus Island, JAP 
+			add_to_array = { global.small_airbase_list = 555 } #Kuril Islands, JAP
+			add_to_array = { global.small_airbase_list = 650 } #Attu Island, USA 
+			add_to_array = { global.small_airbase_list = 684 } #Caroline islands, JAP, LglobalE chain
+			add_to_array = { global.small_airbase_list = 797 } #Yap Islands, JAP, used to be part of 684 in mod 
+			add_to_array = { global.small_airbase_list = 798 } #Truk Islands, JAP, used to be part of 684 in mod 
+		
+			###Indian Ocean###
+		
+			add_to_array = { global.small_airbase_list = 733 } #Andaman, UK 
+			add_to_array = { global.small_airbase_list = 712 } #Cocos, UK 
+			add_to_array = { global.small_airbase_list = 711 } #Christmas Island, UK 
+			add_to_array = { global.small_airbase_list = 710 } #Diego Garcia, UK 
+			add_to_array = { global.small_airbase_list = 281 } #Maldives, UK 
+			add_to_array = { global.small_airbase_list = 709 } #Seychelles, UK 
+			add_to_array = { global.small_airbase_list = 707 } #Mauritius, UK 
+			add_to_array = { global.small_airbase_list = 706 } #Reunion, FRA 
+			add_to_array = { global.small_airbase_list = 708 } #Comoros, FRA 
+			add_to_array = { global.small_airbase_list = 713 } #Kerguelen, FRA 
+		
+			###Atlantic###
+		
+			add_to_array = { global.small_airbase_list = 704 } #Saint Helena, UK 
+			add_to_array = { global.small_airbase_list = 703 } #Ascension, UK 
+			add_to_array = { global.small_airbase_list = 299 } #Falklands, UK 
+			add_to_array = { global.small_airbase_list = 720 } #South Georgia, UK 
+			add_to_array = { global.small_airbase_list = 702 } #Cape Verde, POR 
+			add_to_array = { global.small_airbase_list = 178 } #Canary Islands, SPR 
+			add_to_array = { global.small_airbase_list = 697 } #Madeira, POR 
+			add_to_array = { global.small_airbase_list = 696 } #Bermuda, UK 
+			add_to_array = { global.small_airbase_list = 337 } #Faroes, DEN-UK
+			
+			###Caribbean###
+		
+			add_to_array = { global.small_airbase_list = 690 } #Bahamas, UK 
+			add_to_array = { global.small_airbase_list = 693 } #Southern Bahamas, UK 
+			add_to_array = { global.small_airbase_list = 689 } #Jamaica, UK 
+			add_to_array = { global.small_airbase_list = 692 } #Windward Islands, UK
+			add_to_array = { global.small_airbase_list = 691 } #Trinidad, UK 
+			add_to_array = { global.small_airbase_list = 308 } #Leeward Islands, UK 
+			add_to_array = { global.small_airbase_list = 694 } #French Caribbean, FRA 
+			add_to_array = { global.small_airbase_list = 686 } #Puerto Rico, USA
+		
+			#Initializing the global.medium_airbase_list array# 
+	
+			### Philippines ### 
+		
+			add_to_array = { global.medium_airbase_list = 327 } #Manila, PHI 
+			add_to_array = { global.medium_airbase_list = 623 } #Luzon, PHI 
+			add_to_array = { global.medium_airbase_list = 624 } #Central Islands, PHI 
+			add_to_array = { global.medium_airbase_list = 628 } #Cebu, PHI 
+			add_to_array = { global.medium_airbase_list = 625 } #Samar, PHI 
+			add_to_array = { global.medium_airbase_list = 627 } #Mindanao, PHI 
+			add_to_array = { global.medium_airbase_list = 626 } #Palawan, PHI 
+		
+			### Home Islands of Japan ### 
+		
+			add_to_array = { global.medium_airbase_list = 645 } #Iwo Jima, JAP 
+		
+			#### Borneo sucks. It's a jungle, mostly. ####
+		
+			add_to_array = { global.medium_airbase_list = 333 } #North Borneo, UK 
+			add_to_array = { global.medium_airbase_list = 334 } #Kalimantan, INS--->UK 
+			add_to_array = { global.medium_airbase_list = 793 } #Borneo Jungle, INS--->UK (should not be built on anyway, just to make sure though) 
+		
+			#### New Guinea sucks, but is very big so you can build 3 airbases on it. ####
+		
+			add_to_array = { global.medium_airbase_list = 669 } #West Papua, INS--->AST 
+			add_to_array = { global.medium_airbase_list = 523 } #Papua, AST 
+			add_to_array = { global.medium_airbase_list = 792 } #Central Papua, AST, should not be built in anyway. 
+			add_to_array = { global.medium_airbase_list = 634 } #Soloman Islands, AST 
+			add_to_array = { global.medium_airbase_list = 737 } #Bismarck, AST 
+		
+			#### Madagascar. May be relevant one day, who knows... ####
+		
+			add_to_array = { global.medium_airbase_list = 543 } #Madagascar, FRA 
+		
+			#### East Indies #### 
+		
+			add_to_array = { global.medium_airbase_list = 672 } #Sumatra, INS--->UK 
+			add_to_array = { global.medium_airbase_list = 335 } #Java, INS--->UK 
+			add_to_array = { global.medium_airbase_list = 673 } #Sulawesi, INS---> UK 
+			add_to_array = { global.medium_airbase_list = 668 } #Moluccas, INS---> UK 
+		
+			#### Aru Islands ####
+		
+			add_to_array = { global.medium_airbase_list = 738 } #Aru Islands, INS ---> AST 
+		
+			#### Timor ####
+		
+			add_to_array = { global.medium_airbase_list = 721 } #Portuguese Timor, POR----> UK 
+			add_to_array = { global.medium_airbase_list = 667 } #Lesser Sunda Islands, INS---> UK 
+		
+			#### Caledonia #### 
+		
+			add_to_array = { global.medium_airbase_list = 635 } #New Caledonia, FRA 
+		
+			#### Panama #### 
+		
+			add_to_array = { global.medium_airbase_list = 685 } #Panama Canal, USA (oh yeah I did)
+
+		}
+		
+			##### Spanish Civil War Scripted by default, unless host chooses otherwise #####
+			
+			set_global_flag = scw_over
+			
+			##### set flag if Finland starts as AI, which will be used to script the Winter War in this case #####
+			
+			if = {
+				limit = { 
+					NOT = { has_global_flag = finland_started_ai } 
+					date < 1936.1.2
+					FIN = { is_ai = yes }
+				}
+				set_global_flag = finland_started_ai 
+			}
+		
+			##### Event popups to remind people that they can switch to Total Mob in January 1941
+			ENG = {
+				country_event = { id = gduevents.36 days = 1827 } 
+			}
+			CAN = {
+				country_event = { id = gduevents.36 days = 1827 } 
+			}
+			SAF = {
+				country_event = { id = gduevents.36 days = 1827 } 
+			}
+			RAJ = {
+				country_event = { id = gduevents.36 days = 1827 } 
+			}			
+			AST = {
+				country_event = { id = gduevents.36 days = 1827 } 
+			}
+			NZL = {
+				country_event = { id = gduevents.36 days = 1827 } 
+			}
+			ITA = {
+				country_event = { id = gduevents.36 days = 1827 } 
+			}
+			ROM = {
+				country_event = { id = gduevents.36 days = 1827 } 
+			}
+			HUN = {
+				country_event = { id = gduevents.36 days = 1827 } 
+			}
+			BUL = {
+				country_event = { id = gduevents.36 days = 1827 } 
+			}			
+		
+			##### Events that add national spirits to increase air losses a bit in the late game (for 1942, 1943, 1944, and 1945) ####
+			VEN = {
+				country_event = { id = gduairlosses.1 days = 2192 } 
+			}
+			VEN = {
+				country_event = { id = gduairlosses.2 days = 2557 } 
+			}
+			VEN = {
+				country_event = { id = gduairlosses.3 days = 2922 } 
+			}
+			VEN = {
+				country_event = { id = gduairlosses.4 days = 3287 } 
+			}			
+
+			##### Event that spawns divisions for Poland/Yugoslavia/Greece in early 1939, since the AI doesn't train them itself.
+			VEN = {
+				country_event = { id = gduevents.30 days = 1195 } 
+			}					
+			
+			##### Soviet event to remind/explain that they get a bonus for the 7th land doctrine into an on_startup event instead of MTTH to help performance####
+			SOV = {
+				country_event = { id = gduevents.28 days = 1582 } 
+			}		
+			##### Turning King Edward's abdication into an on_startup event instead of MTTH to help performance####
+			ENG = {
+				country_event = { id = britain.16 days = 20 } 
+				country_event = { id = mtg_britain.1 days = 190 }			
+			}
+			#### EVENT EXPLAINING Purge mechanics to Soviets #### 
+			SOV = { 
+				country_event = { id = gduevents.21 days = 5 } 
+			}
+			#### EVENT EXPLAINING Sealion Mechanic to UK #### 
+			ENG = { 
+				country_event = { id = gduevents.27 days = 5 } 
+				}
+			#### EVENT for USA to remove Congress mechanic (or not) #### 			
+			USA = { 
+				country_event = { id = gduevents.23 days = 5 } 
+			}			
+
+			#### Strike event for France no longer MTTH #### 
+			FRA = { 
+				country_event = { id = france.21 days = 180 } 
+			}
+	
+			#### The Spanish Civil war as a non-MTTH event. #### 
+			SPR = { 
+				country_event = { id = spain.10 days = 185 } 
+			}
+
+		#### Annexing Manchukuo immediately to Japan if it starts the game as AI. In this case, Japan gets some of the industry from focuses Manchukuo would have done if it were a player. Although Japan gets this industry up front, it is less than the focus factories a human Manchukuo player can get. Given that Japan can use this for ongoing construction, Asian Axis should end up with about the same industry as you would get with a good Manchu player who properly develops it ####
+
+		if = { 
+			limit = { 
+				NOT = { has_global_flag = manchukuo_started_ai } 
+				date < 1936.1.2
+				MAN = { is_ai = yes }
+			}
+			set_global_flag = manchukuo_started_ai 
+			JAP = {	
+				add_research_slot = 1
+				annex_country = {
+							target = MAN
+							transfer_troops = yes
+				}
+			}
+			
+			610 = {
+				add_manpower = 25417
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = MAN_invite_japanese_settlers_2IC
+			}
+			716 = {
+				add_manpower = 25417
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = MAN_invite_japanese_settlers_2IC
+			}
+			every_state = {
+				limit = {
+					is_core_of = MAN
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			715 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = MAN_expand_the_textile_industry_IC				
+			}
+			328 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = MAN_invite_japanese_investors_IC
+			}
+			716 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			716 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			328 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			610 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			717 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			#### Remove Manchukuo cores so that it is not possible for Japan to release Manchukuo and then re-annex it for another extra research slot ####
+			MAN = {
+				remove_state_core = 328			
+				remove_state_core = 610
+				remove_state_core = 611				
+				remove_state_core = 612				
+				remove_state_core = 714				
+				remove_state_core = 715				
+				remove_state_core = 716				
+				remove_state_core = 717
+				remove_state_core = 745				
+				remove_state_core = 761	
+				remove_state_core = 794				
+			}
+		}
+
+
+
+
+			
+
+		}
+	}
+
+
+
+# A check to hopefully ensure that if Italy is at war, it is at war with all the Allies (so you don't get weird bugs where Italy is at war with UK but not South Africa, for example)
+
+	on_daily = {
+		effect = {
+			
+			if = {
+				limit = {
+					date > 1939.6.1
+					date < 1941.1.1
+					GER = { has_war = yes }
+					ITA = { has_war = yes }
+					not = { has_global_flag = ITA_in_the_war }
+				}
+				hidden_effect = {
+					ITA = {
+						declare_war_on = {
+							target = ENG
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = FRA
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = FRF
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = CAN
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = SAF
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = RAJ
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = AST
+							type = annex_everything
+						}			
+						declare_war_on = {
+							target = NZL
+							type = annex_everything
+						}					
+					}
+					set_global_flag = ITA_in_the_war				
+				}
+			}
+		}
+		
+	}
+
+
+	### Docking rights/Mil Access from Barbarossa so Allies can protect convoys in Murmansk/fight in Iran/etc ###
+
+on_declare_war = { 
+	effect = { 
+		if = { 
+				limit = {
+					FROM = {
+						tag = SOV 
+					}
+					ROOT = { tag = GER }
+				}
+			ENG = { give_military_access = SOV }
+			SOV = { give_military_access = ENG }
+			SOV = { give_military_access = USA }
+			SOV = { give_military_access = CAN }
+			SOV = { give_military_access = SAF }
+			SOV = { give_military_access = RAJ }
+			SOV = { give_military_access = AST }
+			SOV = { give_military_access = NZL }
+			SOV = { give_military_access = FRF }
+			ENG = {
+				diplomatic_relation = {
+					country = SOV
+					relation = docking_rights
+					active = yes
+				}			
+			}
+			USA = {
+				diplomatic_relation = {
+					country = SOV
+					relation = docking_rights
+					active = yes
+				}			
+			}
+			CAN = {
+				diplomatic_relation = {
+					country = SOV
+					relation = docking_rights
+					active = yes
+				}			
+			}
+			SAF = {
+				diplomatic_relation = {
+					country = SOV
+					relation = docking_rights
+					active = yes
+				}			
+			}
+			RAJ = {
+				diplomatic_relation = {
+					country = SOV
+					relation = docking_rights
+					active = yes
+				}			
+			}
+			AST = {
+				diplomatic_relation = {
+					country = SOV
+					relation = docking_rights
+					active = yes
+				}			
+			}
+			NZL = {
+				diplomatic_relation = {
+					country = SOV
+					relation = docking_rights
+					active = yes
+				}			
+			}
+			FRF = {
+				diplomatic_relation = {
+					country = SOV
+					relation = docking_rights
+					active = yes
+				}			
+			}			
+		} 
+	} 
+}
+
+
+	### USA ERNIE KING SCORING SYSTEM ###
+
+on_declare_war = { 
+	effect = { 
+		if = { 
+			limit = {  
+				FROM = { tag = USA } 
+				USA = { has_war_with = JAP }
+			}
+			every_country = {
+				limit = { 
+                    tag = USA
+                }
+				set_variable = { ernieking_score = 0 }
+				set_variable = { usa_capital_weight = 1.5 }
+				set_variable = { usa_carrier_weight = 2 }
+			}
+		} 
+	} 
+}
+
+on_daily = {
+	effect = {			
+			### from sealion score template, we won't want to clear, but instead to add it::: clear_variable = ernieking_score		
+				#reset the sealion score to re-calculate it each day
+				
+			## 81 - Coral Sea ##						
+			# Capitals  1-3 #			
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = capital_ship			
+						area = 81    	# Coral Sea	
+						size > 0			
+					}				
+					ships_in_area = {				
+						type = capital_ship			
+						area = 81   	# Coral Sea	
+						size < 4			
+					}				
+				}					
+				set_temp_variable = { avgshipcount81 = 1.5 }					
+				multiply_temp_variable = { avgshipcount81 = usa_capital_weight }					
+				add_to_variable = { ernieking_score = avgshipcount81 }					
+			}						
+						
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = carrier			
+						area = 81		# Coral Sea
+						size > 0			
+					}				
+					ships_in_area = {				
+						type = carrier 			
+						area = 81		# Coral Sea	
+						size < 4			
+					}				
+				}					
+				set_temp_variable = { avgshipcount81 = 1.5 }					
+				multiply_temp_variable = { avgshipcount81 = usa_carrier_weight }					
+				add_to_variable = { ernieking_score = avgshipcount81 }					
+			}						
+										
+			# Capitals  4-7 #												
+							
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = capital_ship			
+						area = 81    # Coral Sea			
+						size > 3			
+					}				
+					ships_in_area = {				
+						type = capital_ship			
+						area = 81    # Coral Sea			
+						size < 8			
+					}				
+				}					
+				set_temp_variable = { avgshipcount81 = 5.5 }					
+				multiply_temp_variable = { avgshipcount81 = usa_capital_weight }					
+				add_to_variable = { ernieking_score = avgshipcount81 }					
+			}												
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = carrier			
+						area = 81    # Coral Sea			
+						size > 3			
+					}				
+					ships_in_area = {				
+						type = carrier 			
+						area = 81    # Coral Sea			
+						size < 8			
+					}				
+				}					
+				set_temp_variable = { avgshipcount81 = 5.5 }					
+				multiply_temp_variable = { avgshipcount81 = usa_carrier_weight }					
+				add_to_variable = { ernieking_score = avgshipcount81 }					
+			}						
+							
+			# Capitals  8-10 #											
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = capital_ship			
+						area = 81    # Coral Sea			
+						size > 7			
+					}				
+					ships_in_area = {				
+						type = capital_ship			
+						area = 81    # Coral Sea			
+						size < 11			
+					}				
+				}					
+				set_temp_variable = { avgshipcount81 = 9 }					
+				multiply_temp_variable = { avgshipcount81 = usa_capital_weight }					
+				add_to_variable = { ernieking_score = avgshipcount81 }					
+			}												
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = carrier			
+						area = 81    # Coral Sea			
+						size > 7			
+					}				
+					ships_in_area = {				
+						type = carrier 			
+						area = 81    # Coral Sea			
+						size < 11			
+					}				
+				}					
+				set_temp_variable = { avgshipcount81 = 9 }					
+				multiply_temp_variable = { avgshipcount81 = usa_carrier_weight }					
+				add_to_variable = { ernieking_score = avgshipcount81 }					
+			}						
+							
+			# Capitals  11-15 #											
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = capital_ship			
+						area = 81    # Coral Sea			
+						size > 10			
+					}				
+					ships_in_area = {				
+						type = capital_ship			
+						area = 81    # Coral Sea			
+						size < 16			
+					}				
+				}					
+				set_temp_variable = { avgshipcount81 = 13 }					
+				multiply_temp_variable = { avgshipcount81 = usa_capital_weight }					
+				add_to_variable = { ernieking_score = avgshipcount81 }					
+			}							
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = carrier			
+						area = 81    # Coral Sea			
+						size > 10			
+					}				
+					ships_in_area = {				
+						type = carrier 			
+						area = 81    # Coral Sea			
+						size < 16			
+					}				
+				}					
+				set_temp_variable = { avgshipcount81 = 13 }					
+				multiply_temp_variable = { avgshipcount81 = usa_carrier_weight }					
+				add_to_variable = { ernieking_score = avgshipcount81 }					
+			}						
+									
+			# Capitals  15-20 #				
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = capital_ship			
+						area = 81    # Coral Sea			
+						size > 15			
+					}			
+				}					
+				set_temp_variable = { avgshipcount81 = 17.5 }					
+				multiply_temp_variable = { avgshipcount81 = usa_capital_weight }					
+				add_to_variable = { ernieking_score = avgshipcount81 }					
+			}						
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = carrier			
+						area = 81   # Coral Sea			
+						size > 15			
+					}				
+				}					
+				set_temp_variable = { avgshipcount81 = 17.5 }					
+				multiply_temp_variable = { avgshipcount81 = usa_carrier_weight }					
+				add_to_variable = { ernieking_score = avgshipcount81 }					
+			}						
+
+			## 83 - Soloman Sea ##						
+			# Capitals  1-3 #			
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = capital_ship			
+						area = 83    # Soloman Sea		
+						size > 0			
+					}				
+					ships_in_area = {				
+						type = capital_ship			
+						area = 83   # Soloman Sea	
+						size < 4			
+					}				
+				}					
+				set_temp_variable = { avgshipcount83 = 1.5 }					
+				multiply_temp_variable = { avgshipcount83 = usa_capital_weight }					
+				add_to_variable = { ernieking_score = avgshipcount83 }					
+			}						
+						
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = carrier			
+						area = 83		# Soloman Sea	
+						size > 0			
+					}				
+					ships_in_area = {				
+						type = carrier 			
+						area = 83		# Soloman Sea		
+						size < 4			
+					}				
+				}					
+				set_temp_variable = { avgshipcount83 = 1.5 }					
+				multiply_temp_variable = { avgshipcount83 = usa_carrier_weight }					
+				add_to_variable = { ernieking_score = avgshipcount83 }					
+			}						
+										
+			# Capitals  4-7 #												
+							
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = capital_ship			
+						area = 83    # Soloman Sea			
+						size > 3			
+					}				
+					ships_in_area = {				
+						type = capital_ship			
+						area = 83    # Soloman Sea			
+						size < 8			
+					}				
+				}					
+				set_temp_variable = { avgshipcount83 = 5.5 }					
+				multiply_temp_variable = { avgshipcount83 = usa_capital_weight }					
+				add_to_variable = { ernieking_score = avgshipcount83 }					
+			}												
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = carrier			
+						area = 83    # Soloman Sea			
+						size > 3			
+					}				
+					ships_in_area = {				
+						type = carrier 			
+						area = 83    # Soloman Sea			
+						size < 8			
+					}				
+				}					
+				set_temp_variable = { avgshipcount83 = 5.5 }					
+				multiply_temp_variable = { avgshipcount83 = usa_carrier_weight }					
+				add_to_variable = { ernieking_score = avgshipcount83 }					
+			}						
+							
+			# Capitals  8-10 #											
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = capital_ship			
+						area = 83    # Soloman Sea			
+						size > 7			
+					}				
+					ships_in_area = {				
+						type = capital_ship			
+						area = 83    # Soloman Sea			
+						size < 11			
+					}				
+				}					
+				set_temp_variable = { avgshipcount83 = 9 }					
+				multiply_temp_variable = { avgshipcount83 = usa_capital_weight }					
+				add_to_variable = { ernieking_score = avgshipcount83 }					
+			}												
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = carrier			
+						area = 83    # Soloman Sea			
+						size > 7			
+					}				
+					ships_in_area = {				
+						type = carrier 			
+						area = 83    # Soloman Sea			
+						size < 11			
+					}				
+				}					
+				set_temp_variable = { avgshipcount83 = 9 }					
+				multiply_temp_variable = { avgshipcount83 = usa_carrier_weight }					
+				add_to_variable = { ernieking_score = avgshipcount83 }					
+			}						
+							
+			# Capitals  11-15 #											
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = capital_ship			
+						area = 83    # Soloman Sea			
+						size > 10			
+					}				
+					ships_in_area = {				
+						type = capital_ship			
+						area = 83    # Soloman Sea			
+						size < 16			
+					}				
+				}					
+				set_temp_variable = { avgshipcount83 = 13 }					
+				multiply_temp_variable = { avgshipcount83 = usa_capital_weight }					
+				add_to_variable = { ernieking_score = avgshipcount83 }					
+			}							
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = carrier			
+						area = 83    # Soloman Sea			
+						size > 10			
+					}				
+					ships_in_area = {				
+						type = carrier 			
+						area = 83    # Soloman Sea			
+						size < 16		
+					}				
+				}					
+				set_temp_variable = { avgshipcount83 = 13 }					
+				multiply_temp_variable = { avgshipcount83 = usa_carrier_weight }					
+				add_to_variable = { ernieking_score = avgshipcount83 }					
+			}						
+									
+			# Capitals  15-20 #				
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = capital_ship			
+						area = 83    # Soloman Sea			
+						size > 15			
+					}
+				}
+				set_temp_variable = { avgshipcount83 = 17.5 }					
+				multiply_temp_variable = { avgshipcount83 = usa_capital_weight }					
+				add_to_variable = { ernieking_score = avgshipcount83 }					
+			}						
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = carrier			
+						area = 83   # Soloman Sea			
+						size > 15			
+					}
+				}
+				set_temp_variable = { avgshipcount83 = 17.5 }					
+				multiply_temp_variable = { avgshipcount83 = usa_carrier_weight }					
+				add_to_variable = { ernieking_score = avgshipcount83 }					
+			}						
+
+			## 84 - Bismark ##						
+			# Capitals  1-3 #			
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = capital_ship			
+						area = 84    	# Bismark Sea	
+						size > 0			
+					}				
+					ships_in_area = {				
+						type = capital_ship			
+						area = 84   	# Bismark Sea	
+						size < 4			
+					}				
+				}					
+				set_temp_variable = { avgshipcount84 = 1.5 }					
+				multiply_temp_variable = { avgshipcount84 = usa_capital_weight }					
+				add_to_variable = { ernieking_score = avgshipcount84 }					
+			}						
+						
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = carrier			
+						area = 84		# Bismark Sea
+						size > 0			
+					}				
+					ships_in_area = {				
+						type = carrier 			
+						area = 84		# Bismark Sea	
+						size < 4			
+					}				
+				}					
+				set_temp_variable = { avgshipcount84 = 1.5 }					
+				multiply_temp_variable = { avgshipcount84 = usa_carrier_weight }					
+				add_to_variable = { ernieking_score = avgshipcount84 }					
+			}						
+										
+			# Capitals  4-7 #												
+							
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = capital_ship			
+						area = 84    # Bismark Sea			
+						size > 3			
+					}				
+					ships_in_area = {				
+						type = capital_ship			
+						area = 84    # Bismark Sea			
+						size < 8			
+					}				
+				}					
+				set_temp_variable = { avgshipcount84 = 5.5 }					
+				multiply_temp_variable = { avgshipcount84 = usa_capital_weight }					
+				add_to_variable = { ernieking_score = avgshipcount84 }					
+			}												
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = carrier			
+						area = 84    # Bismark Sea			
+						size > 3			
+					}				
+					ships_in_area = {				
+						type = carrier 			
+						area = 84    # Bismark Sea			
+						size < 8			
+					}				
+				}					
+				set_temp_variable = { avgshipcount84 = 5.5 }					
+				multiply_temp_variable = { avgshipcount84 = usa_carrier_weight }					
+				add_to_variable = { ernieking_score = avgshipcount84 }					
+			}						
+							
+			# Capitals  8-10 #											
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = capital_ship			
+						area = 84    # Bismark Sea			
+						size > 7			
+					}				
+					ships_in_area = {				
+						type = capital_ship			
+						area = 84    # Bismark Sea			
+						size < 11			
+					}				
+				}					
+				set_temp_variable = { avgshipcount84 = 9 }					
+				multiply_temp_variable = { avgshipcount84 = usa_capital_weight }					
+				add_to_variable = { ernieking_score = avgshipcount84 }					
+			}												
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = carrier			
+						area = 84    # Bismark Sea			
+						size > 7			
+					}				
+					ships_in_area = {				
+						type = carrier 			
+						area = 84    # Bismark Sea			
+						size < 11			
+					}				
+				}					
+				set_temp_variable = { avgshipcount84 = 9 }					
+				multiply_temp_variable = { avgshipcount84 = usa_carrier_weight }					
+				add_to_variable = { ernieking_score = avgshipcount84 }					
+			}						
+							
+			# Capitals  11-15 #											
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = capital_ship			
+						area = 84    # Bismark Sea			
+						size > 10			
+					}				
+					ships_in_area = {				
+						type = capital_ship			
+						area = 84    # Bismark Sea			
+						size < 16			
+					}				
+				}					
+				set_temp_variable = { avgshipcount84 = 13 }					
+				multiply_temp_variable = { avgshipcount84 = usa_capital_weight }					
+				add_to_variable = { ernieking_score = avgshipcount84 }					
+			}							
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = carrier			
+						area = 84    # Bismark Sea			
+						size > 10			
+					}				
+					ships_in_area = {				
+						type = carrier 			
+						area = 84    # Bismark Sea			
+						size < 16			
+					}				
+				}					
+				set_temp_variable = { avgshipcount84 = 13 }					
+				multiply_temp_variable = { avgshipcount84 = usa_carrier_weight }					
+				add_to_variable = { ernieking_score = avgshipcount84 }					
+			}						
+									
+			# Capitals  15-20 #				
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = capital_ship			
+						area = 84    # Bismark Sea			
+						size > 15			
+					}								
+				}					
+				set_temp_variable = { avgshipcount84 = 17.5 }					
+				multiply_temp_variable = { avgshipcount84 = usa_capital_weight }					
+				add_to_variable = { ernieking_score = avgshipcount84 }					
+			}						
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = carrier			
+						area = 84   # Bismark Sea			
+						size > 15			
+					}								
+				}					
+				set_temp_variable = { avgshipcount84 = 17.5 }					
+				multiply_temp_variable = { avgshipcount84 = usa_carrier_weight }					
+				add_to_variable = { ernieking_score = avgshipcount84 }					
+			}
+
+			## 93 - Java Sea ##						
+			# Capitals  1-3 #			
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = capital_ship			
+						area = 93    	# Java Sea	
+						size > 0			
+					}				
+					ships_in_area = {				
+						type = capital_ship			
+						area = 93   	# Java Sea	
+						size < 4			
+					}				
+				}					
+				set_temp_variable = { avgshipcount93 = 1.5 }					
+				multiply_temp_variable = { avgshipcount93 = usa_capital_weight }					
+				add_to_variable = { ernieking_score = avgshipcount93 }					
+			}						
+						
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = carrier			
+						area = 93		# Java Sea
+						size > 0			
+					}				
+					ships_in_area = {				
+						type = carrier 			
+						area = 93		# Java Sea	
+						size < 4			
+					}				
+				}					
+				set_temp_variable = { avgshipcount93 = 1.5 }					
+				multiply_temp_variable = { avgshipcount93 = usa_carrier_weight }					
+				add_to_variable = { ernieking_score = avgshipcount93 }					
+			}						
+										
+			# Capitals  4-7 #												
+							
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = capital_ship			
+						area = 93    # Java Sea			
+						size > 3			
+					}				
+					ships_in_area = {				
+						type = capital_ship			
+						area = 93    # Java Sea			
+						size < 8			
+					}				
+				}					
+				set_temp_variable = { avgshipcount93 = 5.5 }					
+				multiply_temp_variable = { avgshipcount93 = usa_capital_weight }					
+				add_to_variable = { ernieking_score = avgshipcount93 }					
+			}												
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = carrier			
+						area = 93    # Java Sea			
+						size > 3			
+					}				
+					ships_in_area = {				
+						type = carrier 			
+						area = 93    # Java Sea			
+						size < 8			
+					}				
+				}					
+				set_temp_variable = { avgshipcount93 = 5.5 }					
+				multiply_temp_variable = { avgshipcount93 = usa_carrier_weight }					
+				add_to_variable = { ernieking_score = avgshipcount93 }					
+			}						
+							
+			# Capitals  8-10 #											
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = capital_ship			
+						area = 93    # Java Sea			
+						size > 7			
+					}				
+					ships_in_area = {				
+						type = capital_ship			
+						area = 93    # Java Sea			
+						size < 11			
+					}				
+				}					
+				set_temp_variable = { avgshipcount93 = 9 }					
+				multiply_temp_variable = { avgshipcount93 = usa_capital_weight }					
+				add_to_variable = { ernieking_score = avgshipcount93 }					
+			}												
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = carrier			
+						area = 93    # Java Sea			
+						size > 7			
+					}				
+					ships_in_area = {				
+						type = carrier 			
+						area = 93    # Java Sea			
+						size < 11			
+					}				
+				}					
+				set_temp_variable = { avgshipcount93 = 9 }					
+				multiply_temp_variable = { avgshipcount93 = usa_carrier_weight }					
+				add_to_variable = { ernieking_score = avgshipcount93 }					
+			}						
+							
+			# Capitals  11-15 #											
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = capital_ship			
+						area = 93    # Java Sea			
+						size > 10			
+					}				
+					ships_in_area = {				
+						type = capital_ship			
+						area = 93    # Java Sea			
+						size < 16			
+					}				
+				}					
+				set_temp_variable = { avgshipcount93 = 13 }					
+				multiply_temp_variable = { avgshipcount93 = usa_capital_weight }					
+				add_to_variable = { ernieking_score = avgshipcount93 }					
+			}							
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = carrier			
+						area = 93    # Java Sea			
+						size > 10			
+					}				
+					ships_in_area = {				
+						type = carrier 			
+						area = 93    # Java Sea			
+						size < 16			
+					}				
+				}					
+				set_temp_variable = { avgshipcount93 = 13 }					
+				multiply_temp_variable = { avgshipcount93 = usa_carrier_weight }					
+				add_to_variable = { ernieking_score = avgshipcount93 }					
+			}						
+									
+			# Capitals  15-20 #				
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = capital_ship			
+						area = 93    # Java Sea			
+						size > 15			
+					}								
+				}					
+				set_temp_variable = { avgshipcount93 = 17.5 }					
+				multiply_temp_variable = { avgshipcount93 = usa_capital_weight }					
+				add_to_variable = { ernieking_score = avgshipcount93 }					
+			}						
+									
+			if = {						
+				limit = {					
+					ships_in_area = {				
+						type = carrier			
+						area = 93   # Java Sea			
+						size > 15			
+					}								
+				}					
+				set_temp_variable = { avgshipcount93 = 17.5 }					
+				multiply_temp_variable = { avgshipcount93 = usa_carrier_weight }					
+				add_to_variable = { ernieking_score = avgshipcount93 }					
+			}
+			
+			# divide the ErnieKing_score by a normalizing value
+
+			#set_temp_variable = { tempking = ernieking_score }
+			#divide_temp_variable = { tempking = 13.33 }
+
+			#set_variable = { ernieking_score = tempking }
+
+			#clamp_variable = {
+			#	var = ernieking_score
+			#	min = 0
+			#	max = 200
+			#}
+			#round_variable = ernieking_score
+
+	}
+}
+
+
+	#THIS PREVENTS USA FROM JOINING THE ALLIES UNTIL IT IS EITHER 1941 OR UNLESS A SEALION HAS TAKEN AT LEAST 1 STATE IN THE UK. This prevents various cheesy stuff that is possible with pre-war military access/docking rights
+	on_daily = { 
+		effect = {
+			 if = {
+                limit = {
+					TAG = USA
+					AND = {
+						date < 1941.1.1
+						ENG = { surrender_progress < 0.5 }
+						CAN = { surrender_progress < 0.01 }
+						OR = {
+							ENG = { controls_state = 332 }	# Labrador
+							CAN = { controls_state = 332 }							
+						}
+						OR = {
+							ENG = { controls_state = 331 }	# Newfoundland
+							CAN = { controls_state = 331 }
+							USA = { controls_state = 331 }														
+						}
+						OR = {
+							ENG = { controls_state = 730 }	# St. Pierre and Miquelon
+							FRA = { controls_state = 730 }
+							FRF = { controls_state = 730 }
+						}								
+						OR = {
+							ENG = { controls_state = 696 }	# Bermuda
+							USA = { controls_state = 696 }							
+						}
+						OR = {
+							ENG = { controls_state = 690 }	# Northern Bahamas
+							USA = { controls_state = 690 }							
+						}
+						OR = {
+							ENG = { controls_state = 693 }	# Southern Bahamas
+							USA = { controls_state = 693 }							
+						}
+						OR = {
+							ENG = { controls_state = 311 }	# Belize
+							USA = { controls_state = 311 }							
+						}
+						OR = {
+							ENG = { controls_state = 689 }	# Jamaica
+							USA = { controls_state = 689 }							
+						}
+						OR = {
+							ENG = { controls_state = 308 }	# Leeward Islands
+							USA = { controls_state = 308 }							
+						}	
+						OR = {
+							ENG = { controls_state = 692 }	# Windward Islands
+							USA = { controls_state = 692 }							
+						}
+						OR = {
+							ENG = { controls_state = 691 }	# Trinidad
+							USA = { controls_state = 691 }							
+						}
+						OR = {
+							HOL = { controls_state = 695 }	# Curacao
+							FRA = { controls_state = 695 }		
+							FRF = { controls_state = 695 }		
+							ENG = { controls_state = 695 }		
+						}							
+						OR = {
+							HOL = { controls_state = 687 }	# British Guyana
+							FRA = { controls_state = 687 }		
+							FRF = { controls_state = 687 }		
+							ENG = { controls_state = 687 }		
+						}		
+						OR = {
+							HOL = { controls_state = 309 }	# Suriname
+							FRA = { controls_state = 309 }		
+							FRF = { controls_state = 309 }		
+							ENG = { controls_state = 309 }		
+						}		
+						OR = {
+							HOL = { controls_state = 310 }	# French Guyana
+							FRA = { controls_state = 310 }		
+							FRF = { controls_state = 310 }		
+							ENG = { controls_state = 310 }		
+						}		
+						USA = { is_in_faction = yes }
+					}
+				}
+				USA = { leave_faction = yes }
+				USA = { country_event = { id = gduevents.26 } }
+			}
+		}
+	}
+
+	#THIS IS THE AIRBASE LIMITER. 
+	on_daily = { 
+		effect = {
+			 if = {
+                limit = {
+                NOT = { has_global_flag = airbase_limiter_ran } 
+				}
+				for_each_scope_loop = {
+					array = global.small_airbase_list
+					if = {
+						limit = { 
+							air_base > 1 
+						}
+						remove_building = { 
+							type = air_base 
+							level = 1 
+						}
+						controller = { 
+							PREV = { save_event_target_as = GDU_badairport1 } 
+							country_event = { id = gduairlimiter.1 }
+						}
+					}
+			
+				}
+				for_each_scope_loop = {
+					array = global.medium_airbase_list
+					if = {
+						limit = { 
+							air_base > 3 
+						}
+						remove_building = { 
+							type = air_base 
+							level = 1 
+						}
+						controller = { 
+							PREV = { save_event_target_as = GDU_badairport2 } 
+							country_event = { id = gduairlimiter.2 }
+						}
+					}
+			
+				}
+				set_global_flag = { flag = airbase_limiter_ran value = 1 days = 1 }
+			}	
+		}
+	}
+
+
+
+
+
+
+
+# When Japan invades the Philippines, it doesn't have to take every last tile, they will flip to Japanese control
+
+	on_state_control_changed = {
+		effect = {
+
+				
+		
+			if = {
+				limit = {
+					original_tag = JAP 
+					FROM.FROM = {
+						state = 327
+						NOT = { has_state_flag = GDU_PHI_fall } 
+					}
+				}
+				FROM.FROM = { 
+					set_state_flag = GDU_PHI_fall 
+				}
+				if = {
+					limit = {
+						USA = {
+							divisions_in_state = {
+								size < 1
+								state = 327
+							}
+						}
+					}
+					JAP = { set_state_controller = 327 }
+				}
+				if = {
+					limit = {
+						USA = {
+							divisions_in_state = {
+								size < 1
+								state = 623
+							}
+						}
+					}
+					JAP = { set_state_controller = 623 }
+				}
+				if = {
+					limit = {
+						USA = {
+							divisions_in_state = {
+								size < 1
+								state = 624
+							}
+						}
+					}
+					JAP = { set_state_controller = 624 }
+				}
+				if = {
+					limit = {
+						USA = {
+							divisions_in_state = {
+								size < 1
+								state = 625
+							}
+						}
+					}
+					JAP = { set_state_controller = 625 }
+				}
+				if = {
+					limit = {
+						USA = {
+							divisions_in_state = {
+								size < 1
+								state = 626
+							}
+						}
+					}
+					JAP = { set_state_controller = 626 }
+				}
+				if = {
+					limit = {
+						USA = {
+							divisions_in_state = {
+								size < 1
+								state = 627
+							}
+						}
+					}
+					JAP = { set_state_controller = 627 }
+				}
+				if = {
+					limit = {
+						USA = {
+							divisions_in_state = {
+								size < 1
+								state = 628
+							}
+						}
+					}
+					JAP = { set_state_controller = 628 }
+				}
+			}
+		
+		
+		
+	}
+	}
+
+
+
+
+
+
+	#### Automatically do the Soviet Scorched Earth Decisions when appropriate areas have been lost, so players don't have to remember to click them 
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }					
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_baltics }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 12
+
+
+					}
+				}
+				hidden_effect = {
+				189 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				11 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				190 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+					set_global_flag = GDU_SOV_scorched_earth_baltics
+				}
+			}
+			
+
+				
+		}
+	}
+
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_balticsriga }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 191
+						controls_state = 209
+					}
+				}
+				hidden_effect = {
+				12 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+					set_global_flag = GDU_SOV_scorched_earth_balticsriga
+				}
+			}	
+		}
+	}	
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_balticsnorth }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 208
+						controls_state = 209
+					}
+				}
+				hidden_effect = {
+				191 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				13 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+					set_global_flag = GDU_SOV_scorched_earth_balticsnorth
+				}
+			}	
+		}
+	}	
+	
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_minskarea }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 96
+						controls_state = 204
+						controls_state = 206						
+					}
+				}
+				hidden_effect = {
+				784 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				95 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				97 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}				
+					set_global_flag = GDU_SOV_scorched_earth_minskarea
+				}
+			}	
+		}
+	}	
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_moreminsk }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 206
+						controls_state = 207
+					}
+				}
+				hidden_effect = {
+				96 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_moreminsk
+				}
+			}	
+		}
+	}		
+ 	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_marshes }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 194
+						controls_state = 204
+						controls_state = 202						
+					}
+				}
+				hidden_effect = {
+				93 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				94 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}					
+					set_global_flag = GDU_SOV_scorched_earth_marshes
+				}
+			}	
+		}
+	}		
+		
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_westukraine }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 202
+						controls_state = 193
+						controls_state = 259
+						controls_state = 226						
+						controls_state = 196												
+					}
+				}
+				hidden_effect = {
+				199 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				201 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				198 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				192 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				202 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}	
+				203 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				197 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}					
+					set_global_flag = GDU_SOV_scorched_earth_westukraine
+				}
+			}	
+		}
+	}	
+ 	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_southukraine }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 221
+						controls_state = 227												
+					}
+				}
+				hidden_effect = {
+				196 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				200 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				226 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}				
+					set_global_flag = GDU_SOV_scorched_earth_southukraine
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_chernigovgomel }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 224
+						controls_state = 225
+						controls_state = 220
+						controls_state = 222							
+					}
+				}
+				hidden_effect = {
+				193 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				241 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_chernigovgomel
+				}
+			}	
+		}
+	}		
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_eastukraine }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 218
+						controls_state = 228
+						controls_state = 245
+						controls_state = 238							
+					}
+				}
+				hidden_effect = {
+				221 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				227 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_eastukraine
+				}
+			}	
+		}
+	}	
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_bryansksumy }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 218
+						controls_state = 228
+						controls_state = 245
+						controls_state = 238							
+					}
+				}
+				hidden_effect = {
+				224 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				225 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_bryansksumy
+				}
+			}	
+		}
+	}	
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_rostov }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 235
+						controls_state = 217
+						controls_state = 245
+						controls_state = 238
+						controls_state = 265													
+					}
+				}
+				hidden_effect = {
+				218 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				228 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_rostov
+				}
+			}	
+		}
+	}		
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_kursk }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 260
+						controls_state = 258
+						controls_state = 265
+						controls_state = 257
+						controls_state = 258													
+					}
+				}
+				hidden_effect = {
+				220 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				240 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_kursk
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_smolensk }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 205
+						controls_state = 795
+						controls_state = 246
+						controls_state = 219
+						controls_state = 247
+						controls_state = 223													
+						
+					}
+				}
+				hidden_effect = {
+				242 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				243 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_smolensk
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_oreltula }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 223
+						controls_state = 219
+						controls_state = 254
+						controls_state = 258
+						controls_state = 257
+						controls_state = 239													
+						controls_state = 265						
+					}
+				}
+				hidden_effect = {
+				222 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				223 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_oreltula
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_kalugavyazma }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 205
+						controls_state = 795
+						controls_state = 223
+						controls_state = 219
+						controls_state = 247
+						controls_state = 254													
+					}
+				}
+				hidden_effect = {
+				205 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				795 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_kalugavyazma
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_pskov }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 209
+						controls_state = 210
+						controls_state = 263
+						controls_state = 246													
+					}
+				}
+				hidden_effect = {
+				209 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				210 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_pskov
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_luga }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 208
+						controls_state = 195
+						controls_state = 263
+					}
+				}
+				hidden_effect = {
+				208 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				191 = {
+					damage_building = {
+						type = infrastructure
+						damage = 1
+					}
+				}
+				209 = {
+					damage_building = {
+						type = infrastructure
+						damage = 1
+					}
+				}				
+					set_global_flag = GDU_SOV_scorched_earth_pskov
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_novgorod }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 264
+						controls_state = 247
+					}
+				}
+				hidden_effect = {
+				263 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_novgorod
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_rzhev }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 246
+						controls_state = 247
+					}
+				}
+				hidden_effect = {
+				246 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_rzhev
+				}
+			}	
+		}
+	}	
+
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_rzhev }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 246
+						controls_state = 247
+					}
+				}
+				hidden_effect = {
+				246 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_rzhev
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_leningrad }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 195
+					}
+				}
+				hidden_effect = {
+				195 = {
+					damage_building = {
+						type = infrastructure
+						damage = 5
+					}
+				}
+				146 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}	
+				208 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}					
+					set_global_flag = GDU_SOV_scorched_earth_leningrad
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_tikhvin }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 806
+						controls_state = 811
+						controls_state = 828
+						controls_state = 351						
+					}
+				}
+				hidden_effect = {
+				244 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				823 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}	
+				264 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				824 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}	
+				247 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}					
+					set_global_flag = GDU_SOV_scorched_earth_tikhvin
+				}
+			}	
+		}
+	}	
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_moscow }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 219
+						controls_state = 822
+						controls_state = 826
+					}
+				}
+				hidden_effect = {
+				219 = {
+					damage_building = {
+						type = infrastructure
+						damage = 5
+					}
+				}
+				795 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}	
+				205 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				224 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}	
+				
+					set_global_flag = GDU_SOV_scorched_earth_tikhvin
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_ryazan }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 253
+						controls_state = 822
+						controls_state = 252
+						controls_state = 826
+					}
+				}
+				hidden_effect = {
+				253 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				254 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}	
+				
+					set_global_flag = GDU_SOV_scorched_earth_ryazan
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_voronezh }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 257
+						controls_state = 255
+						controls_state = 239
+						controls_state = 821
+					}
+				}
+				hidden_effect = {
+				258 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				260 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}	
+				
+					set_global_flag = GDU_SOV_scorched_earth_voronezh
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_voronezh }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 257
+						controls_state = 255
+						controls_state = 239
+						controls_state = 821
+					}
+				}
+				hidden_effect = {
+				257 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}				
+				258 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				260 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}	
+				
+					set_global_flag = GDU_SOV_scorched_earth_voronezh
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_krasnodar }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 235
+						controls_state = 232
+						controls_state = 236
+					}
+				}
+				hidden_effect = {
+				234 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}				
+				238 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				235 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}	
+				
+					set_global_flag = GDU_SOV_scorched_earth_krasnodar
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_saratov }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 239
+						controls_state = 401
+						controls_state = 815
+						controls_state = 217
+						controls_state = 825
+						controls_state = 407
+						controls_state = 831
+					}
+				}
+				hidden_effect = {
+				245 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}				
+				265 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				239 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}	
+				
+					set_global_flag = GDU_SOV_scorched_earth_saratov
+				}
+			}	
+		}
+	}
+
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_stalingrad }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 217
+						controls_state = 825
+						controls_state = 407
+						controls_state = 831
+					}
+				}
+				hidden_effect = {
+				217 = {
+					damage_building = {
+						type = infrastructure
+						damage = 5
+					}
+				}				
+				265 = {
+					damage_building = {
+						type = infrastructure
+						damage = 1
+					}
+				}
+				238 = {
+					damage_building = {
+						type = infrastructure
+						damage = 1
+					}
+				}
+				245 = {
+					damage_building = {
+						type = infrastructure
+						damage = 1
+					}
+				}					
+				
+					set_global_flag = GDU_SOV_scorched_earth_stalingrad
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_engels }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 407
+						controls_state = 831
+						controls_state = 251
+						controls_state = 807
+						controls_state = 809
+						controls_state = 832
+					}
+				}
+				hidden_effect = {
+				401 = {
+					damage_building = {
+						type = infrastructure
+						damage = 3
+					}
+				}				
+				815 = {
+					damage_building = {
+						type = infrastructure
+						damage = 3
+					}
+				}				
+				
+					set_global_flag = GDU_SOV_scorched_earth_engels
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_baku }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 229
+					}
+				}
+				hidden_effect = {
+				229 = {
+					damage_building = {
+						type = infrastructure
+						damage = 8
+					}
+				}				
+				
+				
+					set_global_flag = GDU_SOV_scorched_earth_baku
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = SOV_scorched_earth }									
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_gorki }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 229
+						controls_state = 252
+						controls_state = 249
+						controls_state = 830
+						
+					}
+				}
+				hidden_effect = {
+				255 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}				
+				821 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				252 = {
+					damage_building = {
+						type = infrastructure
+						damage = 4
+					}
+				}					
+				
+					set_global_flag = GDU_SOV_scorched_earth_gorki
+				}
+			}	
+		}
+	}			
+
+
+#### In Barbarossa, if other countries like Romania/Hungary/etc capture states, they get transferred to Germany automatically so that Germany can build up infra/airfields. If Germany wants to give some territory/building slots to minors later, they may do so via requests for territory/offers of territory ####
+
+	on_state_control_changed = {
+		effect = {
+
+			if = {
+				limit = {
+					original_tag = ROM 
+					FROM.FROM = {
+						is_core_of = SOV
+						NOT = { is_core_of = ROM } 
+						NOT = { has_state_flag = GDU_Barb_territory_transferred } 
+					}
+				}
+				FROM.FROM = { 
+					set_state_flag = GDU_Barb_territory_transferred 
+				}
+				GER = { set_state_controller = FROM.FROM }
+			}
+
+		}
+	}
+		
+	
+	#### This thing gives JAP EXP when they conquer things in China. Also, Spanish Civil War. ####
+	
+	on_state_control_changed = {
+		effect = {
+			
+		    if = {
+                limit = {
+                    tag = SPR 
+                    has_government = fascism
+                    has_volunteers_amount_from = { 
+                        tag = GER 
+                        count > 0 
+                    }
+                    FROM = {
+                        original_tag = SPR
+                        NOT = { has_government = fascism }
+                    }
+                    FROM.FROM = {
+                        is_core_of = SPR
+                        NOT = { has_state_flag = GDU_AXIS_xp_acquired } 
+                    }
+                }
+                FROM.FROM = { 
+                    set_state_flag = GDU_AXIS_xp_acquired 
+                }
+                GER = { 
+                    army_experience = 40
+                    air_experience = 40 
+                }
+				ITA = { 
+                    army_experience = 40
+                    air_experience = 40 
+                }
+            }
+			
+			if = {
+                limit = {
+                    original_tag = SPR 
+                    has_government = communism 
+                    has_volunteers_amount_from = { 
+                        tag = SOV 
+                        count > 0 
+                    }
+                    FROM = {
+                        original_tag = SPR
+                        NOT = { has_government = communism }
+                    }
+                    FROM.FROM = {
+                        is_core_of = SPR
+                        NOT = { has_state_flag = GDU_Soviet_XP_acquired } 
+                    }
+                }
+                FROM.FROM = { 
+                    set_state_flag = GDU_Soviet_XP_acquired 
+                }
+                SOV = { 
+                    army_experience = 50
+                    air_experience = 50
+                }
+            }	
+		}
+	}
+	
+	
+	#### Ensure that HOL gets added to Allies when it is attacked ####
+	
+	on_declare_war = {
+		effect = {
+			
+			if = {
+				limit = {
+							FROM = {
+								tag = HOL 
+							}	
+				}
+				hidden_effect = {
+					ENG = { add_to_faction = HOL }
+					ROOT = { declare_war_on = {
+							target = ENG
+							type = annex_everything
+						}
+					}
+				}
+			}
+		
+		}
+	}	
+
+	#### Ensure that BEL gets added to Allies when it is attacked ####
+	
+	on_declare_war = {
+		effect = {
+			
+			if = {
+				limit = {
+							FROM = {
+								tag = BEL 
+							}	
+				}
+				hidden_effect = {
+					ENG = { add_to_faction = BEL }
+					ROOT = { declare_war_on = {
+							target = ENG
+							type = annex_everything
+						}
+					}
+				}
+			}
+		
+		}
+	}	
+	
+	#### Ensure that NOR gets added to Allies when it is attacked ####
+	
+	on_declare_war = {
+		effect = {
+			
+			if = {
+				limit = {
+							FROM = {
+								tag = NOR 
+							}	
+				}
+				hidden_effect = {
+					ENG = { add_to_faction = NOR }
+					ROOT = { declare_war_on = {
+							target = ENG
+							type = annex_everything
+						}
+					}
+				}
+			}
+		
+		}
+	}		
+	
+	#### Ensure that DEN gets added to Allies when it is attacked ####
+	
+	on_declare_war = {
+		effect = {
+			
+			if = {
+				limit = {
+							FROM = {
+								tag = DEN 
+							}	
+				}
+				hidden_effect = {
+					ENG = { add_to_faction = DEN }
+					ROOT = { declare_war_on = {
+							target = ENG
+							type = annex_everything
+						}
+					}
+				}
+			}
+		
+		}
+	}		
+	
+	#### Ensure that GRE gets added to Allies when it is attacked ####
+	
+	on_declare_war = {
+		effect = {
+			
+			if = {
+				limit = {
+							FROM = {
+								tag = GRE 
+							}	
+				}
+				hidden_effect = {
+					ENG = { add_to_faction = GRE }
+					ROOT = { declare_war_on = {
+							target = ENG
+							type = annex_everything
+						}
+					}
+				}
+			}
+		
+		}
+	}		
+	
+	#### Ensure that YUG gets added to Allies when it is attacked ####
+	
+	on_declare_war = {
+		effect = {
+			
+			if = {
+				limit = {
+							FROM = {
+								tag = YUG 
+							}	
+				}
+				hidden_effect = {
+					ENG = { add_to_faction = YUG }
+					ROOT = { declare_war_on = {
+							target = ENG
+							type = annex_everything
+						}
+					}
+				}
+			}
+		
+		}
+	}	
+	
+	#### Make the Battle of France Missions activate if France loses a state, even if somehow Germany has not declared war on Belgium. Failsafe to stop people from getting around it by avoiding declaring war on Belgium in various ways. ####
+	
+	on_state_control_changed = {
+		effect = {
+		
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_Battle_Of_France_Missions_Activated }
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR					
+					}
+					OR = {
+						FROM.FROM = {
+							is_core_of = FRA
+						}
+						FROM.FROM = {
+							is_core_of = BEL
+						}
+						FROM.FROM = {
+							is_core_of = HOL
+						}					
+					}
+				}
+				hidden_effect = {
+					GER = {
+						activate_mission = GER_triumph_france1
+						activate_mission = GER_triumph_france2
+						activate_mission = GER_triumph_france3
+						activate_mission = GER_triumph_france4
+						activate_mission = GER_triumph_france5
+						activate_mission = GER_triumph_france6
+						activate_mission = GER_triumph_france7
+						activate_mission = GER_triumph_france8
+						activate_mission = GER_triumph_france9
+						activate_mission = GER_triumph_france10					
+					}
+					FRA = { 
+						activate_mission = FRA_evacuate_france1
+						activate_mission = FRA_evacuate_france2
+						activate_mission = FRA_evacuate_france3
+						activate_mission = FRA_evacuate_france4
+						activate_mission = FRA_evacuate_france5
+						activate_mission = FRA_evacuate_france6
+						activate_mission = FRA_evacuate_france7
+						activate_mission = FRA_evacuate_france8
+						activate_mission = FRA_evacuate_france9
+						activate_mission = FRA_evacuate_france10						
+					}
+					FRA =  { country_event = { id = gduevents.19 days = 1 } } #Warn France to hold. 
+					set_global_flag = GDU_Battle_Of_France_Missions_Activated
+				} 
+			}
+			
+
+				
+		}
+	}
+	
+	
+	
+	
+	#### If Soviets start advancing beyond the pre-Barbarossa boundaries into Poland/East Prussia after 1942 but before 1943, that is sufficient to trigger Totaler Krieg for Germany to give it one last gasping breath of life ####
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_eastern_front_Axis_danger }
+					date > 1942.1.1
+					OR = {
+						original_tag = SOV					
+					}
+					OR = {
+						controls_state = 188 # Memel
+						controls_state = 5 # Ermland-Masuren
+						controls_state = 763 # Konigsberg
+						controls_state = 788 # East Prussia
+						controls_state = 98 # Plock
+						controls_state = 10 # Warsazawa
+						controls_state = 92 # Lublin
+						controls_state = 88 # Krakow
+						
+						# Also adding more states in Northern Germany/Denmark. Soviet meme naval invasions of Northern Germany can trigger this
+						
+						controls_state = 85 # Danzig
+						controls_state = 63 # Hinterpommern
+						controls_state = 62 # Vorpommern
+						controls_state = 61 # Mecklenburg
+						controls_state = 58 # Schleswig-Holstein
+						controls_state = 37 # Sjaelland DK
+						controls_state = 99 # Jutland DK
+						controls_state = 64 # Berlin						
+						
+					}
+				}
+				hidden_effect = {
+					set_global_flag = GDU_eastern_front_Axis_danger
+					if = {
+						limit = { 
+							NOT = { has_global_flag = total_war }
+						}
+						GER = { country_event = { id = pfu.21 } }
+					}					
+				} 
+			}
+			
+
+				
+		}
+	}
+	
+	
+	#### If Allies are advancing into Northern Italy (anything from Bologna to the north, i.e. of the Gothic Line) AND if Germany has also bothered to do the Gothic Line Focus, then that is enough to trigger Totaler Krieg for Germany ####
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_gothic_line_breached }
+					date > 1941.1.1
+					OR = {
+						original_tag = USA
+						original_tag = ENG
+						original_tag = FRF
+						original_tag = CAN
+						original_tag = SAF
+						original_tag = RAJ
+						original_tag = AST
+						original_tag = NZL						
+					}
+					OR = {
+						controls_state = 158 # Piedmont
+						controls_state = 159 # Lombardy
+						controls_state = 39 # South Tyrol
+						controls_state = 160 # Veneto
+						controls_state = 736 # Istria
+						controls_state = 161 # Emilia Romagna				
+					}
+				}
+				hidden_effect = {
+					set_global_flag = GDU_gothic_line_breached
+					if = {
+						limit = { 
+							NOT = { has_global_flag = total_war }
+						}
+						GER = { country_event = { id = pfu.21 } }
+					}					
+				} 
+			}
+			
+
+				
+		}
+	}	
+	
+	### Annexation of Northern Italy by Germany so German Troops don't get surrounded trying to defend their Southern Flank
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+				    date > 1941.1.1
+					ITA = { surrender_progress > .8 }
+					OR = {
+						original_tag = USA
+						original_tag = ENG
+						original_tag = FRF
+						original_tag = CAN
+						original_tag = SAF
+						original_tag = RAJ
+						original_tag = AST
+						original_tag = NZL						
+					}
+					OR = {
+						controls_state = 117 # Capania
+						controls_state = 156 # Calabria
+						controls_state = 115 # Sicily
+						controls_state = 2   # Latium				
+					}
+				}
+				GER = { 
+				    change_tag_from = ITA
+    				annex_country = {
+    					target = ITA 
+    					transfer_troops = yes 
+    				}
+				} 
+			}	
+		}
+	}	
+	
+	### End of Game: Allied Victory, Results of Yalta Conference
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+				    date > 1941.9.1
+					GER = { surrender_progress > .65 }
+					any_country = {
+    					controls_state = 64 #Brandenburg Berlin
+    					OR = {
+    						is_in_faction_with = ENG
+    						TAG = SOV
+    					}
+    				}
+				}
+				#
+				news_event = { id = news.236 }
+				FRF = {
+				    annex_country = { target = EFR transfer_troops = no }
+				}
+				USA = { 
+    				annex_country = { target = ITA transfer_troops = no }
+				} 
+				SOV = { 
+    				annex_country = { target = GER transfer_troops = no }
+    				annex_country = { target = HUN transfer_troops = no }
+    				annex_country = { target = BUL transfer_troops = no }
+    				annex_country = { target = ROM transfer_troops = no }
+				} 
+				VEN = { 
+				    country_event = { id = yalta.1 days = 3 } 
+				    country_event = { id = yalta.2 days = 6 } 
+				    country_event = { id = yalta.3 days = 9 } 
+				    country_event = { id = yalta.4 days = 12 } 
+				    country_event = { id = yalta.5 days = 15 } 
+				}
+        		POL = {
+        			add_state_core = 66
+        			add_state_core = 67
+        			add_state_core = 68
+        			add_state_core = 63
+        		}
+				#
+			}	
+		}
+	}
+	
+	### End of Game: Bitter Peace, an Axis Victory
+		on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+				    date > 1941.9.1				
+					SOV = { surrender_progress > .95 }
+					any_country = {
+    					controls_state = 219 #moscow
+    					controls_state = 195 #Leningrad
+    					controls_state = 217 #stalingrad
+    					controls_state = 229 #baku
+    					OR = {
+    						is_in_faction_with = GER
+    						TAG = GER
+    					}
+    				}
+				}
+				#
+				every_country = {
+        			limit = { has_war_with = GER }
+        			white_peace = BUL
+        			white_peace = ITA
+        			white_peace = HUN
+        			white_peace = ROM
+        			white_peace = FIN
+        			white_peace = GER
+        		}
+        		every_country = {
+        			limit = { has_war_with = JAP }
+        			white_peace = JAP
+        		}
+        		FIN = {
+        		    transfer_state = 146
+        		    transfer_state = 147
+        		    transfer_state = 722
+        		}
+        		ROM = {
+        		    transfer_state = 78
+        		    transfer_state = 80
+        		}
+        		ITA = {
+        		    transfer_state = 452
+        		    transfer_state = 447
+        		    transfer_state = 453
+        		    transfer_state = 454
+        		    transfer_state = 455
+        		    transfer_state = 675
+        		    transfer_state = 676
+        		    transfer_state = 291
+        		    transfer_state = 656
+        		    
+        		    transfer_state = 116
+        		    transfer_state = 183
+        		}
+        		JAP = { 
+        		    annex_country = { target = INS transfer_troops = no }
+        		    transfer_state = 336
+        		    transfer_state = 333
+        		    transfer_state = 792
+        		    transfer_state = 523
+        		    transfer_state = 737
+        		    transfer_state = 634
+        		    transfer_state = 638
+        		    transfer_state = 650
+        		    transfer_state = 632
+        		    
+        		    transfer_state = 408
+        		    transfer_state = 409
+        		    transfer_state = 560
+        		    transfer_state = 657
+        		    transfer_state = 561
+        		    transfer_state = 655
+        		}
+        		GER = {
+        		    transfer_state = 85
+        		    transfer_state = 86
+        		    transfer_state = 66
+        		    transfer_state = 67
+        		    transfer_state = 88
+        		    transfer_state = 92
+        		    transfer_state = 90
+        		    transfer_state = 10
+        		    transfer_state = 98
+        		    transfer_state = 87
+        		    transfer_state = 72
+        		    
+        		    transfer_state = 110
+        		    transfer_state = 142
+        		    transfer_state = 790
+        		    transfer_state = 143
+        		    transfer_state = 144
+        		    transfer_state = 99
+        		    transfer_state = 37
+        		    
+        		    transfer_state = 107
+        		    transfer_state = 108
+        		    transfer_state = 184
+        		    transfer_state = 731
+        		    transfer_state = 47
+        		    transfer_state = 182
+        		    transfer_state = 187
+        		    transfer_state = 164
+        		    
+        		    transfer_state = 229
+        		    transfer_state = 230
+        		    transfer_state = 231
+        		    transfer_state = 232
+        		    transfer_state = 233
+        		    transfer_state = 234
+        		    transfer_state = 235
+        		    transfer_state = 236
+        		    transfer_state = 237
+        		    transfer_state = 238
+        		    transfer_state = 406
+        		    transfer_state = 407
+        		    
+        		    transfer_state = 217
+        		    transfer_state = 218
+        		    transfer_state = 245
+        		    transfer_state = 226
+        		    transfer_state = 227
+        		    transfer_state = 197
+        		    transfer_state = 200
+        		    transfer_state = 201
+        		    transfer_state = 203
+        		    transfer_state = 199
+        		    transfer_state = 93
+        		    transfer_state = 94
+        		    transfer_state = 202
+        		    transfer_state = 193
+        		    transfer_state = 259
+        		    transfer_state = 221
+        		    transfer_state = 228
+        		    transfer_state = 265
+        		    transfer_state = 260
+        		    transfer_state = 240
+        		    transfer_state = 220
+        		    transfer_state = 225
+        		    transfer_state = 194
+        		    transfer_state = 257
+        		    transfer_state = 258
+        		    transfer_state = 239
+        		    transfer_state = 401
+        		    
+        		    transfer_state = 95
+        		    transfer_state = 97
+        		    transfer_state = 96
+        		    transfer_state = 204
+        		    transfer_state = 206
+        		    transfer_state = 207
+        		    transfer_state = 210
+        		    transfer_state = 209
+        		    transfer_state = 208
+        		    transfer_state = 195
+        		    transfer_state = 241
+        		    transfer_state = 191
+        		    transfer_state = 13
+        		    transfer_state = 12
+        		    transfer_state = 190
+        		    transfer_state = 189
+        		    transfer_state = 11
+        		    transfer_state = 146
+        		    
+        		    transfer_state = 243
+        		    transfer_state = 242
+        		    transfer_state = 246
+        		    transfer_state = 263
+        		    transfer_state = 244
+        		    transfer_state = 205
+        		    transfer_state = 223
+        		    transfer_state = 254
+        		    transfer_state = 264
+        		    transfer_state = 224
+        		    transfer_state = 222
+        		    transfer_state = 255
+        		    transfer_state = 253
+        		    transfer_state = 219
+        		    transfer_state = 247
+        		    transfer_state = 248
+        		    transfer_state = 250
+        		    transfer_state = 252
+        		}
+				news_event = { id = news.290 } 
+				#VEN = { country_event = { id = bitter.1 days = 2 } }
+				#
+			}	
+		}
+	}
+	
+	#### Check if core parts of the Soviet heartland like Leningrad/Moscow/Stalingrad are threatened; give Soviets a buff after they are. Though this is artificial, this is intended as a temporary feature to be gradually phased out while Barbarossa balance is improved in a more natural way  ####
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_Danger_To_Heartland }
+					NOT = {
+						SOV = { 
+							has_completed_focus = SOV_defense_of_stalingrad
+						}	
+					}					
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR					
+					}
+					OR = {
+						controls_state = 581
+						controls_state = 262
+						controls_state = 214
+						controls_state = 351
+						controls_state = 818												
+						controls_state = 264       #Northern Coast to Leningrad#
+						controls_state = 244
+						controls_state = 195
+						controls_state = 208
+
+						controls_state = 263
+						controls_state = 246
+						controls_state = 795
+						controls_state = 205		#Line from Luga to Vyazma to Kursk to Rostov#
+						controls_state = 222
+						controls_state = 220
+						controls_state = 240
+						controls_state = 228
+
+						controls_state = 218		#Rostov to Cauacasus/Baku#
+						controls_state = 234
+						controls_state = 810
+						controls_state = 812						
+						controls_state = 233
+						controls_state = 231
+						controls_state = 230
+						controls_state = 814						
+						controls_state = 229
+						controls_state = 813
+						controls_state = 232
+						
+						controls_state = 584		#Central Asia and Far East#
+						controls_state = 405
+						controls_state = 586
+						controls_state = 587
+						controls_state = 585
+						controls_state = 742
+						controls_state = 732						
+						controls_state = 408
+						controls_state = 409
+						controls_state = 560
+						controls_state = 562
+						controls_state = 657
+						controls_state = 561
+
+					}
+				}
+				hidden_effect = {
+					SOV = {
+						add_ideas = GDU_SOV_Danger_To_Heartland				
+					}
+					set_global_flag = GDU_SOV_Danger_To_Heartland
+				}
+			}
+			
+
+				
+		}
+	}	
+	
+	
+	
+	
+	
+	
+	#### Check if core parts of the Soviet heartland from Tikhvin to Moscow itself to Penza to the outskirts of Stalingrad have fallen (Leningrad can fall without triggering this in case Finland takes it early); give Soviets a buff after they have. Though this is artificial, this is intended as a temporary feature to be gradually phased out while Barbarossa balance is improved in a more natural way ####
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_Heartland_Falling }
+					NOT = {
+						SOV = { 
+							has_completed_focus = SOV_defense_of_stalingrad
+						}	
+					}					
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 581
+						controls_state = 262
+						controls_state = 214
+						controls_state = 351	   #Northern Coast to Vologda#
+
+						controls_state = 247
+						controls_state = 248
+						controls_state = 219
+						controls_state = 253		#Core areas around Moscow to the outskirts of Stalingrad#
+						controls_state = 255
+						controls_state = 252
+						controls_state = 239
+						controls_state = 265
+						controls_state = 245
+						controls_state = 238
+						controls_state = 235
+						
+						controls_state = 233		#Cauacasus/Baku#
+						controls_state = 231
+						controls_state = 230
+						controls_state = 229
+						
+						controls_state = 584		#Central Asia and Far East#
+						controls_state = 405
+						controls_state = 586
+						controls_state = 587
+						controls_state = 585
+						controls_state = 742
+						controls_state = 732
+						controls_state = 408
+						controls_state = 409
+						controls_state = 560
+						controls_state = 562
+						controls_state = 657
+						controls_state = 561
+
+					}
+				}
+				hidden_effect = {
+					SOV = {
+						add_ideas = GDU_SOV_Heartland_Falling				
+					}
+					set_global_flag = GDU_SOV_Heartland_Falling
+				}
+			}
+			
+
+				
+		}
+	}		
+
+
+		
+	
+
+	# If Hungary, Romania, or Bulgaria capitulate prior to 1943 (but after 1941), that is sufficient to trigger Totaler Krieg for Germany to give Axis one last shot to recover.
+	
+	on_capitulation = {
+		effect = {
+		
+			if = {
+				limit = {
+					tag = HUN
+					date > 1941.1.1
+				}
+				set_global_flag = GDU_eastern_front_Axis_danger
+					if = {
+						limit = { 
+							NOT = { has_global_flag = total_war }
+						}
+						GER = { country_event = { id = pfu.21 } }
+					}
+			}
+		}
+	}
+
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					tag = ROM
+					date > 1941.1.1
+				}
+				set_global_flag = GDU_eastern_front_Axis_danger
+					if = {
+						limit = { 
+							NOT = { has_global_flag = total_war }
+						}
+						GER = { country_event = { id = pfu.21 } }
+					}
+			}
+		}
+	}
+	
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					tag = BUL
+					date > 1941.1.1
+				}
+				set_global_flag = GDU_eastern_front_Axis_danger
+					if = {
+						limit = { 
+							NOT = { has_global_flag = total_war }
+						}
+						GER = { country_event = { id = pfu.21 } }
+					}
+			}			
+		}
+	}
+
+
+
+	# Check if Allies have capitulated and create missions to liberate them if they have and apply penalties/bonuses accordingly #
+
+
+
+			# When Belgium capitulates, UK annexes it and gets its troops/navy #
+
+	on_capitulation = {
+		effect = {		
+			if = {
+				limit = {
+					tag = BEL
+				}
+				set_global_flag = GDU_BEL_capitulated
+				BEL = { 
+					transfer_navy = { 
+						target = CAN 
+					}
+				}
+				BEL = { 					country_event = { id = gduannexations.1 days = 10 }  }
+			}
+		}
+	}			
+
+			
+			# When Holland capitulates, UK annexes it and gets its troops/navy #
+
+	on_capitulation = {
+		effect = {			
+			if = {
+				limit = {
+					tag = HOL
+				}
+				set_global_flag = GDU_HOL_capitulated
+				HOL = { 
+					transfer_navy = { 
+						target = AST 
+					}
+				}
+				HOL = { 					country_event = { id = gduannexations.3 days = 10 }  }
+			}
+		}
+	}		
+	
+			# When Denmark capitulates, UK annexes it and gets its troops/navy #
+
+	on_capitulation = {
+		effect = {			
+			if = {
+				limit = {
+					tag = DEN
+				}
+				set_global_flag = GDU_DEN_capitulated
+				DEN = { 
+					transfer_navy = { 
+						target = CAN 
+					}
+				}
+				DEN = { 					country_event = { id = gduannexations.4 days = 10 }  }			}						
+		}
+	}		
+	
+			# When Norway capitulates, UK annexes it and gets its troops/navy #
+
+	on_capitulation = {
+		effect = {			
+			if = {
+				limit = {
+					tag = NOR
+				}
+				set_global_flag = GDU_NOR_capitulated
+				NOR = { 
+					transfer_navy = { 
+						target = CAN 
+					}
+				}
+				NOR = { 					country_event = { id = gduannexations.5 days = 10 }  }			}					
+		}
+	}		
+	
+			# When Greece capitulates, UK annexes it and gets its troops/navy #
+
+	on_capitulation = {
+		effect = {			
+			if = {
+				limit = {
+					tag = GRE
+					NOT = { has_global_flag = GDU_GRE_capitulated }					
+				}
+				set_global_flag = GDU_GRE_capitulated
+				
+
+								
+				ITA = {
+					transfer_state = 185
+					transfer_state = 186									
+					}				
+				
+				GRE = { 
+					transfer_navy = { 
+						target = AST 
+					}
+				}
+				
+				GRE = { 					country_event = { id = gduannexations.11 days = 3 }  }												
+				
+				GRE = { 					country_event = { id = gduannexations.6 days = 10 }  }			}					
+		}
+	}		
+	
+			# When Yugoslavia capitulates, UK annexes it and gets its troops/navy #
+
+	on_capitulation = {
+		effect = {	
+			if = {
+				limit = {
+					tag = YUG
+					NOT = { has_global_flag = GDU_YUG_capitulated }
+				}
+				set_global_flag = GDU_YUG_capitulated
+				
+
+				ITA = {
+					transfer_state = 103
+					transfer_state = 104				
+					transfer_state = 105
+					transfer_state = 109
+					transfer_state = 789					
+					}
+			
+				
+				YUG = { 
+					transfer_navy = { 
+						target = AST 
+					}
+				}
+				
+				YUG = { 					country_event = { id = gduannexations.10 days = 3 }  }							
+				
+				YUG = { 					country_event = { id = gduannexations.7 days = 10 }  }			}				
+		}
+	}		
+	
+			# When Poland capitulates, UK annexes it and gets its troops/navy #
+
+	on_capitulation = {
+		effect = {	
+			if = {
+				limit = {
+					tag = POL
+				}
+				set_global_flag = GDU_POL_capitulated
+				POL = { 
+					transfer_navy = { 
+						target = CAN 
+					}
+				}
+				POL = { 					country_event = { id = gduannexations.8 days = 100 }  }			}				
+		}
+	}					
+									
+	
+	on_capitulation = {
+		effect = {
+			
+			if = { 
+				limit = { 
+					AND = { 
+						tag = DEN 
+						NOT = { has_global_flag = denmark_dead } 
+					}
+				}
+				
+				set_global_flag = denmark_dead 
+				
+			} 
+			
+			
+		}
+	}
+
+}

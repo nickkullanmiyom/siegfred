@@ -22,29 +22,7 @@ country_event = {
 	
 	}
 }	
-	
-country_event = { 
-	id = gduannexations.2
-	title = gduannexations.2.t
-	desc = gduannexations.2.d
-	picture = GFX_report_event_canadian_soldiers
-	
-	is_triggered_only = yes 
-	
-	immediate = { 
-				ENG = {
-					annex_country = {
-						target = LUX
-						transfer_troops = yes
-					}
-				}
-	}
-	
-	option = {
-		name = gduannexations.2.a
-	
-	}	
-}
+
 
 country_event = { 
 	id = gduannexations.3
@@ -191,29 +169,7 @@ country_event = {
 }
 
 
-country_event = { 
-	id = gduannexations.9
-	title = gduannexations.9.t
-	desc = gduannexations.9.d
-	picture = GFX_report_event_canadian_soldiers
-	
-	is_triggered_only = yes 
-	
-	immediate = { 
-				ENG = {
-					annex_country = {
-						target = IRQ
-						transfer_troops = no
-					}
-				}
-	}
-	
-	option = {
-		name = gduannexations.9.a
-	
-	}
-	
-}
+
 
 
 
@@ -313,5 +269,218 @@ country_event = {
 		name = gduannexations.12.a
 	
 	}
+}
+
+country_event = { 
+	id = gduannexations.13
+	title = yalta.1.a
+	desc = yalta.1.b
+	picture = GFX_report_event_canadian_soldiers
 	
+	is_triggered_only = yes 
+	
+	immediate = {
+
+		every_state = {
+			limit = {
+				is_core_of = FRF
+			}
+			FRF = {
+				transfer_state = PREV
+			}
+		}
+		every_state = {
+			limit = {
+				is_core_of = POL
+			}
+			POL = {
+				transfer_state = PREV
+			}
+		}
+	}
+	
+	option = {
+	    name = yalta.1.d
+	}
+}
+
+country_event = { 
+	id = gduannexations.14
+	title = yalta.1.a
+	desc = yalta.1.b
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = {
+	    every_state = {
+			limit = {
+				is_core_of = BEL
+			}
+			BEL = {
+				transfer_state = PREV
+			}
+		}
+		every_state = {
+			limit = {
+				is_core_of = HOL
+			}
+			HOL = {
+				transfer_state = PREV
+			}
+		}
+    	every_state = {
+    	    limit = {
+	    		is_core_of = DEN
+	    	}
+	    	DEN = {
+	    		transfer_state = PREV
+	    	}
+    	}
+		every_state = {
+			limit = {
+				is_core_of = NOR
+			}
+			NOR = {
+				transfer_state = PREV
+			}
+		}
+	}
+	option = {
+		name = yalta.1.d
+	}
+}
+
+country_event = { 
+	id = gduannexations.15
+	title = yalta.1.a
+	desc = yalta.1.b
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = {
+	   	every_state = {
+			limit = {
+				is_core_of = AUS
+			}
+			AUS = {
+				transfer_state = PREV
+			}
+		}
+		every_state = {
+			limit = {
+				is_core_of = ITA
+			}
+			ITA = {
+				transfer_state = PREV
+			}
+		}
+		every_state = {
+			limit = {
+				is_core_of = ALB
+			}
+			ALB = {
+				transfer_state = PREV
+			}
+		}
+		every_state = {
+			limit = {
+				is_core_of = GRE
+			}
+			GRE = {
+				transfer_state = PREV
+			}
+		}
+	}
+	
+	option = {
+	    name = yalta.1.d
+	}
+}
+
+country_event = { 
+	id = gduannexations.16
+	title = yalta.1.a
+	desc = yalta.1.b
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = {
+	    every_state = {
+			limit = {
+				is_core_of = CZE
+			}
+			CZE = {
+				transfer_state = PREV
+			}
+		}
+		every_state = {
+			limit = {
+				is_core_of = HUN
+			}
+			HUN = {
+				transfer_state = PREV
+			}
+		}
+		every_state = {
+			limit = {
+				is_core_of = ROM
+			}
+			ROM = {
+				transfer_state = PREV
+			}
+		}
+		every_state = {
+			limit = {
+				is_core_of = BUL
+			}
+			BUL = {
+				transfer_state = PREV
+			}
+		}
+		every_state = {
+			limit = {
+				is_core_of = YUG
+			}
+			YUG = {
+				transfer_state = PREV
+			}
+		}
+	}
+	
+	option = {
+		name = yalta.1.d
+	}
+}
+
+country_event = { 
+	id = gduannexations.17
+	title = yalta.1.a
+	desc = yalta.1.b
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = {
+	    SOV = {
+	        puppet = DDR
+	        puppet = POL
+	        puppet = CZE
+	        puppet = HUN
+	        puppet = ROM
+	        puppet = BUL
+	        puppet = YUG
+	        puppet = ALB
+	    }
+	    USA = {
+	        puppet = WGR
+	        puppet = ITA
+	    }
+	}
+	
+	option = {
+		name = yalta.1.d
+	}
 }
