@@ -8,7 +8,7 @@ equipments = {
 		is_buildable = no
 		type = {
 			#infantry #Removing inf type 
-			motorized
+			tank
 		}
 		group_by = archetype
 		
@@ -21,7 +21,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 5
 
-		build_cost_ic = 2.5
+		build_cost_ic = 2
 		resources = {
 			#oil = 1
 			rubber = 1
