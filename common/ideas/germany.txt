@@ -2242,7 +2242,6 @@ ideas = {
 				land_doctrine = 0.10
 			}
 			
-			
 			traits = { blitzkrieg_theorist }
 		}
 		
@@ -2253,7 +2252,7 @@ ideas = {
 				original_tag = GER
 			}
 			
-			cost = 250
+			cost = 150
 			
 			research_bonus = {
 				cat_mobile_warfare = 0.15
@@ -2270,7 +2269,7 @@ ideas = {
 				original_tag = GER
 			}
 			
-			cost = 250
+			cost = 150
 			
 			research_bonus = {
 				cat_battlefield_support = 0.15
@@ -2314,7 +2313,7 @@ ideas = {
 				original_tag = GER
 			}
 			
-			cost = 250
+			cost = 150
 			
 			research_bonus = {
 				cat_trade_interdiction = 0.20

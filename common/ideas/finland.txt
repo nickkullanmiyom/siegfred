@@ -26,18 +26,6 @@ ideas = {
 
 	political_advisor = {
 
-		
-		FIN_ralf_torngren = {
-
-			picture = generic_political_advisor_europe_1
-
-			allowed = {
-				original_tag = FIN
-			}
-			
-			traits = { ideological_crusader }
-		}
-
 		FIN_ake_henrik_gartz = {
 
 			picture = generic_political_advisor_europe_2

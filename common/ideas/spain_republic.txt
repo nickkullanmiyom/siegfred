@@ -52,18 +52,6 @@ ideas = {
 	
 	political_advisor = {
 
-		SPR_augusto_barcia_trelles = {
-
-			picture = generic_army_europe_1
-			
-			allowed = {
-				original_tag = SPR
-				NOT = { has_government = fascism }
-			}
-			
-			traits = { ideological_crusader }
-		}
-
 		SPR_francisco_largo_caballero = {
 
 			picture = generic_air_europe_1

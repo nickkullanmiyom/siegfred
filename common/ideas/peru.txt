@@ -23,18 +23,7 @@ ideas = {
 			
 			traits = { silent_workhorse }
 		}
-
-		PRU_reynaldo_vinatea = {
-
-			picture = generic_political_advisor_south_america_1
-			
-			allowed = {
-				original_tag = PRU
-			}
-			
-			traits = { ideological_crusader }
-		}
-
+		
 		PRU_jose_bustamante_y_rivero = {
 
 			picture = generic_political_advisor_south_america_3

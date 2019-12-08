@@ -279,17 +279,6 @@ ideas = {
 
 	political_advisor = {
 
-		NZL_a_e_davy = {
-
-			picture = generic_political_advisor_europe_1
-			
-			allowed = {
-				original_tag = NZL
-			}
-			
-			traits = { ideological_crusader }
-		}
-
 		NZL_w_a_veitch_milne = {
 
 			picture = generic_political_advisor_europe_2

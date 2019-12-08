@@ -1,37 +1,153 @@
 ideas = {
 
+country = {
+
+		turkish_neutrality = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+			
+
+			modifier = {
+            	enemy_justify_war_goal_time = 5.0
+				research_speed_factor = -5.0
+				join_faction_tension = 2.00
+				lend_lease_tension = 2.00
+				send_volunteers_tension = 2.00
+				ai_get_ally_desire_factor = -100 
+				conscription_factor = -0.99
+			}
+		}
+	
+	
+
+	
+	
+	TUR_ideological_fanaticism_focus = {
+
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			has_government = neutrality
+		}
+
+		removal_cost = -1
+
+		picture = generic_pp_unity_bonus
+
+		modifier = {
+			stability_factor = 0.20
+		}
+	}
+
+	TUR_militarism_focus = {
+
+		allowed = {
+			original_tag = TUR
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		picture = generic_manpower_bonus
+
+		modifier = {
+			conscription = 0.05
+		}
+	}
+
+	TUR_authoritarianism_focus = {
+
+		allowed = {
+			original_tag = TUR
+			always = no
+		}
+
+		allowed_civil_war = {
+			NOT = {
+				has_government = democratic
+			}
+		}
+
+		removal_cost = -1
+
+		picture = generic_intel_bonus
+
+		modifier = {
+			democratic_drift = -0.1
+			democratic_acceptance = -100
+		}
+	}
+
+	TUR_internationalism_focus = {
+
+		allowed = {
+			original_tag = TUR
+			always = no
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+		picture = generic_goods_red_bonus
+
+		modifier = {
+			trade_opinion_factor = 0.2
+		}
+	}
+}
+
+
 	political_advisor = {
 
 		TUR_mumtaz_okmen = {
 
-			picture = generic_political_advisor_europe_5
+			picture = generic_political_advisor_europe_1
 
 			allowed = {
 				original_tag = TUR
 			}
-			
+
 			traits = { captain_of_industry }
 		}
 
 		TUR_hassan_saka = {
 
 			picture = generic_political_advisor_europe_2
-				
+
 			allowed = {
 				original_tag = TUR
 			}
-			
-			traits = { ideological_crusader }
+
+			traits = { popular_figurehead }
 		}
 
 		TUR_kazim_ozalp = {
 
 			picture = generic_political_advisor_europe_3
-			
+
 			allowed = {
 				original_tag = TUR
 			}
-			
+
 			traits = { war_industrialist }
 		}
 	}
@@ -39,32 +155,32 @@ ideas = {
 	theorist = {
 
 	TUR_mehmet_gunaltay = {
-				
+
 		picture = generic_army_europe_2
 
 		allowed = {
 			original_tag = TUR
 		}
-		
+
 		research_bonus = {
-			land_doctrine = 0.10
+			land_doctrine = 0.1
 		}
-		
+
 		traits = { military_theorist }
 	}
 
 	TUR_refik_saydam = {
-				
+
 		picture = generic_political_advisor_europe_1
 
 		allowed = {
 			original_tag = TUR
 		}
-		
+
 		research_bonus = {
-			air_doctrine = 0.10
+			air_doctrine = 0.1
 		}
-		
+
 		traits = { air_warfare_theorist }
 	}
 }
@@ -72,34 +188,34 @@ ideas = {
 	army_chief = {
 
 		TUR_kazim_orbay = {
-			
+
 			picture = generic_army_europe_1
-			
+
 			allowed = {
 				original_tag = TUR
 			}
-			
 
-			
+
+
 			traits = { army_chief_offensive_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
-		
+
 		TUR_fevzi_cakmak = {
-			
-			picture = generic_army_europe_5
-			
+
+			picture = generic_army_europe_3
+
 			allowed = {
 				original_tag = TUR
 			}
-			
 
-			
+
+
 			traits = { army_chief_defensive_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
@@ -109,34 +225,34 @@ ideas = {
 	air_chief = {
 
 		TUR_memduh_tagmac = {
-			
+
 			picture = generic_air_europe_3
-			
+
 			allowed = {
 				original_tag = TUR
 			}
-			
 
-			
+
+
 			traits = { air_chief_night_operations_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
 		TUR_ali_orlungat = {
-			
+
 			picture = generic_air_europe_1
-			
+
 			allowed = {
 				original_tag = TUR
 			}
-			
 
-			
+
+
 			traits = { air_chief_ground_support_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
@@ -144,159 +260,159 @@ ideas = {
 	}
 
 	navy_chief = {
-		
+
 
 		TUR_mehmet_ali_ungen = {
-			
+
 			picture = generic_navy_europe_3
-			
+
 			allowed = {
 				original_tag = TUR
 			}
-			
 
-			
+
+
 			traits = { navy_chief_decisive_battle_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
 		TUR_rauf_orbay = {
-			
+
 			picture = generic_navy_europe_3
-			
+
 			allowed = {
 				original_tag = TUR
 			}
-			
 
-			
+
+
 			traits = { navy_chief_old_guard }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
 	}
-	
+
 	high_command = {
 
 		TUR_sabiha_gokcen = {
-			
+
 			picture = sabiha_gocen
-			
+
 			allowed = {
 				original_tag = TUR
 			}
-			
 
-			
+
+
 			traits = { air_strategic_bombing_3 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
 		TUR_abdurrahman_gurman = {
-			
+
 			picture = generic_army_europe_3
-			
+
 			allowed = {
 				original_tag = TUR
 			}
-			
+
 
 			traits = { army_armored_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
 		TUR_ali_fuat_cebesoy = {
-			
+
 			picture = generic_navy_europe_1
-			
+
 			allowed = {
 				original_tag = TUR
 			}
 
-			
+
 			traits = { navy_screen_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
 		TUR_erkan_gataly = {
-			
+
 			picture = generic_navy_europe_2
-			
+
 			allowed = {
 				original_tag = TUR
 			}
 
-			
+
 			traits = { navy_fleet_logistics_2 }
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
 	}
-	
-	
-	aircraft_manufacturer = { 
-		
-		designer = yes
-		
-		thk = {
-			
-			picture = generic_air_manufacturer_2
 
-			
+
+	aircraft_manufacturer = {
+
+		designer = yes
+
+		thk = {
+
+			picture = generic_air_manufacturer_3
+
+
 			allowed = {
 				original_tag = TUR
 			}
-			
+
 			research_bonus = {
 				air_equipment = 0.15
 			}
-			
+
 			traits = { light_aircraft_manufacturer }
-			
+
 			equipment_bonus = {
 				# trainers, and air ambulances?
 			}
-			
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
 		ktf = {
-			
+
 			picture = generic_air_manufacturer_1
 
-			
+
 			allowed = {
 				original_tag = TUR
 			}
-			
+
 			research_bonus = {
 				air_equipment = 0.15
 			}
-			
+
 			traits = { medium_aircraft_manufacturer }
-			
+
 			equipment_bonus = {
-				# assembled license aircrafts from across the world 
+				# assembled license aircrafts from across the world
 			}
-			
+
 			ai_will_do = {
 				factor = 1
 			}
@@ -304,47 +420,47 @@ ideas = {
 	}
 
 	naval_manufacturer = {
-			
+
 		designer = yes
-		
+
 		golcuk_nsy = {
-			
+
 			picture = generic_naval_manufacturer_1
 
-			
+
 			allowed = {
 				original_tag = TUR
 			}
-			
+
 			research_bonus = {
 				naval_equipment = 0.15
 			}
-			
+
 			traits = { naval_manufacturer }
 		}
 	}
-	
-	materiel_manufacturer = {
-			
-		designer = yes
-		
-		istanbul_military_industries = {
-			
-			picture = generic_infantry_equipment_manufacturer_3
 
-			
+	materiel_manufacturer = {
+
+		designer = yes
+
+		MKE = {
+
+			picture = generic_infantry_equipment_manufacturer_2
+
+
 			allowed = {
 				original_tag = TUR
 			}
-			
+
 			research_bonus = {
 				infantry_weapons = 0.15
 			}
-			
+
 			equipment_bonus = {
 				# rifles and pistols
 			}
-			
+
 			traits = { infantry_equipment_manufacturer }
 		}
 	}

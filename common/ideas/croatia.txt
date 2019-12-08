@@ -18,17 +18,6 @@ ideas = {
 			}
 		}
 
-		CRO_alojzije_stepinac = {
-
-			picture = generic_political_advisor_europe_2
-				
-			allowed = {
-				original_tag = CRO
-			}
-			
-			traits = { ideological_crusader }
-		}
-
 		CRO_gaspar_njegovan = {
 
 			picture = generic_political_advisor_europe_3

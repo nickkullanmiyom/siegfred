@@ -561,17 +561,6 @@ ideas = {
 				factor = 0
 			}
 		}
-
-		RAJ_agha_khan_iii = {
-
-			picture = generic_political_advisor_arab_2
-			
-			allowed = {
-				original_tag = RAJ
-			}
-			
-			traits = { ideological_crusader }
-		}
 	}
 
 	theorist = {

@@ -261,25 +261,6 @@ ideas = {
 				factor = 1
 			}
 		}
-			
-		ITA_serafino_mazzolini = {
-			
-			
-			allowed = {
-				original_tag = "ITA"
-			}
-
-			picture = generic_political_advisor_europe_1
-						
-			traits = { ideological_crusader }
-	
-			on_add = {				
-			}
-				
-			ai_will_do = {
-				factor = 0.5
-			}
-		}
 					
 		ITA_giacomo_acerbo = {
 			

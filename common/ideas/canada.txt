@@ -587,17 +587,6 @@ ideas = {
 			traits = { silent_workhorse }
 		}
 
-		CAN_newton_wesley_rowell = {
-
-			picture = generic_political_advisor_europe_3
-
-			allowed = {
-				original_tag = CAN
-			}
-
-			traits = { ideological_crusader }
-		}
-
 		CAN_leo_richer_lafleche = {
 
 			picture = generic_political_advisor_europe_3

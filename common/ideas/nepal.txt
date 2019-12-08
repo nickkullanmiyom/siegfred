@@ -26,17 +26,6 @@ ideas = {
 				factor = 0
 			}
 		}
-
-		NEP_william_stevenson_meyer = {
-
-			picture = generic_political_advisor_asia_3
-			
-			allowed = {
-				original_tag = NEP
-			}
-			
-			traits = { ideological_crusader }
-		}
 	}
 
 	theorist = {
