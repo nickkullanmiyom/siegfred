@@ -6,7 +6,9 @@ state={
 		tungsten=3.000
 	}
 
+
 	history={
+		owner = CHI
 		victory_points = {
 			8049 3 
 		}

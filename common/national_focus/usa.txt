@@ -784,7 +784,6 @@ focus_tree = {
 			swap_ideas = { 
 			remove_idea = USA_giant_sleeps_idea
 			add_idea = USA_giant_sleeps_idea_2
-			air_experience = 150
 			}
 		}
 	}

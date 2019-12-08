@@ -688,8 +688,9 @@ focus_tree = {
 				add_timed_idea = {
 					idea = officers_purged
 					days = 2200
-				remove_ideas = {
-				trotskyite_plot 
+				swap_ideas = {
+				    remove_idea = trotskyite_plot 
+				    add_idea = trotskyite_plot_purged
 				}
 			}
 		}

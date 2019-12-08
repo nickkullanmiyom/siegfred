@@ -1381,57 +1381,8 @@ on_daily = {
 				USA = { country_event = { id = gduevents.26 } }
 			}
 		}
-	}
-
-	#THIS IS THE AIRBASE LIMITER. 
-	on_daily = { 
-		effect = {
-			 if = {
-                limit = {
-                NOT = { has_global_flag = airbase_limiter_ran } 
-				}
-				for_each_scope_loop = {
-					array = global.small_airbase_list
-					if = {
-						limit = { 
-							air_base > 1 
-						}
-						remove_building = { 
-							type = air_base 
-							level = 1 
-						}
-						controller = { 
-							PREV = { save_event_target_as = GDU_badairport1 } 
-							country_event = { id = gduairlimiter.1 }
-						}
-					}
-			
-				}
-				for_each_scope_loop = {
-					array = global.medium_airbase_list
-					if = {
-						limit = { 
-							air_base > 3 
-						}
-						remove_building = { 
-							type = air_base 
-							level = 1 
-						}
-						controller = { 
-							PREV = { save_event_target_as = GDU_badairport2 } 
-							country_event = { id = gduairlimiter.2 }
-						}
-					}
-			
-				}
-				set_global_flag = { flag = airbase_limiter_ran value = 1 days = 1 }
-			}	
-		}
-	}
-
-
-
-
+    }
+	
 
 
 
@@ -1440,8 +1391,9 @@ on_daily = {
 	on_state_control_changed = {
 		effect = {
 
-				
-		
+
+
+
 			if = {
 				limit = {
 					original_tag = JAP 
@@ -1531,15 +1483,11 @@ on_daily = {
 					JAP = { set_state_controller = 628 }
 				}
 			}
+		}
+	}	
+
+
 		
-		
-		
-	}
-	}
-
-
-
-
 
 
 	#### Automatically do the Soviet Scorched Earth Decisions when appropriate areas have been lost, so players don't have to remember to click them 
@@ -1587,10 +1535,7 @@ on_daily = {
 				}
 					set_global_flag = GDU_SOV_scorched_earth_baltics
 				}
-			}
-			
-
-				
+			}		
 		}
 	}
 
@@ -3692,226 +3637,7 @@ on_daily = {
 		}
 	}
 	
-	#### Check if core parts of the Soviet heartland like Leningrad/Moscow/Stalingrad are threatened; give Soviets a buff after they are. Though this is artificial, this is intended as a temporary feature to be gradually phased out while Barbarossa balance is improved in a more natural way  ####
 	
-	on_state_control_changed = {
-		effect = {
-			if = {
-				limit = {
-					NOT = { has_global_flag = GDU_SOV_Danger_To_Heartland }
-					NOT = {
-						SOV = { 
-							has_completed_focus = SOV_defense_of_stalingrad
-						}	
-					}					
-					date > 1941.1.1
-					OR = {
-						original_tag = GER
-						original_tag = ITA
-						original_tag = HUN
-						original_tag = ROM
-						original_tag = BUL
-						original_tag = FIN
-						original_tag = SPR					
-					}
-					OR = {
-						controls_state = 581
-						controls_state = 262
-						controls_state = 214
-						controls_state = 351
-						controls_state = 818												
-						controls_state = 264       #Northern Coast to Leningrad#
-						controls_state = 244
-						controls_state = 195
-						controls_state = 208
-
-						controls_state = 263
-						controls_state = 246
-						controls_state = 795
-						controls_state = 205		#Line from Luga to Vyazma to Kursk to Rostov#
-						controls_state = 222
-						controls_state = 220
-						controls_state = 240
-						controls_state = 228
-
-						controls_state = 218		#Rostov to Cauacasus/Baku#
-						controls_state = 234
-						controls_state = 810
-						controls_state = 812						
-						controls_state = 233
-						controls_state = 231
-						controls_state = 230
-						controls_state = 814						
-						controls_state = 229
-						controls_state = 813
-						controls_state = 232
-						
-						controls_state = 584		#Central Asia and Far East#
-						controls_state = 405
-						controls_state = 586
-						controls_state = 587
-						controls_state = 585
-						controls_state = 742
-						controls_state = 732						
-						controls_state = 408
-						controls_state = 409
-						controls_state = 560
-						controls_state = 562
-						controls_state = 657
-						controls_state = 561
-
-					}
-				}
-				hidden_effect = {
-					SOV = {
-						add_ideas = GDU_SOV_Danger_To_Heartland				
-					}
-					set_global_flag = GDU_SOV_Danger_To_Heartland
-				}
-			}
-			
-
-				
-		}
-	}	
-	
-	
-	   # they are deleted in diffrent days to prevent desync  caused by their sudden deletion
-     if = {
-
-      limit = {
-	  AND = {
-        ENG = { is_ai = no }
-        GER = { is_ai = no }
-        SOV = { is_ai = no }
-		}
-      }
-      USA = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
-      CAN = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
-      RAJ = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
-      SAF = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
-      NZL = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
-      AST = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
-      ENG = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
-      FRA = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
-      SOV = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
-      FIN = { add_timed_idea = { idea = peace_time_bro days = 1100 } }
-      HUN = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
-      ROM = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
-      BUL = { add_timed_idea = { idea = peace_time_bro  days = 1100 } } 
-#     SPR = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
-      ITA = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
-      GER = { add_timed_idea = { idea = peace_time_bro  days = 110 } }
-      JAP = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }   
-
-    }
-
-    	   # division trainlemeyi engelliyor
-     if = {
-
-      limit = {
-	  AND = {
-        ENG = { is_ai = no }
-        GER = { is_ai = no }
-        SOV = { is_ai = no }
-		}
-      }
-      USA = { add_timed_idea = { idea = cantdeploy_unit days = 750 } }
-      CAN = { add_timed_idea = { idea = cantdeploy_unit  days = 732 } }
-      RAJ = { add_timed_idea = { idea = cantdeploy_unit  days = 734 } }
-      SAF = { add_timed_idea = { idea = cantdeploy_unit  days = 736 } }
-      NZL = { add_timed_idea = { idea = cantdeploy_unit  days = 740 } }
-      AST = { add_timed_idea = { idea = cantdeploy_unit days = 738 } }
-      ENG = { add_timed_idea = { idea = cantdeploy_unit  days = 365 } }
-      FRA = { add_timed_idea = { idea = cantdeploy_unit  days = 600 } }
-      SOV = { add_timed_idea = { idea = cantdeploy_unit  days = 882 } }
-      FIN = { add_timed_idea = { idea = cantdeploy_unit days = 800 } }
-      HUN = { add_timed_idea = { idea = cantdeploy_unit  days = 750 } }
-      ROM = { add_timed_idea = { idea = cantdeploy_unit  days = 748 } }
-      BUL = { add_timed_idea = { idea = cantdeploy_unit  days = 752 } } 
-      SPR = { add_timed_idea = { idea = cantdeploy_unit  days = 754 } }
-      ITA = { add_timed_idea = { idea = cantdeploy_unit  days = 746 } }
-      GER = { add_timed_idea = { idea = cantdeploy_unit  days = 500 } }
-      JAP = { add_timed_idea = { idea = cantdeploy_unit  days = 800 } }   
-
-    }
-	
-	
-	
-	
-	#### Check if core parts of the Soviet heartland from Tikhvin to Moscow itself to Penza to the outskirts of Stalingrad have fallen (Leningrad can fall without triggering this in case Finland takes it early); give Soviets a buff after they have. Though this is artificial, this is intended as a temporary feature to be gradually phased out while Barbarossa balance is improved in a more natural way ####
-	
-	on_state_control_changed = {
-		effect = {
-			if = {
-				limit = {
-					NOT = { has_global_flag = GDU_SOV_Heartland_Falling }
-					NOT = {
-						SOV = { 
-							has_completed_focus = SOV_defense_of_stalingrad
-						}	
-					}					
-					date > 1941.1.1
-					OR = {
-						original_tag = GER
-						original_tag = ITA
-						original_tag = HUN
-						original_tag = ROM
-						original_tag = BUL
-						original_tag = FIN
-						original_tag = SPR
-					}
-					OR = {
-						controls_state = 581
-						controls_state = 262
-						controls_state = 214
-						controls_state = 351	   #Northern Coast to Vologda#
-
-						controls_state = 247
-						controls_state = 248
-						controls_state = 219
-						controls_state = 253		#Core areas around Moscow to the outskirts of Stalingrad#
-						controls_state = 255
-						controls_state = 252
-						controls_state = 239
-						controls_state = 265
-						controls_state = 245
-						controls_state = 238
-						controls_state = 235
-						
-						controls_state = 233		#Cauacasus/Baku#
-						controls_state = 231
-						controls_state = 230
-						controls_state = 229
-						
-						controls_state = 584		#Central Asia and Far East#
-						controls_state = 405
-						controls_state = 586
-						controls_state = 587
-						controls_state = 585
-						controls_state = 742
-						controls_state = 732
-						controls_state = 408
-						controls_state = 409
-						controls_state = 560
-						controls_state = 562
-						controls_state = 657
-						controls_state = 561
-
-					}
-				}
-				hidden_effect = {
-					SOV = {
-						add_ideas = GDU_SOV_Heartland_Falling				
-					}
-					set_global_flag = GDU_SOV_Heartland_Falling
-				}
-			}
-			
-
-				
-		}
-	}		
 
 
 		

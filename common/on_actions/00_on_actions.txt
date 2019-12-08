@@ -68,53 +68,53 @@ on_actions = {
 		}
 	}
 
-	on_nuke_drop = {
-
-		effect = {
-			if = {
-				limit = { NOT = { has_country_flag = achievement_has_dropped_nuke } }
-				goto_state = FROM
-				set_country_flag = achievement_has_dropped_nuke
-			}
-			if = {
-				limit = {
-					FROM = { state = 378 }
-				}
-				set_country_flag = achievement_has_nuked_california
-			}
-			if = {
-				limit = {
-					FROM = { is_core_of = AST }
-				}
-				set_country_flag = achievement_AST_nuke_self
-			}
-			if = {
-				limit = {
-					tag = SWE
-					FROM = {
-						is_owned_by = DEN
-						is_core_of = DEN
-					}
-				}
-				set_country_flag = achievement_med_plutonium
-			}
-			news_event = { id = nuke_dropped.2 days = 1}
-			news_event = { id = nuke_dropped.3 days = 1}
-			news_event = { id = nuke_dropped.4 days = 1}
-			news_event = { id = nuke_dropped.5 days = 1}
-			news_event = { id = nuke_dropped.6 days = 1}
-			news_event = { id = nuke_dropped.7 days = 1}
-			news_event = { id = nuke_dropped.8 days = 1}
-			news_event = { id = nuke_dropped.9 days = 1}
-			news_event = { id = nuke_dropped.10 days = 1}
-			news_event = { id = nuke_dropped.11 days = 1}
-			news_event = { id = nuke_dropped.12 days = 1}
-			news_event = { id = nuke_dropped.13 days = 1}
-		}
-		random_events = {
-			100 = nuke_dropped.0
-		}
-	}
+#	on_state_control_changedon_nuke_drop = {
+#
+#		effect = {
+#			if = {
+#				limit = { NOT = { has_country_flag = achievement_has_dropped_nuke } }
+#				goto_state = FROM
+#				set_country_flag = achievement_has_dropped_nuke
+#			}
+#			if = {
+#				limit = {
+#					FROM = { state = 378 }
+#				}
+#				set_country_flag = achievement_has_nuked_california
+#			}
+#			if = {
+#				limit = {
+#					FROM = { is_core_of = AST }
+#				}
+#				set_country_flag = achievement_AST_nuke_self
+#			}
+#			if = {
+#				limit = {
+#					tag = SWE
+#					FROM = {
+#						is_owned_by = DEN
+#						is_core_of = DEN
+#					}
+#				}
+#				set_country_flag = achievement_med_plutonium
+#			}
+#			news_event = { id = nuke_dropped.2 days = 1}
+#			news_event = { id = nuke_dropped.3 days = 1}
+#			news_event = { id = nuke_dropped.4 days = 1}
+#			news_event = { id = nuke_dropped.5 days = 1}
+#			news_event = { id = nuke_dropped.6 days = 1}
+#			news_event = { id = nuke_dropped.7 days = 1}
+#			news_event = { id = nuke_dropped.8 days = 1}
+#			news_event = { id = nuke_dropped.9 days = 1}
+#			news_event = { id = nuke_dropped.10 days = 1}
+#			news_event = { id = nuke_dropped.11 days = 1}
+#			news_event = { id = nuke_dropped.12 days = 1}
+#			news_event = { id = nuke_dropped.13 days = 1}
+#		}
+#		random_events = {
+#			100 = nuke_dropped.0
+#		}
+#}
 
 	# country random events
 	#on_bi_yearly_pulse = {
@@ -335,15 +335,8 @@ on_actions = {
 						tag = SOV
 						OR = {
 							has_idea = officers_purged
-							has_idea = officers_purged_2
-							has_idea = officers_purged_3
-							has_idea = officers_purged_4
-							has_idea = officers_purged_5
-							has_idea = officers_purged_6
-							has_idea = officers_purged_7
-							has_idea = officers_purged_8
-							has_idea = officers_purged_9
-							has_idea = officers_purged_10
+							has_idea = officers_purged2
+							has_idea = officers_purged3
 						}
 						NOT = { has_idea = great_patriotic_war }
 					}

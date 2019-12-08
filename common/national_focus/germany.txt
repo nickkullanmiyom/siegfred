@@ -1018,7 +1018,6 @@ focus_tree = {
 			factor = 5
 		}
 
-		available = { has_completed_focus = GER_german_war_economy }
 		available_if_capitulated = no
 
 		complete_tooltip = {

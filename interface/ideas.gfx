@@ -29,6 +29,21 @@ spriteTypes = {
 		name = "GFX_idea_raj_all_india_forward_bloc"
 		texturefile = "gfx/interface/ideas/idea_raj_all_india_forward_bloc.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_chi_war_of_resistance3"
+		texturefile = "gfx/interface/ideas/idea_chi_war_of_resistance3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_chi_war_of_resistance2"
+		texturefile = "gfx/interface/ideas/idea_chi_war_of_resistance2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_chi_war_of_resistance"
+		texturefile = "gfx/interface/ideas/idea_chi_war_of_resistance.dds"
+	}
 
 	spriteType = {
 		name = "GFX_idea_raj_all_india_forward_bloc_communism"

@@ -14,7 +14,6 @@ add_timed_idea = { idea = cantdeploy_unit  days = 730 }
         closed_economy
     }
 
-set_convoys = 1000
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.8
@@ -33,6 +32,7 @@ set_technology = {
 	gw_artillery = 1
 	interwar_antiair = 1
 	gwtank = 1
+	improved_light_tank = 1
 	basic_light_tank = 1  # PLACEHOLDER
 	#basic_heavy_tank = 1  # PLACEHOLDER
 	#basic_medium_tank = 1 # PLACEHOLDER
@@ -95,7 +95,8 @@ if = {
 
 	#purge stuff
 	unlock_national_focus = SOV_great_purge
-	remove_ideas = trotskyite_plot
+	remove_ideas = 
+	_plot
 	add_ideas = trotskyite_plot_purged
 	set_stability = 0.75
 	add_timed_idea = {

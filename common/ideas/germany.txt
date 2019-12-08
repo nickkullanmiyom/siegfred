@@ -1843,6 +1843,23 @@ ideas = {
 			traits = { silent_workhorse }
 		}
 		
+		heinrich_himmler = {
+
+
+			allowed = {
+				original_tag = GER
+			}
+
+			available = {
+				OR = {
+					has_government = fascism
+					has_country_flag = GER_reinstated_nazi_leadership
+				}
+			}
+
+			traits = { prince_of_terror }
+		}
+		
 		martin_bormann = {
 
 			
@@ -2228,7 +2245,7 @@ ideas = {
 		}
 	}
 		
-
+	theorist = {
 		
 		heinz_guderian = {
 

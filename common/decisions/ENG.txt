@@ -1,6 +1,6 @@
 political_actions = {
 
-		#ENG_host_CZE_exile_government = {
+	#ENG_host_CZE_exile_government = {
 	#
 	#	icon = generic
 	#

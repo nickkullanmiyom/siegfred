@@ -3,6 +3,7 @@ state={
 	name="STATE_603"
 
 	history={
+		owner = CHI
 		buildings = {
 			infrastructure = 2
 

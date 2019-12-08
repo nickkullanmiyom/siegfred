@@ -191,7 +191,7 @@ on_actions = {
 	}
 
 	#ROOT is subject FROM is overlord
-	on_subject_annexed = {
+	#on_subject_annexed = {
 
 	}
 
@@ -442,6 +442,7 @@ on_actions = {
 				}
 			}
 		}
+	}
 	}
 
 }

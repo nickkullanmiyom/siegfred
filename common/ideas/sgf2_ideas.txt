@@ -695,23 +695,6 @@ ideas = {
 			}
 		}
 	
-		eng_nosealionpls = { 
-			
-			allowed = {
-				original_tag = ENG
-			}
-			
-			picture = ast_all_in
-			
-			removal_cost = -1
-			
-			modifier = {
-				army_core_attack_factor = 0.3
-				army_core_defence_factor = 0.3
-			}
-			
-		}
-	
 		alli_phoney_war = {
 			
 			allowed = { 
@@ -1123,37 +1106,6 @@ ideas = {
 				local_resources_factor = 0.05			
 			}
 		}		
-
-		FRF_efficiency_gain = { 
-		
-			picture = generic_pp_unity_bonus	
-			
-			allowed = { 
-				always = no 
-			}
-			
-			removal_cost = -1 
-			
-			modifier = { 
-				production_factory_efficiency_gain_factor = 99.9
-			}
-		}		
-		
-		FRF_retrain = { 
-		
-			picture = generic_pp_unity_bonus	
-			
-			allowed = { 
-				always = no 
-			}
-			
-			removal_cost = -1 
-			
-			modifier = { 
-				training_time_factor = -0.99
-			}
-		}			
-		
 		
 		ALLIES_fail_dday_idea = { 
 		

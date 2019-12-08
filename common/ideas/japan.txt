@@ -24,6 +24,33 @@ ideas = {
 			}
 		}
 
+        JAP_pearl_harbor_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_navy_carrier_bonus
+			
+			modifier = {
+				sortie_efficiency = 0.2
+				naval_strike_attack_factor = 0.12
+				naval_strike_targetting_factor = 0.12
+				naval_strike_agility_factor = 0.12
+				navy_screen_attack_factor = 0.2 
+				navy_submarine_attack_factor = 0.2 
+				navy_capital_ship_attack_factor = 0.2
+				invasion_preparation = -0.1
+				special_forces_attack_factor = 0.1
+			}
+		}
+		
 		JAP_militarism = {
 			allowed = {
 				always = no
