@@ -3776,6 +3776,65 @@ on_daily = {
 	}	
 	
 	
+	   # they are deleted in diffrent days to prevent desync  caused by their sudden deletion
+     if = {
+
+      limit = {
+	  AND = {
+        ENG = { is_ai = no }
+        GER = { is_ai = no }
+        SOV = { is_ai = no }
+		}
+      }
+      USA = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
+      CAN = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
+      RAJ = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
+      SAF = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
+      NZL = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
+      AST = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
+      ENG = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
+      FRA = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
+      SOV = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
+      FIN = { add_timed_idea = { idea = peace_time_bro days = 1100 } }
+      HUN = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
+      ROM = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
+      BUL = { add_timed_idea = { idea = peace_time_bro  days = 1100 } } 
+#     SPR = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
+      ITA = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }
+      GER = { add_timed_idea = { idea = peace_time_bro  days = 110 } }
+      JAP = { add_timed_idea = { idea = peace_time_bro  days = 1100 } }   
+
+    }
+
+    	   # division trainlemeyi engelliyor
+     if = {
+
+      limit = {
+	  AND = {
+        ENG = { is_ai = no }
+        GER = { is_ai = no }
+        SOV = { is_ai = no }
+		}
+      }
+      USA = { add_timed_idea = { idea = cantdeploy_unit days = 750 } }
+      CAN = { add_timed_idea = { idea = cantdeploy_unit  days = 732 } }
+      RAJ = { add_timed_idea = { idea = cantdeploy_unit  days = 734 } }
+      SAF = { add_timed_idea = { idea = cantdeploy_unit  days = 736 } }
+      NZL = { add_timed_idea = { idea = cantdeploy_unit  days = 740 } }
+      AST = { add_timed_idea = { idea = cantdeploy_unit days = 738 } }
+      ENG = { add_timed_idea = { idea = cantdeploy_unit  days = 365 } }
+      FRA = { add_timed_idea = { idea = cantdeploy_unit  days = 600 } }
+      SOV = { add_timed_idea = { idea = cantdeploy_unit  days = 882 } }
+      FIN = { add_timed_idea = { idea = cantdeploy_unit days = 800 } }
+      HUN = { add_timed_idea = { idea = cantdeploy_unit  days = 750 } }
+      ROM = { add_timed_idea = { idea = cantdeploy_unit  days = 748 } }
+      BUL = { add_timed_idea = { idea = cantdeploy_unit  days = 752 } } 
+      SPR = { add_timed_idea = { idea = cantdeploy_unit  days = 754 } }
+      ITA = { add_timed_idea = { idea = cantdeploy_unit  days = 746 } }
+      GER = { add_timed_idea = { idea = cantdeploy_unit  days = 500 } }
+      JAP = { add_timed_idea = { idea = cantdeploy_unit  days = 800 } }   
+
+    }
 	
 	
 	

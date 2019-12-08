@@ -14,6 +14,102 @@
 # 
 #	THIS FILE IS FOR TRIGGERS SPECIFICALLY FOR THE GER TAG
 
+guam_island_taken = {
+	638 = {
+		is_controlled_by = JAP 
+	}
+}
+
+wake_island_taken = {
+	632 = {
+		is_controlled_by = JAP 
+	}
+}
+
+midway_island_taken = {
+	631 = {
+		is_controlled_by = JAP 
+	}
+}
+
+hawaii_island_taken = {
+	629 = {
+		is_controlled_by = JAP 
+	}
+}
+
+singapore_taken = {
+	336 = {
+		is_controlled_by = JAP 
+	}
+}
+
+nzl_has_fallen = {
+	284 = {
+		is_controlled_by = JAP 
+	}
+	723 = {
+		is_controlled_by = JAP 
+	}
+}
+
+ast_has_fallen = {
+	285 = {
+		is_controlled_by = JAP 
+	}
+	522 = {
+		is_controlled_by = JAP 
+	}
+	521 = {
+		is_controlled_by = JAP 
+	}
+	520 = {
+		is_controlled_by = JAP 
+	}
+}
+
+raj_has_fallen = {
+	426 = {
+		is_controlled_by = JAP 
+	}
+	435 = {
+		is_controlled_by = JAP 
+	}
+	423 = {
+		is_controlled_by = JAP 
+	}
+	429 = {
+		is_controlled_by = JAP 
+	}
+	428 = {
+		is_controlled_by = JAP 
+	}
+	443 = {
+		is_controlled_by = JAP 
+	}
+	439 = {
+		is_controlled_by = JAP 
+	}
+	436 = {
+		is_controlled_by = JAP 
+	}
+}
+saf_has_fallen = {
+	681 = {
+		is_controlled_by = JAP 
+	}
+	541 = {
+		is_controlled_by = JAP 
+	}
+	275 = {
+		is_controlled_by = JAP 
+	}
+	719 = {
+		is_controlled_by = JAP 
+	}
+}
+
+
 JAP_or_friend_controls_big_part_of_CHI_or_peace = {
 	OR = {
 		NOT = { has_war_with = CHI }

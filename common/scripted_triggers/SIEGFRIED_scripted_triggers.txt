@@ -1,0 +1,26 @@
+#	Example:
+# 
+#	example_trigger = {
+#		tag = GER
+#		is_ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		exampel_trigger = yes
+#	}
+# 
+#	THIS FILE IS FOR TRIGGERS SPECIFICALLY FOR THE GER TAG
+
+benghasi_taken = {
+	450 = {
+		is_controlled_by = ENG 
+	}
+}
+cairo_taken = {
+	446 = {
+		is_controlled_by = ITA 
+	}
+}
