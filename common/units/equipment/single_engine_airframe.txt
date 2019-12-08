@@ -711,7 +711,7 @@ equipments = {
 		air_agility = 30
 		air_attack = 10
 		air_defence = 14
-		naval_strike_attack = 21
+		naval_strike_attack = 23
 		naval_strike_targetting = 10.5
 
 		build_cost_ic = 42
@@ -776,7 +776,7 @@ equipments = {
 		air_agility = 35
 		air_attack = 10
 		air_defence = 15
-		naval_strike_attack = 20
+		naval_strike_attack = 23
 		naval_strike_targetting = 10.5
 		build_cost_ic = 44 # cv_version costs 20% more of base archetype
 		resources = {
