@@ -1459,14 +1459,12 @@ ideas = {
 				if = {
 					limit = {
 						has_dlc = "Man the Guns"
-					}
-					has_completed_focus = USA_america_first
 				}
 			}
 
 			
-			traits = { editor }
-			cost = 50
+			traits = { editornibba }
+			cost = 150
 			do_effect = {
 		
 			}
