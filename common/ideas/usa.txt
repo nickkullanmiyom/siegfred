@@ -1446,7 +1446,7 @@ ideas = {
 			}
 		}
 
-		USA_joseph_patterson = {
+		USA_tolunay = {
 			
 			picture = generic_political_advisor_europe_1
 			allowed = {
@@ -1463,7 +1463,7 @@ ideas = {
 			}
 
 			
-			traits = { editornibba }
+			traits = { ugandan_american }
 			cost = 150
 			do_effect = {
 		
