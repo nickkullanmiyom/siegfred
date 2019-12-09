@@ -1508,7 +1508,6 @@ focus_tree = {
 		id = RAJ_the_smiling_buddha
 		icon = GFX_focus_smiling_buddha
 		prerequisite = { focus = RAJ_royal_indian_air_force }
-		prerequisite = { focus = RAJ_institute_of_fundamental_research }
 		x = 1
 		y = 4
 		relative_position_id = RAJ_british_pilot_training
@@ -1839,42 +1838,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_research_slot = 1
-		}
-	}
-
-	focus = {
-		id = RAJ_institute_of_fundamental_research
-		icon = GFX_focus_wonderweapons
-		prerequisite = { focus = RAJ_indian_institute_of_science }
-		x = 0
-		y = 3
-		relative_position_id = RAJ_industrial_expansion
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			custom_effect_tooltip = available_theorist
-			show_ideas_tooltip = RAJ_homi_j_bhabha
 		}
 	}
 

@@ -1,0 +1,31 @@
+focus_tree = {
+	id = bosh
+
+	country = {
+		factor = 0
+    }
+
+
+	focus = {
+		id = SOV_women_pilots
+		x = 0
+		y = 0
+	}   
+
+    focus = {
+		id = GER_rekindle_imperial_sentiment
+		x = 0
+		y = 0
+	}
+
+	focus = {
+		id = USA_democratic_socialism
+		x = 0
+		y = 0
+	}
+	focus = {
+		id = USA_honor_the_confederacy
+		x = 0
+		y = 0
+	}
+}

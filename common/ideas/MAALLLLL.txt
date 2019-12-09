@@ -1,0 +1,21 @@
+ideas = {
+
+	political_advisor = {
+
+		AFG_haji_faiz_muhammed_zikeria = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = MAC
+			}
+		}
+		gaetano_crocco = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = MAC
+			}
+		}
+	}

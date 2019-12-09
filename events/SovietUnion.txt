@@ -733,14 +733,10 @@ country_event = {
 		set_country_flag = purged_kalinin
 		hidden_effect = {
 			remove_ideas = mikhail_kalinin
-			remove_ideas = trotskyite_plot
-			remove_ideas = trotskyite_plot_purged			
+			remove_ideas = trotskyite_plot			
 		}
 	}
 	option = {
-		ai_chance = {
-			factor = 30
-		}
 		name = soviet.25.b
 		custom_effect_tooltip = remove_political_advisor
 		show_ideas_tooltip = nikita_khrushchev
@@ -748,20 +744,7 @@ country_event = {
 		hidden_effect = {
 			remove_ideas = nikita_khrushchev
 			remove_ideas = trotskyite_plot
-			remove_ideas = trotskyite_plot_purged
 		}
-	}
-	option = {
-		ai_chance = {
-			factor = 30
-		}
-		name = soviet.25.c
-		add_political_power = -75
-		set_country_flag = purged_party_members
-	}
-		name = soviet.25.e
-		set_country_flag = no_political_purge
-		custom_effect_tooltip = soviet.27_tt2
 	}
 }
 
@@ -784,9 +767,6 @@ country_event = {
 	}
 
 	option = {
-		ai_chance = {
-			factor = 20
-		}
 		name = soviet.26.a
 		set_country_flag = purge_1_group_a
 		custom_effect_tooltip = remove_theorist
@@ -810,9 +790,6 @@ country_event = {
 		}
 	}
 	option = {
-		ai_chance = {
-			factor = 75
-		}
 		name = soviet.26.b
 		set_country_flag = purge_1_group_b
 		custom_effect_tooltip = remove_chief_of_army
@@ -837,73 +814,6 @@ country_event = {
 			remove_ideas = trotskyite_plot
 			remove_ideas = trotskyite_plot_purged			
 		}	
-	}
-	# REVISIT Balance, since the latter removes more unit leaders
-		name = soviet.26.c
-		set_country_flag = purge_1_no_purge 
-		custom_effect_tooltip = soviet.27_tt2
-	}
-}
-
-# France national focus -  requests to join commitern
-country_event = {
-	id = soviet.29
-	title = soviet.29.t
-	desc = soviet.29.d
-	picture = GFX_report_event_stalin_01
-
-	is_triggered_only = yes
-		
-	option = {
-		name = soviet.29.a
-		SOV = { add_to_faction = FRA }
-		FRA = {
-			add_ai_strategy = {
-				type = alliance
-				id = "SOV"
-				value = 200
-			}
-		}
-		hidden_effect = {
-			news_event = { hours = 6 id = news.180 }
-		}
-	}
-	option = {
-		name = soviet.29.b
-		ai_chance = { factor = 0 }
-		FRA = {
-			add_opinion_modifier = {
-				target = SOV
-				modifier = SOV_FRA_join_comintern_reject
-			}
-		}
-	}
-}
-
-# comintern_influence removed due to war with common enemy
-country_event = {
-	id = soviet.100
-	title = soviet.100.t
-	desc = soviet.100.d
-	picture = GFX_report_event_soviet_soldiers_tank
-	
-	trigger = {
-		has_idea = comintern_influence
-		has_war = yes
-		SOV = { has_war = yes }
-		NOT = { has_war_with = SOV }
-		any_enemy_country = {
-			has_war_with = SOV
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 30
-	}
-	
-	option = {
-		name = soviet.100.a
-		remove_ideas = comintern_influence
 	}
 }
 
