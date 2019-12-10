@@ -1,4 +1,4 @@
-﻿capital = 282
+capital = 282
 
 oob = "JAP_1936"
 
@@ -167,8 +167,8 @@ set_convoys = 800
 
 create_import = {
 		resource = steel
-		factories = 1
-		exporter = MAN
+		factories = 2
+		exporter = GER
 }
 
 if = {
@@ -195,6 +195,11 @@ if = {
 	}
 }
 
+create_faction = "Daitoa Kyoeiken"
+add_to_faction = MAN
+
+
+1939.1.1 = {
 	set_politics = {
 		ruling_party = fascism
 		last_election = "1934.3.26"
@@ -207,34 +212,6 @@ if = {
         fascism = 76
         communism = 2
     }
-
-create_faction = "Daitoa Kyoeiken"
-add_to_faction = MAN
-
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = {
-				popularity = 0
-			}
-
-			fascism = {
-				popularity = 100
-			}
-
-			communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
-		}
-
-		ruling_party = fascism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
 }
 
 create_country_leader = {

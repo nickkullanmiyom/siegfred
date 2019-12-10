@@ -5,6 +5,7 @@ state={
 		1010 4141 4325 4431 9939 10763 11972 
 	}
 	history={
+	    owner = CHI
 		buildings = {
 			infrastructure = 2
 
@@ -19,7 +20,7 @@ state={
 			}
 		}
 	}
-	manpower=1500000
+	manpower=1
 	state_category=pastoral
 	buildings_max_level_factor=1.000
 }

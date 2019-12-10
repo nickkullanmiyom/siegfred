@@ -18,4 +18,12 @@ ideas = {
 				original_tag = MAC
 			}
 		}
+		great_patriotic_war = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = MAC
+			}
+		}
 	}

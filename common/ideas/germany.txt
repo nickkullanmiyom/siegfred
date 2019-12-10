@@ -67,7 +67,7 @@ ideas = {
             allowed = {
                 always = no
             } 
-            picture = ccc_hitler_ccc
+            picture = idea_generic_armor
 
             removal_cost = -1
             modifier = {

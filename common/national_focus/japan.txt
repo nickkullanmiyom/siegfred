@@ -198,10 +198,7 @@ focus_tree = {
 			}
 		}
 
-		completion_reward = {
-		USA = {
-					country_event = { id = panay_incident.2 }
-				}					
+		completion_reward = {			
 
 		army_experience = 1000
 		air_experience = 1000
@@ -233,6 +230,7 @@ focus_tree = {
         add_named_threat = { threat = 2 name = JAP_CHIONE }
 		}
 	}
+
 	focus = {
 		id = Annex_MAN
 		icon = GFX_goal_anschluss
@@ -263,6 +261,8 @@ focus_tree = {
 		id = chinese_war_focus
 		icon = GFX_goal_generic_major_war
 		prerequisite = { focus = test_the_chinese_focus }
+		x = 13
+		y = 1
 		available = {
 		    date > 1937.5.1 
 			is_puppet = no

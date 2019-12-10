@@ -81,14 +81,14 @@ bookmarks = {
 			history = "JAP_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
-				state_shintoism
-				JAP_zaibatsus
-				JAP_militarism
+				JAP_Zaibatsu_Idea_Bonus
+				for_the_emperor_idea_sov
+				spiritual_mobilization_idea
 			}
 			focuses = {
-				JAP_strike_on_the_southern_resource_area
-				JAP_intervene_in_china
-				JAP_the_zero
+            strike_usa_focus
+            JAP_Southern
+            chinese_war_focus
 			}
 		}
 		"SOV"={

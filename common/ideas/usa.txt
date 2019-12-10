@@ -2527,38 +2527,6 @@ ideas = {
 			
 			traits = { air_warfare_theorist }
 		}
-		
-		robert_oppenheimer = {
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-
-			
-			research_bonus = {
-				nuclear = 0.15
-			}
-			
-			traits = { nuclear_scientist }
-		}
-		
-		robert_goddard = {
-			
-			
-			allowed = {
-				original_tag = USA
-			}
-			
-
-			
-			research_bonus = {
-				rocketry = 0.10
-			}
-			
-			traits = { rocket_scientist }
-		}
 	}
 	
 }

@@ -230,10 +230,6 @@ operations = {
 		}
 	}
 	
-	
-	
-	
-	
 	GER_triumph_france2 = {
 
 		icon = generic_operation
@@ -302,8 +298,6 @@ operations = {
 			factor = 1
 		}
 	}	
-	
-	
 	
 	GER_triumph_france3 = {
 
@@ -374,15 +368,7 @@ operations = {
 		}
 	}		
 	
-	
-	
-	
-
-	
-	
-	
-	
-		GER_triumph_france4 = {
+	GER_triumph_france4 = {
 
 		icon = generic_operation
 
@@ -453,9 +439,6 @@ operations = {
 		}
 	}
 	
-	
-	
-	
 	GER_triumph_france5 = {
 
 		icon = generic_operation
@@ -524,9 +507,6 @@ operations = {
 			factor = 1
 		}
 	}		
-	
-	
-	
 	
 	GER_triumph_france6 = {
 
@@ -597,10 +577,6 @@ operations = {
 		}
 	}			
 	
-	
-	
-	
-	
 	GER_triumph_france7 = {
 
 		icon = generic_operation
@@ -669,9 +645,6 @@ operations = {
 			factor = 1
 		}
 	}			
-	
-		
-	
 	
 	GER_triumph_france8 = {
 
@@ -742,12 +715,6 @@ operations = {
 		}
 	}			
 		
-	
-	
-	
-	
-	
-	
 	GER_triumph_france9 = {
 
 		icon = generic_operation
@@ -816,11 +783,6 @@ operations = {
 			factor = 1
 		}
 	}			
-		
-	
-	
-	
-	
 	
 	GER_triumph_france10 = {
 
@@ -894,10 +856,6 @@ operations = {
 			factor = 1
 		}
 	}	
-}
-	
-	
-	
 	
 	GER_defeat_sealion = {
 
@@ -1162,9 +1120,7 @@ operations = {
 						MAN = { controls_state = 119 }
 						SIA = { controls_state = 119 }									
 					}					
-				}
-			
-			
+				}	
 
 		}
 
@@ -1778,10 +1734,6 @@ operations = {
 			factor = 1
 		}
 	}
-}
-	
-	
-	
 	
 	
 	
@@ -2402,150 +2354,6 @@ foreign_politics = {
 				transfer_state = 554
 			}
 		}
-	
-	}
-	
-	GDU_JAP_pearl_harbor = { 
-	
-		icon = generic_operation
-		fire_only_once = yes
-		
-		allowed = { 
-			tag = JAP
-		}
-	
-		available = { 
-			has_completed_focus = JAP_strike_on_the_southern_resource_area
-			NOT = { has_war_with = USA } 
-			NOT = { has_war_with = ENG } 
-			date > 1940.12.31 						
-		}	
-	
-		cost = 0
-		
-		days_remove = 1
-		
-		ai_will_do = {
-			factor = 0
-			
-		}
-		
-		visible = { 
-			has_completed_focus = JAP_strike_on_the_southern_resource_area  
-		}
-		
-		complete_effect = {
-		    ENG = { 
-				puppet = INS
-			}
-			333 = { set_demilitarized_zone = no }
-		}
-		
-		remove_effect = {
-			custom_effect_tooltip = GDU_Jap_pearlharbor_tt
-			USA = { country_event = gdunews.6 } 
-				# Mexico ( a randomly chosen AI country ) gets an event that removes the US cores on Hawaii etc after the Pearl Harbor debuff has run out. This ensures that USA doesn't get a huge amount of extra core attack/defense helping to defend those in i.e. 1942 from the Home of the Free spirit (which is intended to help USA in the event of an invasion of mainland USA, not an invasion of i.e. Hawaii)
-			VEN = { country_event = { id = gduannexations.12 days = 120 } } 
-			USA = { country_event = { id = usa.65 days = 110 } } 
-						
-			USA = { 
-			    destroy_ships = {
-					type = ship_hull_light_1
-					count = 4
-				}
-				destroy_ships = {
-					type = ship_hull_cruiser_1
-					count = 1
-				}
-				destroy_ships = {
-					type = ship_hull_heavy_1
-					count = 4
-				}
-			}
-			JAP = { 
-				add_timed_idea = { 
-					idea = JAP_pearl_harbor_idea 
-					days = 120 
-				}
-			}
-			declare_war_on = {
-				target = USA 
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = INS 
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = PHI 
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = ENG 
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = FRF
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = CAN
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = RAJ
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = AST
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = NZL 
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = SAF 
-				type = annex_everything
-			}
-			GER = {	
-				declare_war_on = {
-					target = USA 
-					type = annex_everything
-				}
-			}
-			ITA = {	
-				declare_war_on = {
-					target = USA 
-					type = annex_everything
-				}
-			}
-			ROM = {	
-				declare_war_on = {
-					target = USA 
-					type = annex_everything
-				}
-			}
-			HUN = {	
-				declare_war_on = {
-					target = USA 
-					type = annex_everything
-				}
-			}
-			BUL = {	
-				declare_war_on = {
-					target = USA 
-					type = annex_everything
-				}
-			}
-			SPR = {	
-				declare_war_on = {
-					target = USA 
-					type = annex_everything
-				}
-			}		
-		}
-	
 	}
 	
 	GDU_GER_invade_iran = { 
