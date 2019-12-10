@@ -262,9 +262,9 @@ focus_tree = {
 		icon = GFX_goal_generic_major_war
 		prerequisite = { focus = test_the_chinese_focus }
 		x = 13
-		y = 1
+		y = 2
 		available = {
-		    date > 1937.5.1 
+		    date > 1938.2.1 
 			is_puppet = no
 			NOT = { has_war_with = CHI }
 		}
@@ -312,37 +312,25 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		USA = {
-					country_event = { id = panay_incident.2 }
-				}					
 
 		army_experience = 1000
 		air_experience = 1000
 		navy_experience = 1000
-
-        SOV = { 
-        army_experience = 1000
-        air_experience  = 300
-                }
-        GER = { 
-        air_experience  = 300
-                }
-        ITA = { 
-        air_experience  = 300
-                }
 	   
-	    transfer_state = 608
-        transfer_state = 614
-        transfer_state = 597
-        transfer_state = 743
-        transfer_state = 598
-        transfer_state = 613
-        transfer_state = 596
-        transfer_state = 595
-        transfer_state = 593
-        transfer_state = 592
-        transfer_state = 594
+	    transfer_state = 599
+        transfer_state = 615
+        transfer_state = 621
+        transfer_state = 605
+        transfer_state = 744
+        transfer_state = 283
+        transfer_state = 622
+        transfer_state = 748
+        transfer_state = 603
+        transfer_state = 602
+        transfer_state = 620
+        transfer_state = 606
         transfer_state = 591
+        transfer_state = 607
         add_named_threat = { threat = 2 name = JAP_CHIONE }
 		}
 	}
