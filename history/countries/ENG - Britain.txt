@@ -414,95 +414,61 @@ create_country_leader = {
 #	}
 #}
 
-create_country_leader = {
-	name = "Oswald Mosley"
-	desc = "POLITICS_OSWALD_MOSLEY_DESC"
-	picture = "Portrait_Britain_Oswald_Mosley.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		champion_of_peace_1
-		economic_reformer
-	}
-}
-
-create_country_leader = {
-	name = "Harry Pollitt"
-	desc = "POLITICS_HARRY_POLLITT_DESC"
-	picture = "portrait_eng_harry_pollitt.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		staunch_stalinist
-	}
-}
-
-#create_country_leader = {
-#	name = "Rajani Palme Dutt"
-#	desc = "POLITICS_PALME_DUTT_DESC"
-#	picture = "Portrait_Britain_Palme_Dutt.dds"
-#	expire = "1965.1.1"
-#	ideology = leninism
-#	traits = {
-#		
-#	}
-#}
-
 create_field_marshal = {
 	name = "Alan Brooke" # Aristocrat
 	id = 997
 	picture = "Portrait_Britain_Alan_Brooke.dds"
-	traits = { defensive_doctrine trait_cautious career_officer }
+	traits = { defensive_doctrine infantry_leader }
 	skill = 5
-	attack_skill = 3
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 3
+	attack_skill = 2
+	defense_skill = 6
+	planning_skill = 2
+	logistics_skill = 5
 }
 
 create_field_marshal = {
 	name = "Bernard Montgomery" # Aristocrat
 	id = 996
 	picture = "Portrait_Britain_Bernard_Montgomery.dds"
-	traits = { logistics_wizard offensive_doctrine media_personality trait_cautious inflexible_strategist organizer }
-	skill = 4 
-	attack_skill = 2
+	traits = { logistics_wizard offensive_doctrine inflexible_strategist organizer infantry_leader desert_fox }
+	skill = 5
+	attack_skill = 4
 	defense_skill = 4
-	planning_skill = 3
+	planning_skill = 4
 	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Claude Auchinleck"
 	picture = "Portrait_Britain_Claude_Auchinleck.dds"
-	traits = { inflexible_strategist career_officer }
+	traits = { inflexible_strategist infantry_leader jungle_rat }
 	skill = 5
-	attack_skill = 3
+	attack_skill = 4
 	defense_skill = 5
-	planning_skill = 3
-	logistics_skill = 5
+	planning_skill = 2
+	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Neil Ritchie"
 	picture = "Portrait_Britain_Neil_Ritchie.dds"
-	traits = { inflexible_strategist armor_officer politically_connected  }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 3
+	traits = { panzer_leader }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Alan Cunningham"
 	picture = "Portrait_Britain_Alan_Cunningham.dds"
-	traits = {}
-	skill = 4
-	attack_skill = 4
-	defense_skill = 1
-	planning_skill = 4
-	logistics_skill = 4
+	traits = { infantry_leader jungle_rat ranger }
+	skill = 5
+	attack_skill = 2
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 5
 }
 
 create_corps_commander = {
@@ -643,12 +609,12 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "William Gott"
 		picture = "Portrait_Britain_William_Gott.dds"
-	traits = { armor_officer war_hero inflexible_strategist }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
+	traits = { panzer_leader jungle_rat inflexible_strategist }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -677,12 +643,12 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Miles Dempsey"
 	picture = "Portrait_Britain_Miles_Dempsey.dds"
-	traits = { brilliant_strategist infantry_officer career_officer }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 2
+	traits = { infantry_leader commando naval_invader ranger}
+	skill = 6
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 5
 }
 
 create_corps_commander = {
@@ -828,7 +794,6 @@ create_navy_leader = {
 	maneuvering_skill = 1
 	coordination_skill = 2
 }
-
 create_equipment_variant = {
 	name = "Hurricane 109 B"
 	type = fighter_equipment_1

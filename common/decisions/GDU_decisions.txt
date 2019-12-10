@@ -1,3 +1,4 @@
+
 crisis = {
 
     Lose_Bengazi_Crisis = {
@@ -49,6 +50,7 @@ crisis = {
             add_stability = -0.1
         }
     }
+}
 			
 
 
@@ -892,6 +894,7 @@ operations = {
 			factor = 1
 		}
 	}	
+}
 	
 	
 	
@@ -1217,9 +1220,7 @@ operations = {
 					ideology = neutrality
 					popularity = 0.05
 				}				
-			}
-			
-			
+			}		
 		}
 
 		timeout_effect = {
@@ -1230,8 +1231,7 @@ operations = {
 		ai_will_do = {
 			factor = 1
 		}
-	}
-	
+	}	
 	
 	GER_defeat_dday = {
 
@@ -1778,6 +1778,7 @@ operations = {
 			factor = 1
 		}
 	}
+}
 	
 	
 	

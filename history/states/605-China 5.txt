@@ -6,19 +6,7 @@ state={
 	}
 
 	history={
-		buildings = {
-			infrastructure = 4
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 6
-				infrastructure = 6
-				air_base = 3
-				arms_factory = 3
-
-			}
-
-		}
+	    owner = CHI
 
 	}
 

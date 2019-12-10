@@ -89,6 +89,11 @@ spriteTypes = {
 		name = "GFX_idea_ast_all_in"
 		texturefile = "gfx/interface/ideas/idea_ast_all_in.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_ccc_hitler_ccc"
+		texturefile = "gfx/interface/ideas/idea_ccc_hitler_ccc.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_idea_ast_abandon_the_westminster_system"

@@ -210,24 +210,36 @@ create_country_leader = {
 create_field_marshal = {
 	name = "José Asensio Torrado"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { defensive_doctrine }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
+	traits = { infantry_leader panzer_leader  }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "José Sanjurjo y Sacanell"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	traits = { infantry_leader infantry_officer }
-	skill = 1
-	attack_skill = 2
+	traits = { infantry_leader ranger }
+	skill = 4
+	attack_skill = 5
 	defense_skill = 2
 	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Francisco Franco"
+	portrait_path = "Portrait_Spain_Francisco_Franco.dds"
+	traits = { infantry_leader desert_fox hill_fighter panzer_leader trickster}
+	skill = 5
+	attack_skill = 6
+	defense_skill = 3
+	planning_skill = 2
 	logistics_skill = 2
 }
+
 
 
 ### VARIANTS ###

@@ -259,23 +259,34 @@ create_country_leader = {
 
 
 create_corps_commander = {
+	name = "Géza Lakatos"
+	gfx = GFX_Portrait_hungary_geza_lakatos
+	traits = { infantry_leader naval_invader commando }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
 	name = "Iván Hindy"
 	gfx = GFX_Portrait_hungary_ivan_hindy
-	traits = { old_guard war_hero urban_assault_specialist infantry_officer  }
+	traits = {  trickster infantry_leader ranger}
 	skill = 4
 	attack_skill = 5
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 1
 }
 
 create_corps_commander = {
 	name = "Károly Beregfy"
 	gfx = GFX_Portrait_hungary_karoly_beregfy
-	traits = { harsh_leader trait_reckless politically_connected infantry_leader infantry_officer trait_mountaineer }
-	skill = 4
-	attack_skill = 5
-	defense_skill = 6
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
 }
@@ -283,112 +294,21 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Lajos Veress"
 	gfx = GFX_Portrait_hungary_lajos_veress
-	traits = { panzer_leader hill_fighter trait_engineer trait_cautious organizer }
-	skill = 4
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-
-create_corps_commander = {
-	name = "Bela Miklos"
-	picture = "Portrait_HUN_Bela_Miklos.dds"
-	traits = { politically_connected infantry_officer old_guard skilled_staffer trait_cautious trait_engineer war_hero }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 5
-	logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Dezso Laszlo"
-	picture = "Portrait_HUN_Dezso_Laszlo.dds"
-	traits = { ranger brilliant_strategist harsh_leader trait_reckless war_hero armor_officer trait_engineer }
-	skill = 5
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 3
-}
-create_corps_commander = {
-	name = "Gusztav Denk"
-	picture = "Portrait_HUN_Gusztav_Denk.dds"
-	traits = { career_officer cavalry_leader trickster substance_abuser harsh_leader career_officer panzer_leader trait_reckless desert_fox }
-	skill = 5
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
-}
-create_corps_commander = {
-	name = "Hugo Sonyi"
-	picture = "Portrait_HUN_Hugo_Sonyi.dds"
-	traits = { naval_invader infantry_officer infantry_leader trait_engineer career_officer trait_reckless }
+	traits = { panzer_leader }
 	skill = 3
 	attack_skill = 6
-	defense_skill = 1
-	planning_skill = 1
+	defense_skill = 2
+	planning_skill = 5
 	logistics_skill = 1
 }
-create_corps_commander = {
-	name = "Janky Kocsard"
-	picture = "Portrait_HUN_Janky_Kocsard.dds"
-	traits = { cavalry_leader cavalry_officer career_officer politically_connected trickster commando trait_cautious media_personality }
-	skill = 4
-	attack_skill = 2
-	defense_skill = 6
-	planning_skill = 1
-	logistics_skill = 4
-}
-create_corps_commander = {
-	name = "Jany Gusztav"
-	picture = "Portrait_HUN_Jany_Gusztav.dds"
-	traits = { infantry_officer infantry_leader skilled_staffer urban_assault_specialist commando harsh_leader }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 5
-}
+
 create_field_marshal = {
-	name = "Karoly Bartha"
-	picture = "Portrait_HUN_Karoly_Bartha.dds"
-	traits = { old_guard inflexible_strategist swamp_fox ranger skilled_staffer politically_connected organizer defensive_doctrine career_officer }
-	skill = 5
-	attack_skill = 3
-	defense_skill = 5
-	planning_skill = 2
-	logistics_skill = 6
-}
-create_corps_commander = {
-	name = "Szilard Bakay"
-	picture = "Portrait_HUN_Szilard_Bakay.dds"
-	traits = { cavalry_leader cavalry_officer trickster war_hero politically_connected ranger substance_abuser }
+	name = "Ferenc Feketehalmy-Czeydner"
+	gfx = GFX_Portrait_hungary_ferenc_feketehalmy_czeydner
+	traits = { panzer_leader infantry_leader organizer }
 	skill = 4
 	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 3
-}
-create_field_marshal = {
-	name = "Vilmos Nagy de Nagybaczon"
-	picture = "Portrait_HUN_Vilmos_Nagy_de_Nagybaczon.dds"
-	traits = { infantry_leader brilliant_strategist offensive_doctrine trickster career_officer harsh_leader  }
-	skill = 5
-	attack_skill = 5
 	defense_skill = 3
 	planning_skill = 4
-	logistics_skill = 4
-}
-create_corps_commander = {
-	name = "Vilmos Roder"
-	picture = "Portrait_HUN_Vilmos_Roder.dds"
-	traits = { infantry_officer career_officer trait_cautious commando politically_connected old_guard skilled_staffer }
-	skill = 4
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 5
+	logistics_skill = 2
 }

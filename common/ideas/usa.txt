@@ -36,71 +36,6 @@ ideas = {
 			}
 		}	
 	
-		USA_giant_sleeps_idea = {
-			picture = man_five_year_plan_industry
-			allowed = {
-				always = no
-			}
-			
-
-			
-			allowed_civil_war = {
-				
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				production_speed_industrial_complex_factor = 1.00
-				consumer_goods_factor = -0.225
-				production_speed_arms_factory_factor = -0.15
-				production_speed_dockyard_factor = -0.15			
-			}
-		}
-		
-		USA_giant_sleeps_idea_2 = {
-			picture = man_five_year_plan_industry
-			allowed = {
-				always = no
-			}
-		
-
-			allowed_civil_war = {
-				
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				production_speed_industrial_complex_factor = 0.80
-				consumer_goods_factor = -0.275
-				production_speed_arms_factory_factor = 0.45
-				production_speed_dockyard_factor = 0.70
-				production_factory_efficiency_gain_factor = 0.15 
-			}
-		}
-		
-		USA_giant_sleeps_idea_3 = {
-			picture = man_five_year_plan_industry
-			allowed = {
-				always = no
-			}
-		
-
-			allowed_civil_war = {
-				
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				consumer_goods_factor = -0.275
-				production_speed_arms_factory_factor = 0.55
-				production_speed_dockyard_factor = 0.80
-				production_factory_efficiency_gain_factor = 0.30 
-			}
-		}
-
 		USA_pearl_harbor_idea = { 
 			picture = generic_navy_bonus 
 			
@@ -1446,7 +1381,7 @@ ideas = {
 			}
 		}
 
-		USA_tolunay = {
+		USA_joseph_patterson = {
 			
 			picture = generic_political_advisor_europe_1
 			allowed = {
@@ -1459,12 +1394,14 @@ ideas = {
 				if = {
 					limit = {
 						has_dlc = "Man the Guns"
+					}
+					has_completed_focus = USA_america_first
 				}
 			}
 
 			
-			traits = { ugandan_american }
-			cost = 150
+			traits = { editor }
+			cost = 50
 			do_effect = {
 		
 			}
@@ -2589,6 +2526,38 @@ ideas = {
 			
 			
 			traits = { air_warfare_theorist }
+		}
+		
+		robert_oppenheimer = {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+
+			
+			research_bonus = {
+				nuclear = 0.15
+			}
+			
+			traits = { nuclear_scientist }
+		}
+		
+		robert_goddard = {
+			
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+
+			
+			research_bonus = {
+				rocketry = 0.10
+			}
+			
+			traits = { rocket_scientist }
 		}
 	}
 	
