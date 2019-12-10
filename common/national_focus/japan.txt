@@ -149,39 +149,14 @@ focus_tree = {
 		prerequisite = { focus = test_the_ussr_focus }
 		x = 13
 		y = 1
-		cost = 5
+		cost = 7
 		available = {
 		    date > 1937.5.1 
 			is_puppet = no
 			NOT = { has_war_with = CHI }
 		}
 		bypass = {
-			OR = {
-				AND = {
-					608 = {
-						NOT = {
-							is_controlled_by = CHI
-							is_controlled_by = PRC
-							is_controlled_by = SHX
-						}
-					}
-					597 = {
-						NOT = {
-							is_controlled_by = CHI
-							is_controlled_by = PRC
-							is_controlled_by = SHX
-						}
-					}
-					614 = {
-						NOT = {
-							is_controlled_by = CHI
-							is_controlled_by = PRC
-							is_controlled_by = SHX
-						}
-					}
-				}
-				has_war_with = CHI
-			}
+		
 		}
 
 		will_lead_to_war_with = CHI
@@ -269,32 +244,7 @@ focus_tree = {
 			NOT = { has_war_with = CHI }
 		}
 		bypass = {
-			OR = {
-				AND = {
-					608 = {
-						NOT = {
-							is_controlled_by = CHI
-							is_controlled_by = PRC
-							is_controlled_by = SHX
-						}
-					}
-					597 = {
-						NOT = {
-							is_controlled_by = CHI
-							is_controlled_by = PRC
-							is_controlled_by = SHX
-						}
-					}
-					614 = {
-						NOT = {
-							is_controlled_by = CHI
-							is_controlled_by = PRC
-							is_controlled_by = SHX
-						}
-					}
-				}
-				has_war_with = CHI
-			}
+
 		}
 
 		will_lead_to_war_with = CHI
@@ -331,6 +281,9 @@ focus_tree = {
         transfer_state = 606
         transfer_state = 591
         transfer_state = 607
+        transfer_state = 749
+        transfer_state = 600
+        transfer_state = 750
         add_named_threat = { threat = 2 name = JAP_CHIONE }
 		}
 	}
@@ -573,9 +526,6 @@ focus_tree = {
 					level = 2
 					instant_build = yes
 				}
-			}
-			hidden_effect = {
-				news_event = { hours = 6 id = toranews.208 }
 			}
 		}
 	}
