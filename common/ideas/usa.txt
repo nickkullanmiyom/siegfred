@@ -1395,12 +1395,12 @@ ideas = {
 					limit = {
 						has_dlc = "Man the Guns"
 					}
-					has_completed_focus = USA_america_first
+					has_completed_focus = USA_wpa
 				}
 			}
 
 			
-			traits = { editor }
+			traits = { ugandan_american }
 			cost = 150
 			do_effect = {
 		
