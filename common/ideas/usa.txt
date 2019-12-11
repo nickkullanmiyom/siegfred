@@ -1381,7 +1381,7 @@ ideas = {
 			}
 		}
 
-		USA_joseph_patterson = {
+		USA_tolunay = {
 			
 			picture = generic_political_advisor_europe_1
 			allowed = {
@@ -1395,13 +1395,13 @@ ideas = {
 					limit = {
 						has_dlc = "Man the Guns"
 					}
-					has_completed_focus = USA_america_first
+					has_completed_focus = USA_wpa
 				}
 			}
 
 			
 			traits = { editor }
-			cost = 50
+			cost = 150
 			do_effect = {
 		
 			}
