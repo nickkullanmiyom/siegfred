@@ -27,7 +27,7 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			fighter_equipment = {
-				maximum_speed = 0.15 air_agility = 0.15 air_attack = 0.1 reliability = 0.1 
+				maximum_speed = 0.15 air_agility = 0.15 air_attack = 0.1 
 			}
 		}
 	}

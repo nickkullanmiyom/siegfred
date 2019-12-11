@@ -903,19 +903,5 @@ ideas = {
 			
 			traits = { air_warfare_theorist }
 		}
-		
-		gaetano_crocco = {
-			
-			
-			allowed = {
-				original_tag = ITA
-			}
-						
-			research_bonus = {
-				rocketry = 0.15
-			}
-			
-			traits = { rocket_scientist }
-		}
 	}
 }

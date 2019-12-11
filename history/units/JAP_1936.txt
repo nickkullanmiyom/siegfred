@@ -248,7 +248,7 @@ units = {
 air_wings = {
 	### IJA Air Forces ###
 	# 1 Hikodan -- Tokyo
-	609 = { 
+	282 = { 
 		# 1 Hiko Rentai -- Kawasaki Ki-10
 		fighter_equipment_1 = {
 			owner = "JAP" 

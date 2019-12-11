@@ -1395,7 +1395,7 @@ ideas = {
 					limit = {
 						has_dlc = "Man the Guns"
 					}
-					has_completed_focus = USA_wpa
+					has_completed_focus = USA_america_first
 				}
 			}
 

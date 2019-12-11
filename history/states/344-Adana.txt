@@ -7,10 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = TUR
-		buildings = {
-		}
-		add_core_of = TUR
+
 	}
 
 	provinces={

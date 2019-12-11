@@ -1,0 +1,203 @@
+spriteTypes = {	
+#News
+
+
+		spriteType = {
+		name = "GFX_report_event_CAF_daensk"
+		texturefile = "gfx/event_pictures/report_event_CAF_daensk.dds"
+	}
+	
+#Units
+	
+	spriteType = {
+		name = "GFX_nato_unit_KM_marine_icon_small"
+		texturefile = "gfx/texticons/nato_unit_KM_marine_icon_small.dds"
+		legacy_lazy_load = no
+	}	
+	
+	spriteType = {
+		name = "GFX_unit_KM_marine_icon_small"
+		texturefile = "gfx/texticons/unit_KM_marine_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}	
+
+
+		spriteType = { name = "GFX_unit_KM_marine_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_KM_marine_icon.dds" noOfFrames = 2
+	}
+
+
+		spriteType = { name = "GFX_unit_KM_marine_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_KM_marine_icon.dds" noOfFrames = 2
+	}
+#
+#News
+		spriteType = {
+		name = "GFX_news_event_DSS"
+		texturefile = "gfx/event_pictures/news_event_DSS.dds"
+	}
+
+		spriteType = {
+		name = "GFX_report_event_DSS"
+		texturefile = "gfx/event_pictures/report_event_DSS.dds"
+	}
+	
+#Units
+	
+	spriteType = {
+		name = "GFX_nato_unit_SS_police_icon_small"
+		texturefile = "gfx/texticons/nato_unit_SS_police_icon_small.dds"
+		legacy_lazy_load = no
+	}	
+	
+	spriteType = {
+		name = "GFX_unit_SS_police_icon_small"
+		texturefile = "gfx/texticons/unit_SS_police_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}	
+
+
+		spriteType = { name = "GFX_unit_SS_police_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_SS_police_icon.dds" noOfFrames = 2
+	}
+
+
+		spriteType = { name = "GFX_unit_SS_police_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_SS_police_icon.dds" noOfFrames = 2
+	}
+#	
+	
+		spriteType = {
+		name = "GFX_nato_unit_SS_mountaineers_icon_small"
+		texturefile = "gfx/texticons/nato_unit_SS_mountaineers_icon_small.dds"
+		legacy_lazy_load = no
+	}	
+	
+	spriteType = {
+		name = "GFX_unit_SS_mountaineers_icon_small"
+		texturefile = "gfx/texticons/unit_SS_mountaineers_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}	
+
+
+		spriteType = { name = "GFX_unit_SS_mountaineers_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_SS_mountain_icon.dds" noOfFrames = 2
+	}
+
+
+		spriteType = { name = "GFX_unit_SS_mountaineers_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_SS_mountain_icon.dds" noOfFrames = 2
+	}
+	
+#
+	spriteType = {
+		name = "GFX_nato_unit_SS_cavalry_icon_small"
+		texturefile = "gfx/texticons/nato_unit_SS_cavalry_icon_small.dds"
+		legacy_lazy_load = no
+	}	
+	
+	spriteType = {
+		name = "GFX_unit_SS_cavalry_icon_small"
+		texturefile = "gfx/texticons/unit_SS_cavalry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}	
+
+
+		spriteType = { name = "GFX_unit_SS_cavalry_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_SS_cavalry_icon.dds" noOfFrames = 2
+	}
+
+
+		spriteType = { name = "GFX_unit_SS_cavalry_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_SS_cavalry_icon.dds" noOfFrames = 2
+	}
+	
+#
+	spriteType = {
+		name = "GFX_nato_unit_SS_infantry_icon_small"
+		texturefile = "gfx/texticons/nato_unit_SS_infantry_icon_small.dds"
+		legacy_lazy_load = no
+	}	
+	
+	spriteType = {
+		name = "GFX_unit_SS_infantry_icon_small"
+		texturefile = "gfx/texticons/unit_SS_infantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}	
+
+
+		spriteType = { name = "GFX_unit_SS_infantry_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_SS_infantry_icon.dds" noOfFrames = 2
+	}
+
+
+		spriteType = { name = "GFX_unit_SS_infantry_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_SS_infantry_icon.dds" noOfFrames = 2
+	}
+		
+	
+#
+	spriteType = {
+		name = "GFX_nato_unit_SS_mechanized_icon_small"
+		texturefile = "gfx/texticons/nato_unit_SS_mechanized_icon_small.dds"
+		legacy_lazy_load = no
+	}	
+	
+	spriteType = {
+		name = "GFX_unit_SS_mechanized_icon_small"
+		texturefile = "gfx/texticons/unit_SS_mechanized_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}	
+
+
+		spriteType = { name = "GFX_unit_SS_mechanized_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_SS_mechanized_icon.dds" noOfFrames = 2
+	}
+
+
+		spriteType = { name = "GFX_unit_SS_mechanized_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_SS_mechanized_icon.dds" noOfFrames = 2
+	}
+			
+#
+	spriteType = {
+		name = "GFX_nato_unit_SS_motorized_icon_small"
+		texturefile = "gfx/texticons/nato_unit_SS_motorized_icon_small.dds"
+		legacy_lazy_load = no
+	}	
+	
+	spriteType = {
+		name = "GFX_unit_SS_motorized_icon_small"
+		texturefile = "gfx/texticons/unit_SS_motorized_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}	
+
+
+		spriteType = { name = "GFX_unit_SS_motorized_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_SS_motorized_icon.dds" noOfFrames = 2
+	}
+
+
+		spriteType = { name = "GFX_unit_SS_motorized_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_SS_motorized_icon.dds" noOfFrames = 2
+	}	
+#TECH
+
+		SpriteType = {
+		name = "GFX_GER_SS_units_tech_medium"
+		texturefile = "gfx/interface/technologies/GER_SS_units_tech.dds"
+	}
+
+
+			
+	
+	
+
+}
