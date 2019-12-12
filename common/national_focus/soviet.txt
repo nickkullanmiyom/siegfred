@@ -46,6 +46,39 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = SOV_make_me_pilot
+		icon = GFX_goal_generic_air_fighter2
+		cost = 10
+				relative_position_id = soviet_war_eco
+		x = 11
+		y = 1
+		completion_reward = {
+				add_tech_bonus = {
+				name = air_sup_bonus
+				bonus = 2.00 
+				uses = 4
+				category = air_doctrine
+			}
+		}
+
+	}
+	focus = {
+		id = SOV_air_xp
+		icon = GFX_goal_generic_build_airforce
+		cost = 10
+				relative_position_id = soviet_war_eco
+		prerequisite = {
+			focus = SOV_make_me_pilot
+		}
+		x = 1
+		y = 1
+
+		completion_reward = {
+		    air_experience = 150
+		}
+
+	}
+	focus = {
 		id = SOV_rehabilitated_military
 		icon = GFX_goal_generic_small_arms
 		relative_position_id = soviet_war_eco
