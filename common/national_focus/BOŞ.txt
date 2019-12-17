@@ -88,28 +88,33 @@ focus_tree = {
 		x = 0
 		y = 0
 	}
-		focus = {
+	focus = {
 		id = JAP_establish_the_northern_resource_area 
 		x = 0
 		y = 0
 	}
-		focus = {
+	focus = {
 		id = JAP_join_the_london_naval_treaty  
 		x = 0
 		y = 0
 	}
-			focus = {
+	focus = {
 		id = JAP_pacific_guardian  
 		x = 0
 		y = 0
 	}
-			focus = {
+	focus = {
 		id = JAP_the_korean_question 
 		x = 0
 		y = 0
 	}
-			focus = {
+	focus = {
 		id = JAP_liberate_manchuria 
+		x = 0
+		y = 0
+	}
+	focus = {
+		id = GER_revive_the_kaiserreich
 		x = 0
 		y = 0
 	}

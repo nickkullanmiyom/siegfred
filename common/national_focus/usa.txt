@@ -743,9 +743,6 @@ focus_tree = {
 				}
 				add_political_power = 8
 			}
-			hidden_effect = {
-				news_event = { id = mtg_news.3 days = 3 random = 5 }
-			}
 		}
 	}
 	

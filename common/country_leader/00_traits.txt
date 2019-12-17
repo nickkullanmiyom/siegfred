@@ -1103,29 +1103,6 @@ leader_traits = {
 			factor = 2
 		}
 	}
-	ugandan_american = {
-		sprite = 10
-		random = yes
-		political_power_factor = 0.05
-		stability_factor = 0.05
-        experience_gain_air = 0.10
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-
-    ugandan_ameri84can = {
-		sprite = 10
-		random = no
-		political_power_factor = 0.05
-		stability_factor = 0.05
-
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
 	armaments_organizer = {
 		sprite = 10
 		random = yes

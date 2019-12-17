@@ -17,9 +17,25 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/goal_continuous_reduce_training_time.dds"			
 	}	
 	
+    SpriteType = {
+	name = "GFX_goal_PCR"
+	texturefile = "gfx/interface/goals/goal_PCR.dds"			
+	}
+	
 	SpriteType = {
 	name = "GFX_goal_continuous_boost_freedom"
 	texturefile = "gfx/interface/goals/goal_continuous_boost_freedom.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_IRE_church"
+	texturefile = "gfx/interface/goals/IRE_Church.dds"
+				
+	}
+
+	SpriteType = {
+	name = "GFX_IRE_church2"
+	texturefile = "gfx/interface/goals/IRE_Church2.dds"			
 	}
 	
 	SpriteType = {
@@ -28,8 +44,28 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+	name = "GFX_ROM_General_Elections"
+	texturefile = "gfx/interface/goals/ROM_General_Elections.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_ITA_ROM"
+	texturefile = "gfx/interface/goals/ITA_ROM.dds"			
+	}
+	
+	SpriteType = {
 	name = "GFX_SOV_Portray_A_Global_Soviet_Image"
 	texturefile = "gfx/interface/goals/SOV_Portray_A_Global_Soviet_Image.dds"			
+	}
+	
+	SpriteType = { 
+		name = "GFX_Goal_Roma_Berlino"
+		texturefile = "gfx/interface/goals/Goal_Roma_Berlino.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_romania_vanatori_de_munte"
+	texturefile = "gfx/interface/goals/romania_vanatori_de_munte.dds"
 	}
 	
 	SpriteType = {
