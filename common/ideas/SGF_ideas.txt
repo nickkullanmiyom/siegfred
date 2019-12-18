@@ -4,7 +4,7 @@ ideas = {
 
 	    peace_time_bro = {
 
-	        picture = GFX_idea_chi_incompetent_officers
+	        picture = generic_war_preparation
 
 	        allowed = {
 	            always = no
@@ -51,7 +51,7 @@ ideas = {
 
      	cantdeploy_unit = { 
 		
-			picture = chi_war_of_resistance3	
+			picture = generic_spy_political
 			
 			allowed = { 
 				OR = { 

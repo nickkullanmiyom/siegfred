@@ -1,0 +1,56 @@
+﻿l_english:
+
+ EAI_config_custom_bonus_off:0 "§H-§!"
+
+ EAI_config_ARMY_stockpile_text:0 "Stockpiles"
+ EAI_config_ARMY_stockpile_tt:0 "See [?EAI_configuration_target.GetName]'s current equipment stockpiles."
+ 
+ EAI_STOCKPILE_DIPLOMACY_TITLE:0 "View Stockpiles"
+ EAI_STOCKPILE_DIPLOMACY_ACTION_TITLE:0 "Stockpiles"
+ EAI_STOCKPILE_DIPLOMACY_ACTION_DESC:0 "View the equipment stockpiles of this country."
+ 
+ EAI_stockpile_window_headline:0 "Stockpiles"
+ 
+ EAI_stockpile_text:0 "Equipment Type"
+ EAI_stockpile_text2:0 "Stock"
+ EAI_stockpile_text2_tt:0 "Equipment available in their stockpile."
+ EAI_stockpile_text3:0 "Fielded"
+ EAI_stockpile_text3_tt:0 "How well equipped their armies are with this equipment type."
+ 
+ EAI_stockpile_infantry_equipment_text:0 "Infantry Eq."
+ EAI_stockpile_support_equipment_text:0 "Support Eq."
+ EAI_stockpile_motorized_equipment_text:0 "Motorized"
+ EAI_stockpile_mechanized_equipment_text:0 "Mechanized"
+ EAI_stockpile_artillery_equipment_text:0 "Artillery"
+ EAI_stockpile_rocket_artillery_equipment_text:0 "Rocket Artillery"
+ EAI_stockpile_mot_rocket_artillery_equipment_text:0 "Mot. Rocket Artillery"
+ EAI_stockpile_anti_tank_equipment_text:0 "Anti-Tank"
+ EAI_stockpile_anti_air_equipment_text:0 "Anti-Air"
+ 
+ EAI_light_armor_text:0 "Light Armor"
+ EAI_stockpile_larm_equipment_text:0 "Tanks"
+ EAI_stockpile_ltd_equipment_text:0 "Tank Destroyers"
+ EAI_stockpile_lspart_equipment_text:0 "Sp. Artillery"
+ EAI_stockpile_lspaa_equipment_text:0 "Sp. Anti-Air"
+ 
+ EAI_medium_armor_text:0 "Medium Armor"
+ EAI_stockpile_marm_equipment_text:0 "Tanks"
+ EAI_stockpile_mtd_equipment_text:0 "Tank Destroyers"
+ EAI_stockpile_mspart_equipment_text:0 "Sp. Artillery"
+ EAI_stockpile_mspaa_equipment_text:0 "Sp. Anti-Air"
+ 
+ EAI_heavy_armor_text:0 "Heavy Armor"
+ EAI_stockpile_harm_equipment_text:0 "Tanks"
+ EAI_stockpile_htd_equipment_text:0 "Tank Destroyers"
+ EAI_stockpile_hspart_equipment_text:0 "Sp. Artillery"
+ EAI_stockpile_hspaa_equipment_text:0 "Sp. Anti-Air"
+ 
+ EAI_modern_armor_text:0 "Modern Armor"
+ EAI_stockpile_modarm_equipment_text:0 "Tanks"
+ EAI_stockpile_modtd_equipment_text:0 "Tank Destroyers"
+ EAI_stockpile_modspart_equipment_text:0 "Sp. Artillery"
+ EAI_stockpile_modspaa_equipment_text:0 "Sp. Anti-Air"
+ 
+ EAI_misc_cat_text:0 "Misc"
+ EAI_stockpile_convoy_equipment_text:0 "Convoys"
+ EAI_stockpile_fuel_text:0 "Fuel stockpile"

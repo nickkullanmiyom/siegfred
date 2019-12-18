@@ -13,8 +13,7 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
-
-	JAP_zaibatsus
+    Jap_Coup
 	JAP_militarism
 }
 
@@ -280,6 +279,27 @@ set_popularities = {
         communism = 0
     }
 }
+
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 2500
+         producer = JAP
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 1500
+         producer = JAP
+} 
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 75000
+         producer = JAP
+} 
+add_equipment_to_stockpile = {
+         type = motorized_equipment_1
+         amount = 1900
+         producer = JAP
+} 
 
 create_country_leader = {
 	name = "Hirohito"
