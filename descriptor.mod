@@ -1,4 +1,4 @@
-name="SiegFried"
+﻿name="SiegFried"
 path="C:/Users/win10/Documents/Paradox Interactive/Hearts of Iron IV/mod/siegfred"
 tags={
 	"Balance"
