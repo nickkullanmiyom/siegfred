@@ -1380,6 +1380,37 @@ ideas = {
 				factor = 0
 			}
 		}
+
+      USA_james_may = {
+			
+			picture = generic_political_advisor_europe_1
+			allowed = {
+				original_tag = "USA"
+			}
+			allowed_civil_war = {
+				not = { has_government = communism }
+			}
+			available = {
+				if = {
+					limit = {
+						has_dlc = "Man the Guns"
+					}
+					has_completed_focus = USA_wpa
+				}
+			}
+
+			
+			traits = { captain_slow }
+			cost = 150
+			do_effect = {
+		
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
 		USA_william_regnery = {
 			
 			picture = generic_political_advisor_europe_2
