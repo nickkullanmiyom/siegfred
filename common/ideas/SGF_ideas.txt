@@ -4,7 +4,7 @@ ideas = {
 
 	    peace_time_bro = {
 
-	        picture = yugoslavian_general_staff
+	        picture = GFX_idea_chi_incompetent_officers
 
 	        allowed = {
 	            always = no

@@ -12,6 +12,7 @@ add_timed_idea = { idea = cantdeploy_unit  days = 730 }
     add_ideas = {
         soviet_closed_market
         closed_economy
+        SOV_winter_ofansif_idea
     }
 
 set_research_slots = 3
