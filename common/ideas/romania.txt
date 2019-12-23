@@ -87,6 +87,22 @@ ideas = {
 			}
 		}
 
+        ROM_fuck_the_devil = {
+
+			picture = anti_soviet_pact
+
+			removal_cost = -1
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			modifier = {
+				fascism_drift = 0.1
+				army_morale_factor = 0.1
+			}
+		}
+		
 		ROM_flexible_foreign_policy = {
 
 			picture = generic_flexible_foreign_policy
