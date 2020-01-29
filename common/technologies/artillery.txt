@@ -1280,5 +1280,29 @@ technologies = {
 			cat_anti_tank
 		}
 	}
+
+	railway_gun = {
+	
+		enable_equipments = {
+			railway_gun_equipment
+		}
+
+		#railway_gun_brigade {
+		#    hard_attack = 0.5
+		#}
+		
+		research_cost = 1
+
+		start_year = 1939
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 0 }
+		}
+		
+		categories = {
+			artillery
+		}
+	}
 	
 }

@@ -9,7 +9,7 @@ if = {
 	}
 }
 
-add_timed_idea = { idea = cantdeploy_unit  days = 730 }
+add_timed_idea = { idea = USA_fight_for_american_dream_idea days = 2200 }
 set_research_slots = 5
 set_stability = 0.81
 set_war_support = 0

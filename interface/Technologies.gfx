@@ -23,9 +23,14 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
-		name = "GFX_archetype_convoy_medium"
+		name = "GFX_archetype_railway_gun"
 		texturefile = "gfx/interface/archetypes/archetype_convoy.dds"
 	}	
+	
+	SpriteType = {
+		name = "GFX_archetype_convoy_medium"
+		texturefile = "gfx/interface/archetypes/SWE_akv15_super_heavy_tank.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_archetype_motorized_equipment_medium"

@@ -440,7 +440,7 @@ focus_tree = {
 				set_technology = { synth_oil_experiments = 1 }
 				add_resource = {
 				type = rubber
-				amount = 6
+				amount = 24
 				state = 41
 				}
 				41 = {
